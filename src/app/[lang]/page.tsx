@@ -2,7 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/arrow";
 import { home, isLanguage } from "@/content/home";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { SiteHeader } from "@/components/site-header";
+import { migrationPath } from "@/content/migration-case";
 import { ProductMap } from "@/components/product-map";
 import { ProjectVisual } from "@/components/project-visual";
 
@@ -14,19 +15,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   return (
     <>
       <a href="#main" className="skip-link">{copy.skip}</a>
-      <header className="site-header page-width" id="top">
-        <Link href={`/${lang}`} className="brand" aria-label="Yago Jesus — Home">yago<span className="text-accent">.</span></Link>
-        <nav aria-label={copy.navigation} className="header-navigation">
-          <a href="#projects" className="nav-link">{copy.casesLink}</a>
-          <a href="#about" className="nav-link about-nav">{copy.aboutLink}</a>
-          <div className="language-switch" role="group" aria-label={copy.language}>
-            <Link href="/pt" hrefLang="pt-BR" lang="pt-BR" aria-label="Português" aria-current={lang === "pt" ? "page" : undefined}>PT</Link>
-            <span aria-hidden="true">/</span>
-            <Link href="/en" hrefLang="en" lang="en" aria-label="English" aria-current={lang === "en" ? "page" : undefined}>EN</Link>
-          </div>
-          <ThemeToggle lang={lang} />
-        </nav>
-      </header>
+      <SiteHeader lang={lang} />
 
       <main id="main" tabIndex={-1}>
         <section className="hero page-width" aria-labelledby="hero-heading">
@@ -52,7 +41,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <div className="project-body">
                 <div className="project-top"><span className="project-number">0{index + 1}</span><span className="project-category">{project.category}</span></div>
                 <h3>{project.title}</h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p>
-                <details><summary>{copy.details}<span aria-hidden="true">+</span></summary><p className="project-detail">{project.detail}</p></details>
+                {index === 0 ? <Link href={`/${lang}${migrationPath}`} className="project-case-link">{copy.casePreview}<Arrow diagonal /></Link> : <details><summary>{copy.details}<span aria-hidden="true">+</span></summary><p className="project-detail">{project.detail}</p></details>}
                 <p className="project-status"><span aria-hidden="true" />{copy.inProgress}</p>
                 </div>
               </article>
