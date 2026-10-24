@@ -16,5 +16,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function RootLayout({ children, params }: Readonly<{ children: React.ReactNode; params: Promise<{ lang: string }> }>) {
   const { lang } = await params;
   if (!isLanguage(lang)) notFound();
-  return <html lang={lang === "pt" ? "pt-BR" : "en"}><body>{children}</body></html>;
+  return <html lang={lang === "pt" ? "pt-BR" : "en"} suppressHydrationWarning>
+    <head><script dangerouslySetInnerHTML={{ __html: `try{document.documentElement.dataset.theme=localStorage.getItem('yago-portfolio-theme')==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}` }} /></head>
+    <body>{children}</body>
+  </html>;
 }
