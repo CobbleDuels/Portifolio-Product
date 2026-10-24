@@ -95,9 +95,15 @@ details[open] summary span { transform: rotate(45deg); }
 .project-detail { font-size: 12px; line-height: 1.8; color: var(--muted); padding-bottom: 14px; }
 .project-status { display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--muted); padding-top: 8px; }
 .project-status span { width: 4px; height: 4px; background: var(--muted); border-radius: 50%; }
-.about-section { display: grid; grid-template-columns: 1.2fr 1fr; gap: 90px; border-top: 1px solid var(--line); padding-block: 36px 44px; }
+.about-section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 90px; align-items: center; border-top: 1px solid var(--line); padding-block: 48px; }
+.about-portrait { width: min(100%, 340px); margin: 0; }
+.about-photo { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.about-photo img { object-fit: cover; object-position: 50% 22%; filter: grayscale(1); transform: scale(1.15); transform-origin: 50% 22%; }
+.about-portrait figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 13px; font-size: 10px; }
+.about-portrait figcaption span:last-child { color: var(--muted); }
+.about-content { max-width: 530px; }
 .about-section h2 { margin-top: 19px; }
-.about-copy { font-size: 13px; line-height: 1.9; color: var(--muted); padding-top: 31px; }
+.about-copy { font-size: 15px; line-height: 1.9; color: var(--muted); padding-top: 25px; }
 .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; border-top: 1px solid var(--line); padding-block: 26px 32px; font-size: 10px; color: var(--muted); }
 .footer-name { color: var(--ink); font-size: 17px; letter-spacing: -.04em; margin-bottom: 7px; }
 .skip-link { position: fixed; top: -100px; left: 16px; background: var(--ink); color: var(--paper); padding: 14px 20px; z-index: 10; }
@@ -133,6 +139,7 @@ details[open] summary span { transform: rotate(45deg); }
   .projects-section { padding-block: 29px 38px; }
   .about-section { padding-block: 31px 36px; }
   .about-copy { padding-top: 0; }
+  .about-content .about-copy { padding-top: 20px; }
   .site-footer { align-items: flex-start; }
 }
 @media (max-width: 480px) { .about-nav { display: none; } .header-navigation { gap: 16px; } .hero-actions { column-gap: 20px; } .text-link { font-size: 11px; } }
@@ -184,6 +191,9 @@ details[open] summary span { transform: rotate(45deg); }
 .case-interpretation { margin-top: 22px; max-width: 780px; }
 .case-interpretation h3 { font-size: 14px; font-weight: 600; margin-bottom: 10px; }
 .case-interpretation p { color: var(--muted); font-size: 13px; line-height: 1.9; }
+.case-measurement { border-left: 2px solid var(--line); padding-left: 18px; margin-top: 24px; max-width: 780px; }
+.case-measurement h3 { font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.case-measurement p { color: var(--muted); font-size: 13px; line-height: 1.9; }
 @media (max-width: 760px) {
   .case-hero, .case-context, .case-priority, .case-role-grid, .case-cadence { grid-template-columns: 1fr; gap: 24px; }
   .case-hero { padding-block: 28px 36px; }

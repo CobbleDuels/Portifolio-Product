@@ -61,6 +61,7 @@ export default async function MigrationCase({ params }: Props) {
           <p className="case-scale-note">{copy.scaleNote}</p>
           <dl className="case-metrics">{copy.metrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
           <div className="case-interpretation"><h3>{copy.interpretationTitle}</h3><p>{copy.interpretationText}</p></div>
+          <div className="case-measurement"><h3>{copy.measurementTitle}</h3><p>{copy.measurementText}</p></div>
         </section>
       </article>
     </main>

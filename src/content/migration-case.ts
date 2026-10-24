@@ -41,6 +41,8 @@ export const migrationCase = {
     ],
     interpretationTitle: "O contexto faz parte do número.",
     interpretationText: "GMV mede o volume bruto transacionado, não a receita da empresa. A quantidade de pessoas na fila descreve a demanda. Já os relatos de problemas não permitem, por si só, calcular uma taxa de erro: isso exige uma base de tentativas e um critério de medição.",
+    measurementTitle: "O limite da comparação com o legado",
+    measurementText: "No legado, não havia uma ferramenta dedicada a esse acompanhamento nem uma base histórica confiável para comparar os ganhos da migração. A mensuração passou a acontecer na Ingresse. Por isso, este case apresenta a escala da operação e as capacidades entregues, sem atribuir ganhos percentuais sobre o legado.",
     home: "Voltar ao portfólio",
   },
   en: {
@@ -83,6 +85,8 @@ export const migrationCase = {
     ],
     interpretationTitle: "Context is part of the number.",
     interpretationText: "GMV measures gross transaction value, not company revenue. The number of people in the queue describes demand. Problem reports alone cannot establish an error rate: that requires a denominator of attempts and a measurement criterion.",
+    measurementTitle: "The limit of comparisons with the legacy platform",
+    measurementText: "The legacy platform had no dedicated tool for this tracking or a reliable historical baseline for comparing migration gains. Measurement began at Ingresse. This case therefore presents operational scale and delivered capabilities, without claiming percentage improvements over the legacy platform.",
     home: "Back to portfolio",
   },
 } as const;
