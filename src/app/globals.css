@@ -183,6 +183,7 @@ details[open] summary span { transform: rotate(45deg); }
 .case-cadence li span { color: var(--muted); font-size: 10px; padding-top: 2px; }
 .case-scale-note { margin-top: 13px; color: var(--muted); font-size: 12px; line-height: 1.8; }
 .case-scale { border-top: 1px solid var(--line); padding-block: 30px; }
+.case-launch-title { margin-top: 18px; }
 .case-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 24px; }
 .case-metrics > div { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); padding: 24px; }
 .case-metrics dt { font-size: 13px; margin-top: 12px; }

@@ -61,6 +61,10 @@ export default async function MigrationCase({ params }: Props) {
           <p className="case-scale-note">{copy.scaleNote}</p>
           <dl className="case-metrics">{copy.metrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
           <div className="case-interpretation"><h3>{copy.interpretationTitle}</h3><p>{copy.interpretationText}</p></div>
+        </section>
+        <section className="case-scale" aria-labelledby="case-launch-heading">
+          <p className="eyebrow">{copy.launchEyebrow}</p><h2 id="case-launch-heading" className="case-launch-title whitespace-pre-line">{copy.launchTitle}</h2><p className="case-delivery-intro">{copy.launchText}</p>
+          <dl className="case-metrics">{copy.launchMetrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
           <div className="case-measurement"><h3>{copy.measurementTitle}</h3><p>{copy.measurementText}</p></div>
         </section>
       </article>
