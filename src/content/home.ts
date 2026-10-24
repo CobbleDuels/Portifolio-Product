@@ -8,7 +8,7 @@ export function isLanguage(value: string): value is Language {
 export const home = {
   pt: {
     metaTitle: "Yago Jesus — Product Manager",
-    metaDescription: "Product Manager versátil, com diferencial técnico. Negócio, tecnologia, execução e experiência do usuário em uma visão de produto.",
+    metaDescription: "Product Manager com visão de produto e repertório técnico. Negócio, tecnologia, execução e experiência do usuário em uma visão de produto.",
     skip: "Pular para o conteúdo",
     navigation: "Navegação principal",
     language: "Selecionar idioma",
@@ -47,7 +47,7 @@ export const home = {
     casePreview: "Explorar visão inicial",
     aboutEyebrow: "02 / QUEM É O YAGO",
     portraitAlt: "Yago Jesus sorrindo, usando óculos e camiseta preta, em um evento.",
-    aboutTitle: "Versátil na atuação.\nTécnico no repertório.",
+    aboutTitle: "Visão de produto.\nRepertório técnico.",
     aboutText: "Conecto as necessidades das pessoas aos objetivos do negócio e às possibilidades da tecnologia. Esse repertório me ajuda a conversar com diferentes áreas, entender restrições e dar clareza às decisões de produto.",
     aboutNote: "Negócio, tecnologia, execução e experiência do usuário são partes da mesma conversa.",
     footer: "Produto é conectar as partes.",
@@ -55,7 +55,7 @@ export const home = {
   },
   en: {
     metaTitle: "Yago Jesus — Product Manager",
-    metaDescription: "A versatile Product Manager with a technical edge. Connecting business, technology, delivery and user experience.",
+    metaDescription: "A Product Manager with a product perspective and technical expertise. Connecting business, technology, delivery and user experience.",
     skip: "Skip to content",
     navigation: "Main navigation",
     language: "Select language",
@@ -94,7 +94,7 @@ export const home = {
     casePreview: "Explore initial overview",
     aboutEyebrow: "02 / ABOUT YAGO",
     portraitAlt: "Yago Jesus smiling, wearing glasses and a black shirt at an event.",
-    aboutTitle: "Versatile in approach.\nTechnical in perspective.",
+    aboutTitle: "Product perspective.\nTechnical expertise.",
     aboutText: "I connect people's needs with business goals and the possibilities of technology. That perspective helps me work across teams, understand constraints and bring clarity to product decisions.",
     aboutNote: "Business, technology, delivery and user experience are all part of the same conversation.",
     footer: "Product is about connecting the dots.",
