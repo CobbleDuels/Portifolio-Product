@@ -54,7 +54,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
         <section id="about" className="about-section page-width section-anchor" aria-labelledby="about-heading">
           <figure className="about-portrait">
-            <div className="about-photo"><Image src="/images/yago-jesus.webp" alt={copy.portraitAlt} fill sizes="(max-width: 760px) min(340px, calc(100vw - 40px)), 340px" /></div>
+            <div className="about-photo"><Image src="/images/yago-casual-esportivo.webp" alt={copy.portraitAlt} fill sizes="(max-width: 760px) min(340px, calc(100vw - 40px)), 340px" /></div>
             <figcaption><span>Yago Jesus</span><span>Product Manager</span></figcaption>
           </figure>
           <div className="about-content"><p className="eyebrow">{copy.aboutEyebrow}</p><h2 id="about-heading" className="whitespace-pre-line">{copy.aboutTitle}</h2><div className="about-copy"><p>{copy.aboutText}</p></div></div>
