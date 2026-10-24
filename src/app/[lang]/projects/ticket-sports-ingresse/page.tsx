@@ -33,11 +33,23 @@ export default async function MigrationCase({ params }: Props) {
         <section className="case-context" aria-labelledby="case-context-heading">
           <div><p className="eyebrow">{copy.contextEyebrow}</p><h2 id="case-context-heading" className="whitespace-pre-line">{copy.contextTitle}</h2></div><p>{copy.contextText}</p>
         </section>
+        <section className="case-priority" aria-labelledby="case-priority-heading">
+          <div><p className="eyebrow">{copy.priorityEyebrow}</p><h2 id="case-priority-heading" className="whitespace-pre-line">{copy.priorityTitle}</h2></div><p>{copy.priorityText}</p>
+        </section>
         <section className="case-contribution" aria-labelledby="case-role-heading">
           <p className="eyebrow">{copy.roleEyebrow}</p><h2 id="case-role-heading" className="whitespace-pre-line">{copy.roleTitle}</h2>
           <div className="case-role-grid">
             <div><h3>{copy.individualTitle}</h3><p>{copy.individualText}</p></div>
             <div><h3>{copy.teamTitle}</h3><p>{copy.teamText}</p></div>
+          </div>
+        </section>
+        <section className="case-deliveries" aria-labelledby="case-deliveries-heading">
+          <p className="eyebrow">{copy.deliveryEyebrow}</p><h2 id="case-deliveries-heading" className="whitespace-pre-line">{copy.deliveryTitle}</h2><p className="case-delivery-intro">{copy.deliveryIntro}</p>
+          <div className="case-capabilities">
+            {copy.capabilities.map((capability, index) => <details key={capability.title}>
+              <summary><span className="capability-number" aria-hidden="true">0{index + 1}</span><span className="capability-copy"><span className="capability-title">{capability.title}</span><span className="capability-summary">{capability.summary}</span></span><span className="capability-plus" aria-hidden="true">+</span></summary>
+              <p>{capability.detail}</p>
+            </details>)}
           </div>
         </section>
         <section className="case-cadence" aria-labelledby="case-cadence-heading">

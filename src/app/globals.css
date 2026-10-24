@@ -148,6 +148,22 @@ details[open] summary span { transform: rotate(45deg); }
 .case-context { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; padding-block: 36px; border-top: 1px solid var(--line); }
 .case-context h2 { margin-top: 18px; }
 .case-context > p { color: var(--muted); font-size: 14px; line-height: 1.9; align-self: center; }
+.case-priority { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; border-top: 1px solid var(--line); padding-block: 34px; }
+.case-priority h2 { margin-top: 18px; }
+.case-priority > p { color: var(--muted); font-size: 14px; line-height: 1.9; align-self: center; }
+.case-deliveries { border-top: 1px solid var(--line); padding-block: 30px 36px; }
+.case-deliveries h2 { margin-top: 18px; }
+.case-delivery-intro { color: var(--muted); font-size: 14px; line-height: 1.9; max-width: 700px; margin-block: 20px 24px; }
+.case-capabilities details { border-bottom: 1px solid var(--line); }
+.case-capabilities summary { justify-content: flex-start; gap: 20px; padding-block: 22px; }
+.case-capabilities .capability-number { font-size: 10px; color: var(--muted); align-self: flex-start; margin-top: 3px; }
+.case-capabilities .capability-copy { display: flex; flex-direction: column; gap: 8px; }
+.case-capabilities .capability-title { font-size: 15px; line-height: 1.5; font-weight: 600; }
+.case-capabilities .capability-summary { font-size: 12px; line-height: 1.8; color: var(--muted); }
+.case-capabilities .capability-plus { margin-left: auto; flex-shrink: 0; }
+.case-capabilities details[open] summary span { transform: none; }
+.case-capabilities details[open] summary .capability-plus { transform: rotate(45deg); }
+.case-capabilities details > p { font-size: 14px; line-height: 1.9; color: var(--muted); max-width: 780px; margin: 0 40px 24px 35px; }
 .case-contribution { padding-block: 30px 36px; border-top: 1px solid var(--line); }
 .case-contribution h2 { margin-top: 18px; }
 .case-role-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 25px; }
@@ -169,7 +185,7 @@ details[open] summary span { transform: rotate(45deg); }
 .case-interpretation h3 { font-size: 14px; font-weight: 600; margin-bottom: 10px; }
 .case-interpretation p { color: var(--muted); font-size: 13px; line-height: 1.9; }
 @media (max-width: 760px) {
-  .case-hero, .case-context, .case-role-grid, .case-cadence { grid-template-columns: 1fr; gap: 24px; }
+  .case-hero, .case-context, .case-priority, .case-role-grid, .case-cadence { grid-template-columns: 1fr; gap: 24px; }
   .case-hero { padding-block: 28px 36px; }
   .case-hero h1 { font-size: clamp(36px, 7vw, 49px); }
   .case-context { padding-block: 28px; }

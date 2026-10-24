@@ -22,6 +22,16 @@ export const migrationCase = {
     cadenceTitle: "Evolução visível, toda semana.",
     cadenceText: "Mantínhamos calls semanais com o cliente para apresentar a evolução, discutir prazos e alinhar as datas de entrega.",
     cadenceSteps: ["Apresentar a evolução", "Discutir os prazos", "Alinhar as entregas"],
+    priorityEyebrow: "A PRIORIDADE DE PRODUTO",
+    priorityTitle: "Criar eventos esportivos\nna nova plataforma.",
+    priorityText: "A experiência da Ingresse era voltada ao entretenimento e ainda não contemplava o cadastro de eventos esportivos. Priorizamos essa criação: a migração exigia levar as necessidades do esporte para uma experiência que ainda não as atendia.",
+    deliveryEyebrow: "O QUE CONSTRUÍMOS COMO TIME",
+    deliveryTitle: "Autonomia para o atleta.\nRegras conectadas à operação.",
+    deliveryIntro: "Além do cadastro de eventos, construímos recursos para responder questionários, escolher kits e resolver alterações na própria jornada do atleta.",
+    capabilities: [
+      { title: "Questionários de kits integrados ao estoque", summary: "Respostas, tamanhos e disponibilidade na mesma jornada.", detail: "Criamos uma funcionalidade para responder perguntas sobre kits e tamanhos com validações ligadas ao estoque. O atleta podia concluir os questionários de forma direta, sem precisar alternar entre jornadas para cuidar dessas informações." },
+      { title: "Trocas e cancelamento por autoatendimento", summary: "Alterações com diferenças de valor e estoque; cancelamento na janela de sete dias.", detail: "O atleta podia trocar camiseta, kit, local de retirada e outras opções liberadas pelo organizador. O sistema tratava automaticamente a cobrança de diferenças de valor e o estoque, conectando a alteração às regras da operação. A experiência também permitia ao atleta cancelar por conta própria dentro da janela de sete dias." },
+    ],
     scaleEyebrow: "ESCALA DA OPERAÇÃO",
     scaleNote: "Indicadores da operação da São Silvestre. São resultados coletivos, sem atribuição individual de impacto.",
     metrics: [
@@ -54,6 +64,16 @@ export const migrationCase = {
     cadenceTitle: "Visible progress, every week.",
     cadenceText: "We held weekly calls with the client to show progress, discuss timelines and align delivery dates.",
     cadenceSteps: ["Show progress", "Discuss timelines", "Align deliveries"],
+    priorityEyebrow: "THE PRODUCT PRIORITY",
+    priorityTitle: "Create sports events\non the new platform.",
+    priorityText: "Ingresse's experience focused on entertainment and did not yet support sports-event setup. We prioritized building that capability: the migration required bringing sports-specific needs into an experience that did not yet accommodate them.",
+    deliveryEyebrow: "WHAT WE BUILT AS A TEAM",
+    deliveryTitle: "Athlete autonomy.\nRules connected to operations.",
+    deliveryIntro: "Alongside event setup, we built capabilities to complete questionnaires, select kits and manage changes within the athlete's journey.",
+    capabilities: [
+      { title: "Kit questionnaires connected to inventory", summary: "Answers, sizes and availability within one journey.", detail: "We built a capability for answering kit and sizing questions with inventory-linked validations. Athletes could complete the questionnaires directly, without switching between journeys to manage that information." },
+      { title: "Self-service changes and cancellation", summary: "Price and inventory adjustments; cancellation within a seven-day window.", detail: "Athletes could change their shirt, kit, pickup location and other options enabled by the organizer. The system automatically handled charges for price differences and inventory, connecting changes to operational rules. The experience also allowed athletes to cancel on their own within a seven-day window." },
+    ],
     scaleEyebrow: "OPERATIONAL SCALE",
     scaleNote: "Indicators from the São Silvestre operation. These are collective outcomes, without attributing impact to an individual.",
     metrics: [
