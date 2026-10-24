@@ -148,6 +148,17 @@ details[open] summary span { transform: rotate(45deg); }
 .case-context { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; padding-block: 36px; border-top: 1px solid var(--line); }
 .case-context h2 { margin-top: 18px; }
 .case-context > p { color: var(--muted); font-size: 14px; line-height: 1.9; align-self: center; }
+.case-contribution { padding-block: 30px 36px; border-top: 1px solid var(--line); }
+.case-contribution h2 { margin-top: 18px; }
+.case-role-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 25px; }
+.case-role-grid h3 { font-size: 15px; margin-bottom: 12px; font-weight: 600; }
+.case-role-grid p, .case-cadence p { color: var(--muted); font-size: 14px; line-height: 1.9; }
+.case-cadence { border-top: 1px solid var(--line); padding-block: 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.case-cadence h2 { margin-block: 17px; }
+.case-cadence ol { list-style: none; padding: 0; }
+.case-cadence li { border-bottom: 1px solid var(--line); padding-block: 18px; display: flex; gap: 18px; font-size: 13px; }
+.case-cadence li span { color: var(--muted); font-size: 10px; padding-top: 2px; }
+.case-scale-note { margin-top: 13px; color: var(--muted); font-size: 12px; line-height: 1.8; }
 .case-scale { border-top: 1px solid var(--line); padding-block: 30px; }
 .case-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 24px; }
 .case-metrics > div { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); padding: 24px; }
@@ -156,12 +167,9 @@ details[open] summary span { transform: rotate(45deg); }
 .case-metric-note { font-size: 11px; line-height: 1.8; color: var(--muted); margin-top: 10px; }
 .case-interpretation { margin-top: 22px; max-width: 780px; }
 .case-interpretation h3 { font-size: 14px; font-weight: 600; margin-bottom: 10px; }
-.case-interpretation p, .case-next p { color: var(--muted); font-size: 13px; line-height: 1.9; }
-.case-next { border-top: 1px solid var(--line); padding-block: 32px 12px; }
-.case-next h2 { font-size: 25px; margin-bottom: 16px; }
-.case-next p { max-width: 760px; }
+.case-interpretation p { color: var(--muted); font-size: 13px; line-height: 1.9; }
 @media (max-width: 760px) {
-  .case-hero, .case-context { grid-template-columns: 1fr; gap: 24px; }
+  .case-hero, .case-context, .case-role-grid, .case-cadence { grid-template-columns: 1fr; gap: 24px; }
   .case-hero { padding-block: 28px 36px; }
   .case-hero h1 { font-size: clamp(36px, 7vw, 49px); }
   .case-context { padding-block: 28px; }

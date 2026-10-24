@@ -33,12 +33,23 @@ export default async function MigrationCase({ params }: Props) {
         <section className="case-context" aria-labelledby="case-context-heading">
           <div><p className="eyebrow">{copy.contextEyebrow}</p><h2 id="case-context-heading" className="whitespace-pre-line">{copy.contextTitle}</h2></div><p>{copy.contextText}</p>
         </section>
+        <section className="case-contribution" aria-labelledby="case-role-heading">
+          <p className="eyebrow">{copy.roleEyebrow}</p><h2 id="case-role-heading" className="whitespace-pre-line">{copy.roleTitle}</h2>
+          <div className="case-role-grid">
+            <div><h3>{copy.individualTitle}</h3><p>{copy.individualText}</p></div>
+            <div><h3>{copy.teamTitle}</h3><p>{copy.teamText}</p></div>
+          </div>
+        </section>
+        <section className="case-cadence" aria-labelledby="case-cadence-heading">
+          <div><p className="eyebrow">{copy.cadenceEyebrow}</p><h2 id="case-cadence-heading">{copy.cadenceTitle}</h2><p>{copy.cadenceText}</p></div>
+          <ol>{copy.cadenceSteps.map((step, index) => <li key={step}><span aria-hidden="true">0{index + 1}</span>{step}</li>)}</ol>
+        </section>
         <section className="case-scale" aria-labelledby="case-scale-heading">
           <h2 id="case-scale-heading" className="eyebrow">{copy.scaleEyebrow}</h2>
+          <p className="case-scale-note">{copy.scaleNote}</p>
           <dl className="case-metrics">{copy.metrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
           <div className="case-interpretation"><h3>{copy.interpretationTitle}</h3><p>{copy.interpretationText}</p></div>
         </section>
-        <section className="case-next"><h2>{copy.nextTitle}</h2><p>{copy.nextText}</p></section>
       </article>
     </main>
     <footer className="site-footer page-width"><p className="footer-name">Yago Jesus.</p><Link href={`/${lang}`} className="text-link">{copy.home}<Arrow /></Link></footer>
