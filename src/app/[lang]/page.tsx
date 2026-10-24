@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/arrow";
+import { ContactIcon } from "@/components/contact-icon";
 import { contactLinks } from "@/content/contact";
 import { home, isLanguage } from "@/content/home";
 import { SiteHeader } from "@/components/site-header";
@@ -62,7 +63,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </section>
         <section id="contact" className="contact-section page-width section-anchor" aria-labelledby="contact-heading">
           <div><p className="eyebrow">{copy.contactEyebrow}</p><h2 id="contact-heading">{copy.contactTitle}</h2><p className="contact-introduction">{copy.contactText}</p></div>
-          <ul className="contact-links">{contactLinks.map((contact) => <li key={contact.name}><a href={contact.href}><span className="contact-channel">{contact.name}</span><span className="contact-detail">{contact.label}</span><Arrow diagonal /></a></li>)}</ul>
+          <ul className="contact-links">{contactLinks.map((contact) => <li key={contact.name}><a href={contact.href}><ContactIcon channel={contact.name} /><span className="contact-channel">{contact.name}</span><Arrow diagonal /></a></li>)}</ul>
         </section>
       </main>
       <footer className="site-footer page-width"><div><p className="footer-name">Yago Jesus<span className="text-accent">.</span></p><p>{copy.footer}</p></div><a href="#top" className="text-link">{copy.backToTop}<span className="-rotate-90"><Arrow /></span></a></footer>
