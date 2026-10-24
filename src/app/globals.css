@@ -205,3 +205,9 @@ details[open] summary span { transform: rotate(45deg); }
   .case-metric-value { font-size: 39px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+.additional-project { border-top: 1px solid var(--line); margin-top: 28px; padding-top: 24px; }
+.additional-project .text-link { margin-block: 16px 12px; font-size: 16px; }
+.additional-project > p:last-child { color: var(--muted); font-size: 13px; line-height: 1.8; max-width: 650px; }
+.website-hero { padding-block: 42px; }
+.website-hero h1 { font-size: clamp(36px, 5vw, 64px); }

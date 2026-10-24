@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Arrow } from "@/components/arrow";
 import { home, isLanguage } from "@/content/home";
 import { SiteHeader } from "@/components/site-header";
+import { websiteCase, websitePath } from "@/content/website-case";
 import { migrationPath } from "@/content/migration-case";
 import { ProductMap } from "@/components/product-map";
 import { ProjectVisual } from "@/components/project-visual";
@@ -48,6 +49,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               </article>
             ))}
           </div>
+          <div className="additional-project"><p className="eyebrow">{lang === "pt" ? "OUTRA INICIATIVA" : "ANOTHER INITIATIVE"}</p><Link href={`/${lang}${websitePath}`} className="text-link">{websiteCase[lang].metaTitle.replace(" — Yago Jesus", "")}<Arrow diagonal /></Link><p>{websiteCase[lang].introduction}</p></div>
         </section>
 
         <section id="about" className="about-section page-width section-anchor" aria-labelledby="about-heading">

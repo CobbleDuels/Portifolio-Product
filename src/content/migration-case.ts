@@ -43,14 +43,6 @@ export const migrationCase = {
     interpretationText: "GMV mede o volume bruto transacionado, não a receita da empresa. A quantidade de pessoas na fila descreve a demanda. Já os relatos de problemas não permitem, por si só, calcular uma taxa de erro: isso exige uma base de tentativas e um critério de medição.",
     measurementTitle: "Medição na Ingresse. Limites no legado.",
     measurementText: "Os indicadores apresentados foram medidos e apurados na Ingresse. No legado, faltava uma ferramenta dedicada a esse acompanhamento, o que limita comparações de antes e depois. Os números descrevem a operação medida; ganhos sobre o legado só podem ser afirmados quando há uma base de comparação confiável.",
-    launchEyebrow: "MEDIÇÃO NO SITE NOVO",
-    launchTitle: "Instrumentar para acompanhar\na experiência.",
-    launchText: "Instalamos o PostHog no site novo para acompanhar acessos e retenção. Nas primeiras semanas, passamos a observar a experiência com dados da nova plataforma.",
-    launchMetrics: [
-      { value: ">500 mil", label: "acessos na semana de lançamento", note: "Volume registrado no site novo nessa semana." },
-      { value: "+30%", label: "de acessos em relação a 2025", note: "Crescimento observado nas primeiras semanas do site novo." },
-      { value: "+10%", label: "na retenção", note: "Aumento de retenção observado no acompanhamento com PostHog." },
-    ],
     home: "Voltar ao portfólio",
   },
   en: {
@@ -95,14 +87,6 @@ export const migrationCase = {
     interpretationText: "GMV measures gross transaction value, not company revenue. The number of people in the queue describes demand. Problem reports alone cannot establish an error rate: that requires a denominator of attempts and a measurement criterion.",
     measurementTitle: "Measurement at Ingresse. Limits in the legacy platform.",
     measurementText: "The indicators presented here were measured and consolidated at Ingresse. The legacy platform lacked a dedicated tool for this tracking, limiting before-and-after comparisons. These figures describe the measured operation; improvements over the legacy platform require a reliable comparison baseline.",
-    launchEyebrow: "MEASUREMENT ON THE NEW SITE",
-    launchTitle: "Instrument the site\nto track the experience.",
-    launchText: "We installed PostHog on the new site to track accesses and retention. During the first weeks, we began observing the experience through data from the new platform.",
-    launchMetrics: [
-      { value: ">500k", label: "site accesses during launch week", note: "Volume recorded on the new site during that week." },
-      { value: "+30%", label: "in accesses compared with 2025", note: "Growth observed during the first weeks of the new site." },
-      { value: "+10%", label: "in retention", note: "Retention increase observed through tracking with PostHog." },
-    ],
     home: "Back to portfolio",
   },
 } as const;
