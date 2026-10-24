@@ -1,8 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/arrow";
 import { home, isLanguage } from "@/content/home";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { SiteHeader } from "@/components/site-header";
+import { websiteCase, websitePath } from "@/content/website-case";
+import { migrationPath } from "@/content/migration-case";
 import { ProductMap } from "@/components/product-map";
 import { ProjectVisual } from "@/components/project-visual";
 
@@ -14,19 +17,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   return (
     <>
       <a href="#main" className="skip-link">{copy.skip}</a>
-      <header className="site-header page-width" id="top">
-        <Link href={`/${lang}`} className="brand" aria-label="Yago Jesus — Home">yago<span className="text-accent">.</span></Link>
-        <nav aria-label={copy.navigation} className="header-navigation">
-          <a href="#projects" className="nav-link">{copy.casesLink}</a>
-          <a href="#about" className="nav-link about-nav">{copy.aboutLink}</a>
-          <div className="language-switch" role="group" aria-label={copy.language}>
-            <Link href="/pt" hrefLang="pt-BR" lang="pt-BR" aria-label="Português" aria-current={lang === "pt" ? "page" : undefined}>PT</Link>
-            <span aria-hidden="true">/</span>
-            <Link href="/en" hrefLang="en" lang="en" aria-label="English" aria-current={lang === "en" ? "page" : undefined}>EN</Link>
-          </div>
-          <ThemeToggle lang={lang} />
-        </nav>
-      </header>
+      <SiteHeader lang={lang} />
 
       <main id="main" tabIndex={-1}>
         <section className="hero page-width" aria-labelledby="hero-heading">
@@ -52,17 +43,21 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <div className="project-body">
                 <div className="project-top"><span className="project-number">0{index + 1}</span><span className="project-category">{project.category}</span></div>
                 <h3>{project.title}</h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p>
-                <details><summary>{copy.details}<span aria-hidden="true">+</span></summary><p className="project-detail">{project.detail}</p></details>
+                {index === 0 ? <Link href={`/${lang}${migrationPath}`} className="project-case-link">{copy.casePreview}<Arrow diagonal /></Link> : <details><summary>{copy.details}<span aria-hidden="true">+</span></summary><p className="project-detail">{project.detail}</p></details>}
                 <p className="project-status"><span aria-hidden="true" />{copy.inProgress}</p>
                 </div>
               </article>
             ))}
           </div>
+          <div className="additional-project"><p className="eyebrow">{lang === "pt" ? "OUTRA INICIATIVA" : "ANOTHER INITIATIVE"}</p><Link href={`/${lang}${websitePath}`} className="text-link">{websiteCase[lang].metaTitle.replace(" — Yago Jesus", "")}<Arrow diagonal /></Link><p>{websiteCase[lang].introduction}</p></div>
         </section>
 
         <section id="about" className="about-section page-width section-anchor" aria-labelledby="about-heading">
-          <div><p className="eyebrow">{copy.aboutEyebrow}</p><h2 id="about-heading" className="whitespace-pre-line">{copy.aboutTitle}</h2></div>
-          <div className="about-copy"><p>{copy.aboutText}</p></div>
+          <figure className="about-portrait">
+            <div className="about-photo"><Image src="/images/yago-casual-esportivo.webp" alt={copy.portraitAlt} fill sizes="(max-width: 760px) min(340px, calc(100vw - 40px)), 340px" /></div>
+            <figcaption><span>Yago Jesus</span><span>Product Manager</span></figcaption>
+          </figure>
+          <div className="about-content"><p className="eyebrow">{copy.aboutEyebrow}</p><h2 id="about-heading" className="whitespace-pre-line">{copy.aboutTitle}</h2><div className="about-copy"><p>{copy.aboutText}</p></div></div>
         </section>
       </main>
       <footer className="site-footer page-width"><div><p className="footer-name">Yago Jesus<span className="text-accent">.</span></p><p>{copy.footer}</p></div><a href="#top" className="text-link">{copy.backToTop}<span className="-rotate-90"><Arrow /></span></a></footer>
