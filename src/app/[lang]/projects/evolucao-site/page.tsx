@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/arrow";
+import { GrowthChart } from "@/components/result-charts";
 import { SiteHeader } from "@/components/site-header";
 import { home, isLanguage } from "@/content/home";
 import { websiteCase, websitePath } from "@/content/website-case";
@@ -28,6 +29,7 @@ export default async function WebsiteCase({ params }: Props) {
         <section className="case-scale" aria-labelledby="website-results-heading">
           <h2 id="website-results-heading">{lang === "pt" ? "Acessos e retenção" : "Accesses and retention"}</h2>
           <p className="case-delivery-intro">{copy.text}</p><p className="case-scale-note">{copy.note}</p>
+          <GrowthChart lang={lang} />
           <dl className="case-metrics">{copy.metrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
           <div className="case-measurement"><h3>{copy.comparisonTitle}</h3><p>{copy.comparisonText}</p></div>
         </section>
