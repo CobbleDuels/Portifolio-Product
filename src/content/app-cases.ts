@@ -55,6 +55,28 @@ export const checkInCase = {
         ]
       },
       {
+        "eyebrow": "ADOÇÃO E OPERAÇÃO",
+        "title": "Mais de 50 mil kits.\nMais de 100 eventos.",
+        "text": "O aplicativo foi utilizado na entrega de mais de 50 mil kits e em mais de 100 eventos. No lançamento, a equipe atendeu todos os chamados da operação no mesmo dia em que foram recebidos. Esses indicadores mostram o uso do produto em campo e o acompanhamento da operação após a entrega.",
+        "metrics": [
+          {
+            "value": ">50 mil",
+            "label": "kits entregues com o app",
+            "note": "Volume de entregas realizadas utilizando o aplicativo."
+          },
+          {
+            "value": ">100",
+            "label": "eventos com uso do app",
+            "note": "Adoção do aplicativo na operação de retirada de kits."
+          },
+          {
+            "value": "No dia",
+            "label": "atendimento no lançamento",
+            "note": "Todos os chamados da operação foram atendidos pela equipe no mesmo dia."
+          }
+        ]
+      },
+      {
         "eyebrow": "A LEITURA DE PRODUTO",
         "title": "A operação define\na experiência.",
         "text": "A continuidade sem internet era central à proposta de valor. A experiência precisava acompanhar a realidade do local de retirada, permitindo ao organizador consultar e registrar kits mesmo com conectividade instável. O projeto mostra como uma demanda de cliente pode orientar um produto dedicado à operação."
@@ -104,6 +126,28 @@ export const checkInCase = {
           {
             "title": "On reconnection",
             "text": "Automatically upload the records of completed pickups."
+          }
+        ]
+      },
+      {
+        "eyebrow": "ADOPTION AND OPERATIONS",
+        "title": "Over 50,000 kits.\nMore than 100 events.",
+        "text": "The app was used to hand out more than 50,000 kits and at more than 100 events. At launch, the team responded to every operational support request on the day it was received. These indicators show product usage in the field and operational support following delivery.",
+        "metrics": [
+          {
+            "value": ">50k",
+            "label": "kits handed out using the app",
+            "note": "Volume of handovers carried out through the app."
+          },
+          {
+            "value": ">100",
+            "label": "events using the app",
+            "note": "Adoption of the app in kit-pickup operations."
+          },
+          {
+            "value": "Same day",
+            "label": "support response at launch",
+            "note": "The team responded to every operational request on the day it was received."
           }
         ]
       },
