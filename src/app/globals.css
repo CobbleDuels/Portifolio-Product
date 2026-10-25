@@ -51,6 +51,12 @@ a:focus-visible, summary:focus-visible, button:focus-visible { outline: 2px soli
 [data-theme="light"] .moon-icon { display: block; }
 [data-theme="light"] .sun-icon { display: none; }
 .hero { display: grid; grid-template-columns: 1.5fr 1fr; align-items: center; gap: 80px; padding-block: 65px 70px; }
+.hero-profile { display: flex; align-items: center; gap: 22px; margin: 0 0 26px; }
+.hero-photo { position: relative; width: 144px; height: 170px; flex-shrink: 0; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.hero-photo img { object-fit: cover; object-position: 50% 22%; filter: grayscale(1); transform: scale(1.15); transform-origin: 50% 22%; }
+.hero-profile figcaption { display: flex; flex-direction: column; gap: 8px; }
+.hero-profile figcaption span:first-child { font-size: 23px; letter-spacing: -.04em; }
+.hero-profile figcaption span:last-child { font-size: 12px; color: var(--muted); }
 .eyebrow { font-size: 10px; font-weight: 600; letter-spacing: .15em; line-height: 1.6; }
 .accent-square { display: inline-block; width: 6px; height: 6px; background: var(--ink); }
 h1 { margin: 24px 0 23px; font-size: clamp(42px, 4.7vw, 65px); font-weight: 500; letter-spacing: -.065em; line-height: 1.08; }
@@ -88,11 +94,6 @@ details[open] summary span { transform: rotate(45deg); }
 .project-status { display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--muted); padding-top: 8px; }
 .project-status span { width: 4px; height: 4px; background: var(--muted); border-radius: 50%; }
 .about-section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 90px; align-items: center; border-top: 1px solid var(--line); padding-block: 48px; }
-.about-portrait { width: min(100%, 340px); margin: 0; }
-.about-photo { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
-.about-photo img { object-fit: cover; object-position: 50% 22%; filter: grayscale(1); transform: scale(1.15); transform-origin: 50% 22%; }
-.about-portrait figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 13px; font-size: 10px; }
-.about-portrait figcaption span:last-child { color: var(--muted); }
 .about-content { max-width: 530px; }
 .about-section h2 { margin-top: 19px; }
 .about-copy { font-size: 15px; line-height: 1.9; color: var(--muted); padding-top: 25px; }
@@ -115,6 +116,8 @@ details[open] summary span { transform: rotate(45deg); }
   .brand { font-size: 27px; }
   .nav-link { font-size: 11px; }
   .hero { grid-template-columns: 1fr; gap: 25px; padding-block: 43px 38px; }
+  .hero-profile { gap: 18px; }
+  .hero-photo { width: 120px; height: 142px; }
   h1 { font-size: clamp(39px, 8vw, 58px); margin-block: 23px 21px; }
   .hero-introduction { font-size: 14px; max-width: 530px; }
   .section-heading-grid, .about-section { grid-template-columns: 1fr; gap: 18px; }
