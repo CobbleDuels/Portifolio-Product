@@ -33,6 +33,9 @@ export default async function MigrationCase({ params }: Props) {
         <section className="case-context" aria-labelledby="case-context-heading">
           <div><p className="eyebrow">{copy.contextEyebrow}</p><h2 id="case-context-heading" className="whitespace-pre-line">{copy.contextTitle}</h2></div><p>{copy.contextText}</p>
         </section>
+        <section className="case-priority" aria-labelledby="case-transition-heading">
+          <div><p className="eyebrow">{copy.transitionEyebrow}</p><h2 id="case-transition-heading" className="whitespace-pre-line">{copy.transitionTitle}</h2></div><p>{copy.transitionText}</p>
+        </section>
         <section className="case-priority" aria-labelledby="case-priority-heading">
           <div><p className="eyebrow">{copy.priorityEyebrow}</p><h2 id="case-priority-heading" className="whitespace-pre-line">{copy.priorityTitle}</h2></div><p>{copy.priorityText}</p>
         </section>
@@ -42,6 +45,7 @@ export default async function MigrationCase({ params }: Props) {
             <div><h3>{copy.individualTitle}</h3><p>{copy.individualText}</p></div>
             <div><h3>{copy.teamTitle}</h3><p>{copy.teamText}</p></div>
           </div>
+          <div className="case-measurement"><h3>{copy.practiceTitle}</h3><p>{copy.practiceText}</p></div>
         </section>
         <section className="case-contribution" aria-labelledby="case-groups-heading">
           <p className="eyebrow">{copy.groupStory.eyebrow}</p><h2 id="case-groups-heading" className="whitespace-pre-line">{copy.groupStory.title}</h2>
