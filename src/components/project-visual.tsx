@@ -3,6 +3,7 @@ import type { Language } from "@/content/home";
 const labels = {
   pt: ["Ilustração conceitual da migração entre plataformas", "Ilustração conceitual do protocolo e leitura para retirada de kit", "Ilustração conceitual da migração entre tecnologias mobile"],
   en: ["Conceptual illustration of migration between platforms", "Conceptual illustration of a protocol and scanning for kit pickup", "Conceptual illustration of migration between mobile technologies"],
+  es: ["Ilustración conceptual de la migración entre plataformas", "Ilustración conceptual del protocolo y la lectura para recoger kits", "Ilustración conceptual de la migración entre tecnologías móviles"],
 };
 
 export function ProjectVisual({ index, lang }: { index: number; lang: Language }) {
@@ -28,6 +29,6 @@ export function ProjectVisual({ index, lang }: { index: number; lang: Language }
         </>}
       </g>
     </svg>
-    <figcaption>{lang === "pt" ? "ILUSTRAÇÃO CONCEITUAL" : "CONCEPTUAL ILLUSTRATION"}</figcaption>
+    <figcaption>{{ pt: "ILUSTRAÇÃO CONCEITUAL", en: "CONCEPTUAL ILLUSTRATION", es: "ILUSTRACIÓN CONCEPTUAL" }[lang]}</figcaption>
   </figure>;
 }

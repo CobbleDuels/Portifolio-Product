@@ -25,7 +25,9 @@ export function ThemeToggle({ lang }: { lang: Language }) {
   }, []);
   const label = lang === "pt"
     ? (theme === "dark" ? "Ativar modo claro" : "Ativar modo noturno")
-    : (theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
+    : lang === "es"
+      ? (theme === "dark" ? "Activar modo claro" : "Activar modo oscuro")
+      : (theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
   function toggleTheme() {
     const next = document.documentElement.dataset.theme === "light" ? "dark" : "light";
     document.documentElement.dataset.theme = next;

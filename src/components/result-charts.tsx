@@ -1,6 +1,14 @@
 import type { Language } from "@/content/home";
 
 const labels = {
+  es: {
+    ratingTitle: "Valoraciones de la App del Atleta", scale: "Escala de 0 a 5",
+    before: "Antes · rango", after: "Después",
+    ratingNote: "Las valoraciones anteriores oscilaban entre 3,1 y 3,5. Tras las mejoras, ambas tiendas alcanzaron 4,5.",
+    growthTitle: "Crecimiento observado en el sitio web", growthScale: "Variación relativa (%)",
+    accesses: "Accesos", retention: "Retención",
+    growthNote: "Durante las primeras semanas del nuevo sitio, los accesos crecieron un 30% respecto a 2025. PostHog también registró un aumento del 10% en la retención.",
+  },
   pt: {
     ratingTitle: "Avaliações do App do Atleta",
     scale: "Escala de 0 a 5",
@@ -31,8 +39,8 @@ export function RatingsChart({ lang, compact = false }: { lang: Language; compac
   const copy = labels[lang];
   return <figure className={`result-chart${compact ? " result-chart-compact" : ""}`}>
     <figcaption className="chart-heading"><span>{copy.ratingTitle}</span><span className="chart-scale">{copy.scale}</span></figcaption>
-    <div className="chart-row"><span className="chart-label">{copy.before}</span><div className="chart-track" aria-hidden="true"><span className="rating-before" /><span className="rating-range" /></div><span className="chart-value">{lang === "pt" ? "3,1–3,5" : "3.1–3.5"}</span></div>
-    <div className="chart-row"><span className="chart-label">{copy.after}</span><div className="chart-track" aria-hidden="true"><span className="rating-after" /></div><span className="chart-value">{lang === "pt" ? "4,5" : "4.5"}</span></div>
+    <div className="chart-row"><span className="chart-label">{copy.before}</span><div className="chart-track" aria-hidden="true"><span className="rating-before" /><span className="rating-range" /></div><span className="chart-value">{lang === "en" ? "3.1–3.5" : "3,1–3,5"}</span></div>
+    <div className="chart-row"><span className="chart-label">{copy.after}</span><div className="chart-track" aria-hidden="true"><span className="rating-after" /></div><span className="chart-value">{lang === "en" ? "4.5" : "4,5"}</span></div>
     <div className="chart-axis" aria-hidden="true">{[0, 1, 2, 3, 4, 5].map((tick) => <span key={tick}>{tick}</span>)}</div>
     <p className="chart-note">{copy.ratingNote}</p>
   </figure>;
@@ -50,6 +58,12 @@ export function GrowthChart({ lang }: { lang: Language }) {
 }
 
 const comparisonLabels = {
+  es: {
+    before: "Antes", after: "Después",
+    conversion: { title: "Conversión de compra en la app", scale: "Compras completadas / compras iniciadas", before: "20%", after: "70%", note: "Tras la nueva versión, la conversión de compra pasó del 20% al 70% entre los usuarios que iniciaban la compra en la app." },
+    coverage: { title: "Eventos soportados en la app", scale: "Cobertura de eventos (%)", before: "30%", after: "100%", note: "La cobertura de eventos pasó del 30% al 100% tras la evolución de la aplicación." },
+    queue: { title: "Tiempo de espera para recoger kits", scale: "Espera en minutos", before: "50 min", after: "20–30 min", note: "Tras adoptar la app, la espera para recoger kits pasó de 50 a 20–30 minutos, según el seguimiento de la operación." },
+  },
   pt: {
     before: "Antes", after: "Depois",
     conversion: { title: "Conversão de compra no app", scale: "Compras concluídas / jornadas iniciadas", before: "20%", after: "70%", note: "Após a nova versão, a conversão de compra no app passou de 20% para 70%, considerando os usuários que iniciavam a jornada de compra." },
