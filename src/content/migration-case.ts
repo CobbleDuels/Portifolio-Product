@@ -32,6 +32,10 @@ export const migrationCase = {
       { title: "Questionários de kits integrados ao estoque", summary: "Respostas, tamanhos e disponibilidade na mesma jornada.", detail: "Criamos uma funcionalidade para responder perguntas sobre kits e tamanhos com validações ligadas ao estoque. O atleta podia concluir os questionários de forma direta, sem precisar alternar entre jornadas para cuidar dessas informações." },
       { title: "Trocas e cancelamento por autoatendimento", summary: "Alterações com diferenças de valor e estoque; cancelamento na janela de sete dias.", detail: "O atleta podia trocar camiseta, kit, local de retirada e outras opções liberadas pelo organizador. O sistema tratava automaticamente a cobrança de diferenças de valor e o estoque, conectando a alteração às regras da operação. A experiência também permitia ao atleta cancelar por conta própria dentro da janela de sete dias." },
     ],
+    businessEyebrow: "CONTEXTO DO NEGÓCIO",
+    businessTitle: "Negócio em escala.\nContinuidade na migração.",
+    businessText: "A Ticket Sports atingiu R$ 500 milhões de GMV acumulado em 2026. Durante a migração para a Ingresse, o churn de organizadores ficou abaixo de 10%. O primeiro indicador descreve a escala geral da empresa; o segundo acompanha a base de organizadores na transição. São resultados coletivos do negócio.",
+    businessMetrics: [{"value": "R$ 500 mi", "label": "GMV geral da TS em 2026", "note": "Volume bruto transacionado acumulado no ano. Resultado da empresa."}, {"value": "<10%", "label": "churn de organizadores na migração", "note": "Organizadores durante o processo de migração para a Ingresse."}],
     scaleEyebrow: "ESCALA DA OPERAÇÃO",
     scaleNote: "Escala registrada na operação da São Silvestre, já na Ingresse. Indicadores medidos e apurados em uma entrega coletiva da BU de esportes.",
     metrics: [
@@ -76,6 +80,10 @@ export const migrationCase = {
       { title: "Kit questionnaires connected to inventory", summary: "Answers, sizes and availability within one journey.", detail: "We built a capability for answering kit and sizing questions with inventory-linked validations. Athletes could complete the questionnaires directly, without switching between journeys to manage that information." },
       { title: "Self-service changes and cancellation", summary: "Price and inventory adjustments; cancellation within a seven-day window.", detail: "Athletes could change their shirt, kit, pickup location and other options enabled by the organizer. The system automatically handled charges for price differences and inventory, connecting changes to operational rules. The experience also allowed athletes to cancel on their own within a seven-day window." },
     ],
+    businessEyebrow: "BUSINESS CONTEXT",
+    businessTitle: "Business at scale.\nContinuity through migration.",
+    businessText: "Ticket Sports reached R$ 500 million in accumulated GMV in 2026. During the migration to Ingresse, organizer churn remained below 10%. The first indicator describes the company’s overall scale; the second tracks the organizer base through the transition. These are collective business outcomes.",
+    businessMetrics: [{"value": "R$ 500m", "label": "TS total GMV in 2026", "note": "Gross transaction value accumulated during the year. A company result."}, {"value": "<10%", "label": "organizer churn during migration", "note": "Organizers during the migration process to Ingresse."}],
     scaleEyebrow: "OPERATIONAL SCALE",
     scaleNote: "Scale recorded during the São Silvestre operation at Ingresse. These indicators were measured and consolidated as part of the sports business unit’s collective delivery.",
     metrics: [

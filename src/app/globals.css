@@ -224,7 +224,7 @@ details[open] summary span { transform: rotate(45deg); }
 .app-case-steps p { color: var(--muted); font-size: 13px; line-height: 1.8; }
 @media (max-width: 760px) { .app-case-steps { grid-template-columns: 1fr; gap: 12px; } }
 
-.app-case-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-block: 0 24px; }
+.app-case-metrics { grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); margin-block: 0 24px; }
 @media (max-width: 760px) { .app-case-metrics { grid-template-columns: 1fr; } }
 
 .evidence-summary { min-width: 0; padding: 25px; border: 1px solid var(--line); background: var(--surface); }
@@ -267,3 +267,13 @@ details[open] summary span { transform: rotate(45deg); }
 @media (min-width: 761px) and (max-width: 1050px) { .hero { grid-template-columns: 1.2fr 1fr; gap: 28px; } .evidence-summary { padding: 20px; } }
 @media (max-width: 760px) { .evidence-summary { width: 100%; max-width: 530px; } .result-chart { padding: 20px; } .result-chart-compact { padding: 20px 0 0; } }
 @media (max-width: 380px) { .evidence-summary { padding: 18px; } .evidence-results { gap: 12px; } .chart-row { grid-template-columns: 66px minmax(0, 1fr) 62px; gap: 8px; } .chart-axis { margin-inline: 74px 70px; } .result-chart-compact .chart-row { grid-template-columns: 66px minmax(0, 1fr) 58px; gap: 8px; } .result-chart-compact .chart-axis { margin-inline: 74px 66px; } }
+
+.chart-track .comparison-before { opacity: .5; }
+.chart-track .comparison-range { background: repeating-linear-gradient(135deg, var(--ink) 0 2px, transparent 2px 5px); opacity: .7; }
+.comparison-chart .chart-row { grid-template-columns: 90px minmax(0, 1fr) 86px; }
+.comparison-chart .chart-axis { margin-right: 98px; }
+.comparison-chart.result-chart-compact .chart-row { grid-template-columns: 58px minmax(0, 1fr) 50px; }
+.comparison-chart.result-chart-compact .chart-axis { margin-inline: 67px 59px; }
+@media (max-width: 380px) { .comparison-chart .chart-row { grid-template-columns: 50px minmax(0, 1fr) 75px; } .comparison-chart .chart-axis { margin-inline: 58px 83px; } .comparison-chart.result-chart-compact .chart-row { grid-template-columns: 50px minmax(0, 1fr) 45px; } .comparison-chart.result-chart-compact .chart-axis { margin-inline: 58px 53px; } }
+
+.business-metrics { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
