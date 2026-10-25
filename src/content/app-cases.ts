@@ -268,7 +268,7 @@ export const athleteCase = {
         "text": "Assumi a iniciativa de evolução do app e defini a unificação da jornada de compra. Conduzi entrevistas, apresentações e coleta de feedback com clientes; validei o design com UX e traduzi as decisões em user stories para o time. Acompanhei a execução e a publicação nas lojas. A implementação da nova base e das integrações foi uma entrega conjunta com engenharia.",
         "items": [
           { "title": "5 desenvolvedores", "text": "2 atuavam no legado e nas requisições de API; 3 trabalhavam nos projetos com React e novas tecnologias. A evolução do app coexistia com a sustentação do legado." },
-          { "title": "6–7 meses", "text": "Da iniciativa à entrega completa da evolução do aplicativo." }
+          { "title": "3–4 meses", "text": "Da iniciativa à entrega completa da evolução do aplicativo." }
         ]
       },
       {
@@ -353,7 +353,7 @@ export const athleteCase = {
         "text": "I took ownership of the app improvement initiative and defined the unified purchase journey. I conducted client interviews, presentations and feedback collection, validated designs with UX and translated decisions into user stories for the team. I followed execution and store publication. The new foundation and integrations were delivered together with engineering.",
         "items": [
           { "title": "5 developers", "text": "2 worked on the legacy system and API requests; 3 worked on React projects and newer technologies. The app improvements ran alongside legacy maintenance." },
-          { "title": "6–7 months", "text": "From initiative to full delivery of the app improvements." }
+          { "title": "3–4 months", "text": "From initiative to full delivery of the app improvements." }
         ]
       },
       {
@@ -438,7 +438,7 @@ export const athleteCase = {
         "text": "Asumí la iniciativa de evolución de la app y definí la unificación de la compra. Realicé entrevistas, presentaciones y recogida de comentarios con clientes; validé el diseño con UX y traduje las decisiones en historias de usuario para el equipo. Acompañé la ejecución y la publicación en las tiendas. La nueva base y las integraciones fueron una entrega conjunta con ingeniería.",
         "items": [
           { "title": "5 desarrolladores", "text": "2 trabajaban en el sistema anterior y en las solicitudes de API; 3, en proyectos con React y nuevas tecnologías. La evolución de la app coexistía con el mantenimiento del sistema anterior." },
-          { "title": "6–7 meses", "text": "Desde la iniciativa hasta la entrega completa de la evolución de la aplicación." }
+          { "title": "3–4 meses", "text": "Desde la iniciativa hasta la entrega completa de la evolución de la aplicación." }
         ]
       },
       {
