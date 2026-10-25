@@ -13,27 +13,27 @@ export const checkInCase = {
     "metaDescription": "Um app para entrega de kits esportivos por QR Code ou CPF, com operação online e offline e sincronização posterior.",
     "eyebrow": "02 / OPERAÇÃO · EXPERIÊNCIA",
     "title": "A entrega de kits.\nNa palma da mão.",
-    "introduction": "Transformar uma operação dependente de notebook, acesso ao SaaS e internet em uma experiência móvel dedicada à retirada de kits.",
+    "introduction": "Conduzi o desenvolvimento de um app dedicado à entrega de kits, da demanda de um cliente estratégico à publicação. O time levou a operação para o celular, com consulta por QR Code ou CPF e continuidade mesmo sem internet.",
     "sections": [
       {
         "eyebrow": "O PROBLEMA",
         "title": "Entregar um kit exigia\nmontar uma operação.",
-        "text": "A demanda veio de um cliente: para realizar o check-in e entregar os kits, ele precisava organizar um aparato com cronometragem, internet e espaço para notebooks acessarem o sistema. Uma tarefa no local do evento exigia passar pelo SaaS e por uma estrutura que tornava a operação mais trabalhosa."
+        "text": "Um cliente precisava montar uma estrutura com cronometragem, internet e notebooks acessando o SaaS para entregar kits. O problema estava no esforço necessário para executar a retirada no local: uma tarefa recorrente dependia de um aparato operacional e de conectividade."
       },
       {
         "eyebrow": "A PROPOSTA DE PRODUTO",
         "title": "Uma ferramenta dedicada\na quem faz a entrega.",
-        "text": "Como time, propusemos um aplicativo específico para essa operação. A proposta também fazia parte de um contrato com um cliente estratégico: responder a uma necessidade concreta e demonstrar atenção à sua realidade. A intenção era permitir que uma pessoa da equipe encontrasse rapidamente o que cada atleta precisava retirar e registrasse a entrega pelo celular."
+        "text": "Transformamos essa demanda em um aplicativo específico para a equipe de retirada. A proposta também fazia parte de um contrato com um cliente estratégico. O objetivo era responder a uma necessidade real do organizador e permitir que quem estivesse no atendimento consultasse os itens e registrasse a entrega pelo celular."
       },
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
         "title": "Da iniciativa\nà publicação.",
-        "text": "Conduzi a iniciativa e as decisões de produto, escrevi as user stories e validei o design com UX. Fiz entrevistas e apresentações com o cliente, coletei feedback e alinhei o trabalho com o time. Acompanhei a execução e a publicação nas lojas. Minha responsabilidade atravessava o ciclo de produto; a construção e a entrega foram realizadas em conjunto com o time."
+        "text": "Conduzi o ciclo de produto da iniciativa à publicação nas lojas. Defini as decisões de produto e as user stories, validei o design com UX e fiz entrevistas e apresentações com o cliente. Coletei feedback, alinhei o trabalho com o time e acompanhei a execução até a entrega. O desenvolvimento foi realizado em conjunto com a equipe."
       },
       {
         "eyebrow": "A JORNADA",
         "title": "Encontrar o atleta.\nConferir e entregar.",
-        "text": "O app permitia escanear o QR Code do protocolo ou buscar pelo CPF para consultar o kit e os itens associados à retirada. O foco era levar as informações necessárias para a mão de quem estava atendendo, em uma jornada própria para a entrega de kits."
+        "text": "A equipe podia escanear o QR Code do protocolo ou pesquisar pelo CPF para consultar o kit e os itens da retirada. A jornada reunia as informações necessárias para conferir o que seria entregue e registrar a retirada no próprio celular."
       },
       {
         "eyebrow": "CONTINUIDADE DA OPERAÇÃO",
@@ -57,7 +57,7 @@ export const checkInCase = {
       {
         "eyebrow": "A LEITURA DE PRODUTO",
         "title": "A operação define\na experiência.",
-        "text": "Este projeto partiu de uma necessidade que aparecia no trabalho do cliente. A experiência precisava funcionar onde a retirada acontecia, inclusive com conectividade instável. A proposta de valor estava em concentrar a consulta e o registro da entrega no celular, sem depender de acesso contínuo à internet."
+        "text": "A continuidade sem internet era central à proposta de valor. A experiência precisava acompanhar a realidade do local de retirada, permitindo ao organizador consultar e registrar kits mesmo com conectividade instável. O projeto mostra como uma demanda de cliente pode orientar um produto dedicado à operação."
       }
     ]
   },
@@ -66,27 +66,27 @@ export const checkInCase = {
     "metaDescription": "A mobile app for sports kit pickup using QR codes or CPF, supporting online and offline operation and subsequent synchronization.",
     "eyebrow": "02 / OPERATIONS · EXPERIENCE",
     "title": "Kit pickup.\nIn the palm of your hand.",
-    "introduction": "Turning an operation dependent on laptops, SaaS access and internet into a dedicated mobile experience for kit pickup.",
+    "introduction": "I led development of a dedicated kit-pickup app from a strategic client’s request through store publication. The team brought the operation onto a phone, with QR-code or CPF lookup and continuity without internet.",
     "sections": [
       {
         "eyebrow": "THE PROBLEM",
         "title": "Handing out a kit meant\nsetting up an operation.",
-        "text": "The request came from a client: checking athletes in and handing out kits required coordinating timing services, internet access and space for laptops to access the system. An on-site task depended on the SaaS platform and an operational setup that made it cumbersome."
+        "text": "A client needed timing services, internet access and laptops running the SaaS platform to hand out kits. The problem was the effort required to run pickup on site: a recurring task depended on an operational setup and connectivity."
       },
       {
         "eyebrow": "THE PRODUCT PROPOSAL",
         "title": "A dedicated tool\nfor the pickup team.",
-        "text": "As a team, we proposed an app specifically for this operation. The proposal was also part of a contract with a strategic client: addressing a concrete need and demonstrating attention to their situation. The aim was to let a team member quickly find what each athlete needed to collect and record the handover on a phone."
+        "text": "We turned that request into an app dedicated to the pickup team. The proposal was also part of a contract with a strategic client. The aim was to address a real organizer need and let the person serving an athlete look up the items and record the handover on a phone."
       },
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
         "title": "From initiative\nto publication.",
-        "text": "I led the initiative and product decisions, wrote user stories and validated the design with UX. I conducted client interviews and presentations, collected feedback and aligned the work with the team. I followed delivery through to publication in the stores. My responsibility spanned the product lifecycle; implementation and delivery were carried out together with the team."
+        "text": "I led the product lifecycle from initiative through store publication. I drove product decisions and user stories, validated designs with UX and conducted client interviews and presentations. I collected feedback, aligned the team and followed execution through delivery. Development was carried out together with the team."
       },
       {
         "eyebrow": "THE JOURNEY",
         "title": "Find the athlete.\nCheck and hand over.",
-        "text": "The app supported scanning the protocol QR code or searching by CPF (Brazilian tax ID) to consult the kit and associated pickup items. The focus was to put the necessary information in the hands of the person serving the athlete, through a dedicated kit-pickup journey."
+        "text": "The team could scan the protocol QR code or search by CPF (Brazilian tax ID) to consult the kit and pickup items. The journey brought together the information needed to check what should be handed over and record pickup on the phone."
       },
       {
         "eyebrow": "OPERATIONAL CONTINUITY",
@@ -110,7 +110,7 @@ export const checkInCase = {
       {
         "eyebrow": "THE PRODUCT PERSPECTIVE",
         "title": "The operation shapes\nthe experience.",
-        "text": "This project started with a need in the client’s daily work. The experience had to function where pickup took place, including with unstable connectivity. Its value proposition was to bring lookup and handover records onto a phone without requiring continuous internet access."
+        "text": "Offline continuity was central to the value proposition. The experience had to fit the pickup location, allowing the organizer to look up and record kits with unstable connectivity. The project shows how a client request can shape a product dedicated to operations."
       }
     ]
   }
@@ -132,22 +132,22 @@ export const athleteCase = {
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
         "title": "Da iniciativa\nà publicação.",
-        "text": "Conduzi a iniciativa e as decisões de produto, escrevi as user stories e validei o design com UX. Fiz entrevistas e apresentações com o cliente, coletei feedback e alinhei o trabalho com o time. Acompanhei a execução e a publicação nas lojas. Minha responsabilidade atravessava o ciclo de produto; a construção e a entrega foram realizadas em conjunto com o time."
+        "text": "Conduzi o ciclo de produto da iniciativa à publicação nas lojas. Defini as decisões de produto e as user stories, validei o design com UX e fiz entrevistas e apresentações com o cliente. Coletei feedback, alinhei o trabalho com o time e acompanhei a execução até a entrega. O desenvolvimento foi realizado em conjunto com a equipe."
       },
       {
         "eyebrow": "A EVOLUÇÃO DA BASE",
         "title": ".NET MAUI → React Native.",
-        "text": "A iniciativa de migração para React Native respondia às limitações de conhecimento disponível e de implementação que enfrentávamos com a base anterior. A escolha precisava servir à evolução do produto e à capacidade de sustentá-lo. Essas eram restrições daquele projeto e daquele time, sem pressupor que uma tecnologia resolve, por si só, problemas de manutenção."
+        "text": "A migração para React Native respondeu às restrições de conhecimento disponível e de implementação que enfrentávamos com .NET MAUI. O critério de produto era dar ao time uma base para sustentar a manutenção, os ajustes e a evolução da experiência do atleta."
       },
       {
         "eyebrow": "UMA DECISÃO MINHA",
         "title": "Uma jornada de compra.\nMais eventos no aplicativo.",
-        "text": "Decidi concentrar as compras em uma jornada web dentro do aplicativo, em vez de criar várias interfaces de compra diferentes. No app anterior, precisávamos selecionar quais eventos poderiam aparecer: alguns não eram suportados pela experiência e geravam problemas. A nova abordagem permitiu que mais eventos transitassem pelo app, com as compras passando por um ponto único."
+        "text": "Defini a unificação das compras em uma jornada web dentro do aplicativo. Isso evitava criar várias interfaces de compra diferentes e permitia ampliar os eventos suportados. Antes, precisávamos selecionar quais eventos poderiam aparecer no app, porque alguns não eram compatíveis com a experiência e geravam problemas."
       },
       {
         "eyebrow": "O ECOSSISTEMA",
         "title": "Da compra ao conteúdo\nesportivo.",
-        "text": "Também trabalhamos para trazer outras marcas da empresa para dentro do aplicativo. Implementamos um blog que consumia o conteúdo de jornalismo esportivo da Webrun. O objetivo era apresentar a Ticket Sports como parte de um conjunto de marcas e começar a nutrir a relação do atleta com esse ecossistema.",
+        "text": "Conectamos conteúdo e marketplace ao integrar um blog com o jornalismo esportivo da Webrun, outra marca do grupo. A iniciativa buscava ampliar o contato do atleta com as marcas da empresa e criar mais motivos para usar o app além da compra de inscrições.",
         "items": [
           {
             "title": "Marketplace esportivo",
@@ -166,7 +166,7 @@ export const athleteCase = {
       {
         "eyebrow": "RESULTADOS EM PRODUÇÃO",
         "title": "Uma experiência melhor,\npercebida pelos clientes.",
-        "text": "O app em React Native e o blog Webrun foram entregues e estão em produção. Recebemos feedback direto de clientes de que a experiência havia melhorado muito. As notas anteriores nas lojas estavam entre 3,1 e 3,5 e, com a evolução, chegaram a 4,5 tanto na Apple quanto no Android. Esses são resultados do produto e do trabalho do time. A referência anterior era uma versão que estava há mais de um ano sem atualização, acompanhada no período de 2024/2025.",
+        "text": "Com o app React Native e o blog Webrun em produção, recebemos feedback direto de clientes sobre a melhora da experiência. As avaliações, antes entre 3,1 e 3,5, chegaram a 4,5 nas duas lojas. O Play Console registrou falhas/crashes abaixo de 0,1% no Android. São resultados da evolução entregue pelo time; a referência anterior era uma versão acompanhada em 2024/2025, há mais de um ano sem atualização.",
         "metrics": [
           {
             "value": "4,5",
@@ -202,7 +202,7 @@ export const athleteCase = {
       {
         "eyebrow": "A LEITURA DE PRODUTO",
         "title": "Tecnologia como meio.\nExperiência como direção.",
-        "text": "A evolução conectou a capacidade de manutenção do time à experiência de quem compra. Minha decisão de unificar as compras e a entrega conjunta de uma nova base e de conteúdo esportivo ampliaram o escopo do aplicativo. O feedback dos clientes e as avaliações das lojas mostram a percepção dessa experiência, enquanto retenção e consumo de conteúdo ajudam a acompanhar a relação do atleta com o produto."
+        "text": "O projeto reuniu três frentes: uma base que o time pudesse evoluir, uma jornada de compra capaz de suportar mais eventos e conteúdo esportivo para ampliar a relação com o atleta. Meu papel foi conectar essas decisões e conduzir a entrega com o time. As avaliações e o feedback dos clientes trouxeram evidências da experiência percebida após a evolução."
       }
     ]
   },
@@ -221,22 +221,22 @@ export const athleteCase = {
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
         "title": "From initiative\nto publication.",
-        "text": "I led the initiative and product decisions, wrote user stories and validated the design with UX. I conducted client interviews and presentations, collected feedback and aligned the work with the team. I followed delivery through to publication in the stores. My responsibility spanned the product lifecycle; implementation and delivery were carried out together with the team."
+        "text": "I led the product lifecycle from initiative through store publication. I drove product decisions and user stories, validated designs with UX and conducted client interviews and presentations. I collected feedback, aligned the team and followed execution through delivery. Development was carried out together with the team."
       },
       {
         "eyebrow": "EVOLVING THE FOUNDATION",
         "title": ".NET MAUI → React Native.",
-        "text": "The migration initiative to React Native addressed the knowledge and implementation constraints we faced with the previous foundation. The choice had to support product evolution and the team’s ability to maintain it. These were constraints of that project and team; technology alone does not resolve maintenance problems."
+        "text": "The move to React Native addressed the knowledge and implementation constraints we faced with .NET MAUI. The product criterion was to give the team a foundation for maintenance, fixes and continued evolution of the athlete experience."
       },
       {
         "eyebrow": "A DECISION I MADE",
         "title": "One purchase journey.\nMore events in the app.",
-        "text": "I decided to consolidate purchases into a web-based journey inside the app, rather than build multiple different purchase interfaces. In the previous app, we had to select which events could appear: some were not supported by the experience and caused problems. The new approach allowed more events to be offered through the app, with purchases going through a single point."
+        "text": "I defined a unified web-based purchase journey inside the app. This avoided building multiple purchase interfaces and allowed us to support more events. Previously, we had to select which events could appear in the app because some were incompatible with the experience and caused problems."
       },
       {
         "eyebrow": "THE ECOSYSTEM",
         "title": "From purchasing to\nsports content.",
-        "text": "We also worked to bring other company brands into the app. We implemented a blog consuming sports journalism content from Webrun. The aim was to present Ticket Sports as part of a group of brands and begin nurturing the athlete’s relationship with that ecosystem.",
+        "text": "We connected content and marketplace by integrating a blog with sports journalism from Webrun, another brand in the group. The initiative aimed to broaden athletes’ contact with the company’s brands and give them more reasons to use the app beyond buying event registrations.",
         "items": [
           {
             "title": "Sports marketplace",
@@ -255,7 +255,7 @@ export const athleteCase = {
       {
         "eyebrow": "RESULTS IN PRODUCTION",
         "title": "An improved experience,\nrecognized by clients.",
-        "text": "The React Native app and Webrun blog were delivered and are in production. Direct client feedback described a much improved experience. Previous store ratings ranged from 3.1 to 3.5 and, following the evolution, reached 4.5 on both Apple and Android. These are outcomes of the product and the team’s work. The earlier reference was a version that had gone more than a year without an update, monitored during 2024/2025.",
+        "text": "With the React Native app and Webrun blog in production, clients gave direct feedback about the improved experience. Ratings, previously between 3.1 and 3.5, reached 4.5 in both stores. Play Console reported failures/crashes below 0.1% on Android. These are results of the evolution delivered by the team; the earlier reference was a version monitored during 2024/2025 that had gone over a year without an update.",
         "metrics": [
           {
             "value": "4.5",
@@ -291,7 +291,7 @@ export const athleteCase = {
       {
         "eyebrow": "THE PRODUCT PERSPECTIVE",
         "title": "Technology as a means.\nExperience as the direction.",
-        "text": "The evolution connected the team’s ability to maintain the app with the buyer’s experience. My decision to unify purchases and the team’s delivery of a new foundation and sports content expanded the app’s scope. Client feedback and store ratings reflect perceptions of that experience, while retention and content consumption help track the athlete’s relationship with the product."
+        "text": "The project brought together three areas: a foundation the team could evolve, a purchase journey supporting more events and sports content to broaden the relationship with athletes. My role was to connect those decisions and lead delivery with the team. Store ratings and client feedback provided evidence of the perceived experience after the changes."
       }
     ]
   }
