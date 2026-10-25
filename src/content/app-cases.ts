@@ -254,7 +254,7 @@ export const athleteCase = {
       {
         "eyebrow": "DECISÃO DE PRODUTO",
         "title": "Unificar a compra\npara ampliar o catálogo.",
-        "text": "Defini que as compras passariam por uma jornada web dentro do aplicativo. Antes, a experiência exigia selecionar os eventos compatíveis: parte do catálogo gerava problemas e não podia ser oferecida no app. Centralizar a compra evitava criar e manter diferentes interfaces para esses eventos. A cobertura passou de 30% para 100% dos eventos suportados no aplicativo.",
+        "text": "Avaliamos construir as telas de compra diretamente no app, mas esse caminho exigiria substituir uma tecnologia em um ponto crítico do legado. Isso ampliaria o prazo em um time que também precisava sustentar o sistema existente. Defini o uso da jornada web dentro do aplicativo: ela já estava quase pronta e precisava de adaptação responsiva. O critério foi reaproveitar o que já funcionava, com menor esforço de implementação e maior alcance para a compra. A cobertura de eventos no app passou de 30% para 100%.",
         "chart": "coverage"
       },
       {
@@ -265,7 +265,11 @@ export const athleteCase = {
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
         "title": "Conectar a experiência\nà capacidade de entrega.",
-        "text": "Assumi a iniciativa de evolução do app e defini a unificação da jornada de compra. Conduzi entrevistas, apresentações e coleta de feedback com clientes; validei o design com UX e traduzi as decisões em user stories para o time. Acompanhei a execução e a publicação nas lojas. A implementação da nova base e das integrações foi uma entrega conjunta com engenharia."
+        "text": "Assumi a iniciativa de evolução do app e defini a unificação da jornada de compra. Conduzi entrevistas, apresentações e coleta de feedback com clientes; validei o design com UX e traduzi as decisões em user stories para o time. Acompanhei a execução e a publicação nas lojas. A implementação da nova base e das integrações foi uma entrega conjunta com engenharia.",
+        "items": [
+          { "title": "5 desenvolvedores", "text": "2 atuavam no legado e nas requisições de API; 3 trabalhavam nos projetos com React e novas tecnologias. A evolução do app coexistia com a sustentação do legado." },
+          { "title": "6–7 meses", "text": "Da iniciativa à entrega completa da evolução do aplicativo." }
+        ]
       },
       {
         "eyebrow": "CONVERSÃO DE COMPRA",
@@ -335,7 +339,7 @@ export const athleteCase = {
       {
         "eyebrow": "PRODUCT DECISION",
         "title": "Unify purchasing\nto expand the catalog.",
-        "text": "I defined a web purchase journey within the app. Previously, the experience required selecting compatible events: part of the catalog caused problems and could not be offered in the app. Centralizing purchasing avoided creating and maintaining different interfaces for those events. Coverage increased from 30% to 100% of events supported in the app.",
+        "text": "We considered building purchase screens directly in the app, but that path required replacing technology in a critical part of the legacy system. It would extend delivery time for a team that also had to maintain the existing system. I chose the web purchase journey within the app: it was already largely built and needed responsive adaptation. The criterion was to reuse what already worked, with less implementation effort and broader purchase coverage. Event coverage in the app increased from 30% to 100%.",
         "chart": "coverage"
       },
       {
@@ -346,7 +350,11 @@ export const athleteCase = {
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
         "title": "Connect the experience\nwith delivery capacity.",
-        "text": "I took ownership of the app improvement initiative and defined the unified purchase journey. I conducted client interviews, presentations and feedback collection, validated designs with UX and translated decisions into user stories for the team. I followed execution and store publication. The new foundation and integrations were delivered together with engineering."
+        "text": "I took ownership of the app improvement initiative and defined the unified purchase journey. I conducted client interviews, presentations and feedback collection, validated designs with UX and translated decisions into user stories for the team. I followed execution and store publication. The new foundation and integrations were delivered together with engineering.",
+        "items": [
+          { "title": "5 developers", "text": "2 worked on the legacy system and API requests; 3 worked on React projects and newer technologies. The app improvements ran alongside legacy maintenance." },
+          { "title": "6–7 months", "text": "From initiative to full delivery of the app improvements." }
+        ]
       },
       {
         "eyebrow": "PURCHASE CONVERSION",
@@ -416,7 +424,7 @@ export const athleteCase = {
       {
         "eyebrow": "DECISIÓN DE PRODUCTO",
         "title": "Unificar la compra\npara ampliar el catálogo.",
-        "text": "Definí que las compras se realizarían mediante una experiencia web dentro de la app. Antes debíamos seleccionar los eventos compatibles: parte del catálogo generaba problemas y no podía ofrecerse en la aplicación. Centralizar la compra evitaba crear y mantener interfaces diferentes para esos eventos. La cobertura pasó del 30% al 100% de los eventos soportados en la app.",
+        "text": "Evaluamos construir las pantallas de compra directamente en la app, pero esa opción exigía sustituir una tecnología en un punto crítico del sistema anterior. Eso ampliaría el plazo de un equipo que también debía mantener el sistema existente. Elegí la experiencia web dentro de la app: ya estaba casi lista y necesitaba una adaptación responsive. El criterio fue reutilizar lo que ya funcionaba, con menor esfuerzo de implementación y mayor alcance para la compra. La cobertura de eventos en la app pasó del 30% al 100%.",
         "chart": "coverage"
       },
       {
@@ -427,7 +435,11 @@ export const athleteCase = {
       {
         "eyebrow": "MI CONTRIBUCIÓN COMO PM",
         "title": "Conectar la experiencia\ncon la capacidad de entrega.",
-        "text": "Asumí la iniciativa de evolución de la app y definí la unificación de la compra. Realicé entrevistas, presentaciones y recogida de comentarios con clientes; validé el diseño con UX y traduje las decisiones en historias de usuario para el equipo. Acompañé la ejecución y la publicación en las tiendas. La nueva base y las integraciones fueron una entrega conjunta con ingeniería."
+        "text": "Asumí la iniciativa de evolución de la app y definí la unificación de la compra. Realicé entrevistas, presentaciones y recogida de comentarios con clientes; validé el diseño con UX y traduje las decisiones en historias de usuario para el equipo. Acompañé la ejecución y la publicación en las tiendas. La nueva base y las integraciones fueron una entrega conjunta con ingeniería.",
+        "items": [
+          { "title": "5 desarrolladores", "text": "2 trabajaban en el sistema anterior y en las solicitudes de API; 3, en proyectos con React y nuevas tecnologías. La evolución de la app coexistía con el mantenimiento del sistema anterior." },
+          { "title": "6–7 meses", "text": "Desde la iniciativa hasta la entrega completa de la evolución de la aplicación." }
+        ]
       },
       {
         "eyebrow": "CONVERSIÓN DE COMPRA",
