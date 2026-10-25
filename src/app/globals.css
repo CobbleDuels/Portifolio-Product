@@ -229,3 +229,9 @@ details[open] summary span { transform: rotate(45deg); }
 .profile-background dt { font-size: 14px; font-weight: 600; line-height: 1.5; }
 .profile-background dd { margin-top: 7px; font-size: 13px; line-height: 1.8; color: var(--muted); }
 .profile-background .education-status { font-size: 11px; }
+
+.app-case-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; list-style: none; padding: 0; margin: 0 0 36px; }
+.app-case-steps li { border: 1px solid var(--line); background: var(--surface); padding: 24px; }
+.app-case-steps h3 { font-size: 16px; margin-block: 18px 10px; font-weight: 600; }
+.app-case-steps p { color: var(--muted); font-size: 13px; line-height: 1.8; }
+@media (max-width: 760px) { .app-case-steps { grid-template-columns: 1fr; gap: 12px; } }

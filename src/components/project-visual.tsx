@@ -1,8 +1,8 @@
 import type { Language } from "@/content/home";
 
 const labels = {
-  pt: ["Ilustração conceitual da migração entre plataformas", "Ilustração conceitual de um ingresso e leitura no check-in", "Ilustração conceitual da migração entre tecnologias mobile"],
-  en: ["Conceptual illustration of migration between platforms", "Conceptual illustration of a ticket and check-in scanning", "Conceptual illustration of migration between mobile technologies"],
+  pt: ["Ilustração conceitual da migração entre plataformas", "Ilustração conceitual do protocolo e leitura para retirada de kit", "Ilustração conceitual da migração entre tecnologias mobile"],
+  en: ["Conceptual illustration of migration between platforms", "Conceptual illustration of a protocol and scanning for kit pickup", "Conceptual illustration of migration between mobile technologies"],
 };
 
 export function ProjectVisual({ index, lang }: { index: number; lang: Language }) {
