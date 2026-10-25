@@ -23,11 +23,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
       <main id="main" tabIndex={-1}>
         <section className="hero page-width" aria-labelledby="hero-heading">
+          <figure className="hero-profile">
+            <div className="hero-photo"><Image src="/images/yago-casual-esportivo-hq.webp" unoptimized alt={copy.portraitAlt} fill sizes="(max-width: 760px) calc(100vw - 40px), 430px" loading="eager" fetchPriority="high" /></div>
+            <figcaption><span>Yago Jesus</span><span>Product Manager</span></figcaption>
+          </figure>
           <div className="hero-copy">
-            <figure className="hero-profile">
-              <div className="hero-photo"><Image src="/images/yago-casual-esportivo-hq.webp" unoptimized alt={copy.portraitAlt} fill sizes="144px" loading="eager" fetchPriority="high" /></div>
-              <figcaption><span>Yago Jesus</span><span>Product Manager</span></figcaption>
-            </figure>
             <p className="eyebrow flex items-center gap-3"><span className="accent-square" aria-hidden="true" />{copy.eyebrow}</p>
             <h1 id="hero-heading">{copy.headline[0]}<br />{copy.headline[1]}<br /><span className="hero-emphasis">{copy.headline[2]}</span></h1>
             <p className="hero-introduction">{copy.introduction}</p>
@@ -36,8 +36,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               <a href="#about" className="text-link">{copy.secondaryCta}<Arrow diagonal /></a>
             </div>
           </div>
-          <EvidenceSummary lang={lang} />
         </section>
+        <div className="home-evidence page-width"><EvidenceSummary lang={lang} /></div>
 
         <section id="projects" className="projects-section page-width section-anchor" aria-labelledby="projects-heading">
           <p className="eyebrow">{copy.casesEyebrow}</p>
