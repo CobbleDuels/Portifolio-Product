@@ -30,6 +30,9 @@ export default async function MigrationCase({ params }: Props) {
           <div><p className="eyebrow">{copy.eyebrow}</p><h1 className="whitespace-pre-line">{copy.title}</h1><p className="case-introduction">{copy.introduction}</p><p className="project-status"><span aria-hidden="true" />{copy.status}</p></div>
           <ProjectVisual index={0} lang={lang} />
         </header>
+        <dl className="case-brief" aria-label={copy.deliveryContextTitle}>
+          {copy.deliveryContext.map((item) => <div key={item.title}><dt>{item.title}</dt><dd>{item.text}</dd></div>)}
+        </dl>
         <section className="case-context" aria-labelledby="case-context-heading">
           <div><p className="eyebrow">{copy.contextEyebrow}</p><h2 id="case-context-heading" className="whitespace-pre-line">{copy.contextTitle}</h2></div><p>{copy.contextText}</p>
         </section>
@@ -77,8 +80,6 @@ export default async function MigrationCase({ params }: Props) {
           <h2 id="case-scale-heading" className="eyebrow">{copy.scaleEyebrow}</h2>
           <p className="case-scale-note">{copy.scaleNote}</p>
           <dl className="case-metrics">{copy.metrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
-          <div className="case-interpretation"><h3>{copy.interpretationTitle}</h3><p>{copy.interpretationText}</p></div>
-          <div className="case-measurement"><h3>{copy.measurementTitle}</h3><p>{copy.measurementText}</p></div>
         </section>
 
       </article>

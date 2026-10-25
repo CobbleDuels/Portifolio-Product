@@ -4,6 +4,7 @@ export type AppCaseCopy = {
   eyebrow: string;
   title: string;
   introduction: string;
+  gallery?: import("@/components/product-gallery").ProductGalleryCopy;
   sections: readonly { eyebrow: string; title: string; text: string; chart?: "ratings" | "queue" | "conversion" | "coverage"; items?: readonly { title: string; text: string }[]; metrics?: readonly { value: string; label: string; note: string }[] }[];
 };
 
@@ -13,12 +14,12 @@ export const checkInCase = {
     "metaDescription": "Um app para entrega de kits esportivos por QR Code ou CPF, com operação online e offline e sincronização posterior.",
     "eyebrow": "02 / OPERAÇÃO · EXPERIÊNCIA",
     "title": "A entrega de kits.\nNa palma da mão.",
-    "introduction": "Transformei a demanda de um cliente estratégico em um app dedicado à retirada de kits. Conduzi o produto da definição à publicação; o time entregou consulta por QR Code ou CPF, operação offline e sincronização automática. O aplicativo foi usado em mais de 100 eventos e na entrega de mais de 50 mil kits.",
+    "introduction": "Conduzi um app de retirada de kits da validação à publicação, com primeira versão entregue em 12 semanas. A demanda chegou pelo CS a partir de um cliente e se conectava à visão de reunir ferramentas para o organizador. O time entregou operação online e offline; o app foi usado em mais de 100 eventos e na entrega de mais de 50 mil kits.",
     "sections": [
       {
-        "eyebrow": "O PROBLEMA",
-        "title": "Entregar um kit exigia\nmontar uma operação.",
-        "text": "Um cliente precisava montar uma estrutura com cronometragem, internet e notebooks acessando o SaaS para entregar kits. O problema estava no esforço necessário para executar a retirada no local: uma tarefa recorrente dependia de um aparato operacional e de conectividade."
+        "eyebrow": "DA DEMANDA À VISÃO DE PRODUTO",
+        "title": "Uma necessidade do cliente.\nUma ferramenta para o ecossistema.",
+        "text": "A demanda chegou internamente pelo CS, após um cliente perguntar sobre uma facilidade já oferecida por um concorrente. A operação de kits dependia de internet, notebooks e acesso ao SaaS. Apuramos a necessidade e entendemos sua aderência à visão de reunir, em um só ambiente, os produtos que auxiliavam o organizador. Como não havia API pública para esses dados cadastrais e internos, a proposta foi desenvolver a ferramenta dentro do próprio ecossistema."
       },
       {
         "eyebrow": "CRITÉRIO DE PRODUTO",
@@ -47,7 +48,17 @@ export const checkInCase = {
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
         "title": "Da rotina do cliente\nao produto em campo.",
-        "text": "Conduzi entrevistas e apresentações com o cliente para entender a rotina de retirada e coletar feedback. Traduzi a demanda em iniciativa e user stories, validei o design com UX e alinhei o trabalho com o time. Acompanhei a execução e a publicação nas lojas. A engenharia implementou a solução, e a equipe acompanhou o atendimento da operação no lançamento."
+        "text": "Conduzi entrevistas e apresentações com o cliente para entender a rotina de retirada e coletar feedback. Traduzi a demanda em iniciativa e user stories, validei o design com UX e alinhei o trabalho com o time. Acompanhei a execução e a publicação nas lojas. A engenharia implementou a solução, e a equipe acompanhou o atendimento da operação no lançamento.",
+        "items": [
+          {
+            "title": "12 semanas",
+            "text": "Primeira versão entregue em 3 sprints de 4 semanas, com o produto já validado antes do desenvolvimento."
+          },
+          {
+            "title": "5 desenvolvedores",
+            "text": "2 no legado e nas APIs; 3 em React e novas tecnologias. Minha atuação como PM conectava cliente, UX e engenharia."
+          }
+        ]
       },
       {
         "eyebrow": "TEMPO NA OPERAÇÃO",
@@ -81,25 +92,39 @@ export const checkInCase = {
             "note": "Todos os chamados da operação foram atendidos pela equipe no mesmo dia."
           }
         ]
-      },
-      {
-        "eyebrow": "ALCANCE DO PRODUTO",
-        "title": "Uma demanda específica.\nUso em mais de 100 eventos.",
-        "text": "O projeto nasceu de uma necessidade ligada a um cliente estratégico, mas seu uso alcançou mais de 100 eventos. A combinação de consulta simples e continuidade offline atendia uma rotina comum da operação de kits: conferir, entregar e registrar, inclusive com conectividade instável. Esse alcance mostra a aplicação do produto além da demanda inicial."
       }
-    ]
+    ],
+    "gallery": {
+      "label": "TELAS DO PRODUTO",
+      "sourceLabel": "Ver TS Organizador na Google Play",
+      "openLabel": "Ampliar imagem",
+      "note": "Da seleção do evento ao acompanhamento das retiradas. Interface original em português.",
+      "images": [
+        {
+          "src": "/images/checkin-eventos.webp",
+          "alt": "TS Organizador: lista de eventos disponíveis para a operação.",
+          "caption": "Selecionar o evento"
+        },
+        {
+          "src": "/images/checkin-atletas.webp",
+          "alt": "TS Organizador: busca por atleta, filtros de check-in e indicação de conexão.",
+          "caption": "Consultar e registrar a retirada"
+        }
+      ],
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ticketsports.checkinapp"
+    }
   },
   "en": {
     "metaTitle": "Check-in App — Yago Jesus",
     "metaDescription": "A mobile app for sports kit pickup using QR codes or CPF, supporting online and offline operation and subsequent synchronization.",
     "eyebrow": "02 / OPERATIONS · EXPERIENCE",
     "title": "Kit pickup.\nIn the palm of your hand.",
-    "introduction": "I turned a strategic client’s request into a dedicated kit-pickup app. I led the product from definition through publication; the team delivered QR-code or CPF lookup, offline operation and automatic synchronization. The app was used at over 100 events to hand out more than 50,000 kits.",
+    "introduction": "I led a kit-pickup app from validation through publication, with the first version delivered in 12 weeks. The request came through CS from a client and aligned with the vision of bringing organizer tools together. The team delivered online and offline operation; the app was used at over 100 events to hand out more than 50,000 kits.",
     "sections": [
       {
-        "eyebrow": "THE PROBLEM",
-        "title": "Handing out a kit meant\nsetting up an operation.",
-        "text": "A client needed timing services, internet access and laptops running the SaaS platform to hand out kits. The problem was the effort required to run pickup on site: a recurring task depended on an operational setup and connectivity."
+        "eyebrow": "FROM REQUEST TO PRODUCT VISION",
+        "title": "A client need.\nA tool for the ecosystem.",
+        "text": "The request came internally through CS after a client asked about a convenience already offered by a competitor. Kit pickup depended on internet, laptops and SaaS access. We investigated the need and its fit with the vision of bringing organizer tools into one environment. With no public API for that registration and internal data, the proposal was to build the tool within the existing ecosystem."
       },
       {
         "eyebrow": "PRODUCT CRITERION",
@@ -128,7 +153,17 @@ export const checkInCase = {
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
         "title": "From the client’s workflow\nto a product in the field.",
-        "text": "I conducted client interviews and presentations to understand the pickup workflow and collect feedback. I translated the request into a product initiative and user stories, validated designs with UX and aligned the team. I followed execution and store publication. Engineering implemented the solution, and the team supported operations at launch."
+        "text": "I conducted client interviews and presentations to understand the pickup workflow and collect feedback. I translated the request into a product initiative and user stories, validated designs with UX and aligned the team. I followed execution and store publication. Engineering implemented the solution, and the team supported operations at launch.",
+        "items": [
+          {
+            "title": "12 weeks",
+            "text": "First version delivered in 3 four-week sprints, with product validation completed before development."
+          },
+          {
+            "title": "5 developers",
+            "text": "2 on the legacy system and APIs; 3 on React and newer technologies. My PM role connected the client, UX and engineering."
+          }
+        ]
       },
       {
         "eyebrow": "OPERATIONAL TIME",
@@ -162,25 +197,39 @@ export const checkInCase = {
             "note": "The team responded to every operational request on the day it was received."
           }
         ]
-      },
-      {
-        "eyebrow": "PRODUCT REACH",
-        "title": "A specific request.\nUsage at over 100 events.",
-        "text": "The project began with a strategic client’s need, but its usage reached more than 100 events. Simple lookup and offline continuity supported a recurring kit-pickup workflow: check, hand over and record, including with unstable connectivity. That reach shows the product’s application beyond the original request."
       }
-    ]
+    ],
+    "gallery": {
+      "label": "PRODUCT SCREENS",
+      "sourceLabel": "View TS Organizador on Google Play",
+      "openLabel": "View full image",
+      "note": "From event selection to pickup tracking. Original interface in Portuguese.",
+      "images": [
+        {
+          "src": "/images/checkin-eventos.webp",
+          "alt": "TS Organizador: list of events available to the operation.",
+          "caption": "Select the event"
+        },
+        {
+          "src": "/images/checkin-atletas.webp",
+          "alt": "TS Organizador: athlete search, check-in filters and connectivity status.",
+          "caption": "Look up and record pickup"
+        }
+      ],
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ticketsports.checkinapp"
+    }
   },
   "es": {
     "metaTitle": "App de Check-in — Yago Jesus",
     "metaDescription": "Aplicación para la entrega de kits deportivos por QR o CPF, con funcionamiento sin conexión, sincronización automática y uso en más de 100 eventos.",
     "eyebrow": "02 / OPERACIONES · EXPERIENCIA",
     "title": "La entrega de kits.\nEn la palma de la mano.",
-    "introduction": "Convertí la necesidad de un cliente estratégico en una app dedicada a la entrega de kits. Lideré el producto desde su definición hasta la publicación; el equipo entregó búsqueda por QR o CPF, funcionamiento offline y sincronización automática. Se utilizó en más de 100 eventos y para entregar más de 50.000 kits.",
+    "introduction": "Lideré una app de recogida de kits desde la validación hasta la publicación, con una primera versión entregada en 12 semanas. La demanda llegó a través de CS desde un cliente y encajaba con la visión de reunir herramientas para el organizador. El equipo entregó funcionamiento online y offline; la app se utilizó en más de 100 eventos y para entregar más de 50.000 kits.",
     "sections": [
       {
-        "eyebrow": "EL PROBLEMA",
-        "title": "Entregar un kit exigía\nmontar una operación.",
-        "text": "Un cliente necesitaba servicios de cronometraje, conexión a internet y ordenadores con acceso al SaaS para entregar kits. Una tarea recurrente dependía de una infraestructura operativa y de conectividad en el lugar del evento."
+        "eyebrow": "DE LA DEMANDA A LA VISIÓN DE PRODUCTO",
+        "title": "Una necesidad del cliente.\nUna herramienta para el ecosistema.",
+        "text": "La demanda llegó internamente a través de CS después de que un cliente preguntara por una facilidad ofrecida por un competidor. La entrega de kits dependía de internet, ordenadores y acceso al SaaS. Investigamos la necesidad y su encaje con la visión de reunir las herramientas del organizador en un solo entorno. Como no había una API pública para esos datos de registro e internos, la propuesta fue desarrollar la herramienta dentro del propio ecosistema."
       },
       {
         "eyebrow": "CRITERIO DE PRODUCTO",
@@ -209,7 +258,17 @@ export const checkInCase = {
       {
         "eyebrow": "MI CONTRIBUCIÓN COMO PM",
         "title": "De la rutina del cliente\nal producto en campo.",
-        "text": "Realicé entrevistas y presentaciones con el cliente para entender la operación y recoger comentarios. Traduje la demanda en una iniciativa y en historias de usuario, validé el diseño con UX y coordiné el trabajo con el equipo. Acompañé la ejecución y la publicación en las tiendas. Ingeniería implementó la solución y el equipo dio soporte a la operación durante el lanzamiento."
+        "text": "Realicé entrevistas y presentaciones con el cliente para entender la operación y recoger comentarios. Traduje la demanda en una iniciativa y en historias de usuario, validé el diseño con UX y coordiné el trabajo con el equipo. Acompañé la ejecución y la publicación en las tiendas. Ingeniería implementó la solución y el equipo dio soporte a la operación durante el lanzamiento.",
+        "items": [
+          {
+            "title": "12 semanas",
+            "text": "Primera versión entregada en 3 sprints de 4 semanas, con el producto ya validado antes del desarrollo."
+          },
+          {
+            "title": "5 desarrolladores",
+            "text": "2 en el sistema anterior y las APIs; 3 en React y nuevas tecnologías. Mi función como PM conectaba al cliente, UX e ingeniería."
+          }
+        ]
       },
       {
         "eyebrow": "TIEMPO EN LA OPERACIÓN",
@@ -243,13 +302,27 @@ export const checkInCase = {
             "note": "El equipo atendió todas las solicitudes operativas el mismo día."
           }
         ]
-      },
-      {
-        "eyebrow": "ALCANCE DEL PRODUCTO",
-        "title": "Una necesidad específica.\nUso en más de 100 eventos.",
-        "text": "El proyecto nació de una necesidad de un cliente estratégico, pero su uso llegó a más de 100 eventos. La consulta sencilla y la continuidad offline respondían a una rutina común: verificar, entregar y registrar kits, incluso con conectividad inestable. Ese alcance muestra la aplicación del producto más allá de la demanda inicial."
       }
-    ]
+    ],
+    "gallery": {
+      "label": "PANTALLAS DEL PRODUCTO",
+      "sourceLabel": "Ver TS Organizador en Google Play",
+      "openLabel": "Ampliar imagen",
+      "note": "Desde la selección del evento hasta el seguimiento de las entregas. Interfaz original en portugués.",
+      "images": [
+        {
+          "src": "/images/checkin-eventos.webp",
+          "alt": "TS Organizador: lista de eventos disponibles para la operación.",
+          "caption": "Seleccionar el evento"
+        },
+        {
+          "src": "/images/checkin-atletas.webp",
+          "alt": "TS Organizador: búsqueda de atletas, filtros de check-in e indicador de conexión.",
+          "caption": "Consultar y registrar la entrega"
+        }
+      ],
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ticketsports.checkinapp"
+    }
   }
 } as const;
 
@@ -282,8 +355,14 @@ export const athleteCase = {
         "title": "Conectar a experiência\nà capacidade de entrega.",
         "text": "Assumi a iniciativa de evolução do app e defini a unificação da jornada de compra. Conduzi entrevistas, apresentações e coleta de feedback com clientes; validei o design com UX e traduzi as decisões em user stories para o time. Acompanhei a execução e a publicação nas lojas. A implementação da nova base e das integrações foi uma entrega conjunta com engenharia.",
         "items": [
-          { "title": "5 desenvolvedores", "text": "2 atuavam no legado e nas requisições de API; 3 trabalhavam nos projetos com React e novas tecnologias. A evolução do app coexistia com a sustentação do legado." },
-          { "title": "3–4 meses", "text": "Da iniciativa à entrega completa da evolução do aplicativo." }
+          {
+            "title": "5 desenvolvedores",
+            "text": "2 atuavam no legado e nas requisições de API; 3 trabalhavam nos projetos com React e novas tecnologias. A evolução do app coexistia com a sustentação do legado."
+          },
+          {
+            "title": "3–4 meses",
+            "text": "Da iniciativa à entrega completa da evolução do aplicativo."
+          }
         ]
       },
       {
@@ -320,16 +399,6 @@ export const athleteCase = {
         "text": "Com o app React Native e o blog Webrun em produção, recebemos feedback direto de clientes sobre a melhora da experiência. As avaliações, antes entre 3,1 e 3,5, chegaram a 4,5 nas duas lojas. O Play Console registrou falhas/crashes abaixo de 0,1% no Android. São resultados da evolução entregue pelo time; a referência anterior era uma versão acompanhada em 2024/2025, há mais de um ano sem atualização.",
         "metrics": [
           {
-            "value": "4,5",
-            "label": "avaliação na App Store",
-            "note": "Nota alcançada após a evolução do app."
-          },
-          {
-            "value": "4,5",
-            "label": "avaliação no Google Play",
-            "note": "Nota alcançada após a evolução do app."
-          },
-          {
             "value": "<0,1%",
             "label": "falhas/crashes no Android",
             "note": "Indicador acompanhado no Google Play Console."
@@ -337,7 +406,21 @@ export const athleteCase = {
         ],
         "chart": "ratings"
       }
-    ]
+    ],
+    "gallery": {
+      "label": "O PRODUTO PUBLICADO",
+      "sourceLabel": "Ver Ticket Sports na Google Play",
+      "openLabel": "Ampliar imagem",
+      "note": "Material de apresentação do aplicativo. Interface original em português.",
+      "images": [
+        {
+          "src": "/images/app-atleta-catalogo.webp",
+          "alt": "App do Atleta: catálogo de eventos e navegação para notícias, inscrições e perfil.",
+          "caption": "Catálogo e navegação do App do Atleta"
+        }
+      ],
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.br.ticketsports"
+    }
   },
   "en": {
     "metaTitle": "Athlete App — Yago Jesus",
@@ -367,8 +450,14 @@ export const athleteCase = {
         "title": "Connect the experience\nwith delivery capacity.",
         "text": "I took ownership of the app improvement initiative and defined the unified purchase journey. I conducted client interviews, presentations and feedback collection, validated designs with UX and translated decisions into user stories for the team. I followed execution and store publication. The new foundation and integrations were delivered together with engineering.",
         "items": [
-          { "title": "5 developers", "text": "2 worked on the legacy system and API requests; 3 worked on React projects and newer technologies. The app improvements ran alongside legacy maintenance." },
-          { "title": "3–4 months", "text": "From initiative to full delivery of the app improvements." }
+          {
+            "title": "5 developers",
+            "text": "2 worked on the legacy system and API requests; 3 worked on React projects and newer technologies. The app improvements ran alongside legacy maintenance."
+          },
+          {
+            "title": "3–4 months",
+            "text": "From initiative to full delivery of the app improvements."
+          }
         ]
       },
       {
@@ -405,16 +494,6 @@ export const athleteCase = {
         "text": "With the React Native app and Webrun blog in production, clients gave direct feedback about the improved experience. Ratings, previously between 3.1 and 3.5, reached 4.5 in both stores. Play Console reported failures/crashes below 0.1% on Android. These are results of the evolution delivered by the team; the earlier reference was a version monitored during 2024/2025 that had gone over a year without an update.",
         "metrics": [
           {
-            "value": "4.5",
-            "label": "App Store rating",
-            "note": "Rating reached following the app’s evolution."
-          },
-          {
-            "value": "4.5",
-            "label": "Google Play rating",
-            "note": "Rating reached following the app’s evolution."
-          },
-          {
             "value": "<0.1%",
             "label": "failures/crashes on Android",
             "note": "Indicator monitored in Google Play Console."
@@ -422,7 +501,21 @@ export const athleteCase = {
         ],
         "chart": "ratings"
       }
-    ]
+    ],
+    "gallery": {
+      "label": "THE PUBLISHED PRODUCT",
+      "sourceLabel": "View Ticket Sports on Google Play",
+      "openLabel": "View full image",
+      "note": "App presentation material. Original interface in Portuguese.",
+      "images": [
+        {
+          "src": "/images/app-atleta-catalogo.webp",
+          "alt": "Athlete App: event catalog and navigation to news, registrations and profile.",
+          "caption": "Athlete App catalog and navigation"
+        }
+      ],
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.br.ticketsports"
+    }
   },
   "es": {
     "metaTitle": "App del Atleta — Yago Jesus",
@@ -452,8 +545,14 @@ export const athleteCase = {
         "title": "Conectar la experiencia\ncon la capacidad de entrega.",
         "text": "Asumí la iniciativa de evolución de la app y definí la unificación de la compra. Realicé entrevistas, presentaciones y recogida de comentarios con clientes; validé el diseño con UX y traduje las decisiones en historias de usuario para el equipo. Acompañé la ejecución y la publicación en las tiendas. La nueva base y las integraciones fueron una entrega conjunta con ingeniería.",
         "items": [
-          { "title": "5 desarrolladores", "text": "2 trabajaban en el sistema anterior y en las solicitudes de API; 3, en proyectos con React y nuevas tecnologías. La evolución de la app coexistía con el mantenimiento del sistema anterior." },
-          { "title": "3–4 meses", "text": "Desde la iniciativa hasta la entrega completa de la evolución de la aplicación." }
+          {
+            "title": "5 desarrolladores",
+            "text": "2 trabajaban en el sistema anterior y en las solicitudes de API; 3, en proyectos con React y nuevas tecnologías. La evolución de la app coexistía con el mantenimiento del sistema anterior."
+          },
+          {
+            "title": "3–4 meses",
+            "text": "Desde la iniciativa hasta la entrega completa de la evolución de la aplicación."
+          }
         ]
       },
       {
@@ -491,22 +590,26 @@ export const athleteCase = {
         "chart": "ratings",
         "metrics": [
           {
-            "value": "4,5",
-            "label": "valoración en App Store",
-            "note": "Valoración alcanzada tras la evolución de la app."
-          },
-          {
-            "value": "4,5",
-            "label": "valoración en Google Play",
-            "note": "Valoración alcanzada tras la evolución de la app."
-          },
-          {
             "value": "<0,1%",
             "label": "fallos/crashes en Android",
             "note": "Indicador seguido en Google Play Console."
           }
         ]
       }
-    ]
+    ],
+    "gallery": {
+      "label": "EL PRODUCTO PUBLICADO",
+      "sourceLabel": "Ver Ticket Sports en Google Play",
+      "openLabel": "Ampliar imagen",
+      "note": "Material de presentación de la app. Interfaz original en portugués.",
+      "images": [
+        {
+          "src": "/images/app-atleta-catalogo.webp",
+          "alt": "App del Atleta: catálogo de eventos y navegación a noticias, inscripciones y perfil.",
+          "caption": "Catálogo y navegación de la App del Atleta"
+        }
+      ],
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.br.ticketsports"
+    }
   }
 } as const;

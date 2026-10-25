@@ -3,6 +3,7 @@ import { Arrow } from "@/components/arrow";
 import { SiteHeader } from "@/components/site-header";
 import { ComparisonChart, RatingsChart } from "@/components/result-charts";
 import { ProjectVisual } from "@/components/project-visual";
+import { ProductGallery } from "@/components/product-gallery";
 import { home, type Language } from "@/content/home";
 import type { AppCaseCopy } from "@/content/app-cases";
 
@@ -13,7 +14,7 @@ export function AppCaseStudy({ lang, path, visual, copy }: { lang: Language; pat
     <main id="main" tabIndex={-1} className="case-main page-width">
       <Link href={`/${lang}#projects`} className="text-link case-back"><span className="rotate-180"><Arrow /></span>{home[lang].casesLink}</Link>
       <article>
-        <header className="case-hero"><div><p className="eyebrow">{copy.eyebrow}</p><h1 className="whitespace-pre-line">{copy.title}</h1><p className="case-introduction">{copy.introduction}</p></div><ProjectVisual index={visual} lang={lang} /></header>
+        <header className="case-hero"><div><p className="eyebrow">{copy.eyebrow}</p><h1 className="whitespace-pre-line">{copy.title}</h1><p className="case-introduction">{copy.introduction}</p></div>{copy.gallery ? <ProductGallery copy={copy.gallery} /> : <ProjectVisual index={visual} lang={lang} />}</header>
         {copy.sections.map((section, index) => <section className="app-case-section" aria-labelledby={`section-${index}`} key={section.eyebrow}>
           <div className="case-context"><div><p className="eyebrow">{section.eyebrow}</p><h2 id={`section-${index}`} className="whitespace-pre-line">{section.title}</h2></div><p>{section.text}</p></div>
           {section.chart === "ratings" && <RatingsChart lang={lang} />}
