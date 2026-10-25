@@ -24,6 +24,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <main id="main" tabIndex={-1}>
         <section className="hero page-width" aria-labelledby="hero-heading">
           <div className="hero-copy">
+            <figure className="hero-profile">
+              <div className="hero-photo"><Image src="/images/yago-casual-esportivo-hq.webp" unoptimized alt={copy.portraitAlt} fill sizes="144px" loading="eager" fetchPriority="high" /></div>
+              <figcaption><span>Yago Jesus</span><span>Product Manager</span></figcaption>
+            </figure>
             <p className="eyebrow flex items-center gap-3"><span className="accent-square" aria-hidden="true" />{copy.eyebrow}</p>
             <h1 id="hero-heading">{copy.headline[0]}<br />{copy.headline[1]}<br /><span className="hero-emphasis">{copy.headline[2]}</span></h1>
             <p className="hero-introduction">{copy.introduction}</p>
@@ -54,11 +58,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </section>
 
         <section id="about" className="about-section page-width section-anchor" aria-labelledby="about-heading">
-          <figure className="about-portrait">
-            <div className="about-photo"><Image src="/images/yago-casual-esportivo-hq.webp" unoptimized alt={copy.portraitAlt} fill sizes="(max-width: 760px) min(340px, calc(100vw - 40px)), 340px" /></div>
-            <figcaption><span>Yago Jesus</span><span>Product Manager</span></figcaption>
-          </figure>
-          <div className="about-content"><p className="eyebrow">{copy.aboutEyebrow}</p><h2 id="about-heading" className="whitespace-pre-line">{copy.aboutTitle}</h2><div className="about-copy"><p>{copy.aboutText}</p></div><dl className="profile-background" aria-label={copy.backgroundLabel}>{copy.background.map((item) => <div key={item.title}><dt>{item.title}</dt><dd>{item.detail}</dd>{"status" in item && <dd className="education-status">{item.status}</dd>}</div>)}</dl></div>
+          <div><p className="eyebrow">{copy.aboutEyebrow}</p><h2 id="about-heading" className="whitespace-pre-line">{copy.aboutTitle}</h2></div>
+          <div className="about-content"><div className="about-copy"><p>{copy.aboutText}</p></div><dl className="profile-background" aria-label={copy.backgroundLabel}>{copy.background.map((item) => <div key={item.title}><dt>{item.title}</dt><dd>{item.detail}</dd>{"status" in item && <dd className="education-status">{item.status}</dd>}</div>)}</dl></div>
         </section>
         <section id="contact" className="contact-section page-width section-anchor" aria-labelledby="contact-heading">
           <div><p className="eyebrow">{copy.contactEyebrow}</p><h2 id="contact-heading">{copy.contactTitle}</h2><p className="contact-introduction">{copy.contactText}</p></div>
