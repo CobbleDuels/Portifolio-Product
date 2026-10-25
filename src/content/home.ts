@@ -40,7 +40,7 @@ export const home = {
     projects: [
       { category: "PLATAFORMA · ESCALA", title: "Ticket Sports → Ingresse", subtitle: "Migração e São Silvestre", description: "Adaptação da plataforma às necessidades do esporte. Na São Silvestre, a operação movimentou cerca de R$ 40 milhões de GMV em um dia.", color: "orange" },
       { category: "OPERAÇÃO · EXPERIÊNCIA", title: "App de Check-in", subtitle: "Entre o digital e o evento", description: "Entrega de kits pelo celular, com QR Code ou CPF. A operação continua sem internet e sincroniza ao reconectar.", color: "green" },
-      { category: "MOBILE · EVOLUÇÃO", title: "App do Atleta", subtitle: "Uma nova base para a jornada", description: "Evolução de .NET MAUI para React Native para enfrentar limitações de manutenção, com visão de marketplace e conteúdo Webrun.", color: "blue" },
+      { category: "MOBILE · EVOLUÇÃO", title: "App do Atleta", subtitle: "Uma nova base para a jornada", description: "React Native, compra unificada e conteúdo Webrun. As avaliações chegaram a 4,5 nas lojas Apple e Android.", color: "blue" },
     ],
     casePreview: "Ler case",
     aboutEyebrow: "02 / QUEM É O YAGO",
@@ -90,7 +90,7 @@ export const home = {
     projects: [
       { category: "PLATFORM · SCALE", title: "Ticket Sports → Ingresse", subtitle: "Migration and São Silvestre", description: "Adapting the platform to sports-specific needs. The São Silvestre operation processed about R$ 40 million in GMV in one day.", color: "orange" },
       { category: "OPERATIONS · EXPERIENCE", title: "Check-in App", subtitle: "Where digital meets the event", description: "Kit pickup on a phone using QR codes or CPF. Operations continue offline and sync on reconnection.", color: "green" },
-      { category: "MOBILE · EVOLUTION", title: "Athlete App", subtitle: "A new foundation for the journey", description: "Evolving from .NET MAUI to React Native to address maintenance constraints, with a marketplace vision and Webrun content.", color: "blue" },
+      { category: "MOBILE · EVOLUTION", title: "Athlete App", subtitle: "A new foundation for the journey", description: "React Native, unified purchases and Webrun content. Ratings reached 4.5 in both Apple and Android stores.", color: "blue" },
     ],
     casePreview: "Read case study",
     aboutEyebrow: "02 / ABOUT YAGO",

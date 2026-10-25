@@ -235,3 +235,6 @@ details[open] summary span { transform: rotate(45deg); }
 .app-case-steps h3 { font-size: 16px; margin-block: 18px 10px; font-weight: 600; }
 .app-case-steps p { color: var(--muted); font-size: 13px; line-height: 1.8; }
 @media (max-width: 760px) { .app-case-steps { grid-template-columns: 1fr; gap: 12px; } }
+
+.app-case-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-block: 0 24px; }
+@media (max-width: 760px) { .app-case-metrics { grid-template-columns: 1fr; } }
