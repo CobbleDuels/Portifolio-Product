@@ -35,9 +35,14 @@ export const checkInCase = {
           },
           {
             "title": "Ao reconectar",
-            "text": "Enviar automaticamente os registros de quem retirou o kit."
+            "text": "Enviar os registros ao servidor, que comparava as retiradas, mantinha o primeiro registro e descartava duplicados, processando apenas os registros ainda pendentes."
           }
         ]
+      },
+      {
+        "eyebrow": "ACESSOS NA OPERAÇÃO",
+        "title": "Usuários individuais.\nVinculados ao organizador.",
+        "text": "O sistema já estava preparado para múltiplos usuários. Orientamos o organizador e nosso time a criar acessos individuais vinculados ao organizador e aos pontos de check-in. Assim, cada pessoa podia operar com seu próprio usuário, preservando o acesso principal do cliente. Essa configuração atendia à necessidade de colocar diferentes pessoas na entrega dos kits sem compartilhar o usuário principal."
       },
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
@@ -111,9 +116,14 @@ export const checkInCase = {
           },
           {
             "title": "On reconnection",
-            "text": "Automatically upload the records of completed pickups."
+            "text": "Upload records to the server, which compared pickups, kept the first record and discarded duplicates, processing only records still pending."
           }
         ]
+      },
+      {
+        "eyebrow": "OPERATOR ACCESS",
+        "title": "Individual accounts.\nLinked to the organizer.",
+        "text": "The system already supported multiple users. We instructed the organizer and our team to create individual accounts linked to the organizer and the check-in points. Each person could operate through their own account while preserving the client’s primary account. This setup allowed different people to hand out kits without sharing the primary account."
       },
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
@@ -187,9 +197,14 @@ export const checkInCase = {
           },
           {
             "title": "Al reconectar",
-            "text": "Enviar automáticamente los registros de las entregas realizadas."
+            "text": "Enviar los registros al servidor, que comparaba las entregas, conservaba el primer registro y descartaba duplicados, procesando solo los registros pendientes."
           }
         ]
+      },
+      {
+        "eyebrow": "ACCESOS EN LA OPERACIÓN",
+        "title": "Usuarios individuales.\nVinculados al organizador.",
+        "text": "El sistema ya admitía múltiples usuarios. Indicamos al organizador y a nuestro equipo que crearan accesos individuales vinculados al organizador y a los puntos de check-in. Cada persona podía operar con su propio usuario, preservando el acceso principal del cliente. Esta configuración permitía que distintas personas entregaran kits sin compartir el usuario principal."
       },
       {
         "eyebrow": "MI CONTRIBUCIÓN COMO PM",
