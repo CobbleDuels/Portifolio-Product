@@ -11,7 +11,7 @@ const labels = {
     growthScale: "Variação relativa (%)",
     accesses: "Acessos",
     retention: "Retenção",
-    growthNote: "Métricas independentes: acessos +30% em relação a 2025; retenção +10%. A janela exata da comparação e a coorte de retenção não estão detalhadas.",
+    growthNote: "Nas primeiras semanas do site novo, os acessos cresceram 30% em relação a 2025. O acompanhamento com PostHog também registrou aumento de 10% na retenção.",
   },
   en: {
     ratingTitle: "Athlete App store ratings",
@@ -23,7 +23,7 @@ const labels = {
     growthScale: "Relative change (%)",
     accesses: "Accesses",
     retention: "Retention",
-    growthNote: "Independent metrics: accesses +30% compared with 2025; retention +10%. The exact comparison window and retention cohort are not detailed.",
+    growthNote: "During the new website’s first weeks, accesses grew 30% compared with 2025. PostHog tracking also recorded a 10% increase in retention.",
   },
 } as const;
 
@@ -52,15 +52,15 @@ export function GrowthChart({ lang }: { lang: Language }) {
 const comparisonLabels = {
   pt: {
     before: "Antes", after: "Depois",
-    conversion: { title: "Conversão de compra no app", scale: "Compras concluídas / jornadas iniciadas", before: "20%", after: "70%", note: "A conversão anterior ficou em 20% por cerca de um ano e meio. Após a nova versão, chegou a 70% entre quem iniciava a jornada de compra no app. A janela exata da nova medição não está detalhada." },
+    conversion: { title: "Conversão de compra no app", scale: "Compras concluídas / jornadas iniciadas", before: "20%", after: "70%", note: "Após a nova versão, a conversão de compra no app passou de 20% para 70%, considerando os usuários que iniciavam a jornada de compra." },
     coverage: { title: "Eventos suportados no app", scale: "Cobertura de eventos (%)", before: "30%", after: "100%", note: "Cobertura de eventos reportada no acompanhamento do produto: de 30% para 100% após a evolução do aplicativo." },
-    queue: { title: "Tempo de espera na fila de retirada", scale: "Espera em minutos", before: "50 min", after: "20–30 min", note: "Tempos relatados no acompanhamento da operação. A faixa de 20–30 minutos representa a espera após a adoção do app, sem estimar uma média única." },
+    queue: { title: "Tempo de espera na fila de retirada", scale: "Espera em minutos", before: "50 min", after: "20–30 min", note: "Após a adoção do app, a espera na fila de retirada de kits passou de 50 para 20–30 minutos, conforme o acompanhamento da operação." },
   },
   en: {
     before: "Before", after: "After",
-    conversion: { title: "In-app purchase conversion", scale: "Completed purchases / journeys started", before: "20%", after: "70%", note: "Previous conversion remained at 20% for about a year and a half. Following the new version, it reached 70% among users starting the purchase journey in the app. The exact new measurement window is not detailed." },
+    conversion: { title: "In-app purchase conversion", scale: "Completed purchases / journeys started", before: "20%", after: "70%", note: "Following the new version, in-app purchase conversion rose from 20% to 70% among users who started the purchase journey." },
     coverage: { title: "Events supported in the app", scale: "Event coverage (%)", before: "30%", after: "100%", note: "Event coverage reported during product monitoring: from 30% to 100% following the app’s evolution." },
-    queue: { title: "Waiting time in the pickup queue", scale: "Wait in minutes", before: "50 min", after: "20–30 min", note: "Times reported while monitoring operations. The 20–30-minute range represents waiting time after app adoption, without estimating a single average." },
+    queue: { title: "Waiting time in the pickup queue", scale: "Wait in minutes", before: "50 min", after: "20–30 min", note: "After app adoption, waiting time in the kit pickup queue fell from 50 to 20–30 minutes, as observed during operations." },
   },
 } as const;
 
