@@ -31,8 +31,11 @@ export default async function WebsiteCase({ params }: Props) {
           <p className="case-delivery-intro">{copy.text}</p><p className="case-scale-note">{copy.note}</p>
           <GrowthChart lang={lang} />
           <dl className="case-metrics">{copy.metrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
-          <div className="case-measurement"><h3>{copy.comparisonTitle}</h3><p>{copy.comparisonText}</p></div>
         </section>
+        {copy.sections.map((section, index) => <section className="case-context" aria-labelledby={`website-section-${index}`} key={section.eyebrow}>
+          <div><p className="eyebrow">{section.eyebrow}</p><h2 id={`website-section-${index}`} className="whitespace-pre-line">{section.title}</h2></div>
+          <p>{section.text}</p>
+        </section>)}
       </article>
     </main>
     <footer className="site-footer page-width"><p className="footer-name">Yago Jesus.</p><Link href={`/${lang}`} className="text-link">{home[lang].backToTop}<Arrow /></Link></footer>

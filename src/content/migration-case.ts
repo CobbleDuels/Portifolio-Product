@@ -7,8 +7,8 @@ export const migrationCase = {
     "back": "Todos os projetos",
     "eyebrow": "01 / PLATAFORMA · ESCALA",
     "title": "Migração de plataforma.\nSão Silvestre em escala.",
-    "introduction": "Conduzi a migração da Ticket Sports para a Ingresse em conjunto com o time Tech, conectando o conhecimento do legado às necessidades do cliente e à criação de uma experiência para eventos esportivos.",
-    "status": "Migração · Produto · Alinhamento com o cliente",
+    "introduction": "Conduzi a etapa inicial da migração da Ticket Sports para a Ingresse junto a uma equipe de 4 desenvolvedores, conectando o conhecimento do legado às necessidades do cliente. O trabalho começou no início de 2026; a primeira versão entrou em produção em outubro, na operação da São Silvestre.",
+    "status": "Primeira versão em produção · Migração em andamento",
     "contextEyebrow": "O CONTEXTO",
     "contextTitle": "Uma nova empresa.\nUma relação a reconstruir.",
     "contextText": "Após a aquisição da Ticket Sports pela Ingresse, nos tornamos a vertical de esportes da empresa. A migração foi oferecida ao cliente em resposta a problemas que haviam desgastado a relação. O desafio era levar a operação para a nova plataforma e criar uma experiência capaz de atender às expectativas alinhadas com ele.",
@@ -98,7 +98,18 @@ export const migrationCase = {
     "interpretationText": "Os indicadores mostram o volume bruto transacionado (GMV), a demanda registrada na fila e a quantidade de relatos de problemas recebidos durante a operação.",
     "measurementTitle": "Escala da operação na Ingresse.",
     "measurementText": "Os indicadores foram medidos na Ingresse e dimensionam a operação de São Silvestre: volume transacionado, demanda e acompanhamento de ocorrências.",
-    "home": "Voltar ao portfólio"
+    "home": "Voltar ao portfólio",
+    "deliveryContextTitle": "Equipe e estágio da entrega",
+    "deliveryContext": [
+      {
+        "title": "4 desenvolvedores na migração",
+        "text": "2 de back-end e 2 de front-end. A sustentação do legado ficou com 1 desenvolvedor."
+      },
+      {
+        "title": "Início de 2026 → primeira versão em outubro",
+        "text": "Primeira versão publicada junto à operação da São Silvestre. A migração segue em andamento."
+      }
+    ]
   },
   "en": {
     "metaTitle": "Ticket Sports → Ingresse and São Silvestre — Yago Jesus",
@@ -106,8 +117,8 @@ export const migrationCase = {
     "back": "All projects",
     "eyebrow": "01 / PLATFORM · SCALE",
     "title": "Platform migration.\nSão Silvestre at scale.",
-    "introduction": "I led the Ticket Sports to Ingresse migration alongside the Tech team, connecting legacy knowledge with client needs and an experience built for sports events.",
-    "status": "Migration · Product · Client alignment",
+    "introduction": "I led the initial stage of the Ticket Sports to Ingresse migration with a team of 4 developers, connecting legacy knowledge with client needs. Work started in early 2026; the first version went live in October during the São Silvestre operation.",
+    "status": "First version live · Migration in progress",
     "contextEyebrow": "THE CONTEXT",
     "contextTitle": "A new company.\nA relationship to rebuild.",
     "contextText": "After Ingresse acquired Ticket Sports, we became the company’s sports vertical. The migration was offered to the client in response to earlier problems that had strained the relationship. The challenge was to move the operation to the new platform and build an experience that met the expectations agreed with the client.",
@@ -197,7 +208,18 @@ export const migrationCase = {
     "interpretationText": "The indicators show gross transaction value (GMV), demand recorded in the queue and the number of problem reports received during the operation.",
     "measurementTitle": "Operational scale at Ingresse.",
     "measurementText": "Measured at Ingresse, these indicators describe the scale of the São Silvestre operation: transaction volume, demand and incident monitoring.",
-    "home": "Back to portfolio"
+    "home": "Back to portfolio",
+    "deliveryContextTitle": "Team and delivery stage",
+    "deliveryContext": [
+      {
+        "title": "4 developers on the migration",
+        "text": "2 back-end and 2 front-end developers. One developer remained on legacy maintenance."
+      },
+      {
+        "title": "Early 2026 → first version in October",
+        "text": "First version released during the São Silvestre operation. The migration remains in progress."
+      }
+    ]
   },
   "es": {
     "metaTitle": "Ticket Sports → Ingresse y São Silvestre — Yago Jesus",
@@ -205,8 +227,8 @@ export const migrationCase = {
     "back": "Todos los proyectos",
     "eyebrow": "01 / PLATAFORMA · ESCALA",
     "title": "Migración de plataforma.\nSão Silvestre a gran escala.",
-    "introduction": "Lideré la migración de Ticket Sports a Ingresse junto al equipo Tech, conectando el conocimiento de la plataforma anterior con las necesidades del cliente y la creación de una experiencia para eventos deportivos.",
-    "status": "Migración · Producto · Coordinación con el cliente",
+    "introduction": "Lideré la etapa inicial de la migración de Ticket Sports a Ingresse con un equipo de 4 desarrolladores, conectando el conocimiento del sistema anterior con las necesidades del cliente. El trabajo comenzó a principios de 2026; la primera versión salió a producción en octubre, en la operación de São Silvestre.",
+    "status": "Primera versión en producción · Migración en curso",
     "contextEyebrow": "EL CONTEXTO",
     "contextTitle": "Una nueva empresa.\nUna relación por reconstruir.",
     "contextText": "Tras la adquisición de Ticket Sports por Ingresse, nos convertimos en la vertical de deportes de la empresa. Se ofreció la migración al cliente como respuesta a problemas que habían desgastado la relación. El reto era trasladar la operación a la nueva plataforma y crear una experiencia que respondiera a las expectativas acordadas.",
@@ -296,6 +318,17 @@ export const migrationCase = {
     "interpretationText": "Los indicadores muestran el volumen bruto transaccionado (GMV), la demanda registrada en la fila y la cantidad de reportes de problemas recibidos durante la operación.",
     "measurementTitle": "Escala de la operación en Ingresse.",
     "measurementText": "Los indicadores se midieron en Ingresse y describen la escala de la operación de São Silvestre: volumen transaccionado, demanda y seguimiento de incidencias.",
-    "home": "Volver al portafolio"
+    "home": "Volver al portafolio",
+    "deliveryContextTitle": "Equipo y estado de la entrega",
+    "deliveryContext": [
+      {
+        "title": "4 desarrolladores en la migración",
+        "text": "2 de back-end y 2 de front-end. Un desarrollador quedó a cargo del mantenimiento del sistema anterior."
+      },
+      {
+        "title": "Principios de 2026 → primera versión en octubre",
+        "text": "Primera versión publicada en la operación de São Silvestre. La migración sigue en curso."
+      }
+    ]
   }
 } as const;
