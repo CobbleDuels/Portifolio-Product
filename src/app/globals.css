@@ -44,6 +44,7 @@ a:focus-visible, summary:focus-visible, button:focus-visible { outline: 2px soli
 .language-switch a { color: var(--muted); padding-block: 16px; min-width: 24px; text-align: center; }
 .language-switch a[aria-current] { color: var(--ink); font-weight: bold; text-decoration: underline; text-underline-offset: 5px; }
 .language-switch span { color: var(--muted); }
+.language-switch a + a::before { content: "/"; color: var(--muted); font-weight: normal; display: inline-block; margin-right: 8px; text-decoration: none; }
 .theme-toggle { width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 50%; display: flex; align-items: center; justify-content: center; background: transparent; color: var(--ink); cursor: pointer; }
 .theme-toggle:hover { background: var(--visual); }
 .moon-icon { display: none; }
@@ -211,6 +212,13 @@ details[open] summary span { transform: rotate(45deg); }
 .contact-links a:hover .contact-channel { text-decoration: underline; text-underline-offset: 5px; }
 @media (max-width: 760px) { .contact-section { grid-template-columns: 1fr; gap: 20px; padding-block: 32px; } }
 @media (max-width: 480px) { .header-navigation { gap: 10px; } }
+@media (max-width: 480px) {
+  .site-header { flex-wrap: wrap; gap: 0 16px; padding-block: 8px; }
+  .header-navigation { width: 100%; justify-content: space-between; gap: 8px; }
+  .language-switch { gap: 4px; }
+  .language-switch a { min-width: 22px; padding-block: 10px; }
+  .language-switch a + a::before { margin-right: 4px; }
+}
 
 .profile-background { margin-top: 24px; border-top: 1px solid var(--line); }
 .profile-background > div { padding-block: 18px; border-bottom: 1px solid var(--line); }

@@ -27,7 +27,7 @@ export default async function WebsiteCase({ params }: Props) {
       <article>
         <header className="website-hero"><p className="eyebrow">{copy.eyebrow}</p><h1 className="whitespace-pre-line">{copy.title}</h1><p className="case-introduction">{copy.introduction}</p></header>
         <section className="case-scale" aria-labelledby="website-results-heading">
-          <h2 id="website-results-heading">{lang === "pt" ? "Acessos e retenção" : "Accesses and retention"}</h2>
+          <h2 id="website-results-heading">{{ pt: "Acessos e retenção", en: "Accesses and retention", es: "Accesos y retención" }[lang]}</h2>
           <p className="case-delivery-intro">{copy.text}</p><p className="case-scale-note">{copy.note}</p>
           <GrowthChart lang={lang} />
           <dl className="case-metrics">{copy.metrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
