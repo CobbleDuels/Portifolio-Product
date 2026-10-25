@@ -43,6 +43,15 @@ export default async function MigrationCase({ params }: Props) {
             <div><h3>{copy.teamTitle}</h3><p>{copy.teamText}</p></div>
           </div>
         </section>
+        <section className="case-contribution" aria-labelledby="case-groups-heading">
+          <p className="eyebrow">{copy.groupStory.eyebrow}</p><h2 id="case-groups-heading" className="whitespace-pre-line">{copy.groupStory.title}</h2>
+          <p className="case-delivery-intro">{copy.groupStory.context}</p>
+          <div className="case-role-grid">
+            <div><h3>{copy.groupStory.researchTitle}</h3><p>{copy.groupStory.researchText}</p></div>
+            <div><h3>{copy.groupStory.decisionTitle}</h3><p>{copy.groupStory.decisionText}</p></div>
+          </div>
+          <div className="case-measurement"><h3>{copy.groupStory.resultTitle}</h3><p>{copy.groupStory.resultText}</p></div>
+        </section>
         <section className="case-deliveries" aria-labelledby="case-deliveries-heading">
           <p className="eyebrow">{copy.deliveryEyebrow}</p><h2 id="case-deliveries-heading" className="whitespace-pre-line">{copy.deliveryTitle}</h2><p className="case-delivery-intro">{copy.deliveryIntro}</p>
           <div className="case-capabilities">
