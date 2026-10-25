@@ -8,7 +8,7 @@ import { home, isLanguage } from "@/content/home";
 import { SiteHeader } from "@/components/site-header";
 import { websiteCase, websitePath } from "@/content/website-case";
 import { migrationPath } from "@/content/migration-case";
-import { ProductMap } from "@/components/product-map";
+import { EvidenceSummary } from "@/components/evidence-summary";
 import { ProjectVisual } from "@/components/project-visual";
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
@@ -32,7 +32,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               <a href="#about" className="text-link">{copy.secondaryCta}<Arrow diagonal /></a>
             </div>
           </div>
-          <ProductMap lang={lang} />
+          <EvidenceSummary lang={lang} />
         </section>
 
         <section id="projects" className="projects-section page-width section-anchor" aria-labelledby="projects-heading">
