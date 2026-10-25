@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Arrow } from "@/components/arrow";
-import { RatingsChart } from "@/components/result-charts";
+import { ComparisonChart } from "@/components/result-charts";
 import type { Language } from "@/content/home";
 
 const labels = {
@@ -17,7 +17,7 @@ export function EvidenceSummary({ lang }: { lang: Language }) {
       <Link href={`/${lang}/projects/ticket-sports-ingresse`} className="evidence-result"><span className="evidence-value">{lang === "pt" ? "~R$ 40 mi" : "~R$ 40m"}</span><span className="evidence-label">{copy.gmv}</span><span className="evidence-source">{copy.operation}<Arrow diagonal /></span></Link>
       <Link href={`/${lang}/projects/app-atleta`} className="evidence-result"><span className="evidence-value">{lang === "pt" ? "4,5" : "4.5"}<span className="evidence-unit">/5</span></span><span className="evidence-label">{copy.rating}</span><span className="evidence-source">{copy.app}<Arrow diagonal /></span></Link>
     </div>
-    <RatingsChart lang={lang} compact />
+    <ComparisonChart lang={lang} kind="conversion" compact />
     <p className="evidence-note">{copy.note}</p>
   </aside>;
 }

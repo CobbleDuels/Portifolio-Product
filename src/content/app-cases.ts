@@ -4,7 +4,7 @@ export type AppCaseCopy = {
   eyebrow: string;
   title: string;
   introduction: string;
-  sections: readonly { eyebrow: string; title: string; text: string; items?: readonly { title: string; text: string }[]; metrics?: readonly { value: string; label: string; note: string }[] }[];
+  sections: readonly { eyebrow: string; title: string; text: string; chart?: "ratings" | "queue" | "conversion" | "coverage"; items?: readonly { title: string; text: string }[]; metrics?: readonly { value: string; label: string; note: string }[] }[];
 };
 
 export const checkInCase = {
@@ -55,9 +55,15 @@ export const checkInCase = {
         ]
       },
       {
+        "eyebrow": "TEMPO NA OPERAÇÃO",
+        "title": "De 50 para 20–30 minutos\nde espera na fila.",
+        "text": "Antes, o atleta podia esperar cerca de 50 minutos para retirar o kit. Falhas de sincronização e alterações que não apareciam atualizadas contribuíam para a fila. Com o aplicativo, a espera passou para 20–30 minutos: o organizador conseguia separar melhor as entregas e apoiar a equipe de atendimento com menos dependência do acesso à plataforma.",
+        "chart": "queue"
+      },
+      {
         "eyebrow": "ADOÇÃO E OPERAÇÃO",
         "title": "Mais de 50 mil kits.\nMais de 100 eventos.",
-        "text": "O aplicativo foi utilizado na entrega de mais de 50 mil kits e em mais de 100 eventos. No lançamento, a equipe atendeu todos os chamados da operação no mesmo dia em que foram recebidos. Esses indicadores mostram o uso do produto em campo e o acompanhamento da operação após a entrega.",
+        "text": "O aplicativo foi utilizado na entrega de mais de 50 mil kits e em mais de 100 eventos. No lançamento, a equipe atendeu todos os chamados da operação no mesmo dia em que foram recebidos. Esses indicadores mostram o uso do produto em campo e o acompanhamento da operação após a entrega. Menos de 5% das tentativas de sincronização apresentaram falhas, tratadas com correções pontuais.",
         "metrics": [
           {
             "value": ">50 mil",
@@ -68,6 +74,11 @@ export const checkInCase = {
             "value": ">100",
             "label": "eventos com uso do app",
             "note": "Adoção do aplicativo na operação de retirada de kits."
+          },
+          {
+            "value": "<5%",
+            "label": "tentativas de sincronização com falha",
+            "note": "Falhas identificadas receberam correções pontuais."
           },
           {
             "value": "No dia",
@@ -130,9 +141,15 @@ export const checkInCase = {
         ]
       },
       {
+        "eyebrow": "OPERATIONAL TIME",
+        "title": "From 50 to 20–30 minutes\nin the pickup queue.",
+        "text": "Previously, athletes could wait about 50 minutes to collect a kit. Synchronization failures and changes that did not appear up to date contributed to the queue. With the app, waiting time moved to 20–30 minutes: organizers could better separate handovers and support the pickup team with less dependency on platform access.",
+        "chart": "queue"
+      },
+      {
         "eyebrow": "ADOPTION AND OPERATIONS",
         "title": "Over 50,000 kits.\nMore than 100 events.",
-        "text": "The app was used to hand out more than 50,000 kits and at more than 100 events. At launch, the team responded to every operational support request on the day it was received. These indicators show product usage in the field and operational support following delivery.",
+        "text": "The app was used to hand out more than 50,000 kits and at more than 100 events. At launch, the team responded to every operational support request on the day it was received. These indicators show product usage in the field and operational support following delivery. Fewer than 5% of synchronization attempts failed, with targeted fixes applied.",
         "metrics": [
           {
             "value": ">50k",
@@ -143,6 +160,11 @@ export const checkInCase = {
             "value": ">100",
             "label": "events using the app",
             "note": "Adoption of the app in kit-pickup operations."
+          },
+          {
+            "value": "<5%",
+            "label": "synchronization attempts that failed",
+            "note": "Identified failures received targeted fixes."
           },
           {
             "value": "Same day",
@@ -186,7 +208,14 @@ export const athleteCase = {
       {
         "eyebrow": "UMA DECISÃO MINHA",
         "title": "Uma jornada de compra.\nMais eventos no aplicativo.",
-        "text": "Defini a unificação das compras em uma jornada web dentro do aplicativo. Isso evitava criar várias interfaces de compra diferentes e permitia ampliar os eventos suportados. Antes, precisávamos selecionar quais eventos poderiam aparecer no app, porque alguns não eram compatíveis com a experiência e geravam problemas."
+        "text": "Defini a unificação das compras em uma jornada web dentro do aplicativo. Isso evitava criar várias interfaces de compra diferentes e permitia ampliar os eventos suportados. Antes, precisávamos selecionar quais eventos poderiam aparecer no app, porque alguns não eram compatíveis com a experiência e geravam problemas. A cobertura de eventos suportados no app passou de 30% para 100%.",
+        "chart": "coverage"
+      },
+      {
+        "eyebrow": "CONVERSÃO DE COMPRA",
+        "title": "De 20% para 70%\nna jornada do app.",
+        "text": "A conversão entre quem iniciava a compra no aplicativo ficou em 20% por cerca de um ano e meio. Havia relatos de atletas que precisavam abandonar o app por bugs ou limitações para continuar a jornada em outro lugar. Após a nova versão, a conversão chegou a 70% entre quem iniciava a compra no app.",
+        "chart": "conversion"
       },
       {
         "eyebrow": "O ECOSSISTEMA",
@@ -241,6 +270,24 @@ export const athleteCase = {
             "title": "Catálogo de eventos",
             "text": "Mais eventos passaram a transitar pelo aplicativo, superando restrições da experiência anterior."
           }
+        ],
+        "chart": "ratings"
+      },
+      {
+        "eyebrow": "CONTEÚDO E RETORNO DO INVESTIMENTO",
+        "title": "Mais audiência.\nRetorno no trimestre.",
+        "text": "As visualizações das matérias cresceram 50% em relação ao ano anterior, quando a funcionalidade ainda não existia no app. O consumo dos anúncios acompanhou esse crescimento. No acompanhamento do projeto, o investimento em divulgação por ads e na reformulação do aplicativo se pagou no trimestre.",
+        "metrics": [
+          {
+            "value": "+50%",
+            "label": "visualizações das matérias",
+            "note": "Comparação com o ano anterior à funcionalidade no app."
+          },
+          {
+            "value": "No trimestre",
+            "label": "retorno do investimento",
+            "note": "Investimento em divulgação por ads e reformulação do aplicativo."
+          }
         ]
       },
       {
@@ -275,7 +322,14 @@ export const athleteCase = {
       {
         "eyebrow": "A DECISION I MADE",
         "title": "One purchase journey.\nMore events in the app.",
-        "text": "I defined a unified web-based purchase journey inside the app. This avoided building multiple purchase interfaces and allowed us to support more events. Previously, we had to select which events could appear in the app because some were incompatible with the experience and caused problems."
+        "text": "I defined a unified web-based purchase journey inside the app. This avoided building multiple purchase interfaces and allowed us to support more events. Previously, we had to select which events could appear in the app because some were incompatible with the experience and caused problems.Coverage of events supported in the app increased from 30% to 100%.",
+        "chart": "coverage"
+      },
+      {
+        "eyebrow": "PURCHASE CONVERSION",
+        "title": "From 20% to 70%\nin the app journey.",
+        "text": "Conversion among users starting a purchase in the app remained at 20% for about a year and a half. Athletes reported having to leave the app because of bugs or limitations to continue the journey elsewhere. Following the new version, conversion reached 70% among users starting a purchase in the app.",
+        "chart": "conversion"
       },
       {
         "eyebrow": "THE ECOSYSTEM",
@@ -329,6 +383,24 @@ export const athleteCase = {
           {
             "title": "Event catalog",
             "text": "More events could be offered through the app, overcoming restrictions of the previous experience."
+          }
+        ],
+        "chart": "ratings"
+      },
+      {
+        "eyebrow": "CONTENT AND INVESTMENT PAYBACK",
+        "title": "More readership.\nPayback within the quarter.",
+        "text": "Article views grew by 50% compared with the previous year, before the feature existed in the app. Ad consumption followed that growth. According to project monitoring, the investment in advertising and the app redesign paid for itself within the quarter.",
+        "metrics": [
+          {
+            "value": "+50%",
+            "label": "article views",
+            "note": "Compared with the year before the in-app feature."
+          },
+          {
+            "value": "Within quarter",
+            "label": "investment payback",
+            "note": "Investment in advertising and the app redesign."
           }
         ]
       },

@@ -28,8 +28,8 @@ export const home = {
     casesIntro: "Meu papel, as decisões e as entregas do time. Três cases para mostrar como transformo necessidades de negócio e de usuários em produto.",
     projects: [
       { category: "PLATAFORMA · ESCALA", title: "Ticket Sports → Ingresse", subtitle: "Migração e São Silvestre", description: "Adaptação da plataforma às necessidades do esporte. Na São Silvestre, a operação movimentou cerca de R$ 40 milhões de GMV em um dia.", color: "orange" },
-      { category: "OPERAÇÃO · EXPERIÊNCIA", title: "App de Check-in", subtitle: "Entrega de kits, mesmo sem internet", description: "Entrega de kits pelo celular, com QR Code ou CPF. A operação continua sem internet e sincroniza ao reconectar.", color: "green" },
-      { category: "MOBILE · EVOLUÇÃO", title: "App do Atleta", subtitle: "Compra unificada e evolução da experiência", description: "React Native, compra unificada e conteúdo Webrun. As avaliações chegaram a 4,5 nas lojas Apple e Android.", color: "blue" },
+      { category: "OPERAÇÃO · EXPERIÊNCIA", title: "App de Check-in", subtitle: "Entrega de kits, mesmo sem internet", description: "Mais de 50 mil kits em mais de 100 eventos. A espera na fila passou de 50 para 20–30 minutos, com operação online e offline.", color: "green" },
+      { category: "MOBILE · EVOLUÇÃO", title: "App do Atleta", subtitle: "Compra unificada e evolução da experiência", description: "Compra unificada, conteúdo Webrun e conversão de 20% para 70% na jornada do app. Avaliações de 4,5 nas duas lojas.", color: "blue" },
     ],
     casePreview: "Ler case",
     aboutEyebrow: "02 / QUEM É O YAGO",
@@ -67,8 +67,8 @@ export const home = {
     casesIntro: "My role, the decisions and the team’s delivery. Three case studies showing how I turn business and user needs into product work.",
     projects: [
       { category: "PLATFORM · SCALE", title: "Ticket Sports → Ingresse", subtitle: "Migration and São Silvestre", description: "Adapting the platform to sports-specific needs. The São Silvestre operation processed about R$ 40 million in GMV in one day.", color: "orange" },
-      { category: "OPERATIONS · EXPERIENCE", title: "Check-in App", subtitle: "Kit pickup, even offline", description: "Kit pickup on a phone using QR codes or CPF. Operations continue offline and sync on reconnection.", color: "green" },
-      { category: "MOBILE · EVOLUTION", title: "Athlete App", subtitle: "Unified purchases and an evolving experience", description: "React Native, unified purchases and Webrun content. Ratings reached 4.5 in both Apple and Android stores.", color: "blue" },
+      { category: "OPERATIONS · EXPERIENCE", title: "Check-in App", subtitle: "Kit pickup, even offline", description: "Over 50,000 kits across more than 100 events. Queue waiting time moved from 50 to 20–30 minutes, with online and offline operation.", color: "green" },
+      { category: "MOBILE · EVOLUTION", title: "Athlete App", subtitle: "Unified purchases and an evolving experience", description: "Unified purchases, Webrun content and purchase conversion from 20% to 70% in the app. Ratings of 4.5 in both stores.", color: "blue" },
     ],
     casePreview: "Read case study",
     aboutEyebrow: "02 / ABOUT YAGO",

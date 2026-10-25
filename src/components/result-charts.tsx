@@ -48,3 +48,34 @@ export function GrowthChart({ lang }: { lang: Language }) {
     <p className="chart-note">{copy.growthNote}</p>
   </figure>;
 }
+
+const comparisonLabels = {
+  pt: {
+    before: "Antes", after: "Depois",
+    conversion: { title: "Conversão de compra no app", scale: "Compras concluídas / jornadas iniciadas", before: "20%", after: "70%", note: "A conversão anterior ficou em 20% por cerca de um ano e meio. Após a nova versão, chegou a 70% entre quem iniciava a jornada de compra no app. A janela exata da nova medição não está detalhada." },
+    coverage: { title: "Eventos suportados no app", scale: "Cobertura de eventos (%)", before: "30%", after: "100%", note: "Cobertura de eventos reportada no acompanhamento do produto: de 30% para 100% após a evolução do aplicativo." },
+    queue: { title: "Tempo de espera na fila de retirada", scale: "Espera em minutos", before: "50 min", after: "20–30 min", note: "Tempos relatados no acompanhamento da operação. A faixa de 20–30 minutos representa a espera após a adoção do app, sem estimar uma média única." },
+  },
+  en: {
+    before: "Before", after: "After",
+    conversion: { title: "In-app purchase conversion", scale: "Completed purchases / journeys started", before: "20%", after: "70%", note: "Previous conversion remained at 20% for about a year and a half. Following the new version, it reached 70% among users starting the purchase journey in the app. The exact new measurement window is not detailed." },
+    coverage: { title: "Events supported in the app", scale: "Event coverage (%)", before: "30%", after: "100%", note: "Event coverage reported during product monitoring: from 30% to 100% following the app’s evolution." },
+    queue: { title: "Waiting time in the pickup queue", scale: "Wait in minutes", before: "50 min", after: "20–30 min", note: "Times reported while monitoring operations. The 20–30-minute range represents waiting time after app adoption, without estimating a single average." },
+  },
+} as const;
+
+export function ComparisonChart({ lang, kind, compact = false }: { lang: Language; kind: "queue" | "conversion" | "coverage"; compact?: boolean }) {
+  const labels = comparisonLabels[lang];
+  const copy = labels[kind];
+  const conversion = kind !== "queue";
+  const before = kind === "coverage" ? 30 : conversion ? 20 : 100;
+  const after = kind === "coverage" ? 100 : conversion ? 70 : 40;
+  const ticks = conversion ? [0, 25, 50, 75, 100] : [0, 10, 20, 30, 40, 50];
+  return <figure className={`result-chart comparison-chart${compact ? " result-chart-compact" : ""}`}>
+    <figcaption className="chart-heading"><span>{copy.title}</span><span className="chart-scale">{copy.scale}</span></figcaption>
+    <div className="chart-row"><span className="chart-label">{labels.before}</span><div className="chart-track" aria-hidden="true"><span className="comparison-before" style={{ width: `${before}%` }} /></div><span className="chart-value">{copy.before}</span></div>
+    <div className="chart-row"><span className="chart-label">{labels.after}</span><div className="chart-track" aria-hidden="true"><span style={{ width: `${after}%` }} />{!conversion && <span className="comparison-range" style={{ left: "40%", width: "20%" }} />}</div><span className="chart-value">{copy.after}</span></div>
+    <div className="chart-axis" aria-hidden="true">{ticks.map((tick) => <span key={tick}>{tick}{conversion ? "%" : ""}</span>)}</div>
+    <p className="chart-note">{copy.note}</p>
+  </figure>;
+}

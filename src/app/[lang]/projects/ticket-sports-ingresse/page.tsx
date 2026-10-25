@@ -56,6 +56,10 @@ export default async function MigrationCase({ params }: Props) {
           <div><p className="eyebrow">{copy.cadenceEyebrow}</p><h2 id="case-cadence-heading">{copy.cadenceTitle}</h2><p>{copy.cadenceText}</p></div>
           <ol>{copy.cadenceSteps.map((step, index) => <li key={step}><span aria-hidden="true">0{index + 1}</span>{step}</li>)}</ol>
         </section>
+        <section className="case-scale" aria-labelledby="case-business-heading">
+          <p className="eyebrow">{copy.businessEyebrow}</p><h2 id="case-business-heading" className="case-launch-title whitespace-pre-line">{copy.businessTitle}</h2><p className="case-delivery-intro">{copy.businessText}</p>
+          <dl className="case-metrics business-metrics">{copy.businessMetrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl>
+        </section>
         <section className="case-scale" aria-labelledby="case-scale-heading">
           <h2 id="case-scale-heading" className="eyebrow">{copy.scaleEyebrow}</h2>
           <p className="case-scale-note">{copy.scaleNote}</p>
