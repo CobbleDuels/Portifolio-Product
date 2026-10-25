@@ -38,7 +38,7 @@ export const migrationCase = {
       "decisionTitle": "Construir dentro da Ingresse",
       "decisionText": "Optamos por uma nova experiência no ambiente Ingresse, integrada à criação do evento e aos questionários com estoque. A plataforma fornecia uma planilha-modelo: o responsável preenchia os dados dos atletas e importava o arquivo para gerar um pedido de inscrição para o grupo. A escolha conectava esse canal de venda à operação da nova plataforma.",
       "resultTitle": "Da necessidade identificada ao uso real",
-      "resultText": "A solução foi entregue e comercializada. Cerca de 10 mil grupos utilizaram a nova experiência de inscrição na operação da São Silvestre de 2026. O escopo definido para essa experiência foi concluído, sem funcionalidades deixadas para uma etapa posterior."
+      "resultText": "A solução foi entregue e comercializada. Cerca de 10 mil grupos utilizaram a nova experiência de inscrição na operação da São Silvestre de 2026. No resultado anual do canal de grupos, a meta de R$ 25 milhões de GMV também foi atingida em 2026. O escopo definido para essa experiência foi concluído, sem funcionalidades deixadas para uma etapa posterior."
     },
     "deliveryEyebrow": "O QUE CONSTRUÍMOS COMO TIME",
     "deliveryTitle": "Autonomia para o atleta.\nRegras conectadas à operação.",
@@ -132,7 +132,7 @@ export const migrationCase = {
       "decisionTitle": "Build within Ingresse",
       "decisionText": "We chose a new experience within Ingresse, integrated with event creation and inventory-linked questionnaires. The platform provided a spreadsheet template: the group leader filled in athlete details and uploaded the file to generate a registration order for the group. The choice connected that sales channel to operations on the new platform.",
       "resultTitle": "From an identified need to actual usage",
-      "resultText": "The solution was delivered and commercialized. Around 10,000 groups used the new registration experience during the 2026 São Silvestre operation. The defined scope was completed, with no features deferred to a later phase."
+      "resultText": "The solution was delivered and commercialized. Around 10,000 groups used the new registration experience during the 2026 São Silvestre operation. Across the group sales channel’s annual results, the R$ 25 million GMV target was also reached in 2026. The defined scope was completed, with no features deferred to a later phase."
     },
     "deliveryEyebrow": "WHAT WE BUILT AS A TEAM",
     "deliveryTitle": "Athlete autonomy.\nRules connected to operations.",
@@ -226,7 +226,7 @@ export const migrationCase = {
       "decisionTitle": "Construir dentro de Ingresse",
       "decisionText": "Elegimos una nueva experiencia dentro de Ingresse, integrada con la creación de eventos y los cuestionarios vinculados al inventario. La plataforma ofrecía una plantilla de hoja de cálculo: el responsable completaba los datos de los atletas e importaba el archivo para generar un pedido de inscripción para el grupo. La decisión conectaba ese canal de venta con la operación de la nueva plataforma.",
       "resultTitle": "De una necesidad identificada al uso real",
-      "resultText": "La solución se entregó y se comercializó. Cerca de 10.000 grupos utilizaron la nueva experiencia de inscripción en la operación de São Silvestre de 2026. Se completó el alcance definido, sin funcionalidades aplazadas para una fase posterior."
+      "resultText": "La solución se entregó y se comercializó. Cerca de 10.000 grupos utilizaron la nueva experiencia de inscripción en la operación de São Silvestre de 2026. En el resultado anual del canal de grupos, también se alcanzó la meta de R$ 25 millones de GMV en 2026. Se completó el alcance definido, sin funcionalidades aplazadas para una fase posterior."
     },
     "deliveryEyebrow": "LO QUE CONSTRUIMOS COMO EQUIPO",
     "deliveryTitle": "Autonomía para el atleta.\nReglas conectadas a la operación.",
