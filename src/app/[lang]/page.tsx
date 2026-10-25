@@ -46,7 +46,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <div className="project-top"><span className="project-number">0{index + 1}</span><span className="project-category">{project.category}</span></div>
                 <h3>{project.title}</h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p>
                 {index === 0 ? <Link href={`/${lang}${migrationPath}`} className="project-case-link">{copy.casePreview}<Arrow diagonal /></Link> : <details><summary>{copy.details}<span aria-hidden="true">+</span></summary><p className="project-detail">{project.detail}</p></details>}
-                <p className="project-status"><span aria-hidden="true" />{copy.inProgress}</p>
+                {index !== 0 && <p className="project-status"><span aria-hidden="true" />{copy.inProgress}</p>}
                 </div>
               </article>
             ))}
@@ -59,7 +59,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <div className="about-photo"><Image src="/images/yago-casual-esportivo-hq.webp" unoptimized alt={copy.portraitAlt} fill sizes="(max-width: 760px) min(340px, calc(100vw - 40px)), 340px" /></div>
             <figcaption><span>Yago Jesus</span><span>Product Manager</span></figcaption>
           </figure>
-          <div className="about-content"><p className="eyebrow">{copy.aboutEyebrow}</p><h2 id="about-heading" className="whitespace-pre-line">{copy.aboutTitle}</h2><div className="about-copy"><p>{copy.aboutText}</p></div></div>
+          <div className="about-content"><p className="eyebrow">{copy.aboutEyebrow}</p><h2 id="about-heading" className="whitespace-pre-line">{copy.aboutTitle}</h2><div className="about-copy"><p>{copy.aboutText}</p></div><dl className="profile-background" aria-label={copy.backgroundLabel}>{copy.background.map((item) => <div key={item.title}><dt>{item.title}</dt><dd>{item.detail}</dd>{"status" in item && <dd className="education-status">{item.status}</dd>}</div>)}</dl></div>
         </section>
         <section id="contact" className="contact-section page-width section-anchor" aria-labelledby="contact-heading">
           <div><p className="eyebrow">{copy.contactEyebrow}</p><h2 id="contact-heading">{copy.contactTitle}</h2><p className="contact-introduction">{copy.contactText}</p></div>

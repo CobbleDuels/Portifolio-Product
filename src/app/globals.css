@@ -223,3 +223,9 @@ details[open] summary span { transform: rotate(45deg); }
 .contact-links a:hover .contact-channel { text-decoration: underline; text-underline-offset: 5px; }
 @media (max-width: 760px) { .contact-section { grid-template-columns: 1fr; gap: 20px; padding-block: 32px; } }
 @media (max-width: 480px) { .header-navigation { gap: 10px; } }
+
+.profile-background { margin-top: 24px; border-top: 1px solid var(--line); }
+.profile-background > div { padding-block: 18px; border-bottom: 1px solid var(--line); }
+.profile-background dt { font-size: 14px; font-weight: 600; line-height: 1.5; }
+.profile-background dd { margin-top: 7px; font-size: 13px; line-height: 1.8; color: var(--muted); }
+.profile-background .education-status { font-size: 11px; }
