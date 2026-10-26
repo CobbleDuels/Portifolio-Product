@@ -16,6 +16,9 @@
   --visual-line: #a2a2a2;
   --hover: #d1d1d1;
   --cover: #e9eef1;
+  --radius-control: 10px;
+  --radius-card: 18px;
+  --radius-photo: 24px;
 }
 :root[data-theme="light"] {
   color-scheme: light;
@@ -35,7 +38,7 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: Aria
 ::selection { background: var(--ink); color: var(--paper); }
 a { text-decoration: none; }
 a, summary, button { -webkit-tap-highlight-color: transparent; }
-a:focus-visible, summary:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; border-radius: 2px; }
+a:focus-visible, summary:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; }
 .page-width { width: min(1200px, calc(100% - 112px)); margin-inline: auto; }
 .site-header { min-height: 90px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
 .brand { font-size: 29px; font-weight: 700; letter-spacing: -1.8px; }
@@ -352,3 +355,17 @@ details[open] summary span { transform: rotate(45deg); }
 @media (max-width: 380px) { .comparison-chart .chart-row { grid-template-columns: 50px minmax(0, 1fr) 75px; } .comparison-chart .chart-axis { margin-inline: 58px 83px; } .comparison-chart.result-chart-compact .chart-row { grid-template-columns: 50px minmax(0, 1fr) 45px; } .comparison-chart.result-chart-compact .chart-axis { margin-inline: 58px 53px; } }
 
 .business-metrics { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+
+.hero-profile { border-radius: var(--radius-photo); overflow: hidden; }
+.hero-photo { border-radius: var(--radius-photo); }
+.project-card { border-radius: var(--radius-card); overflow: hidden; }
+.primary-button, .project-case-link, .skip-link,
+.language-picker > summary, .welcome-language-options a { border-radius: var(--radius-control); }
+.language-menu { border-radius: 14px; }
+.language-menu a { border-radius: 8px; }
+.language-welcome { border-radius: var(--radius-photo); }
+.case-product-capture > a, .case-hero .project-visual { border-radius: var(--radius-card); overflow: hidden; }
+.product-gallery, .case-brief > div, .case-metrics > div,
+.app-case-steps li, .evidence-summary,
+.result-chart:not(.result-chart-compact) { border-radius: var(--radius-card); }
+.product-gallery-images img { border-radius: var(--radius-control); }

@@ -52,6 +52,7 @@ export function LanguagePicker({ lang, path }: { lang: Language; path: string })
     remember(language);
     const destination = new URL(location.href);
     destination.pathname = `/${language}${path}`;
+    destination.hash = "";
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
       event.currentTarget.href = destination.href;
       return;
