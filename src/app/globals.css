@@ -77,8 +77,9 @@ h2 { font-size: clamp(27px, 2.5vw, 34px); font-weight: 400; letter-spacing: -.04
 .project-card { border: 1px solid var(--line); background: var(--surface); }
 .project-body { padding: 20px; }
 .project-cover { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-bottom: 1px solid var(--line); }
-.project-cover-migration { background: #fff; }
-.project-cover-migration img { object-fit: cover; object-position: 50% 45%; }
+.project-cover-migration { display: flex; align-items: center; justify-content: center; background: #e9eef1; }
+.migration-cover-art { width: 86%; overflow: hidden; border: 1px solid #d1d7dc; border-radius: 8px; box-shadow: 0 8px 22px #0002; transform: rotate(-3deg); }
+.migration-cover-art img { display: block; width: 100%; height: auto; }
 .project-cover-athlete { display: flex; align-items: center; justify-content: center; background: #e9eef1; }
 .athlete-cover-art { width: 43%; aspect-ratio: 900 / 1060; overflow: hidden; border-radius: 10px; box-shadow: 0 8px 22px #0002; transform: rotate(-4deg); }
 .athlete-cover-art img { display: block; width: 100%; height: auto; }
@@ -147,8 +148,9 @@ details[open] summary span { transform: rotate(45deg); }
   .site-footer { align-items: flex-start; }
 }
 @media (max-width: 480px) { .about-nav { display: none; } .header-navigation { gap: 16px; } .hero-actions { column-gap: 20px; } .text-link { font-size: 11px; } }
-.project-case-link { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-block: 12px; font-size: 11px; }
-.project-case-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.project-case-link { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 52px; margin-top: 22px; padding: 14px 16px; border: 1px solid var(--ink); background: var(--ink); color: var(--paper); font-size: 13px; font-weight: 600; line-height: 1.5; }
+.project-case-link svg { flex-shrink: 0; }
+.project-case-link:hover { background: var(--hover); }
 .case-main { padding-bottom: 44px; }
 .case-back { margin-top: 25px; color: var(--muted); }
 .case-hero { display: grid; grid-template-columns: 1.5fr 1fr; align-items: center; gap: 70px; padding-block: 35px 50px; }

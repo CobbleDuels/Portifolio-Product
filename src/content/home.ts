@@ -53,7 +53,7 @@ export const home = {
         "color": "blue"
       }
     ],
-    "casePreview": "Ler case",
+    "casePreview": "Ver decisões e resultados",
     "aboutEyebrow": "02 / QUEM É O YAGO",
     "portraitAlt": "Yago Jesus sorrindo, usando óculos e camiseta preta, em um evento.",
     "aboutTitle": "Visão de produto.\nRepertório técnico.",
@@ -121,7 +121,7 @@ export const home = {
         "color": "blue"
       }
     ],
-    "casePreview": "Read case study",
+    "casePreview": "See decisions and results",
     "aboutEyebrow": "02 / ABOUT YAGO",
     "portraitAlt": "Yago Jesus smiling, wearing glasses and a black shirt at an event.",
     "aboutTitle": "Product perspective.\nTechnical expertise.",
@@ -189,7 +189,7 @@ export const home = {
         "color": "blue"
       }
     ],
-    "casePreview": "Leer caso",
+    "casePreview": "Ver decisiones y resultados",
     "aboutEyebrow": "02 / SOBRE YAGO",
     "portraitAlt": "Yago Jesus sonriendo, con gafas y camiseta negra, en un evento.",
     "aboutTitle": "Visión de producto.\nExperiencia técnica.",
