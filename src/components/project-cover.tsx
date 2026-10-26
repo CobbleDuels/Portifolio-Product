@@ -1,0 +1,27 @@
+import Image from "next/image";
+import type { Language } from "@/content/home";
+
+const descriptions = {
+  pt: ["Página da São Silvestre 101 na plataforma Ingresse", "App de Check-in: seleção de eventos", "App de Check-in: busca de atletas e confirmação de retirada", "App do Atleta: catálogo de eventos esportivos"],
+  en: ["São Silvestre 101 page on the Ingresse platform", "Check-in App: event selection", "Check-in App: athlete search and kit pickup confirmation", "Athlete App: sports event catalog"],
+  es: ["Página de la São Silvestre 101 en la plataforma Ingresse", "App de Check-in: selección de eventos", "App de Check-in: búsqueda de atletas y confirmación de entrega", "App del Atleta: catálogo de eventos deportivos"],
+};
+
+export function ProjectCover({ index, lang }: { index: number; lang: Language }) {
+  const alt = descriptions[lang];
+
+  if (index === 1) return <div className="project-cover project-cover-checkin">
+    <Image src="/images/checkin-eventos.webp" alt={alt[1]} width={900} height={1600} unoptimized />
+    <Image src="/images/checkin-atletas.webp" alt={alt[2]} width={900} height={1600} unoptimized />
+  </div>;
+
+  return <div className={`project-cover ${index === 0 ? "project-cover-migration" : "project-cover-athlete"}`}>
+    <Image
+      src={index === 0 ? "/images/sao-silvestre-ingresse.png" : "/images/app-atleta-catalogo.webp"}
+      alt={index === 0 ? alt[0] : alt[3]}
+      fill
+      sizes="(max-width: 760px) calc(100vw - 40px), 400px"
+      unoptimized
+    />
+  </div>;
+}
