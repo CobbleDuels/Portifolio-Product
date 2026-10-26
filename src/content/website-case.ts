@@ -4,14 +4,14 @@ export const websiteCase = {
   "pt": {
     "metaTitle": "Evolução do site legado — Yago Jesus",
     "metaDescription": "Evolução do site legado com PostHog: mais de 500 mil acessos na semana de lançamento e acompanhamento de crescimento e retenção.",
-    "eyebrow": "EVOLUÇÃO DO SITE",
+    "eyebrow": "04 / EVOLUÇÃO DO SITE LEGADO",
     "capture": {
       "alt": "Página inicial da Ticket Sports, com busca de eventos, acesso para grupos esportivos e conteúdo para atletas e organizadores.",
       "caption": "Ticket Sports · Busca e descoberta de eventos na experiência web.",
       "openLabel": "Ampliar imagem",
       "visitLabel": "Visitar site da Ticket Sports"
     },
-    "title": "Evoluir a experiência.\nTornar a jornada mensurável.",
+    "title": "Melhorar a experiência.\nMedir a jornada de compra.",
     "introduction": "Evolução do site legado com mais de 500 mil acessos na semana de lançamento. Duas frentes de medição: acompanhar acessos e retorno com PostHog e investigar o rastreamento da compra no Google e na Meta.",
     "text": "Instalamos o PostHog para acompanhar acessos e retorno do público no site novo. Nas primeiras semanas, os acessos cresceram 30% em relação a 2025, com aumento de 10% na retenção. Esta evolução do site foi uma iniciativa independente da migração de plataforma.",
     "note": "Resultados do projeto medidos e apurados já na Ingresse.",
@@ -37,17 +37,17 @@ export const websiteCase = {
     "sections": [
       {
         "eyebrow": "O PROBLEMA DE MENSURAÇÃO",
-        "title": "Uma compra concluída.\nUma conversão que precisava aparecer.",
+        "title": "Compra concluída.\nMensuração incompleta.",
         "text": "Após a atualização do site, as áreas próximas do cliente relataram falhas no acompanhamento dos eventos da jornada de compra pelo Google e pela Meta. Isso dificultava atribuir conversões aos anúncios e avaliar os investimentos em mídia. Os relatos de clientes e de suas assessorias de marketing ajudaram a confirmar que havia um problema na nossa implementação."
       },
       {
         "eyebrow": "MINHA ATUAÇÃO",
-        "title": "Mobilizar a especialidade\nque faltava à investigação.",
+        "title": "Trazer a especialidade certa.\nInvestigar antes de corrigir.",
         "text": "Solicitei a contratação de um especialista para investigar o rastreamento com o time. Revisamos o código e testamos a jornada de compra. Após duas semanas de análise, o especialista apresentou o que precisava ser incluído e ajustado. O objetivo técnico era validar o evento purchase de ponta a ponta, criando a base para o cliente acompanhar conversões e avaliar o retorno dos anúncios."
       },
       {
         "eyebrow": "APRENDIZADO DE PRODUTO",
-        "title": "Investigar os sinais cedo.\nDar visibilidade ao risco.",
+        "title": "Antecipar a investigação.\nProteger decisões de investimento.",
         "text": "A leitura inicial foi que precisávamos de mais tempo de análise após a atualização do site. Hoje, eu anteciparia a investigação dos primeiros relatos e buscaria apoio especializado mais cedo. Falhas de mensuração afetam decisões de investimento: validar a jornada e mobilizar o conhecimento necessário deve fazer parte da resposta inicial ao problema."
       }
     ]
@@ -55,14 +55,14 @@ export const websiteCase = {
   "en": {
     "metaTitle": "Improving the legacy website — Yago Jesus",
     "metaDescription": "Legacy website improvements tracked with PostHog: over 500,000 accesses in launch week, with growth and retention monitoring.",
-    "eyebrow": "WEBSITE IMPROVEMENT",
+    "eyebrow": "04 / LEGACY WEBSITE EVOLUTION",
     "capture": {
       "alt": "Ticket Sports homepage with event search, access for sports groups and content for athletes and organizers.",
       "caption": "Ticket Sports · Event search and discovery on the website.",
       "openLabel": "Enlarge image",
       "visitLabel": "Visit Ticket Sports website"
     },
-    "title": "Evolve the experience.\nMake the journey measurable.",
+    "title": "Improve the experience.\nMeasure the purchase journey.",
     "introduction": "Legacy website improvements with over 500,000 accesses in launch week. Two measurement streams: tracking accesses and returning visitors through PostHog, and investigating purchase tracking in Google and Meta.",
     "text": "We installed PostHog to track accesses and returning visitors on the new site. During the first weeks, accesses grew 30% compared with 2025, with a 10% increase in retention. This website improvement was independent of the platform migration.",
     "note": "Project results measured and consolidated at Ingresse.",
@@ -88,17 +88,17 @@ export const websiteCase = {
     "sections": [
       {
         "eyebrow": "THE MEASUREMENT PROBLEM",
-        "title": "A completed purchase.\nA conversion that needed to be visible.",
+        "title": "Purchase completed.\nMeasurement incomplete.",
         "text": "After the website update, client-facing teams reported failures in tracking purchase-journey events through Google and Meta. This made it harder to attribute conversions to ads and evaluate media investment. Reports from clients and their marketing agencies helped confirm a problem in our implementation."
       },
       {
         "eyebrow": "MY CONTRIBUTION",
-        "title": "Bring in the expertise\nthe investigation needed.",
+        "title": "Bring in the right expertise.\nInvestigate before fixing.",
         "text": "I requested a specialist to investigate tracking with the team. We reviewed code and tested the purchase journey. After two weeks of analysis, the specialist presented the additions and adjustments needed. The technical goal was to validate the purchase event end to end, providing the foundation for clients to track conversions and evaluate advertising returns."
       },
       {
         "eyebrow": "PRODUCT LEARNING",
-        "title": "Investigate signals early.\nMake the risk visible.",
+        "title": "Investigate earlier.\nProtect investment decisions.",
         "text": "Our initial reading was that we needed more analysis time after the website update. Today, I would investigate the first reports and seek specialist support earlier. Measurement failures affect investment decisions: validating the journey and mobilizing the necessary expertise should be part of the initial response."
       }
     ]
@@ -106,14 +106,14 @@ export const websiteCase = {
   "es": {
     "metaTitle": "Evolución del sitio web — Yago Jesus",
     "metaDescription": "Mejora del sitio web con PostHog: más de 500.000 accesos en la semana de lanzamiento y seguimiento del crecimiento y la retención.",
-    "eyebrow": "EVOLUCIÓN DEL SITIO WEB",
+    "eyebrow": "04 / EVOLUCIÓN DEL SITIO LEGADO",
     "capture": {
       "alt": "Página de inicio de Ticket Sports, con búsqueda de eventos, acceso para grupos deportivos y contenido para atletas y organizadores.",
       "caption": "Ticket Sports · Búsqueda y descubrimiento de eventos en la web.",
       "openLabel": "Ampliar imagen",
       "visitLabel": "Visitar sitio de Ticket Sports"
     },
-    "title": "Mejorar la experiencia.\nHacer medible el recorrido.",
+    "title": "Mejorar la experiencia.\nMedir el recorrido de compra.",
     "introduction": "Evolución del sitio anterior con más de 500.000 accesos en la semana de lanzamiento. Dos frentes de medición: accesos y retorno con PostHog, e investigación del seguimiento de compras en Google y Meta.",
     "text": "Instalamos PostHog para seguir los accesos y el retorno del público al nuevo sitio. En las primeras semanas, los accesos crecieron un 30% respecto a 2025, con un aumento del 10% en la retención. Esta evolución fue independiente de la migración de plataforma.",
     "note": "Resultados del proyecto medidos y consolidados ya en Ingresse.",
@@ -139,17 +139,17 @@ export const websiteCase = {
     "sections": [
       {
         "eyebrow": "EL PROBLEMA DE MEDICIÓN",
-        "title": "Una compra completada.\nUna conversión que debía verse.",
+        "title": "Compra completada.\nMedición incompleta.",
         "text": "Tras la actualización del sitio, las áreas cercanas al cliente señalaron fallos en el seguimiento de los eventos de compra mediante Google y Meta. Eso dificultaba atribuir conversiones a los anuncios y evaluar la inversión publicitaria. Los comentarios de clientes y sus agencias de marketing ayudaron a confirmar un problema en nuestra implementación."
       },
       {
         "eyebrow": "MI CONTRIBUCIÓN",
-        "title": "Incorporar la especialidad\nque faltaba en la investigación.",
+        "title": "Incorporar la especialidad adecuada.\nInvestigar antes de corregir.",
         "text": "Solicité la contratación de un especialista para investigar el seguimiento con el equipo. Revisamos el código y probamos el recorrido de compra. Tras dos semanas de análisis, el especialista presentó lo que había que incorporar y ajustar. El objetivo técnico era validar el evento purchase de principio a fin, creando la base para que el cliente siguiera las conversiones y evaluara el retorno publicitario."
       },
       {
         "eyebrow": "APRENDIZAJE DE PRODUCTO",
-        "title": "Investigar las señales pronto.\nHacer visible el riesgo.",
+        "title": "Anticipar la investigación.\nProteger decisiones de inversión.",
         "text": "La interpretación inicial fue que necesitábamos más tiempo de análisis tras la actualización del sitio. Hoy investigaría los primeros comentarios y buscaría apoyo especializado antes. Los fallos de medición afectan a las decisiones de inversión: validar el recorrido y movilizar el conocimiento necesario debe formar parte de la respuesta inicial."
       }
     ]

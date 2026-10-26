@@ -27,7 +27,7 @@ export default async function MigrationCase({ params }: Props) {
   return <>
     <a href="#main" className="skip-link">{home[lang].skip}</a>
     <SiteHeader lang={lang} path={migrationPath} />
-    <main id="main" tabIndex={-1} className="case-main page-width">
+    <main id="main" tabIndex={-1} className="case-main case-main-migration page-width">
       <Link href={`/${lang}#projects`} className="text-link case-back"><span className="rotate-180"><Arrow /></span>{copy.back}</Link>
       <article>
         <header className="case-hero migration-hero">

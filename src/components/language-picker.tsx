@@ -22,7 +22,6 @@ function hasPreference() {
 
 export function LanguagePicker({ lang, path }: { lang: Language; path: string }) {
   const menu = useRef<HTMLDetailsElement>(null);
-  const dialog = useRef<HTMLDialogElement>(null);
   const [suggested, setSuggested] = useState<Language>(lang);
   const [welcome, setWelcome] = useState(false);
   const welcomeCopy = copy[suggested];
@@ -34,17 +33,8 @@ export function LanguagePicker({ lang, path }: { lang: Language; path: string })
     }
   }, [lang]);
 
-  useEffect(() => {
-    if (welcome && !dialog.current?.open) {
-      dialog.current?.showModal();
-      dialog.current?.querySelector<HTMLAnchorElement>(".suggested-language")?.focus();
-    }
-    return () => { if (dialog.current?.open) dialog.current.close(); };
-  }, [welcome]);
-
   function dismiss() {
     remember(lang);
-    dialog.current?.close();
     setWelcome(false);
   }
 
@@ -73,15 +63,15 @@ export function LanguagePicker({ lang, path }: { lang: Language; path: string })
         {languages.map(language => <a key={language} href={`/${language}${path}`} hrefLang={language === "pt" ? "pt-BR" : language} lang={language === "pt" ? "pt-BR" : language} aria-current={lang === language ? "page" : undefined} onClick={event => choose(event, language)}>{languageNames[language]}<span aria-hidden="true">{lang === language ? "✓" : "↗"}</span></a>)}
       </nav>
     </details>
-    <dialog className="language-welcome" ref={dialog} aria-labelledby="language-welcome-title" aria-describedby="language-welcome-description" onCancel={dismiss}>
+    {welcome && <aside className="language-welcome" aria-labelledby="language-welcome-title" onKeyDown={event => { if (event.key === "Escape") dismiss(); }}>
       <p className="eyebrow">PORTUGUÊS · ENGLISH · ESPAÑOL</p>
       <h2 id="language-welcome-title">{welcomeCopy.title}</h2>
       <p id="language-welcome-description">{welcomeCopy.text}</p>
       <div className="welcome-language-options">
-        {languages.map(language => <a key={language} href={`/${language}${path}`} lang={language === "pt" ? "pt-BR" : language} hrefLang={language === "pt" ? "pt-BR" : language} className={language === suggested ? "suggested-language" : undefined} onClick={event => choose(event, language)}><strong>{languageNames[language]}</strong>{language === suggested && <span>{welcomeCopy.suggested}</span>}<span aria-hidden="true">↗</span></a>)}
+        {languages.map(language => <a key={language} href={`/${language}${path}`} lang={language === "pt" ? "pt-BR" : language} hrefLang={language === "pt" ? "pt-BR" : language} className={language === suggested ? "suggested-language" : undefined} onClick={event => choose(event, language)}><strong>{languageNames[language]}</strong><span aria-hidden="true">↗</span></a>)}
       </div>
       <button className="language-welcome-continue" type="button" onClick={dismiss}>{copy[lang].close}</button>
-      <p className="language-welcome-note">{welcomeCopy.note}</p>
-    </dialog>
+      <p className="language-welcome-note">{welcomeCopy.suggested}: {languageNames[suggested]}. {welcomeCopy.note}</p>
+    </aside>}
   </>;
 }

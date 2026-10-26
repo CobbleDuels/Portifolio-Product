@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 
-const readingBlocks = ".hero-profile, .hero-copy, .home-evidence, .project-card, .about-section, .contact-section, .case-hero, .website-hero, .case-reading-nav, .case-product-capture, .case-brief, .case-main article > section, .case-ending, .site-footer";
+const readingBlocks = ".hero-profile, .hero-copy, .home-evidence, .project-card, .about-section, .contact-section, .case-hero, .website-hero, .case-reading-nav, .case-product-capture, .case-brief, .case-main article > section, .case-ending, .site-footer, .result-chart";
 
 export function ReadingMotion() {
   const pathname = usePathname();
@@ -52,7 +52,7 @@ export function ReadingMotion() {
         if (!entry.isIntersecting) continue;
         // Reveal once. Anchor destinations and focused content stay immediately steady.
         if (!entry.target.contains(anchor) && !entry.target.contains(document.activeElement)) {
-          entry.target.classList.add("motion-enter");
+          entry.target.classList.add(entry.target.matches(".result-chart") ? "chart-enter" : "motion-enter");
         }
         observer.unobserve(entry.target);
       }
@@ -63,7 +63,7 @@ export function ReadingMotion() {
       if (!anchor) return;
       blocks.forEach(block => {
         if (block.contains(anchor)) {
-          block.classList.remove("motion-enter");
+          block.classList.remove("motion-enter", "chart-enter");
           observer.unobserve(block);
         }
       });
@@ -74,7 +74,7 @@ export function ReadingMotion() {
     return () => {
       observer.disconnect();
       window.removeEventListener("hashchange", settleAnchor);
-      blocks.forEach(block => block.classList.remove("motion-enter"));
+      blocks.forEach(block => block.classList.remove("motion-enter", "chart-enter"));
     };
   }, [pathname]);
 
