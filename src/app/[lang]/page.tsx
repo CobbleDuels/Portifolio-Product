@@ -9,7 +9,7 @@ import { SiteHeader } from "@/components/site-header";
 import { websiteCase, websitePath } from "@/content/website-case";
 import { migrationPath } from "@/content/migration-case";
 import { EvidenceSummary } from "@/components/evidence-summary";
-import { ProjectVisual } from "@/components/project-visual";
+import { ProjectCover } from "@/components/project-cover";
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -45,7 +45,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <div className="projects-grid">
             {copy.projects.map((project, index) => (
               <article key={project.title} className="project-card">
-                <ProjectVisual index={index} lang={lang} />
+                <ProjectCover index={index} lang={lang} />
                 <div className="project-body">
                 <div className="project-top"><span className="project-number">0{index + 1}</span><span className="project-category">{project.category}</span></div>
                 <h3>{project.title}</h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p>

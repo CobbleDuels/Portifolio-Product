@@ -76,6 +76,15 @@ h2 { font-size: clamp(27px, 2.5vw, 34px); font-weight: 400; letter-spacing: -.04
 .projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
 .project-card { border: 1px solid var(--line); background: var(--surface); }
 .project-body { padding: 20px; }
+.project-cover { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-bottom: 1px solid var(--line); }
+.project-cover-migration { background: #fff; }
+.project-cover-migration img { object-fit: cover; object-position: 50% 45%; }
+.project-cover-athlete { background: #009ffd; }
+.project-cover-athlete img { object-fit: cover; object-position: 50% 28%; }
+.project-cover-checkin { display: flex; justify-content: center; align-items: flex-start; gap: 16px; padding: 20px 16px 0; background: #e9eef1; }
+.project-cover-checkin img { display: block; width: 39%; height: auto; border: 1px solid #d1d7dc; border-radius: 10px; box-shadow: 0 8px 22px #0002; }
+.project-cover-checkin img:first-child { transform: translateY(12px) rotate(-6deg); }
+.project-cover-checkin img:last-child { transform: rotate(6deg); }
 .project-visual { position: relative; margin: 0; background: var(--visual); color: var(--visual-line); border-bottom: 1px solid var(--line); }
 .project-visual svg { display: block; width: 100%; height: auto; }
 .project-visual figcaption { position: absolute; bottom: 9px; left: 12px; font-size: 8px; letter-spacing: .1em; color: var(--muted); }
