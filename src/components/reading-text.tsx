@@ -2,6 +2,7 @@ import { Fragment } from "react";
 
 // Editorial emphasis only: keep the original wording and avoid highlighting whole paragraphs.
 const phrases = [
+  "Full Stack .NET/C#",
   "3 anos em Produto", "do problema à publicação", "escuta de clientes", "decisões de produto",
   "3 years in Product", "from the problem through launch", "product decisions",
   "3 años en Producto", "desde el problema hasta el lanzamiento", "decisiones de producto",
