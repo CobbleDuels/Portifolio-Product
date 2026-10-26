@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { home, isLanguage, languages } from "@/content/home";
 import { pageMetadata } from "@/lib/seo";
+import { ReadingMotion } from "@/components/reading-motion";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -19,6 +20,6 @@ export default async function RootLayout({ children, params }: Readonly<{ childr
   if (!isLanguage(lang)) notFound();
   return <html lang={lang === "pt" ? "pt-BR" : lang} suppressHydrationWarning>
     <head><script dangerouslySetInnerHTML={{ __html: `try{document.documentElement.dataset.theme=localStorage.getItem('yago-portfolio-theme')==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}` }} /></head>
-    <body>{children}</body>
+    <body>{children}<ReadingMotion /></body>
   </html>;
 }
