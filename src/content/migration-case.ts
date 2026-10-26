@@ -67,13 +67,13 @@ export const migrationCase = {
       }
     ],
     "businessEyebrow": "CONTEXTO DO NEGÓCIO",
-    "businessTitle": "Negócio em escala.\nContinuidade na migração.",
-    "businessText": "A Ticket Sports atingiu R$ 500 milhões de GMV acumulado em 2026. Durante a migração para a Ingresse, o churn de organizadores ficou abaixo de 10%. O primeiro indicador descreve a escala geral da empresa; o segundo acompanha a base de organizadores na transição. São resultados coletivos do negócio.",
+    "businessTitle": "Metas maiores.\nResultado antecipado.",
+    "businessText": "Em 2022, a meta anual da Ticket Sports era de R$ 180 milhões de GMV. Em 2026, a meta havia avançado para R$ 500 milhões e foi atingida com três meses de antecedência. Minhas decisões e meu planejamento como PM contribuíram para essa evolução, junto à execução da equipe: unificar a compra no app, ampliar os eventos suportados e dar mais autonomia a atletas e organizadores. Durante a migração para a Ingresse, o churn de organizadores ficou abaixo de 10%.",
     "businessMetrics": [
       {
         "value": "R$ 500 mi",
-        "label": "GMV geral da TS em 2026",
-        "note": "Volume bruto transacionado acumulado no ano. Resultado da empresa."
+        "label": "meta anual de GMV atingida em 2026",
+        "note": "Meta de R$ 500 milhões alcançada com três meses de antecedência."
       },
       {
         "value": "<10%",
@@ -183,13 +183,13 @@ export const migrationCase = {
       }
     ],
     "businessEyebrow": "BUSINESS CONTEXT",
-    "businessTitle": "Business at scale.\nContinuity through migration.",
-    "businessText": "Ticket Sports reached R$ 500 million in accumulated GMV in 2026. During the migration to Ingresse, organizer churn remained below 10%. The first indicator describes the company’s overall scale; the second tracks the organizer base through the transition. These are collective business outcomes.",
+    "businessTitle": "Higher targets.\nReached ahead of schedule.",
+    "businessText": "In 2022, Ticket Sports had an annual GMV target of R$ 180 million. By 2026, the target had risen to R$ 500 million and was reached three months ahead of year-end. My decisions and planning as a PM contributed to that progress alongside the team’s execution: unifying in-app purchases, expanding supported events and giving athletes and organizers more autonomy. During the migration to Ingresse, organizer churn remained below 10%.",
     "businessMetrics": [
       {
         "value": "R$ 500m",
-        "label": "TS total GMV in 2026",
-        "note": "Gross transaction value accumulated during the year. A company result."
+        "label": "annual GMV target reached in 2026",
+        "note": "R$ 500 million target reached three months ahead of year-end."
       },
       {
         "value": "<10%",
@@ -299,13 +299,13 @@ export const migrationCase = {
       }
     ],
     "businessEyebrow": "CONTEXTO DEL NEGOCIO",
-    "businessTitle": "Negocio a gran escala.\nContinuidad durante la migración.",
-    "businessText": "Ticket Sports alcanzó R$ 500 millones de GMV acumulado en 2026. Durante la migración a Ingresse, la pérdida de organizadores (churn) se mantuvo por debajo del 10%. El primer indicador describe la escala general de la empresa; el segundo, la base de organizadores durante la transición. Son resultados colectivos del negocio.",
+    "businessTitle": "Metas mayores.\nResultados anticipados.",
+    "businessText": "En 2022, la meta anual de Ticket Sports era de R$ 180 millones de GMV. En 2026, la meta había aumentado a R$ 500 millones y se alcanzó con tres meses de anticipación al cierre del año. Mis decisiones y mi planificación como PM contribuyeron a esa evolución junto con la ejecución del equipo: unificar la compra en la app, ampliar los eventos compatibles y dar más autonomía a atletas y organizadores. Durante la migración a Ingresse, el churn de organizadores se mantuvo por debajo del 10%.",
     "businessMetrics": [
       {
         "value": "R$ 500 M",
-        "label": "GMV general de TS en 2026",
-        "note": "Volumen bruto transaccionado acumulado en el año. Resultado de la empresa."
+        "label": "meta anual de GMV alcanzada en 2026",
+        "note": "Meta de R$ 500 millones alcanzada tres meses antes del cierre del año."
       },
       {
         "value": "<10%",

@@ -65,7 +65,7 @@ export const home = {
     "portraitAlt": "Yago Jesus sorrindo, usando óculos e camiseta preta, em um evento.",
     "aboutTitle": "Visão de produto.\nRepertório técnico.",
     "aboutText": "Atuei como desenvolvedor Full Stack .NET/C# antes de concentrar minha atuação em Produto. Essa vivência me ajuda a discutir alternativas com engenharia e considerar esforço de implementação, manutenção e restrições técnicas nas decisões. Como PM, conecto esse repertório à escuta de clientes, à validação com UX e aos objetivos do negócio, conduzindo o trabalho do problema à entrega.",
-    "aboutNote": "Negócio, tecnologia, execução e experiência do usuário são partes da mesma conversa.",
+    "aboutNote": "Decisões e planejamento de Produto que contribuíram, junto ao time, para atingir a meta anual de R$ 500 milhões de GMV em 2026 com três meses de antecedência.",
     "backgroundLabel": "Experiência e formação",
     "background": [
       {
@@ -144,7 +144,7 @@ export const home = {
     "portraitAlt": "Yago Jesus smiling, wearing glasses and a black shirt at an event.",
     "aboutTitle": "Product perspective.\nTechnical expertise.",
     "aboutText": "I worked as a Full Stack .NET/C# developer before focusing on Product. That experience helps me discuss alternatives with engineering and consider implementation effort, maintenance and technical constraints in product decisions. As a PM, I connect that knowledge with client interviews, UX validation and business goals, leading work from problem to delivery.",
-    "aboutNote": "Business, technology, delivery and user experience are all part of the same conversation.",
+    "aboutNote": "Product decisions and planning that contributed, alongside the team, to reaching the R$ 500 million annual GMV target in 2026 three months ahead of year-end.",
     "backgroundLabel": "Experience and education",
     "background": [
       {
@@ -223,7 +223,7 @@ export const home = {
     "portraitAlt": "Yago Jesus sonriendo, con gafas y camiseta negra, en un evento.",
     "aboutTitle": "Visión de producto.\nExperiencia técnica.",
     "aboutText": "Trabajé como desarrollador Full Stack .NET/C# antes de centrar mi trayectoria en Producto. Esa experiencia me ayuda a discutir alternativas con ingeniería y considerar el esfuerzo de implementación, el mantenimiento y las restricciones técnicas al tomar decisiones. Como PM, conecto ese conocimiento con la escucha de clientes, la validación con UX y los objetivos del negocio, liderando el trabajo desde el problema hasta la entrega.",
-    "aboutNote": "Negocio, tecnología, ejecución y experiencia de usuario forman parte de la misma conversación.",
+    "aboutNote": "Decisiones y planificación de Producto que contribuyeron, junto al equipo, a alcanzar la meta anual de R$ 500 millones de GMV en 2026 tres meses antes del cierre del año.",
     "backgroundLabel": "Experiencia y formación",
     "background": [
       {
