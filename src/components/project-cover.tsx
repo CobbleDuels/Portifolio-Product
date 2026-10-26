@@ -22,12 +22,8 @@ export function ProjectCover({ index, lang }: { index: number; lang: Language })
   </div>;
 
   return <div className="project-cover project-cover-migration">
-    <Image
-      src="/images/sao-silvestre-ingresse.png"
-      alt={alt[0]}
-      fill
-      sizes="(max-width: 760px) calc(100vw - 40px), 400px"
-      unoptimized
-    />
+    <div className="migration-cover-art">
+      <Image src="/images/sao-silvestre-ingresse.png" alt={alt[0]} width={1892} height={942} unoptimized />
+    </div>
   </div>;
 }

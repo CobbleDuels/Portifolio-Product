@@ -49,7 +49,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <div className="project-body">
                 <div className="project-top"><span className="project-number">0{index + 1}</span><span className="project-category">{project.category}</span></div>
                 <h3>{project.title}</h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p>
-                <Link href={`/${lang}${[migrationPath, "/projects/app-check-in", "/projects/app-atleta"][index]}`} className="project-case-link">{copy.casePreview}<Arrow diagonal /></Link>
+                <Link href={`/${lang}${[migrationPath, "/projects/app-check-in", "/projects/app-atleta"][index]}`} className="project-case-link" aria-label={`${copy.casePreview}: ${project.title}`}>{copy.casePreview}<Arrow diagonal /></Link>
                 </div>
               </article>
             ))}
