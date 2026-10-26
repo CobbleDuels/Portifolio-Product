@@ -543,3 +543,53 @@ p strong, dd strong { color: var(--ink); font-weight: 700; }
   .language-welcome { inset: auto 16px 16px; width: auto; padding: 18px; }
   .contact-section { padding: 26px; }
 }
+
+/* Case-specific editorial pacing: decisions, evidence and reflection have distinct rhythms. */
+.case-chapter-number { display: block; font-family: Georgia, 'Times New Roman', serif; font-size: 30px; font-style: italic; line-height: 1; color: var(--muted); margin-bottom: 22px; }
+.case-main-app .case-hero { grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); align-items: start; gap: 64px; padding-block: 42px 48px; }
+.case-main-app .case-hero h1 { max-width: 19ch; }
+.case-main-app .product-gallery { background: var(--surface); padding: 24px; }
+.case-main-app .product-gallery-images img { max-height: 520px; }
+.case-main-app .case-introduction { max-width: 54ch; }
+.case-main-app .case-context { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); }
+.case-chapter-role .case-context > div { padding-left: 24px; border-left: 3px solid var(--line); }
+.case-chapter-results .case-context { display: block; padding-bottom: 28px; }
+.case-chapter-results .case-context > div { max-width: 700px; }
+.case-chapter-results .case-context > p { max-width: 76ch; margin-top: 24px; }
+.case-chapter-results .result-chart { padding: 32px; margin-bottom: 36px; }
+.case-chapter-results .chart-heading { font-size: 17px; }
+.case-chapter-results .chart-track { height: 20px; }
+.app-case-steps { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.app-case-steps li { padding: 26px; }
+.case-main-migration .case-product-capture > a, .case-main-website .case-product-capture > a { padding: 18px; background: var(--surface); }
+.case-main-migration .case-product-capture img, .case-main-website .case-product-capture img { border-radius: 10px; }
+.case-main-migration .case-priority[aria-labelledby="case-priority-heading"] { padding: 32px; margin-block: 12px 30px; border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--surface); }
+.case-main-migration .case-role-grid > div { padding-left: 22px; border-left: 1px solid var(--line); }
+.case-main-migration .case-cadence li { padding-block: 22px; font-size: 15px; }
+.case-main-migration .case-cadence li span { font-family: Georgia, 'Times New Roman', serif; font-size: 18px; padding-top: 0; }
+.case-main-migration .business-metrics .case-metric-value { font-size: clamp(40px, 4.5vw, 58px); }
+.website-results { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 48px; align-items: start; }
+.website-results-intro h2 { max-width: 20ch; }
+.website-results-intro .case-delivery-intro { margin-bottom: 16px; }
+.website-results-evidence { min-width: 0; }
+.website-results-evidence .case-metrics { grid-template-columns: 1fr; gap: 0; margin-top: 0; }
+.website-results-evidence .case-metrics > div { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 0 24px; padding: 22px 0; border: 0; border-radius: 0; border-top: 1px solid var(--line); background: transparent; }
+.website-results-evidence .case-metric-value { grid-column: 1; grid-row: 1 / span 2; align-self: center; font-size: 42px; }
+.website-results-evidence .case-metrics dt, .website-results-evidence .case-metric-note { grid-column: 2; margin-top: 0; }
+.website-results-evidence .case-metric-note { margin-top: 6px; }
+.website-chapter:last-of-type { margin-top: 18px; padding: 32px; border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--surface); }
+@media (max-width: 1050px) {
+  .case-main-app .case-hero { gap: 32px; }
+  .website-results { grid-template-columns: 1fr; gap: 24px; }
+}
+@media (max-width: 760px) {
+  .case-main-app .case-hero, .case-main-app .case-context { grid-template-columns: 1fr; gap: 24px; }
+  .case-main-app .case-hero { padding-block: 30px 36px; }
+  .case-main-app .product-gallery { padding: 18px; }
+  .case-chapter-number { font-size: 26px; margin-bottom: 18px; }
+  .case-chapter-results .result-chart { padding: 20px; }
+  .case-chapter-results .chart-heading { font-size: 15px; }
+  .case-main-migration .case-product-capture > a, .case-main-website .case-product-capture > a { padding: 8px; }
+  .case-main-migration .case-priority[aria-labelledby="case-priority-heading"], .website-chapter:last-of-type { padding: 24px; }
+  .website-results-evidence .case-metric-value { font-size: 36px; }
+}

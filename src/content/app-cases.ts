@@ -12,18 +12,18 @@ export const checkInCase = {
   "pt": {
     "metaTitle": "App de Check-in — Yago Jesus",
     "metaDescription": "Um app para entrega de kits esportivos por QR Code ou CPF, com operação online e offline e sincronização posterior.",
-    "eyebrow": "02 / OPERAÇÃO · EXPERIÊNCIA",
-    "title": "A entrega de kits.\nNa palma da mão.",
+    "eyebrow": "02 / APP DE CHECK-IN · OPERAÇÃO",
+    "title": "Entregar kits.\nCom ou sem internet.",
     "introduction": "Conduzi um app de retirada de kits da validação à publicação, com primeira versão entregue em 12 semanas. A demanda chegou pelo CS a partir de um cliente e se conectava à visão de reunir ferramentas para o organizador. O time entregou operação online e offline; o app foi usado em mais de 100 eventos e na entrega de mais de 50 mil kits.",
     "sections": [
       {
         "eyebrow": "DA DEMANDA À VISÃO DE PRODUTO",
-        "title": "Uma necessidade do cliente.\nUma ferramenta para o ecossistema.",
+        "title": "Da demanda de um cliente\na uma ferramenta para a operação.",
         "text": "A demanda chegou internamente pelo CS, após um cliente perguntar sobre uma facilidade já oferecida por um concorrente. A operação de kits dependia de internet, notebooks e acesso ao SaaS. Apuramos a necessidade e entendemos sua aderência à visão de reunir, em um só ambiente, os produtos que auxiliavam o organizador. Como não havia API pública para esses dados cadastrais e internos, a proposta foi desenvolver a ferramenta dentro do próprio ecossistema."
       },
       {
         "eyebrow": "CRITÉRIO DE PRODUTO",
-        "title": "A entrega não podia\ndepender da conexão.",
+        "title": "QR Code, CPF e sincronização.\nRetirada que continua offline.",
         "text": "A necessidade era retirar a dependência de notebooks, acesso ao SaaS e suporte constante do organizador. A proposta foi concentrar no celular a busca por QR Code ou CPF, a conferência dos itens e o registro da retirada. Para funcionar no local do evento, o app precisava continuar operando quando a internet caísse e sincronizar os registros ao reconectar.",
         "items": [
           {
@@ -42,12 +42,12 @@ export const checkInCase = {
       },
       {
         "eyebrow": "ACESSOS NA OPERAÇÃO",
-        "title": "Usuários individuais.\nVinculados ao organizador.",
+        "title": "Acesso individual.\nOperação ligada ao organizador.",
         "text": "O sistema já estava preparado para múltiplos usuários. Orientamos o organizador e nosso time a criar acessos individuais vinculados ao organizador e aos pontos de check-in. Assim, cada pessoa podia operar com seu próprio usuário, preservando o acesso principal do cliente. Essa configuração atendia à necessidade de colocar diferentes pessoas na entrega dos kits sem compartilhar o usuário principal."
       },
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
-        "title": "Da rotina do cliente\nao produto em campo.",
+        "title": "Validar com o cliente.\nConduzir da iniciativa à loja.",
         "text": "Conduzi entrevistas e apresentações com o cliente para entender a rotina de retirada e coletar feedback. Traduzi a demanda em iniciativa e user stories, validei o design com UX e alinhei o trabalho com o time. Acompanhei a execução e a publicação nas lojas. A engenharia implementou a solução, e a equipe acompanhou o atendimento da operação no lançamento.",
         "items": [
           {
@@ -117,18 +117,18 @@ export const checkInCase = {
   "en": {
     "metaTitle": "Check-in App — Yago Jesus",
     "metaDescription": "A mobile app for sports kit pickup using QR codes or CPF, supporting online and offline operation and subsequent synchronization.",
-    "eyebrow": "02 / OPERATIONS · EXPERIENCE",
-    "title": "Kit pickup.\nIn the palm of your hand.",
+    "eyebrow": "02 / CHECK-IN APP · OPERATIONS",
+    "title": "Kit pickup.\nWith or without a connection.",
     "introduction": "I led a kit-pickup app from validation through publication, with the first version delivered in 12 weeks. The request came through CS from a client and aligned with the vision of bringing organizer tools together. The team delivered online and offline operation; the app was used at over 100 events to hand out more than 50,000 kits.",
     "sections": [
       {
         "eyebrow": "FROM REQUEST TO PRODUCT VISION",
-        "title": "A client need.\nA tool for the ecosystem.",
+        "title": "From a client request\nto a tool for event operations.",
         "text": "The request came internally through CS after a client asked about a convenience already offered by a competitor. Kit pickup depended on internet, laptops and SaaS access. We investigated the need and its fit with the vision of bringing organizer tools into one environment. With no public API for that registration and internal data, the proposal was to build the tool within the existing ecosystem."
       },
       {
         "eyebrow": "PRODUCT CRITERION",
-        "title": "Pickup could not\ndepend on connectivity.",
+        "title": "QR codes, CPF and sync.\nPickup that keeps working offline.",
         "text": "The need was to remove dependency on laptops, SaaS access and constant support from the organizer. The proposal brought QR-code or CPF lookup, item checking and pickup recording together on a phone. To work at an event venue, the app had to keep operating when connectivity dropped and synchronize records upon reconnection.",
         "items": [
           {
@@ -147,12 +147,12 @@ export const checkInCase = {
       },
       {
         "eyebrow": "OPERATOR ACCESS",
-        "title": "Individual accounts.\nLinked to the organizer.",
+        "title": "Individual access.\nLinked to the organizer.",
         "text": "The system already supported multiple users. We instructed the organizer and our team to create individual accounts linked to the organizer and the check-in points. Each person could operate through their own account while preserving the client’s primary account. This setup allowed different people to hand out kits without sharing the primary account."
       },
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
-        "title": "From the client’s workflow\nto a product in the field.",
+        "title": "Validate with the client.\nLead from initiative to app store.",
         "text": "I conducted client interviews and presentations to understand the pickup workflow and collect feedback. I translated the request into a product initiative and user stories, validated designs with UX and aligned the team. I followed execution and store publication. Engineering implemented the solution, and the team supported operations at launch.",
         "items": [
           {
@@ -222,18 +222,18 @@ export const checkInCase = {
   "es": {
     "metaTitle": "App de Check-in — Yago Jesus",
     "metaDescription": "Aplicación para la entrega de kits deportivos por QR o CPF, con funcionamiento sin conexión, sincronización automática y uso en más de 100 eventos.",
-    "eyebrow": "02 / OPERACIONES · EXPERIENCIA",
-    "title": "La entrega de kits.\nEn la palma de la mano.",
+    "eyebrow": "02 / APP DE CHECK-IN · OPERACIÓN",
+    "title": "Entregar kits.\nCon o sin conexión.",
     "introduction": "Lideré una app de recogida de kits desde la validación hasta la publicación, con una primera versión entregada en 12 semanas. La demanda llegó a través de CS desde un cliente y encajaba con la visión de reunir herramientas para el organizador. El equipo entregó funcionamiento online y offline; la app se utilizó en más de 100 eventos y para entregar más de 50.000 kits.",
     "sections": [
       {
         "eyebrow": "DE LA DEMANDA A LA VISIÓN DE PRODUCTO",
-        "title": "Una necesidad del cliente.\nUna herramienta para el ecosistema.",
+        "title": "De la necesidad de un cliente\na una herramienta para la operación.",
         "text": "La demanda llegó internamente a través de CS después de que un cliente preguntara por una facilidad ofrecida por un competidor. La entrega de kits dependía de internet, ordenadores y acceso al SaaS. Investigamos la necesidad y su encaje con la visión de reunir las herramientas del organizador en un solo entorno. Como no había una API pública para esos datos de registro e internos, la propuesta fue desarrollar la herramienta dentro del propio ecosistema."
       },
       {
         "eyebrow": "CRITERIO DE PRODUCTO",
-        "title": "La entrega no podía\ndepender de la conexión.",
+        "title": "QR, CPF y sincronización.\nEntrega que continúa sin conexión.",
         "text": "La necesidad era eliminar la dependencia de ordenadores, acceso al SaaS y soporte constante del organizador. La propuesta reunió en el móvil la búsqueda por QR o CPF (identificador fiscal brasileño), la verificación de artículos y el registro de la entrega. Para funcionar en el evento, la app debía seguir operando al perder la conexión y sincronizar los registros al recuperarla.",
         "items": [
           {
@@ -252,12 +252,12 @@ export const checkInCase = {
       },
       {
         "eyebrow": "ACCESOS EN LA OPERACIÓN",
-        "title": "Usuarios individuales.\nVinculados al organizador.",
+        "title": "Acceso individual.\nVinculado al organizador.",
         "text": "El sistema ya admitía múltiples usuarios. Indicamos al organizador y a nuestro equipo que crearan accesos individuales vinculados al organizador y a los puntos de check-in. Cada persona podía operar con su propio usuario, preservando el acceso principal del cliente. Esta configuración permitía que distintas personas entregaran kits sin compartir el usuario principal."
       },
       {
         "eyebrow": "MI CONTRIBUCIÓN COMO PM",
-        "title": "De la rutina del cliente\nal producto en campo.",
+        "title": "Validar con el cliente.\nLiderar desde la iniciativa hasta la tienda.",
         "text": "Realicé entrevistas y presentaciones con el cliente para entender la operación y recoger comentarios. Traduje la demanda en una iniciativa y en historias de usuario, validé el diseño con UX y coordiné el trabajo con el equipo. Acompañé la ejecución y la publicación en las tiendas. Ingeniería implementó la solución y el equipo dio soporte a la operación durante el lanzamiento.",
         "items": [
           {
@@ -330,29 +330,29 @@ export const athleteCase = {
   "pt": {
     "metaTitle": "App do Atleta — Yago Jesus",
     "metaDescription": "App do Atleta em React Native: jornada de compra unificada, integração Webrun e evolução das avaliações para 4,5 nas lojas Apple e Android.",
-    "eyebrow": "03 / MOBILE · EVOLUÇÃO",
-    "title": "Mais que manter um app.\nEvoluir a experiência.",
+    "eyebrow": "03 / APP DO ATLETA · MOBILE",
+    "title": "Unificar a compra.\nAmpliar a experiência.",
     "introduction": "Defini uma jornada web de compra dentro do app para superar incompatibilidades entre eventos e evitar manter várias interfaces. Conduzi a evolução com o time, da iniciativa à publicação em React Native. A cobertura de eventos passou de 30% para 100%, e a conversão entre usuários que iniciavam a compra foi de 20% para 70%.",
     "sections": [
       {
         "eyebrow": "O PROBLEMA",
-        "title": "A manutenção se tornou\num limite para o produto.",
+        "title": "Manutenção limitada.\nA experiência do atleta em risco.",
         "text": "Poucas pessoas do time dominavam .NET MAUI, e implementar novidades era trabalhoso no contexto da equipe. Com a dificuldade de manutenção, os bugs se acumulavam e afetavam a percepção da plataforma de compra. O desafio envolvia tanto a capacidade de evoluir o produto quanto a experiência e a reputação da marca."
       },
       {
         "eyebrow": "DECISÃO DE PRODUTO",
-        "title": "Unificar a compra\npara ampliar o catálogo.",
+        "title": "Reaproveitar a jornada web.\nAmpliar a cobertura de eventos.",
         "text": "Avaliamos construir as telas de compra diretamente no app, mas esse caminho exigiria substituir uma tecnologia em um ponto crítico do legado. Isso ampliaria o prazo em um time que também precisava sustentar o sistema existente. Defini o uso da jornada web dentro do aplicativo: ela já estava quase pronta e precisava de adaptação responsiva. O critério foi reaproveitar o que já funcionava, com menor esforço de implementação e maior alcance para a compra. A cobertura de eventos no app passou de 30% para 100%.",
         "chart": "coverage"
       },
       {
         "eyebrow": "A EVOLUÇÃO DA BASE",
-        "title": "Uma base que o time\nconseguisse evoluir.",
+        "title": "Trocar a base técnica\npara viabilizar a evolução.",
         "text": "A experiência também dependia da capacidade de manutenção. Poucas pessoas dominavam .NET MAUI na equipe, e implementar melhorias era trabalhoso. A mudança para React Native respondeu a essa restrição de conhecimento e implementação. A escolha da base técnica estava ligada à continuidade do produto: corrigir problemas e viabilizar novas entregas."
       },
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
-        "title": "Conectar a experiência\nà capacidade de entrega.",
+        "title": "Decidir com UX e engenharia.\nConduzir até a publicação.",
         "text": "Assumi a iniciativa de evolução do app e defini a unificação da jornada de compra. Conduzi entrevistas, apresentações e coleta de feedback com clientes; validei o design com UX e traduzi as decisões em user stories para o time. Acompanhei a execução e a publicação nas lojas. A implementação da nova base e das integrações foi uma entrega conjunta com engenharia.",
         "items": [
           {
@@ -373,7 +373,7 @@ export const athleteCase = {
       },
       {
         "eyebrow": "O ECOSSISTEMA",
-        "title": "Da compra ao conteúdo\nesportivo.",
+        "title": "Integrar o Webrun.\nIr além da compra de inscrições.",
         "text": "Conectamos conteúdo e marketplace ao integrar um blog com o jornalismo esportivo da Webrun, outra marca do grupo. A iniciativa buscava ampliar o contato do atleta com as marcas da empresa e criar mais motivos para usar o app além da compra de inscrições."
       },
       {
@@ -425,29 +425,29 @@ export const athleteCase = {
   "en": {
     "metaTitle": "Athlete App — Yago Jesus",
     "metaDescription": "The Athlete App in React Native: a unified purchase journey, Webrun integration and store ratings improving to 4.5 on Apple and Android.",
-    "eyebrow": "03 / MOBILE · EVOLUTION",
-    "title": "Beyond maintaining an app.\nEvolving the experience.",
+    "eyebrow": "03 / ATHLETE APP · MOBILE",
+    "title": "Unify purchasing.\nExpand the experience.",
     "introduction": "I defined a web purchase journey within the app to overcome event incompatibilities and avoid maintaining multiple interfaces. I led the evolution with the team, from initiative through publication in React Native. Event coverage increased from 30% to 100%, and conversion among users starting a purchase rose from 20% to 70%.",
     "sections": [
       {
         "eyebrow": "THE PROBLEM",
-        "title": "Maintenance became\na product constraint.",
+        "title": "Limited maintenance.\nThe athlete experience at risk.",
         "text": "Few team members knew .NET MAUI, and implementing new capabilities was cumbersome in that team’s context. With maintenance becoming difficult, bugs accumulated and affected perceptions of the purchasing platform. The challenge concerned both the ability to evolve the product and the experience and reputation of the brand."
       },
       {
         "eyebrow": "PRODUCT DECISION",
-        "title": "Unify purchasing\nto expand the catalog.",
+        "title": "Reuse the web purchase journey.\nExpand event coverage.",
         "text": "We considered building purchase screens directly in the app, but that path required replacing technology in a critical part of the legacy system. It would extend delivery time for a team that also had to maintain the existing system. I chose the web purchase journey within the app: it was already largely built and needed responsive adaptation. The criterion was to reuse what already worked, with less implementation effort and broader purchase coverage. Event coverage in the app increased from 30% to 100%.",
         "chart": "coverage"
       },
       {
         "eyebrow": "EVOLVING THE FOUNDATION",
-        "title": "A foundation the team\ncould keep improving.",
+        "title": "Change the technical foundation\nto enable product evolution.",
         "text": "The experience also depended on maintenance capacity. Few people on the team knew .NET MAUI, and implementing improvements was difficult. Moving to React Native addressed that knowledge and implementation constraint. The technical foundation was tied to product continuity: fixing problems and enabling new delivery."
       },
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
-        "title": "Connect the experience\nwith delivery capacity.",
+        "title": "Decide with UX and engineering.\nLead through publication.",
         "text": "I took ownership of the app improvement initiative and defined the unified purchase journey. I conducted client interviews, presentations and feedback collection, validated designs with UX and translated decisions into user stories for the team. I followed execution and store publication. The new foundation and integrations were delivered together with engineering.",
         "items": [
           {
@@ -468,7 +468,7 @@ export const athleteCase = {
       },
       {
         "eyebrow": "THE ECOSYSTEM",
-        "title": "From purchasing to\nsports content.",
+        "title": "Integrate Webrun.\nGo beyond event registration.",
         "text": "We connected content and marketplace by integrating a blog with sports journalism from Webrun, another brand in the group. The initiative aimed to broaden athletes’ contact with the company’s brands and give them more reasons to use the app beyond buying event registrations."
       },
       {
@@ -520,29 +520,29 @@ export const athleteCase = {
   "es": {
     "metaTitle": "App del Atleta — Yago Jesus",
     "metaDescription": "Evolución de la App del Atleta: compra unificada, React Native, integración Webrun y conversión del 20% al 70% entre usuarios que iniciaban la compra.",
-    "eyebrow": "03 / MOBILE · EVOLUCIÓN",
-    "title": "Más que mantener una app.\nMejorar la experiencia.",
+    "eyebrow": "03 / APP DEL ATLETA · MOBILE",
+    "title": "Unificar la compra.\nAmpliar la experiencia.",
     "introduction": "Definí una experiencia de compra web dentro de la app para superar incompatibilidades entre eventos y evitar mantener varias interfaces. Lideré la evolución con el equipo, desde la iniciativa hasta la publicación en React Native. La cobertura de eventos pasó del 30% al 100% y la conversión entre quienes iniciaban la compra, del 20% al 70%.",
     "sections": [
       {
         "eyebrow": "EL PROBLEMA",
-        "title": "El mantenimiento se convirtió\nen un límite para el producto.",
+        "title": "Mantenimiento limitado.\nLa experiencia del atleta en riesgo.",
         "text": "Pocas personas del equipo dominaban .NET MAUI y desarrollar novedades resultaba costoso en esfuerzo. Las dificultades de mantenimiento provocaban una acumulación de errores que afectaba a la experiencia de compra y a la percepción de la marca. El reto implicaba tanto la capacidad de evolucionar el producto como la experiencia del atleta."
       },
       {
         "eyebrow": "DECISIÓN DE PRODUCTO",
-        "title": "Unificar la compra\npara ampliar el catálogo.",
+        "title": "Reutilizar la compra web.\nAmpliar la cobertura de eventos.",
         "text": "Evaluamos construir las pantallas de compra directamente en la app, pero esa opción exigía sustituir una tecnología en un punto crítico del sistema anterior. Eso ampliaría el plazo de un equipo que también debía mantener el sistema existente. Elegí la experiencia web dentro de la app: ya estaba casi lista y necesitaba una adaptación responsive. El criterio fue reutilizar lo que ya funcionaba, con menor esfuerzo de implementación y mayor alcance para la compra. La cobertura de eventos en la app pasó del 30% al 100%.",
         "chart": "coverage"
       },
       {
         "eyebrow": "LA BASE DEL PRODUCTO",
-        "title": "Una base que el equipo\npudiera seguir mejorando.",
+        "title": "Cambiar la base técnica\npara permitir la evolución.",
         "text": "La experiencia también dependía de la capacidad de mantenimiento. Pocas personas del equipo conocían .NET MAUI y resultaba difícil implementar mejoras. El paso a React Native respondió a esa restricción de conocimiento e implementación. La base técnica estaba vinculada a la continuidad del producto: corregir problemas y facilitar nuevas entregas."
       },
       {
         "eyebrow": "MI CONTRIBUCIÓN COMO PM",
-        "title": "Conectar la experiencia\ncon la capacidad de entrega.",
+        "title": "Decidir con UX e ingeniería.\nLiderar hasta la publicación.",
         "text": "Asumí la iniciativa de evolución de la app y definí la unificación de la compra. Realicé entrevistas, presentaciones y recogida de comentarios con clientes; validé el diseño con UX y traduje las decisiones en historias de usuario para el equipo. Acompañé la ejecución y la publicación en las tiendas. La nueva base y las integraciones fueron una entrega conjunta con ingeniería.",
         "items": [
           {
@@ -563,7 +563,7 @@ export const athleteCase = {
       },
       {
         "eyebrow": "EL ECOSISTEMA",
-        "title": "De la compra\nal contenido deportivo.",
+        "title": "Integrar Webrun.\nIr más allá de la inscripción.",
         "text": "Integramos un blog con periodismo deportivo de Webrun, otra marca del grupo. La iniciativa conectaba contenido y marketplace para ampliar el contacto del atleta con las marcas de la empresa y ofrecer motivos para volver a la app más allá de comprar inscripciones."
       },
       {
