@@ -10,6 +10,7 @@ import { websitePath } from "@/content/website-case";
 import { migrationPath } from "@/content/migration-case";
 import { EvidenceSummary } from "@/components/evidence-summary";
 import { ProjectCover } from "@/components/project-cover";
+import { profileData } from "@/lib/seo";
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -22,6 +23,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <SiteHeader lang={lang} />
 
       <main id="main" tabIndex={-1}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(profileData(lang)).replace(/</g, "\\u003c") }} />
         <section className="hero page-width" aria-labelledby="hero-heading">
           <figure className="hero-profile">
             <div className="hero-photo"><Image src="/images/yago-casual-esportivo-hq.webp" unoptimized alt={copy.portraitAlt} fill sizes="(max-width: 760px) calc(100vw - 40px), 430px" loading="eager" fetchPriority="high" /></div>
