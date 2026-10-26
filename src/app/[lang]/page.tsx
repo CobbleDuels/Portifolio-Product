@@ -32,7 +32,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </figure>
           <div className="hero-copy">
             <p className="eyebrow flex items-center gap-3"><span className="accent-square" aria-hidden="true" />{copy.eyebrow}</p>
-            <h1 id="hero-heading">{copy.headline[0]}<br />{copy.headline[1]}<br /><span className="hero-emphasis">{copy.headline[2]}</span></h1>
+            <h1 id="hero-heading">{copy.headline.map((line, index) => <span className="hero-title-line" key={line}><span className={index === 2 ? "hero-emphasis" : undefined}>{line}</span>{index < copy.headline.length - 1 && " "}</span>)}</h1>
             <p className="hero-introduction"><ReadingText>{copy.introduction}</ReadingText></p>
             <div className="hero-actions flex flex-wrap items-center gap-x-7 gap-y-5">
               <a href="#projects" className="primary-button">{copy.primaryCta}<Arrow /></a>

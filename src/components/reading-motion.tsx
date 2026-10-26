@@ -1,12 +1,41 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 
 const readingBlocks = ".hero-profile, .hero-copy, .home-evidence, .project-card, .about-section, .contact-section, .case-hero, .website-hero, .case-reading-nav, .case-product-capture, .case-brief, .case-main article > section, .case-ending, .site-footer";
 
 export function ReadingMotion() {
   const pathname = usePathname();
+  const progress = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    const article = document.querySelector<HTMLElement>(".case-main article");
+    if (!pathname.includes("/projects/") || !article || !progress.current) return;
+
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      const rect = article.getBoundingClientRect();
+      const distance = rect.height - innerHeight;
+      const value = distance <= 0 ? 1 : Math.min(1, Math.max(0, -rect.top / distance));
+      if (progress.current) progress.current.style.transform = `scaleX(${value})`;
+    };
+    const schedule = () => {
+      if (!frame) frame = requestAnimationFrame(update);
+    };
+    const resize = typeof ResizeObserver === "undefined" ? null : new ResizeObserver(schedule);
+    resize?.observe(article);
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    schedule();
+    return () => {
+      cancelAnimationFrame(frame);
+      resize?.disconnect();
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+    };
+  }, [pathname]);
 
   useEffect(() => {
     if (matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) return;
@@ -49,5 +78,5 @@ export function ReadingMotion() {
     };
   }, [pathname]);
 
-  return null;
+  return pathname.includes("/projects/") ? <div className="reading-progress" aria-hidden="true"><span ref={progress} /></div> : null;
 }
