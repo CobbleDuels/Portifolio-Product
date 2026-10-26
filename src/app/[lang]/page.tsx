@@ -1,3 +1,4 @@
+import { ReadingText } from "@/components/reading-text";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -32,7 +33,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <div className="hero-copy">
             <p className="eyebrow flex items-center gap-3"><span className="accent-square" aria-hidden="true" />{copy.eyebrow}</p>
             <h1 id="hero-heading">{copy.headline[0]}<br />{copy.headline[1]}<br /><span className="hero-emphasis">{copy.headline[2]}</span></h1>
-            <p className="hero-introduction">{copy.introduction}</p>
+            <p className="hero-introduction"><ReadingText>{copy.introduction}</ReadingText></p>
             <div className="hero-actions flex flex-wrap items-center gap-x-7 gap-y-5">
               <a href="#projects" className="primary-button">{copy.primaryCta}<Arrow /></a>
               <a href="#about" className="text-link">{copy.secondaryCta}<Arrow diagonal /></a>
@@ -50,7 +51,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <ProjectCover index={index} lang={lang} />
                 <div className="project-body">
                 <div className="project-top"><span className="project-number">0{index + 1}</span><span className="project-category">{project.category}</span></div>
-                <h3>{project.title}</h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p>
+                <h3>{project.title}</h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description"><ReadingText>{project.description}</ReadingText></p>
                 <Link href={`/${lang}${[migrationPath, "/projects/app-check-in", "/projects/app-atleta", websitePath][index]}`} className="project-case-link" aria-label={`${copy.casePreview}: ${project.title}`}>{copy.casePreview}<Arrow diagonal /></Link>
                 </div>
               </article>
@@ -60,14 +61,14 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
         <section id="about" className="about-section page-width section-anchor" aria-labelledby="about-heading">
           <div><p className="eyebrow">{copy.aboutEyebrow}</p><h2 id="about-heading" className="whitespace-pre-line">{copy.aboutTitle}</h2></div>
-          <div className="about-content"><div className="about-copy"><p>{copy.aboutText}</p></div><dl className="profile-background" aria-label={copy.backgroundLabel}>{copy.background.map((item) => <div key={item.title}><dt>{item.title}</dt><dd>{item.detail}</dd>{"status" in item && <dd className="education-status">{item.status}</dd>}</div>)}</dl></div>
+          <div className="about-content"><div className="about-copy"><p><ReadingText>{copy.aboutText}</ReadingText></p></div><p className="about-note">{copy.aboutNote}</p><dl className="profile-background" aria-label={copy.backgroundLabel}>{copy.background.map((item) => <div key={item.title}><dt>{item.title}</dt><dd><ReadingText>{item.detail}</ReadingText></dd>{"status" in item && <dd className="education-status">{item.status}</dd>}</div>)}</dl></div>
         </section>
         <section id="contact" className="contact-section page-width section-anchor" aria-labelledby="contact-heading">
           <div><p className="eyebrow">{copy.contactEyebrow}</p><h2 id="contact-heading">{copy.contactTitle}</h2><p className="contact-introduction">{copy.contactText}</p></div>
           <ul className="contact-links">{contactLinks.map((contact) => <li key={contact.name}><a href={contact.href}><ContactIcon channel={contact.name} /><span className="contact-channel">{contact.name === "E-mail" && lang === "es" ? "Correo electrónico" : contact.name}</span><Arrow diagonal /></a></li>)}</ul>
         </section>
       </main>
-      <footer className="site-footer page-width"><div><p className="footer-name">Yago Jesus<span className="text-accent">.</span></p><p>{copy.footer}</p></div><a href="#top" className="text-link">{copy.backToTop}<span className="-rotate-90"><Arrow /></span></a></footer>
+      <footer className="site-footer page-width"><div><p className="footer-name">Yago Jesus<span className="text-accent">.</span></p><p>{copy.footer}</p></div><a href="#top" className="text-link footer-back">{copy.backToTop}<span className="-rotate-90"><Arrow /></span></a></footer>
     </>
   );
 }
