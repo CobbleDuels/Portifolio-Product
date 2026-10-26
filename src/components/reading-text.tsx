@@ -2,6 +2,9 @@ import { Fragment } from "react";
 
 // Editorial emphasis only: keep the original wording and avoid highlighting whole paragraphs.
 const phrases = [
+  "R$ 180 milhões de GMV", "R$ 500 milhões", "três meses de antecedência",
+  "R$ 180 million", "R$ 500 million", "three months ahead of year-end",
+  "R$ 180 millones de GMV", "R$ 500 millones", "tres meses de anticipación",
   "Full Stack .NET/C#",
   "3 anos em Produto", "do problema à publicação", "escuta de clientes", "decisões de produto",
   "3 years in Product", "from the problem through launch", "product decisions",
