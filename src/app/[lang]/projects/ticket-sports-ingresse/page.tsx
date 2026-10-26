@@ -6,6 +6,7 @@ import { Arrow } from "@/components/arrow";
 import { SiteHeader } from "@/components/site-header";
 import { home, isLanguage } from "@/content/home";
 import { migrationCase, migrationPath } from "@/content/migration-case";
+import { pageMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ lang: string }> };
 
@@ -13,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   if (!isLanguage(lang)) return {};
   const copy = migrationCase[lang];
-  return { title: copy.metaTitle, description: copy.metaDescription };
+  return pageMetadata(lang, migrationPath, copy);
 }
 
 export default async function MigrationCase({ params }: Props) {

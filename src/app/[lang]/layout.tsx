@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { home, isLanguage, languages } from "@/content/home";
+import { pageMetadata } from "@/lib/seo";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -10,7 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!isLanguage(lang)) return {};
-  return { title: home[lang].metaTitle, description: home[lang].metaDescription, robots: { index: false, follow: false } };
+  return { ...pageMetadata(lang, "", home[lang]), verification: { google: "jfhFPbCG7ntyxeCtWaepzUeygQbX7lZMFimOeEnHGNg" } };
 }
 
 export default async function RootLayout({ children, params }: Readonly<{ children: React.ReactNode; params: Promise<{ lang: string }> }>) {

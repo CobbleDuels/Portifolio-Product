@@ -7,13 +7,14 @@ import { GrowthChart } from "@/components/result-charts";
 import { SiteHeader } from "@/components/site-header";
 import { home, isLanguage } from "@/content/home";
 import { websiteCase, websitePath } from "@/content/website-case";
+import { pageMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ lang: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   if (!isLanguage(lang)) return {};
-  return { title: websiteCase[lang].metaTitle, description: websiteCase[lang].metaDescription };
+  return pageMetadata(lang, websitePath, websiteCase[lang]);
 }
 
 export default async function WebsiteCase({ params }: Props) {
