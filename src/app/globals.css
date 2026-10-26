@@ -79,8 +79,9 @@ h2 { font-size: clamp(27px, 2.5vw, 34px); font-weight: 400; letter-spacing: -.04
 .project-cover { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-bottom: 1px solid var(--line); }
 .project-cover-migration { background: #fff; }
 .project-cover-migration img { object-fit: cover; object-position: 50% 45%; }
-.project-cover-athlete { background: #009ffd; }
-.project-cover-athlete img { object-fit: cover; object-position: 50% 28%; }
+.project-cover-athlete { display: flex; align-items: center; justify-content: center; background: #e9eef1; }
+.athlete-cover-art { width: 43%; aspect-ratio: 900 / 1060; overflow: hidden; border-radius: 10px; box-shadow: 0 8px 22px #0002; transform: rotate(-4deg); }
+.athlete-cover-art img { display: block; width: 100%; height: auto; }
 .project-cover-checkin { display: flex; justify-content: center; align-items: flex-start; gap: 16px; padding: 20px 16px 0; background: #e9eef1; }
 .project-cover-checkin img { display: block; width: 39%; height: auto; border: 1px solid #d1d7dc; border-radius: 10px; box-shadow: 0 8px 22px #0002; }
 .project-cover-checkin img:first-child { transform: translateY(12px) rotate(-6deg); }
