@@ -4,9 +4,9 @@ import { ComparisonChart } from "@/components/result-charts";
 import type { Language } from "@/content/home";
 
 const labels = {
-  pt: { title: "PRODUTO EM PRÁTICA", experience: "3 anos em Produto", background: "Experiência em desenvolvimento de software", gmv: "de GMV em um dia", operation: "Operação São Silvestre", rating: "nas duas lojas", app: "App do Atleta", note: "Resultados das entregas do time. Conheça minha atuação em cada case." },
-  en: { title: "PRODUCT WORK IN PRACTICE", experience: "3 years in Product", background: "Software development background", gmv: "in GMV in one day", operation: "São Silvestre operation", rating: "in both app stores", app: "Athlete App", note: "Outcomes from the team’s delivery. Explore my role in each case study." },
-  es: { title: "PRODUCTO EN LA PRÁCTICA", experience: "3 años en Producto", background: "Experiencia en desarrollo de software", gmv: "de GMV en un día", operation: "Operación São Silvestre", rating: "en ambas tiendas", app: "App del Atleta", note: "Resultados del trabajo del equipo. Conoce mi contribución en cada caso." },
+  pt: { title: "PRODUTO EM PRÁTICA", experience: "3 anos em Produto", background: "Trajetória Full Stack .NET/C#", gmv: "de GMV em um dia", operation: "Operação São Silvestre", rating: "nas duas lojas", app: "App do Atleta", note: "Resultados das entregas do time. Conheça minha atuação em cada case." },
+  en: { title: "PRODUCT WORK IN PRACTICE", experience: "3 years in Product", background: "Full Stack .NET/C# background", gmv: "in GMV in one day", operation: "São Silvestre operation", rating: "in both app stores", app: "Athlete App", note: "Outcomes from the team’s delivery. Explore my role in each case study." },
+  es: { title: "PRODUCTO EN LA PRÁCTICA", experience: "3 años en Producto", background: "Trayectoria Full Stack .NET/C#", gmv: "de GMV en un día", operation: "Operación São Silvestre", rating: "en ambas tiendas", app: "App del Atleta", note: "Resultados del trabajo del equipo. Conoce mi contribución en cada caso." },
 } as const;
 
 export function EvidenceSummary({ lang }: { lang: Language }) {
