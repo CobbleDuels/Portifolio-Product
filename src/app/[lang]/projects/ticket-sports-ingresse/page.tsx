@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/arrow";
 import { SiteHeader } from "@/components/site-header";
-import { ProjectVisual } from "@/components/project-visual";
 import { home, isLanguage } from "@/content/home";
 import { migrationCase, migrationPath } from "@/content/migration-case";
 
@@ -26,10 +26,21 @@ export default async function MigrationCase({ params }: Props) {
     <main id="main" tabIndex={-1} className="case-main page-width">
       <Link href={`/${lang}#projects`} className="text-link case-back"><span className="rotate-180"><Arrow /></span>{copy.back}</Link>
       <article>
-        <header className="case-hero">
+        <header className="case-hero migration-hero">
           <div><p className="eyebrow">{copy.eyebrow}</p><h1 className="whitespace-pre-line">{copy.title}</h1><p className="case-introduction">{copy.introduction}</p><p className="project-status"><span aria-hidden="true" />{copy.status}</p></div>
-          <ProjectVisual index={0} lang={lang} />
         </header>
+        <figure className="case-product-capture">
+          <a href="/images/sao-silvestre-ingresse.png" target="_blank" rel="noopener noreferrer" aria-label={copy.capture.openLabel}>
+            <Image src="/images/sao-silvestre-ingresse.png" alt={copy.capture.alt} width={1892} height={942} unoptimized loading="eager" fetchPriority="high" />
+          </a>
+          <figcaption>
+            <span>{copy.capture.caption}</span>
+            <div className="capture-links">
+              <a href="/images/sao-silvestre-ingresse.png" target="_blank" rel="noopener noreferrer" className="text-link">{copy.capture.openLabel}<Arrow diagonal /></a>
+              <a href="https://saosilvestre.ingresse.com/" target="_blank" rel="noopener noreferrer" className="text-link">{copy.capture.visitLabel}<Arrow diagonal /></a>
+            </div>
+          </figcaption>
+        </figure>
         <dl className="case-brief" aria-label={copy.deliveryContextTitle}>
           {copy.deliveryContext.map((item) => <div key={item.title}><dt>{item.title}</dt><dd>{item.text}</dd></div>)}
         </dl>

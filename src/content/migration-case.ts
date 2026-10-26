@@ -9,6 +9,12 @@ export const migrationCase = {
     "title": "Migração de plataforma.\nSão Silvestre em escala.",
     "introduction": "Conduzi a etapa inicial da migração da Ticket Sports para a Ingresse junto a uma equipe de 4 desenvolvedores, conectando o conhecimento do legado às necessidades do cliente. O trabalho começou no início de 2026; a primeira versão entrou em produção em outubro, na operação da São Silvestre.",
     "status": "Primeira versão em produção · Migração em andamento",
+    "capture": {
+      "alt": "Página da São Silvestre 101 na Ingresse, com a marca Ticket Sports by Ingresse, informações do evento e acesso às inscrições.",
+      "caption": "São Silvestre 101 · Página do evento no ambiente Ingresse.",
+      "openLabel": "Ampliar imagem",
+      "visitLabel": "Visitar site do evento"
+    },
     "contextEyebrow": "O CONTEXTO",
     "contextTitle": "Uma nova empresa.\nUma relação a reconstruir.",
     "contextText": "Após a aquisição da Ticket Sports pela Ingresse, nos tornamos a vertical de esportes da empresa. A migração foi oferecida ao cliente em resposta a problemas que haviam desgastado a relação. O desafio era levar a operação para a nova plataforma e criar uma experiência capaz de atender às expectativas alinhadas com ele.",
@@ -119,6 +125,12 @@ export const migrationCase = {
     "title": "Platform migration.\nSão Silvestre at scale.",
     "introduction": "I led the initial stage of the Ticket Sports to Ingresse migration with a team of 4 developers, connecting legacy knowledge with client needs. Work started in early 2026; the first version went live in October during the São Silvestre operation.",
     "status": "First version live · Migration in progress",
+    "capture": {
+      "alt": "São Silvestre 101 page on Ingresse, featuring the Ticket Sports by Ingresse brand, event information and registration access.",
+      "caption": "São Silvestre 101 · Event page on the Ingresse platform.",
+      "openLabel": "Enlarge image",
+      "visitLabel": "Visit event website"
+    },
     "contextEyebrow": "THE CONTEXT",
     "contextTitle": "A new company.\nA relationship to rebuild.",
     "contextText": "After Ingresse acquired Ticket Sports, we became the company’s sports vertical. The migration was offered to the client in response to earlier problems that had strained the relationship. The challenge was to move the operation to the new platform and build an experience that met the expectations agreed with the client.",
@@ -229,6 +241,12 @@ export const migrationCase = {
     "title": "Migración de plataforma.\nSão Silvestre a gran escala.",
     "introduction": "Lideré la etapa inicial de la migración de Ticket Sports a Ingresse con un equipo de 4 desarrolladores, conectando el conocimiento del sistema anterior con las necesidades del cliente. El trabajo comenzó a principios de 2026; la primera versión salió a producción en octubre, en la operación de São Silvestre.",
     "status": "Primera versión en producción · Migración en curso",
+    "capture": {
+      "alt": "Página de la São Silvestre 101 en Ingresse, con la marca Ticket Sports by Ingresse, información del evento y acceso a las inscripciones.",
+      "caption": "São Silvestre 101 · Página del evento en la plataforma Ingresse.",
+      "openLabel": "Ampliar imagen",
+      "visitLabel": "Visitar sitio del evento"
+    },
     "contextEyebrow": "EL CONTEXTO",
     "contextTitle": "Una nueva empresa.\nUna relación por reconstruir.",
     "contextText": "Tras la adquisición de Ticket Sports por Ingresse, nos convertimos en la vertical de deportes de la empresa. Se ofreció la migración al cliente como respuesta a problemas que habían desgastado la relación. El reto era trasladar la operación a la nueva plataforma y crear una experiencia que respondiera a las expectativas acordadas.",
