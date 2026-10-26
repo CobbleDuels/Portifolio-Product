@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Arrow } from "@/components/arrow";
@@ -26,6 +27,18 @@ export default async function WebsiteCase({ params }: Props) {
       <Link href={`/${lang}#projects`} className="text-link case-back"><span className="rotate-180"><Arrow /></span>{home[lang].casesLink}</Link>
       <article>
         <header className="website-hero"><p className="eyebrow">{copy.eyebrow}</p><h1 className="whitespace-pre-line">{copy.title}</h1><p className="case-introduction">{copy.introduction}</p></header>
+        <figure className="case-product-capture">
+          <a href="/images/ticket-sports-site.jpg" target="_blank" rel="noopener noreferrer" aria-label={copy.capture.openLabel}>
+            <Image src="/images/ticket-sports-site.jpg" alt={copy.capture.alt} width={1425} height={891} unoptimized loading="eager" fetchPriority="high" />
+          </a>
+          <figcaption>
+            <span>{copy.capture.caption}</span>
+            <div className="capture-links">
+              <a href="/images/ticket-sports-site.jpg" target="_blank" rel="noopener noreferrer" className="text-link">{copy.capture.openLabel}<Arrow diagonal /></a>
+              <a href="https://www.ticketsports.com.br/" target="_blank" rel="noopener noreferrer" className="text-link">{copy.capture.visitLabel}<Arrow diagonal /></a>
+            </div>
+          </figcaption>
+        </figure>
         <section className="case-scale" aria-labelledby="website-results-heading">
           <h2 id="website-results-heading">{{ pt: "Acessos e retenção", en: "Accesses and retention", es: "Accesos y retención" }[lang]}</h2>
           <p className="case-delivery-intro">{copy.text}</p><p className="case-scale-note">{copy.note}</p>

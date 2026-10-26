@@ -6,7 +6,7 @@ import { ContactIcon } from "@/components/contact-icon";
 import { contactLinks } from "@/content/contact";
 import { home, isLanguage } from "@/content/home";
 import { SiteHeader } from "@/components/site-header";
-import { websiteCase, websitePath } from "@/content/website-case";
+import { websitePath } from "@/content/website-case";
 import { migrationPath } from "@/content/migration-case";
 import { EvidenceSummary } from "@/components/evidence-summary";
 import { ProjectCover } from "@/components/project-cover";
@@ -49,12 +49,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <div className="project-body">
                 <div className="project-top"><span className="project-number">0{index + 1}</span><span className="project-category">{project.category}</span></div>
                 <h3>{project.title}</h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p>
-                <Link href={`/${lang}${[migrationPath, "/projects/app-check-in", "/projects/app-atleta"][index]}`} className="project-case-link" aria-label={`${copy.casePreview}: ${project.title}`}>{copy.casePreview}<Arrow diagonal /></Link>
+                <Link href={`/${lang}${[migrationPath, "/projects/app-check-in", "/projects/app-atleta", websitePath][index]}`} className="project-case-link" aria-label={`${copy.casePreview}: ${project.title}`}>{copy.casePreview}<Arrow diagonal /></Link>
                 </div>
               </article>
             ))}
           </div>
-          <div className="additional-project"><p className="eyebrow">{{ pt: "OUTRA INICIATIVA", en: "ANOTHER INITIATIVE", es: "OTRA INICIATIVA" }[lang]}</p><Link href={`/${lang}${websitePath}`} className="text-link">{websiteCase[lang].metaTitle.replace(" — Yago Jesus", "")}<Arrow diagonal /></Link><p>{websiteCase[lang].introduction}</p></div>
         </section>
 
         <section id="about" className="about-section page-width section-anchor" aria-labelledby="about-heading">

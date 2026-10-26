@@ -29,7 +29,7 @@ export const home = {
     "secondaryCta": "Conheça meu perfil",
     "casesEyebrow": "01 / PROJETOS SELECIONADOS",
     "casesTitle": "Contextos diferentes.\nUm olhar de produto.",
-    "casesIntro": "Os problemas que enfrentei, as decisões que conduzi e os resultados das entregas do time. Plataforma, operação e experiência de compra em três contextos de produto.",
+    "casesIntro": "Os problemas que enfrentei, as decisões que conduzi e os resultados das entregas do time. Plataforma, operação, aplicativos e evolução da experiência web.",
     "projects": [
       {
         "category": "PLATAFORMA · ESCALA",
@@ -50,6 +50,13 @@ export const home = {
         "title": "App do Atleta",
         "subtitle": "Compra unificada e evolução da experiência",
         "description": "Compra unificada, conteúdo Webrun e conversão de 20% para 70% na jornada do app. Avaliações de 4,5 nas duas lojas.",
+        "color": "blue"
+      },
+      {
+        "category": "WEB · EXPERIÊNCIA E DADOS",
+        "title": "Evolução do site legado",
+        "subtitle": "Experiência e jornada mensurável",
+        "description": "Mais de 500 mil acessos na semana de lançamento, acompanhamento com PostHog e investigação do rastreamento da compra no Google e na Meta.",
         "color": "blue"
       }
     ],
@@ -97,7 +104,7 @@ export const home = {
     "secondaryCta": "Get to know me",
     "casesEyebrow": "01 / SELECTED PROJECTS",
     "casesTitle": "Different contexts.\nA product perspective.",
-    "casesIntro": "The problems I worked on, the decisions I led and the outcomes the team delivered. Platform, operations and purchase experience across three product contexts.",
+    "casesIntro": "The problems I worked on, the decisions I led and the outcomes the team delivered. Platform, operations, apps and improvements to the web experience.",
     "projects": [
       {
         "category": "PLATFORM · SCALE",
@@ -118,6 +125,13 @@ export const home = {
         "title": "Athlete App",
         "subtitle": "Unified purchases and an evolving experience",
         "description": "Unified purchases, Webrun content and purchase conversion from 20% to 70% in the app. Ratings of 4.5 in both stores.",
+        "color": "blue"
+      },
+      {
+        "category": "WEB · EXPERIENCE AND DATA",
+        "title": "Improving the legacy website",
+        "subtitle": "Experience and a measurable journey",
+        "description": "Over 500,000 accesses in launch week, tracking through PostHog and investigating purchase tracking in Google and Meta.",
         "color": "blue"
       }
     ],
@@ -165,7 +179,7 @@ export const home = {
     "secondaryCta": "Conoce mi perfil",
     "casesEyebrow": "01 / PROYECTOS SELECCIONADOS",
     "casesTitle": "Distintos contextos.\nUna mirada de producto.",
-    "casesIntro": "Los problemas que abordé, las decisiones que lideré y los resultados del equipo. Plataforma, operaciones y experiencia de compra en tres contextos de producto.",
+    "casesIntro": "Los problemas que abordé, las decisiones que lideré y los resultados del equipo. Plataforma, operaciones, aplicaciones y evolución de la experiencia web.",
     "projects": [
       {
         "category": "PLATAFORMA · ESCALA",
@@ -186,6 +200,13 @@ export const home = {
         "title": "App del Atleta",
         "subtitle": "Compra unificada y evolución de la experiencia",
         "description": "Compra unificada, contenido Webrun y conversión del 20% al 70% en la app. Valoraciones de 4,5 en ambas tiendas.",
+        "color": "blue"
+      },
+      {
+        "category": "WEB · EXPERIENCIA Y DATOS",
+        "title": "Evolución del sitio legado",
+        "subtitle": "Experiencia y recorrido medible",
+        "description": "Más de 500.000 accesos en la semana de lanzamiento, seguimiento con PostHog e investigación del rastreo de compras en Google y Meta.",
         "color": "blue"
       }
     ],

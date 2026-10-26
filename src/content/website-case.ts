@@ -5,6 +5,12 @@ export const websiteCase = {
     "metaTitle": "Evolução do site legado — Yago Jesus",
     "metaDescription": "Evolução do site legado com PostHog: mais de 500 mil acessos na semana de lançamento e acompanhamento de crescimento e retenção.",
     "eyebrow": "EVOLUÇÃO DO SITE",
+    "capture": {
+      "alt": "Página inicial da Ticket Sports, com busca de eventos, acesso para grupos esportivos e conteúdo para atletas e organizadores.",
+      "caption": "Ticket Sports · Busca e descoberta de eventos na experiência web.",
+      "openLabel": "Ampliar imagem",
+      "visitLabel": "Visitar site da Ticket Sports"
+    },
     "title": "Evoluir a experiência.\nTornar a jornada mensurável.",
     "introduction": "Evolução do site legado com mais de 500 mil acessos na semana de lançamento. Duas frentes de medição: acompanhar acessos e retorno com PostHog e investigar o rastreamento da compra no Google e na Meta.",
     "text": "Instalamos o PostHog para acompanhar acessos e retorno do público no site novo. Nas primeiras semanas, os acessos cresceram 30% em relação a 2025, com aumento de 10% na retenção. Esta evolução do site foi uma iniciativa independente da migração de plataforma.",
@@ -50,6 +56,12 @@ export const websiteCase = {
     "metaTitle": "Improving the legacy website — Yago Jesus",
     "metaDescription": "Legacy website improvements tracked with PostHog: over 500,000 accesses in launch week, with growth and retention monitoring.",
     "eyebrow": "WEBSITE IMPROVEMENT",
+    "capture": {
+      "alt": "Ticket Sports homepage with event search, access for sports groups and content for athletes and organizers.",
+      "caption": "Ticket Sports · Event search and discovery on the website.",
+      "openLabel": "Enlarge image",
+      "visitLabel": "Visit Ticket Sports website"
+    },
     "title": "Evolve the experience.\nMake the journey measurable.",
     "introduction": "Legacy website improvements with over 500,000 accesses in launch week. Two measurement streams: tracking accesses and returning visitors through PostHog, and investigating purchase tracking in Google and Meta.",
     "text": "We installed PostHog to track accesses and returning visitors on the new site. During the first weeks, accesses grew 30% compared with 2025, with a 10% increase in retention. This website improvement was independent of the platform migration.",
@@ -95,6 +107,12 @@ export const websiteCase = {
     "metaTitle": "Evolución del sitio web — Yago Jesus",
     "metaDescription": "Mejora del sitio web con PostHog: más de 500.000 accesos en la semana de lanzamiento y seguimiento del crecimiento y la retención.",
     "eyebrow": "EVOLUCIÓN DEL SITIO WEB",
+    "capture": {
+      "alt": "Página de inicio de Ticket Sports, con búsqueda de eventos, acceso para grupos deportivos y contenido para atletas y organizadores.",
+      "caption": "Ticket Sports · Búsqueda y descubrimiento de eventos en la web.",
+      "openLabel": "Ampliar imagen",
+      "visitLabel": "Visitar sitio de Ticket Sports"
+    },
     "title": "Mejorar la experiencia.\nHacer medible el recorrido.",
     "introduction": "Evolución del sitio anterior con más de 500.000 accesos en la semana de lanzamiento. Dos frentes de medición: accesos y retorno con PostHog, e investigación del seguimiento de compras en Google y Meta.",
     "text": "Instalamos PostHog para seguir los accesos y el retorno del público al nuevo sitio. En las primeras semanas, los accesos crecieron un 30% respecto a 2025, con un aumento del 10% en la retención. Esta evolución fue independiente de la migración de plataforma.",

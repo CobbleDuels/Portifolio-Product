@@ -73,13 +73,15 @@ h1 { margin: 24px 0 23px; font-size: clamp(42px, 4.7vw, 65px); font-weight: 500;
 .section-heading-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 90px; margin-block: 18px 28px; align-items: end; }
 h2 { font-size: clamp(27px, 2.5vw, 34px); font-weight: 400; letter-spacing: -.045em; line-height: 1.2; }
 .section-intro { font-size: 12px; line-height: 1.85; color: var(--muted); max-width: 320px; }
-.projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
-.project-card { border: 1px solid var(--line); background: var(--surface); }
-.project-body { padding: 20px; }
+.projects-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
+.project-card { display: flex; flex-direction: column; border: 1px solid var(--line); background: var(--surface); }
+.project-body { display: flex; flex: 1; flex-direction: column; padding: 20px; }
+.project-body .project-case-link { margin-top: auto; }
 .project-cover { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-bottom: 1px solid var(--line); }
-.project-cover-migration { display: flex; align-items: center; justify-content: center; background: #e9eef1; }
-.migration-cover-art { width: 86%; overflow: hidden; border: 1px solid #d1d7dc; border-radius: 8px; box-shadow: 0 8px 22px #0002; transform: rotate(-3deg); }
-.migration-cover-art img { display: block; width: 100%; height: auto; }
+.project-cover-migration, .project-cover-web { display: flex; align-items: center; justify-content: center; background: #e9eef1; }
+.migration-cover-art, .website-cover-art { width: 86%; overflow: hidden; border: 1px solid #d1d7dc; border-radius: 8px; box-shadow: 0 8px 22px #0002; transform: rotate(-3deg); }
+.migration-cover-art img, .website-cover-art img { display: block; width: 100%; height: auto; }
+.website-cover-art { width: 76%; transform: rotate(3deg); }
 .project-cover-athlete { display: flex; align-items: center; justify-content: center; background: #e9eef1; }
 .athlete-cover-art { width: 43%; aspect-ratio: 900 / 1060; overflow: hidden; border-radius: 10px; box-shadow: 0 8px 22px #0002; transform: rotate(-4deg); }
 .athlete-cover-art img { display: block; width: 100%; height: auto; }
@@ -235,9 +237,6 @@ details[open] summary span { transform: rotate(45deg); }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
 
-.additional-project { border-top: 1px solid var(--line); margin-top: 28px; padding-top: 24px; }
-.additional-project .text-link { margin-block: 16px 12px; font-size: 16px; }
-.additional-project > p:last-child { color: var(--muted); font-size: 13px; line-height: 1.8; max-width: 650px; }
 .website-hero { padding-block: 42px; }
 .website-hero h1 { font-size: clamp(36px, 5vw, 64px); }
 
