@@ -467,3 +467,24 @@ p strong, dd strong { color: var(--ink); font-weight: 700; }
 @media (prefers-reduced-motion: reduce) {
   .motion-enter { animation: none; opacity: 1; translate: none; }
 }
+
+.hero-title-line, .hero-title-line > span { display: block; }
+.reading-progress { position: fixed; inset: 0 0 auto; height: 3px; z-index: 40; background: var(--line); pointer-events: none; }
+.reading-progress > span { display: block; width: 100%; height: 100%; background: var(--ink); transform: scaleX(0); transform-origin: left; }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-copy.motion-enter { animation: none; }
+  .hero-copy.motion-enter > .eyebrow,
+  .hero-copy.motion-enter .hero-title-line > span,
+  .hero-copy.motion-enter > .hero-introduction,
+  .hero-copy.motion-enter > .hero-actions { animation: cozy-arrive 600ms cubic-bezier(.22, 1, .36, 1) backwards; }
+  .hero-copy.motion-enter > .eyebrow { animation-delay: 80ms; }
+  .hero-copy.motion-enter .hero-title-line:nth-child(1) > span { animation-delay: 140ms; }
+  .hero-copy.motion-enter .hero-title-line:nth-child(2) > span { animation-delay: 230ms; }
+  .hero-copy.motion-enter .hero-title-line:nth-child(3) > span { animation-delay: 320ms; }
+  .hero-copy.motion-enter > .hero-introduction { animation-duration: 500ms; animation-delay: 410ms; }
+  .hero-copy.motion-enter > .hero-actions { animation-duration: 450ms; animation-delay: 480ms; }
+  .hero-copy.motion-enter:focus-within > .eyebrow,
+  .hero-copy.motion-enter:focus-within .hero-title-line > span,
+  .hero-copy.motion-enter:focus-within > .hero-introduction,
+  .hero-copy.motion-enter:focus-within > .hero-actions { animation: none; }
+}
