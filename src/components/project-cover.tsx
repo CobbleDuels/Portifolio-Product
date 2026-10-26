@@ -15,10 +15,16 @@ export function ProjectCover({ index, lang }: { index: number; lang: Language })
     <Image src="/images/checkin-atletas.webp" alt={alt[2]} width={900} height={1600} unoptimized />
   </div>;
 
-  return <div className={`project-cover ${index === 0 ? "project-cover-migration" : "project-cover-athlete"}`}>
+  if (index === 2) return <div className="project-cover project-cover-athlete">
+    <div className="athlete-cover-art">
+      <Image src="/images/app-atleta-catalogo.webp" alt={alt[3]} width={900} height={1600} unoptimized />
+    </div>
+  </div>;
+
+  return <div className="project-cover project-cover-migration">
     <Image
-      src={index === 0 ? "/images/sao-silvestre-ingresse.png" : "/images/app-atleta-catalogo.webp"}
-      alt={index === 0 ? alt[0] : alt[3]}
+      src="/images/sao-silvestre-ingresse.png"
+      alt={alt[0]}
       fill
       sizes="(max-width: 760px) calc(100vw - 40px), 400px"
       unoptimized
