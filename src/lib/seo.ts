@@ -3,7 +3,7 @@ import { languages, type Language } from "@/content/home";
 
 export const siteOrigin = new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://portifolio-product.vercel.app").origin;
 export const canIndex = process.env.VERCEL_ENV === "production" || (!process.env.VERCEL_ENV && process.env.NODE_ENV === "production");
-export const contentPaths = ["", "/projects/ticket-sports-ingresse", "/projects/app-check-in", "/projects/app-atleta", "/projects/evolucao-site"] as const;
+export const contentPaths = ["", "/projects/ticket-sports-ingresse", "/projects/app-check-in", "/projects/app-atleta", "/projects/evolucao-site", "/projects/indicadores-negocio"] as const;
 const locales = { pt: "pt_BR", en: "en_US", es: "es_ES" };
 
 export function languageUrls(path: string) {
@@ -34,3 +34,4 @@ export function profileData(lang: Language) {
     mainEntity: { "@type": "Person", "@id": personId, name: "Yago Jesus", jobTitle: "Product Manager", url: `${siteOrigin}/${lang}`, image: `${siteOrigin}/images/yago-casual-esportivo-hq.webp`, sameAs: ["https://www.linkedin.com/in/yago-jesus-9595a8147/"] },
   };
 }
+

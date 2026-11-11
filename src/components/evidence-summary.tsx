@@ -18,7 +18,8 @@ export function EvidenceSummary({ lang }: { lang: Language }) {
       <Link href={`/${lang}/projects/ticket-sports-ingresse#case-business-heading`} className="evidence-result"><span className="evidence-value">{{ pt: "R$ 500 mi", en: "R$ 500m", es: "R$ 500 M" }[lang]}</span><span className="evidence-label">{copy.gmv}</span><span className="evidence-source">{copy.operation}<Arrow diagonal /></span></Link>
       <Link href={`/${lang}/projects/app-atleta`} className="evidence-result"><span className="evidence-value">{lang === "en" ? "4.5" : "4,5"}<span className="evidence-unit">/5</span></span><span className="evidence-label">{copy.rating}</span><span className="evidence-source">{copy.app}<Arrow diagonal /></span></Link>
     </div>
-    <ComparisonChart lang={lang} kind="conversion" compact />
+    <ComparisonChart lang={lang} kind="coverage" compact />
     <p className="evidence-note">{copy.note}</p>
   </aside>;
 }
+

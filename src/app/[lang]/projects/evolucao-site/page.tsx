@@ -31,7 +31,7 @@ export default async function WebsiteCase({ params }: Props) {
       <Link href={`/${lang}#projects`} className="text-link case-back"><span className="rotate-180"><Arrow /></span>{home[lang].casesLink}</Link>
       <article>
         <header className="website-hero"><p className="eyebrow">{copy.eyebrow}</p><h1 className="whitespace-pre-line">{copy.title}</h1><p className="case-introduction"><ReadingText>{copy.introduction}</ReadingText></p></header>
-        <CaseReadingNav lang={lang} targets={["website-results-heading", "website-section-0", "website-section-1", "website-section-2"]} items={{ pt: ["Resultados", "Contexto", "Investigação", "Aprendizado"], en: ["Results", "Context", "Investigation", "Learning"], es: ["Resultados", "Contexto", "Investigación", "Aprendizaje"] }[lang]} />
+        <CaseReadingNav lang={lang} targets={["website-results-heading", "website-section-0", "website-section-1", "website-section-2"]} items={{ pt: ["Resultados", "Contexto", "Minha atuação", "Medição"], en: ["Results", "Context", "My contribution", "Measurement"], es: ["Resultados", "Contexto", "Mi contribución", "Medición"] }[lang]} />
         <figure className="case-product-capture">
           <a href="/images/ticket-sports-site.jpg" target="_blank" rel="noopener noreferrer" aria-label={copy.capture.openLabel}>
             <Image src="/images/ticket-sports-site.jpg" alt={copy.capture.alt} width={1425} height={891} unoptimized loading="eager" fetchPriority="high" />
@@ -46,7 +46,7 @@ export default async function WebsiteCase({ params }: Props) {
         </figure>
         <section className="case-scale website-results" aria-labelledby="website-results-heading">
           <div className="website-results-intro">
-          <h2 id="website-results-heading">{{ pt: "Acessos e retenção", en: "Accesses and retention", es: "Accesos y retención" }[lang]}</h2>
+          <h2 id="website-results-heading">{{ pt: "Descoberta e engajamento", en: "Discovery and engagement", es: "Descubrimiento e interacción" }[lang]}</h2>
           <p className="case-delivery-intro"><ReadingText>{copy.text}</ReadingText></p><p className="case-scale-note">{copy.note}</p>
           </div><div className="website-results-evidence"><GrowthChart lang={lang} />
           <dl className="case-metrics">{copy.metrics.map((metric) => <div key={metric.label}><dt>{metric.label}</dt><dd className="case-metric-value">{metric.value}</dd><dd className="case-metric-note">{metric.note}</dd></div>)}</dl></div>
@@ -60,3 +60,4 @@ export default async function WebsiteCase({ params }: Props) {
     <CaseEnding lang={lang} />
   </>;
 }
+

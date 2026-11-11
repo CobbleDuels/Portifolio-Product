@@ -329,20 +329,20 @@ export const checkInCase = {
 export const athleteCase = {
   "pt": {
     "metaTitle": "App do Atleta — Yago Jesus",
-    "metaDescription": "App do Atleta em React Native: jornada de compra unificada, integração Webrun e evolução das avaliações para 4,5 nas lojas Apple e Android.",
+    "metaDescription": "Modernização do App do Atleta: catálogo de 30% para 100%, lançamento em 4 meses e retenção com ganho de 15 pontos percentuais.",
     "eyebrow": "03 / APP DO ATLETA · MOBILE",
     "title": "Unificar a compra.\nAmpliar a experiência.",
-    "introduction": "Defini uma jornada web de compra dentro do app para superar incompatibilidades entre eventos e evitar manter várias interfaces. Conduzi a evolução com o time, da iniciativa à publicação em React Native. A cobertura de eventos passou de 30% para 100%, e a conversão entre usuários que iniciavam a compra foi de 20% para 70%.",
+    "introduction": "Defendi a modernização de um app que restringia a compra de determinadas modalidades. Negociei com o CTO o uso da jornada web dentro do aplicativo para atender todo o catálogo sem reconstruir cada fluxo de inscrição. Publicamos nas lojas em 4 meses; a cobertura do catálogo passou de 30% para 100%.",
     "sections": [
       {
         "eyebrow": "O PROBLEMA",
         "title": "Manutenção limitada.\nA experiência do atleta em risco.",
-        "text": "Poucas pessoas do time dominavam .NET MAUI, e implementar novidades era trabalhoso no contexto da equipe. Com a dificuldade de manutenção, os bugs se acumulavam e afetavam a percepção da plataforma de compra. O desafio envolvia tanto a capacidade de evoluir o produto quanto a experiência e a reputação da marca."
+        "text": "Mais de 80% das compras aconteciam em experiências mobile, mas a equipe não dominava MAUI, a tecnologia do app anterior. Isso limitava melhorias propostas por Marketing, Comercial e operação. Algumas modalidades precisavam ser ocultadas do calendário por incompatibilidade com a jornada disponível no aplicativo."
       },
       {
         "eyebrow": "DECISÃO DE PRODUTO",
         "title": "Reaproveitar a jornada web.\nAmpliar a cobertura de eventos.",
-        "text": "Avaliamos construir as telas de compra diretamente no app, mas esse caminho exigiria substituir uma tecnologia em um ponto crítico do legado. Isso ampliaria o prazo em um time que também precisava sustentar o sistema existente. Defini o uso da jornada web dentro do aplicativo: ela já estava quase pronta e precisava de adaptação responsiva. O critério foi reaproveitar o que já funcionava, com menor esforço de implementação e maior alcance para a compra. A cobertura de eventos no app passou de 30% para 100%.",
+        "text": "Discutimos reconstruir toda a inscrição no app, mas o prazo, o trabalho de UX/UI e a falta de mapeamento de todas as modalidades tornavam esse escopo inviável. Em conversa com o CTO, decidimos reaproveitar a experiência web de inscrição dentro do app. A decisão reduziu a necessidade de reconstruir fluxos e permitiu oferecer todas as modalidades.",
         "chart": "coverage"
       },
       {
@@ -353,23 +353,29 @@ export const athleteCase = {
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
         "title": "Decidir com UX e engenharia.\nConduzir até a publicação.",
-        "text": "Assumi a iniciativa de evolução do app e defini a unificação da jornada de compra. Conduzi entrevistas, apresentações e coleta de feedback com clientes; validei o design com UX e traduzi as decisões em user stories para o time. Acompanhei a execução e a publicação nas lojas. A implementação da nova base e das integrações foi uma entrega conjunta com engenharia.",
+        "text": "Conduzi entrevistas com organizadores e atletas e analisei reclamações da App Store e do Google Play. Investigamos a apresentação dos eventos, a edição do cadastro, o acesso ao protocolo de inscrição e a pouca utilidade percebida após a corrida. Traduzi esses achados em requisitos e prioridades, acompanhei refinamentos técnicos e a publicação nas lojas.",
         "items": [
           {
-            "title": "5 desenvolvedores",
-            "text": "2 atuavam no legado e nas requisições de API; 3 trabalhavam nos projetos com React e novas tecnologias. A evolução do app coexistia com a sustentação do legado."
+            "title": "1 desenvolvedor dedicado",
+            "text": "Outros 3 apoiavam a integração com o legado, de onde vinham os dados dos eventos."
           },
           {
-            "title": "3–4 meses",
-            "text": "Da iniciativa à entrega completa da evolução do aplicativo."
+            "title": "4 meses",
+            "text": "Da conversa inicial à publicação do aplicativo nas lojas."
           }
         ]
       },
       {
-        "eyebrow": "CONVERSÃO DE COMPRA",
-        "title": "De 20% para 70%\nna jornada do app.",
-        "text": "A conversão entre quem iniciava a compra no aplicativo ficou em 20% por cerca de um ano e meio. Havia relatos de atletas que precisavam abandonar o app por bugs ou limitações para continuar a jornada em outro lugar. Após a nova versão, a conversão chegou a 70% entre quem iniciava a compra no app.",
-        "chart": "conversion"
+        "eyebrow": "RETENÇÃO E DISCOVERY",
+        "title": "Mais motivos para voltar.\n15 pontos percentuais de ganho.",
+        "text": "As entrevistas e reclamações indicaram que muitos atletas desinstalavam o app após a corrida. Incluímos conteúdo jornalístico da WEBRUN e revisamos navegação, cadastro e acesso às inscrições. Medimos retenção em janela de duas semanas com PostHog e Google Analytics, acompanhando um mês contra o mês anterior. O aumento observado foi de 15 pontos percentuais; o acompanhamento não isola o efeito de cada mudança.",
+        "metrics": [
+          {
+            "value": "+15 p.p.",
+            "label": "na retenção em janela de duas semanas",
+            "note": "Acompanhamento de um mês versus o mês anterior; PostHog e Google Analytics."
+          }
+        ]
       },
       {
         "eyebrow": "O ECOSSISTEMA",
@@ -405,6 +411,11 @@ export const athleteCase = {
           }
         ],
         "chart": "ratings"
+      },
+      {
+        "eyebrow": "ENTREGA E PRÓXIMOS PASSOS",
+        "title": "Compra e conteúdo entregues.\nEcossistema como direção.",
+        "text": "Entregamos o app com a jornada web de compra e o blog da WEBRUN. Ajustes visuais, a integração completa do ecossistema e a avaliação de incorporar o app Ticket Sports ao app Ingresse ficaram como possibilidades futuras. O app tinha mais de 1 milhão de downloads acumulados, um dado de escala do produto, não de usuários ativos ou de aquisições geradas pelo relançamento."
       }
     ],
     "gallery": {
@@ -424,20 +435,20 @@ export const athleteCase = {
   },
   "en": {
     "metaTitle": "Athlete App — Yago Jesus",
-    "metaDescription": "The Athlete App in React Native: a unified purchase journey, Webrun integration and store ratings improving to 4.5 on Apple and Android.",
+    "metaDescription": "Athlete App modernization: catalog coverage from 30% to 100%, launch in 4 months and a 15-percentage-point retention increase.",
     "eyebrow": "03 / ATHLETE APP · MOBILE",
     "title": "Unify purchasing.\nExpand the experience.",
-    "introduction": "I defined a web purchase journey within the app to overcome event incompatibilities and avoid maintaining multiple interfaces. I led the evolution with the team, from initiative through publication in React Native. Event coverage increased from 30% to 100%, and conversion among users starting a purchase rose from 20% to 70%.",
+    "introduction": "I championed modernization of an app that restricted purchases for certain sports categories. With the CTO, I agreed to reuse the web journey inside the app to support the entire catalog without rebuilding every registration flow. We launched in 4 months; catalog coverage increased from 30% to 100%.",
     "sections": [
       {
         "eyebrow": "THE PROBLEM",
         "title": "Limited maintenance.\nThe athlete experience at risk.",
-        "text": "Few team members knew .NET MAUI, and implementing new capabilities was cumbersome in that team’s context. With maintenance becoming difficult, bugs accumulated and affected perceptions of the purchasing platform. The challenge concerned both the ability to evolve the product and the experience and reputation of the brand."
+        "text": "Mobile experiences accounted for over 80% of purchases, but the team lacked experience with MAUI, the previous app’s technology. This limited improvements proposed by Marketing, Sales and operations. Some sports categories had to be hidden from the calendar because the app could not support their registration flows."
       },
       {
         "eyebrow": "PRODUCT DECISION",
         "title": "Reuse the web purchase journey.\nExpand event coverage.",
-        "text": "We considered building purchase screens directly in the app, but that path required replacing technology in a critical part of the legacy system. It would extend delivery time for a team that also had to maintain the existing system. I chose the web purchase journey within the app: it was already largely built and needed responsive adaptation. The criterion was to reuse what already worked, with less implementation effort and broader purchase coverage. Event coverage in the app increased from 30% to 100%.",
+        "text": "We discussed rebuilding registration entirely inside the app, but timing, UX/UI work and the lack of mapped flows for every sports category made that scope unfeasible. The CTO and I agreed to reuse the web registration experience inside the app. This reduced flow reconstruction and enabled every category to be offered.",
         "chart": "coverage"
       },
       {
@@ -448,23 +459,29 @@ export const athleteCase = {
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
         "title": "Decide with UX and engineering.\nLead through publication.",
-        "text": "I took ownership of the app improvement initiative and defined the unified purchase journey. I conducted client interviews, presentations and feedback collection, validated designs with UX and translated decisions into user stories for the team. I followed execution and store publication. The new foundation and integrations were delivered together with engineering.",
+        "text": "I interviewed organizers and athletes and analyzed App Store and Google Play complaints. We investigated event presentation, profile editing, access to registration confirmations and limited usefulness after a race. I translated findings into requirements and priorities and followed technical refinement and app-store publication.",
         "items": [
           {
-            "title": "5 developers",
-            "text": "2 worked on the legacy system and API requests; 3 worked on React projects and newer technologies. The app improvements ran alongside legacy maintenance."
+            "title": "1 dedicated developer",
+            "text": "3 others supported integrations with the legacy system that supplied event data."
           },
           {
-            "title": "3–4 months",
-            "text": "From initiative to full delivery of the app improvements."
+            "title": "4 months",
+            "text": "From the initial discussion to publication in app stores."
           }
         ]
       },
       {
-        "eyebrow": "PURCHASE CONVERSION",
-        "title": "From 20% to 70%\nin the app journey.",
-        "text": "Conversion among users starting a purchase in the app remained at 20% for about a year and a half. Athletes reported having to leave the app because of bugs or limitations to continue the journey elsewhere. Following the new version, conversion reached 70% among users starting a purchase in the app.",
-        "chart": "conversion"
+        "eyebrow": "RETENTION AND DISCOVERY",
+        "title": "More reasons to return.\nA 15-percentage-point increase.",
+        "text": "Interviews and complaints showed that many athletes uninstalled the app after a race. We added WEBRUN journalism and revised navigation, profiles and registration access. We measured retention over a two-week window in PostHog and Google Analytics, monitoring one month against the previous month. The observed increase was 15 percentage points; this monitoring does not isolate the effect of each change.",
+        "metrics": [
+          {
+            "value": "+15 pp",
+            "label": "in retention over a two-week window",
+            "note": "One month compared with the previous month; PostHog and Google Analytics."
+          }
+        ]
       },
       {
         "eyebrow": "THE ECOSYSTEM",
@@ -500,6 +517,11 @@ export const athleteCase = {
           }
         ],
         "chart": "ratings"
+      },
+      {
+        "eyebrow": "DELIVERY AND NEXT STEPS",
+        "title": "Purchases and content delivered.\nAn ecosystem as the direction.",
+        "text": "We delivered the app with the web purchase journey and WEBRUN blog. Visual adjustments, full ecosystem integration and evaluating incorporation into the Ingresse app remained future possibilities. The app had over 1 million cumulative downloads: product scale, not active users or acquisition generated by the relaunch."
       }
     ],
     "gallery": {
@@ -519,20 +541,20 @@ export const athleteCase = {
   },
   "es": {
     "metaTitle": "App del Atleta — Yago Jesus",
-    "metaDescription": "Evolución de la App del Atleta: compra unificada, React Native, integración Webrun y conversión del 20% al 70% entre usuarios que iniciaban la compra.",
+    "metaDescription": "Modernización de la App del Atleta: catálogo del 30% al 100%, lanzamiento en 4 meses y aumento de 15 puntos porcentuales en retención.",
     "eyebrow": "03 / APP DEL ATLETA · MOBILE",
     "title": "Unificar la compra.\nAmpliar la experiencia.",
-    "introduction": "Definí una experiencia de compra web dentro de la app para superar incompatibilidades entre eventos y evitar mantener varias interfaces. Lideré la evolución con el equipo, desde la iniciativa hasta la publicación en React Native. La cobertura de eventos pasó del 30% al 100% y la conversión entre quienes iniciaban la compra, del 20% al 70%.",
+    "introduction": "Impulsé la modernización de una app que limitaba la compra de determinadas modalidades. Acordé con el CTO reutilizar el proceso web dentro de la aplicación para ofrecer todo el catálogo sin reconstruir cada flujo de inscripción. Publicamos en 4 meses; la cobertura del catálogo pasó del 30% al 100%.",
     "sections": [
       {
         "eyebrow": "EL PROBLEMA",
         "title": "Mantenimiento limitado.\nLa experiencia del atleta en riesgo.",
-        "text": "Pocas personas del equipo dominaban .NET MAUI y desarrollar novedades resultaba costoso en esfuerzo. Las dificultades de mantenimiento provocaban una acumulación de errores que afectaba a la experiencia de compra y a la percepción de la marca. El reto implicaba tanto la capacidad de evolucionar el producto como la experiencia del atleta."
+        "text": "Las experiencias móviles representaban más del 80% de las compras, pero el equipo no dominaba MAUI, la tecnología anterior. Esto limitaba mejoras propuestas por Marketing, Comercial y operaciones. Algunas modalidades debían ocultarse del calendario porque la app no admitía sus procesos de inscripción."
       },
       {
         "eyebrow": "DECISIÓN DE PRODUCTO",
         "title": "Reutilizar la compra web.\nAmpliar la cobertura de eventos.",
-        "text": "Evaluamos construir las pantallas de compra directamente en la app, pero esa opción exigía sustituir una tecnología en un punto crítico del sistema anterior. Eso ampliaría el plazo de un equipo que también debía mantener el sistema existente. Elegí la experiencia web dentro de la app: ya estaba casi lista y necesitaba una adaptación responsive. El criterio fue reutilizar lo que ya funcionaba, con menor esfuerzo de implementación y mayor alcance para la compra. La cobertura de eventos en la app pasó del 30% al 100%.",
+        "text": "Valoramos reconstruir toda la inscripción dentro de la app, pero los plazos, el trabajo de UX/UI y la falta de mapeo de todas las modalidades hacían inviable ese alcance. Acordé con el CTO reutilizar el proceso web de inscripción dentro de la app. La decisión redujo la reconstrucción de flujos y permitió ofrecer todas las modalidades.",
         "chart": "coverage"
       },
       {
@@ -543,23 +565,29 @@ export const athleteCase = {
       {
         "eyebrow": "MI CONTRIBUCIÓN COMO PM",
         "title": "Decidir con UX e ingeniería.\nLiderar hasta la publicación.",
-        "text": "Asumí la iniciativa de evolución de la app y definí la unificación de la compra. Realicé entrevistas, presentaciones y recogida de comentarios con clientes; validé el diseño con UX y traduje las decisiones en historias de usuario para el equipo. Acompañé la ejecución y la publicación en las tiendas. La nueva base y las integraciones fueron una entrega conjunta con ingeniería.",
+        "text": "Entrevisté a organizadores y deportistas y analicé quejas de App Store y Google Play. Investigamos la presentación de eventos, la edición del perfil, el acceso al comprobante de inscripción y la escasa utilidad después de una carrera. Convertí los hallazgos en requisitos y prioridades y acompañé refinamientos técnicos y publicación en las tiendas.",
         "items": [
           {
-            "title": "5 desarrolladores",
-            "text": "2 trabajaban en el sistema anterior y en las solicitudes de API; 3, en proyectos con React y nuevas tecnologías. La evolución de la app coexistía con el mantenimiento del sistema anterior."
+            "title": "1 desarrollador dedicado",
+            "text": "Otros 3 apoyaban las integraciones con el sistema heredado, origen de los datos de eventos."
           },
           {
-            "title": "3–4 meses",
-            "text": "Desde la iniciativa hasta la entrega completa de la evolución de la aplicación."
+            "title": "4 meses",
+            "text": "Desde la conversación inicial hasta la publicación en las tiendas."
           }
         ]
       },
       {
-        "eyebrow": "CONVERSIÓN DE COMPRA",
-        "title": "Del 20% al 70%\nen la experiencia de la app.",
-        "text": "La conversión entre quienes iniciaban la compra en la app se mantuvo en el 20% durante aproximadamente un año y medio. Los atletas relataban que debían salir de la aplicación por errores o limitaciones para continuar la compra en otro lugar. Tras la nueva versión, la conversión alcanzó el 70% entre quienes iniciaban la compra en la app.",
-        "chart": "conversion"
+        "eyebrow": "RETENCIÓN Y DISCOVERY",
+        "title": "Más motivos para volver.\n15 puntos porcentuales de aumento.",
+        "text": "Las entrevistas y quejas indicaban que muchos deportistas desinstalaban la app tras una carrera. Incorporamos periodismo de WEBRUN y revisamos navegación, perfil y acceso a inscripciones. Medimos retención en una ventana de dos semanas con PostHog y Google Analytics, comparando un mes con el anterior. El aumento observado fue de 15 puntos porcentuales; este seguimiento no aísla el efecto de cada cambio.",
+        "metrics": [
+          {
+            "value": "+15 p.p.",
+            "label": "en retención en una ventana de dos semanas",
+            "note": "Un mes frente al anterior; PostHog y Google Analytics."
+          }
+        ]
       },
       {
         "eyebrow": "EL ECOSISTEMA",
@@ -595,6 +623,11 @@ export const athleteCase = {
             "note": "Indicador seguido en Google Play Console."
           }
         ]
+      },
+      {
+        "eyebrow": "ENTREGA Y PRÓXIMOS PASOS",
+        "title": "Compra y contenido entregados.\nEl ecosistema como dirección.",
+        "text": "Entregamos la app con el proceso web de compra y el blog de WEBRUN. Los ajustes visuales, la integración completa del ecosistema y la posible incorporación a la app Ingresse quedaron como posibilidades futuras. La app tenía más de 1 millón de descargas acumuladas: escala del producto, no usuarios activos ni adquisiciones generadas por el relanzamiento."
       }
     ],
     "gallery": {
@@ -613,3 +646,4 @@ export const athleteCase = {
     }
   }
 } as const;
+

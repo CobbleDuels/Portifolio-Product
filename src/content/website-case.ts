@@ -3,7 +3,7 @@ export const websitePath = "/projects/evolucao-site";
 export const websiteCase = {
   "pt": {
     "metaTitle": "Evolução do site legado — Yago Jesus",
-    "metaDescription": "Evolução do site legado com PostHog: mais de 500 mil acessos na semana de lançamento e acompanhamento de crescimento e retenção.",
+    "metaDescription": "Ticket Sports 2.0: descoberta de eventos por localização e crescimento relativo de 12% no engajamento com páginas de eventos.",
     "eyebrow": "04 / EVOLUÇÃO DO SITE LEGADO",
     "capture": {
       "alt": "Página inicial da Ticket Sports, com busca de eventos, acesso para grupos esportivos e conteúdo para atletas e organizadores.",
@@ -12,29 +12,44 @@ export const websiteCase = {
       "visitLabel": "Visitar site da Ticket Sports"
     },
     "title": "Melhorar a experiência.\nMedir a jornada de compra.",
-    "introduction": "Evolução do site legado com mais de 500 mil acessos na semana de lançamento. Duas frentes de medição: acompanhar acessos e retorno com PostHog e investigar o rastreamento da compra no Google e na Meta.",
-    "text": "Instalamos o PostHog para acompanhar acessos e retorno do público no site novo. Nas primeiras semanas, os acessos cresceram 30% em relação a 2025, com aumento de 10% na retenção. Esta evolução do site foi uma iniciativa independente da migração de plataforma.",
-    "note": "Resultados do projeto medidos e apurados já na Ingresse.",
-    "comparisonTitle": "Sobre a comparação",
-    "comparisonText": "Nas primeiras semanas, os acessos cresceram 30% em relação a 2025. O PostHog também registrou aumento de 10% na retenção, acompanhando o retorno do público ao site.",
+    "introduction": "Conduzi a modernização do site para ampliar a descoberta de eventos e aproximar a experiência de um marketplace esportivo. Reformulamos homepage, apresentação dos eventos, categorias, filtros e recomendações com base na localização do dispositivo.",
+    "text": "O indicador principal era a proporção de visitantes do site que acessavam pelo menos um evento e permaneciam mais de 3 minutos em sua página. Esse indicador cresceu 12% em termos relativos frente aos anos anteriores. Trata-se de engajamento com eventos, não de uma taxa de compra.",
+    "note": "PostHog e Google Analytics apoiaram o acompanhamento. Os eventos de compra configurados no Google Tag Manager incluíam a confirmação do pagamento.",
+    "comparisonTitle": "O que os 12% medem",
+    "comparisonText": "Crescimento relativo da proporção de visitantes que abriam um evento e permaneciam mais de 3 minutos na página, em comparação com os anos anteriores. O aumento de vendas percebido não teve percentual consolidado.",
     "metrics": [
       {
-        "value": ">500 mil",
-        "label": "acessos na semana de lançamento",
-        "note": "Volume registrado no site novo nessa semana."
+        "value": "+12%",
+        "label": "no indicador de engajamento com eventos",
+        "note": "Crescimento relativo frente aos anos anteriores; acesso ao evento e permanência superior a 3 minutos."
       },
       {
-        "value": "+30%",
-        "label": "de acessos em relação a 2025",
-        "note": "Crescimento observado nas primeiras semanas do site novo."
+        "value": "Localização",
+        "label": "descoberta de eventos próximos",
+        "note": "Recomendações com base no dispositivo, reduzindo a necessidade de aplicar vários filtros."
       },
       {
-        "value": "+10%",
-        "label": "na retenção",
-        "note": "Aumento de retenção observado no acompanhamento com PostHog."
+        "value": "Pagamento confirmado",
+        "label": "evento acompanhado na compra",
+        "note": "Mensuração via Google Tag Manager; sem percentual consolidado de aumento de vendas."
       }
     ],
     "sections": [
+      {
+        "eyebrow": "PROBLEMA DE PRODUTO",
+        "title": "Mais ofertas visíveis.\nMenos esforço para encontrar eventos.",
+        "text": "O site precisava modernizar sua apresentação e facilitar a descoberta. Atletas relataram conseguir visualizar os eventos próximos com mais clareza depois da reformulação, sem depender de uma sequência de filtros."
+      },
+      {
+        "eyebrow": "MINHA ATUAÇÃO",
+        "title": "Da necessidade ao escopo.\nDo escopo à entrega.",
+        "text": "Conduzi o discovery, o detalhamento dos requisitos e o alinhamento com engenharia. As iniciativas eram discutidas com C-level e operação conforme GMV, relacionamento e viabilidade técnica. Após o acordo, seguíamos com tarefas e refinamentos semanais; eu revisava o escopo antes da validação com stakeholders e C-level."
+      },
+      {
+        "eyebrow": "MEDIÇÃO E APRENDIZADO",
+        "title": "Engajamento e compra.\nIndicadores com definições distintas.",
+        "text": "Cruzamos relatos dos usuários com dados de navegação e eventos de compra, tendo a confirmação do pagamento como principal evento transacional. O resultado consolidado de 12% se refere ao engajamento com páginas de eventos. Houve percepção de aumento de vendas, mas sem quantificação consolidada para atribuir um percentual ao projeto."
+      },
       {
         "eyebrow": "O PROBLEMA DE MENSURAÇÃO",
         "title": "Compra concluída.\nMensuração incompleta.",
@@ -54,7 +69,7 @@ export const websiteCase = {
   },
   "en": {
     "metaTitle": "Improving the legacy website — Yago Jesus",
-    "metaDescription": "Legacy website improvements tracked with PostHog: over 500,000 accesses in launch week, with growth and retention monitoring.",
+    "metaDescription": "Ticket Sports 2.0: location-based discovery and a 12% relative increase in event-page engagement.",
     "eyebrow": "04 / LEGACY WEBSITE EVOLUTION",
     "capture": {
       "alt": "Ticket Sports homepage with event search, access for sports groups and content for athletes and organizers.",
@@ -63,29 +78,44 @@ export const websiteCase = {
       "visitLabel": "Visit Ticket Sports website"
     },
     "title": "Improve the experience.\nMeasure the purchase journey.",
-    "introduction": "Legacy website improvements with over 500,000 accesses in launch week. Two measurement streams: tracking accesses and returning visitors through PostHog, and investigating purchase tracking in Google and Meta.",
-    "text": "We installed PostHog to track accesses and returning visitors on the new site. During the first weeks, accesses grew 30% compared with 2025, with a 10% increase in retention. This website improvement was independent of the platform migration.",
-    "note": "Project results measured and consolidated at Ingresse.",
-    "comparisonTitle": "About the comparison",
-    "comparisonText": "During the first weeks, accesses grew 30% compared with 2025. PostHog also recorded a 10% increase in retention, tracking users returning to the website.",
+    "introduction": "I led website modernization to improve event discovery and create a sports-marketplace experience. We redesigned the homepage, event presentation, categories, filters and recommendations based on device location.",
+    "text": "The main metric was the share of website visitors who opened at least one event and spent more than 3 minutes on its page. It increased by 12% relative to prior years. This measures event engagement, not purchase conversion.",
+    "note": "PostHog and Google Analytics supported monitoring. Purchase events configured in Google Tag Manager included payment confirmation.",
+    "comparisonTitle": "What the 12% measures",
+    "comparisonText": "Relative growth in the share of visitors who opened an event and stayed more than 3 minutes on its page, compared with prior years. The perceived sales increase did not have a consolidated percentage.",
     "metrics": [
       {
-        "value": ">500k",
-        "label": "site accesses during launch week",
-        "note": "Volume recorded on the new site during that week."
+        "value": "+12%",
+        "label": "in the event-engagement metric",
+        "note": "Relative to prior years; an event visit and over 3 minutes on the page."
       },
       {
-        "value": "+30%",
-        "label": "in accesses compared with 2025",
-        "note": "Growth observed during the first weeks of the new site."
+        "value": "Location",
+        "label": "nearby-event discovery",
+        "note": "Device-based recommendations reduced the need to apply multiple filters."
       },
       {
-        "value": "+10%",
-        "label": "in retention",
-        "note": "Retention increase observed through tracking with PostHog."
+        "value": "Payment confirmed",
+        "label": "purchase event monitored",
+        "note": "Google Tag Manager tracking; no consolidated percentage for sales growth."
       }
     ],
     "sections": [
+      {
+        "eyebrow": "PRODUCT PROBLEM",
+        "title": "More events visible.\nLess effort to discover them.",
+        "text": "The website needed a modern presentation and easier discovery. Athletes reported being able to see nearby events more clearly after the redesign without applying a sequence of filters."
+      },
+      {
+        "eyebrow": "MY CONTRIBUTION",
+        "title": "From needs to scope.\nFrom scope to delivery.",
+        "text": "I led discovery, requirements definition and engineering alignment. Initiatives were discussed with C-level and operations based on GMV, business relationships and technical feasibility. After agreement, we moved into tasks and weekly refinements; I reviewed scope before stakeholder and C-level validation."
+      },
+      {
+        "eyebrow": "MEASUREMENT AND LEARNING",
+        "title": "Engagement and purchases.\nDistinct metric definitions.",
+        "text": "We compared user feedback with navigation data and purchase events, using payment confirmation as the main transaction event. The consolidated 12% result refers to event-page engagement. Sales were perceived to have increased, but without consolidated measurement to assign a percentage to the project."
+      },
       {
         "eyebrow": "THE MEASUREMENT PROBLEM",
         "title": "Purchase completed.\nMeasurement incomplete.",
@@ -105,7 +135,7 @@ export const websiteCase = {
   },
   "es": {
     "metaTitle": "Evolución del sitio web — Yago Jesus",
-    "metaDescription": "Mejora del sitio web con PostHog: más de 500.000 accesos en la semana de lanzamiento y seguimiento del crecimiento y la retención.",
+    "metaDescription": "Ticket Sports 2.0: búsqueda por ubicación y crecimiento relativo del 12% en interacción con páginas de eventos.",
     "eyebrow": "04 / EVOLUCIÓN DEL SITIO LEGADO",
     "capture": {
       "alt": "Página de inicio de Ticket Sports, con búsqueda de eventos, acceso para grupos deportivos y contenido para atletas y organizadores.",
@@ -114,29 +144,44 @@ export const websiteCase = {
       "visitLabel": "Visitar sitio de Ticket Sports"
     },
     "title": "Mejorar la experiencia.\nMedir el recorrido de compra.",
-    "introduction": "Evolución del sitio anterior con más de 500.000 accesos en la semana de lanzamiento. Dos frentes de medición: accesos y retorno con PostHog, e investigación del seguimiento de compras en Google y Meta.",
-    "text": "Instalamos PostHog para seguir los accesos y el retorno del público al nuevo sitio. En las primeras semanas, los accesos crecieron un 30% respecto a 2025, con un aumento del 10% en la retención. Esta evolución fue independiente de la migración de plataforma.",
-    "note": "Resultados del proyecto medidos y consolidados ya en Ingresse.",
-    "comparisonTitle": "Sobre la comparación",
-    "comparisonText": "Durante las primeras semanas, los accesos crecieron un 30% respecto a 2025. PostHog también registró un aumento del 10% en la retención, siguiendo el retorno del público al sitio.",
+    "introduction": "Dirigí la modernización del sitio para facilitar el descubrimiento de eventos y acercar la experiencia a un marketplace deportivo. Renovamos la página de inicio, presentación de eventos, categorías, filtros y recomendaciones por ubicación del dispositivo.",
+    "text": "El indicador principal era la proporción de visitantes que abrían al menos un evento y permanecían más de 3 minutos en su página. Creció un 12% en términos relativos frente a años anteriores. Mide interacción con eventos, no conversión de compra.",
+    "note": "PostHog y Google Analytics apoyaron el seguimiento. Los eventos de compra configurados en Google Tag Manager incluían la confirmación del pago.",
+    "comparisonTitle": "Qué mide el 12%",
+    "comparisonText": "Crecimiento relativo de visitantes que abrían un evento y permanecían más de 3 minutos en su página frente a años anteriores. El aumento percibido de ventas no tuvo un porcentaje consolidado.",
     "metrics": [
       {
-        "value": ">500.000",
-        "label": "accesos en la semana de lanzamiento",
-        "note": "Volumen registrado en el nuevo sitio durante esa semana."
+        "value": "+12%",
+        "label": "en el indicador de interacción con eventos",
+        "note": "Crecimiento relativo frente a años anteriores; acceso al evento y más de 3 minutos en la página."
       },
       {
-        "value": "+30%",
-        "label": "de accesos respecto a 2025",
-        "note": "Crecimiento observado en las primeras semanas del nuevo sitio."
+        "value": "Ubicación",
+        "label": "descubrimiento de eventos cercanos",
+        "note": "Recomendaciones por dispositivo para reducir el uso de múltiples filtros."
       },
       {
-        "value": "+10%",
-        "label": "en retención",
-        "note": "Aumento de retención observado con PostHog."
+        "value": "Pago confirmado",
+        "label": "evento de compra medido",
+        "note": "Medición con Google Tag Manager; sin porcentaje consolidado de crecimiento de ventas."
       }
     ],
     "sections": [
+      {
+        "eyebrow": "PROBLEMA DE PRODUCTO",
+        "title": "Más eventos visibles.\nMenos esfuerzo para encontrarlos.",
+        "text": "El sitio necesitaba modernizar su presentación y facilitar el descubrimiento. Los deportistas señalaron que tras la renovación podían ver eventos cercanos con más claridad sin aplicar una secuencia de filtros."
+      },
+      {
+        "eyebrow": "MI CONTRIBUCIÓN",
+        "title": "De la necesidad al alcance.\nDel alcance a la entrega.",
+        "text": "Dirigí discovery, definición de requisitos y coordinación con ingeniería. Las iniciativas se discutían con C-level y operaciones según GMV, relaciones comerciales y viabilidad técnica. Tras el acuerdo, seguíamos con tareas y refinamientos semanales; revisaba el alcance antes de la validación con stakeholders y C-level."
+      },
+      {
+        "eyebrow": "MEDICIÓN Y APRENDIZAJE",
+        "title": "Interacción y compra.\nIndicadores con definiciones distintas.",
+        "text": "Cruzamos comentarios de usuarios con datos de navegación y eventos de compra, usando la confirmación del pago como principal evento transaccional. El resultado consolidado del 12% corresponde a interacción con páginas de eventos. Se percibió un aumento de ventas, pero sin una medición consolidada para asignar un porcentaje al proyecto."
+      },
       {
         "eyebrow": "EL PROBLEMA DE MEDICIÓN",
         "title": "Compra completada.\nMedición incompleta.",
@@ -155,3 +200,4 @@ export const websiteCase = {
     ]
   }
 } as const;
+

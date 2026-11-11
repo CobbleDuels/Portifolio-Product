@@ -47,13 +47,16 @@ export function RatingsChart({ lang, compact = false }: { lang: Language; compac
 }
 
 export function GrowthChart({ lang }: { lang: Language }) {
-  const copy = labels[lang];
+  const copy = {
+    pt: { title: "Engajamento com páginas de eventos", scale: "Crescimento relativo (%)", label: "Engajamento", note: "A proporção de visitantes que acessavam um evento e permaneciam mais de 3 minutos na página cresceu 12% em relação aos anos anteriores. Este indicador não representa conversão de compra." },
+    en: { title: "Event-page engagement", scale: "Relative growth (%)", label: "Engagement", note: "The share of visitors who opened an event and spent over 3 minutes on its page increased by 12% relative to prior years. This metric does not represent purchase conversion." },
+    es: { title: "Interacción con páginas de eventos", scale: "Crecimiento relativo (%)", label: "Interacción", note: "La proporción de visitantes que abrían un evento y permanecían más de 3 minutos en su página creció un 12% frente a años anteriores. Este indicador no representa conversión de compra." },
+  }[lang];
   return <figure className="result-chart">
-    <figcaption className="chart-heading"><span>{copy.growthTitle}</span><span className="chart-scale">{copy.growthScale}</span></figcaption>
-    <div className="chart-row"><span className="chart-label">{copy.accesses}</span><div className="chart-track" aria-hidden="true"><span className="growth-accesses" /></div><span className="chart-value">+30%</span></div>
-    <div className="chart-row"><span className="chart-label">{copy.retention}</span><div className="chart-track" aria-hidden="true"><span className="growth-retention" /></div><span className="chart-value">+10%</span></div>
-    <div className="chart-axis" aria-hidden="true">{[0, 10, 20, 30].map((tick) => <span key={tick}>{tick}%</span>)}</div>
-    <p className="chart-note">{copy.growthNote}</p>
+    <figcaption className="chart-heading"><span>{copy.title}</span><span className="chart-scale">{copy.scale}</span></figcaption>
+    <div className="chart-row"><span className="chart-label">{copy.label}</span><div className="chart-track" aria-hidden="true"><span className="growth-accesses" style={{ width: "100%" }} /></div><span className="chart-value">+12%</span></div>
+    <div className="chart-axis" aria-hidden="true">{[0, 4, 8, 12].map((tick) => <span key={tick}>{tick}%</span>)}</div>
+    <p className="chart-note">{copy.note}</p>
   </figure>;
 }
 
@@ -93,3 +96,4 @@ export function ComparisonChart({ lang, kind, compact = false }: { lang: Languag
     <p className="chart-note">{copy.note}</p>
   </figure>;
 }
+

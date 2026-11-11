@@ -24,7 +24,7 @@ export const home = {
       "Base técnica.",
       "Do problema à entrega."
     ],
-    "introduction": "Sou Yago Jesus, Product Manager com 3 anos em Produto e trajetória em desenvolvimento Full Stack .NET/C#. Conecto negócio, tecnologia e experiência do usuário para conduzir iniciativas do problema à publicação.",
+    "introduction": "Sou Yago Jesus, Product Manager com 3 anos em Produto e base técnica Full Stack .NET/C#. Fui responsável pela plataforma legada da Ticket Sports, conectando atletas, organizadores, operação e engenharia. Negocio prioridades com C-level e conduzo iniciativas do discovery à publicação.",
     "primaryCta": "Conheça os projetos",
     "secondaryCta": "Sobre minha trajetória",
     "casesEyebrow": "01 / PROJETOS SELECIONADOS",
@@ -49,15 +49,22 @@ export const home = {
         "category": "MOBILE · EVOLUÇÃO",
         "title": "App do Atleta",
         "subtitle": "Compra unificada e evolução da experiência",
-        "description": "Compra unificada, conteúdo Webrun e conversão de 20% para 70% na jornada do app. Avaliações de 4,5 nas duas lojas.",
+        "description": "Catálogo disponível para compra de 30% para 100%, lançamento em 4 meses e ganho de 15 pontos percentuais na retenção em janela de duas semanas.",
         "color": "blue"
       },
       {
         "category": "WEB · EXPERIÊNCIA E DADOS",
         "title": "Evolução do site legado",
         "subtitle": "Experiência e jornada mensurável",
-        "description": "Mais de 500 mil acessos na semana de lançamento, acompanhamento com PostHog e investigação do rastreamento da compra no Google e na Meta.",
+        "description": "Reformulação da homepage, categorias, filtros e descoberta por localização, com crescimento relativo de 12% no engajamento com páginas de eventos.",
         "color": "blue"
+      },
+      {
+        "category": "DADOS · NEGÓCIO",
+        "title": "Indicadores para áreas de negócio",
+        "subtitle": "Google Data Studio · Atualização D-1",
+        "description": "GMV, tiers e indicadores de eventos centralizados com o time de Dados, para consulta de Comercial, CS, RP e Key Accounts.",
+        "color": "green"
       }
     ],
     "casePreview": "Ver decisões e resultados",
@@ -65,7 +72,7 @@ export const home = {
     "portraitAlt": "Yago Jesus sorrindo, usando óculos e camiseta preta, em um evento.",
     "aboutTitle": "Repertório técnico para decidir.\nVisão de produto para avançar.",
     "aboutText": "Atuei como desenvolvedor Full Stack .NET/C# antes de concentrar minha atuação em Produto. Essa vivência me ajuda a discutir alternativas com engenharia e considerar esforço de implementação, manutenção e restrições técnicas nas decisões. Como PM, conecto esse repertório à escuta de clientes, à validação com UX e aos objetivos do negócio, conduzindo o trabalho do problema à entrega.",
-    "aboutNote": "Decisões e planejamento de Produto que contribuíram, junto ao time, para atingir a meta anual de R$ 500 milhões de GMV em 2026 com três meses de antecedência.",
+    "aboutNote": "Plataforma com mais de 1.000 organizadores e cerca de 1 milhão de cadastros de atletas. Priorização trimestral com C-level e operação, considerando GMV, relacionamento e viabilidade técnica; refinamentos semanais e validação de escopo com stakeholders.",
     "backgroundLabel": "Experiência e formação",
     "background": [
       {
@@ -103,7 +110,7 @@ export const home = {
       "Technical foundation.",
       "From problem to delivery."
     ],
-    "introduction": "I’m Yago Jesus, a Product Manager with 3 years in Product and a background in Full Stack .NET/C# development. I connect business, technology and user experience to lead initiatives from problem to launch.",
+    "introduction": "I’m Yago Jesus, a Product Manager with 3 years in Product and a Full Stack .NET/C# background. I owned product management for the Ticket Sports legacy platform, connecting athletes, organizers, operations and engineering. I negotiate priorities with C-level and lead initiatives from discovery to launch.",
     "primaryCta": "Discover the projects",
     "secondaryCta": "About my journey",
     "casesEyebrow": "01 / SELECTED PROJECTS",
@@ -128,15 +135,22 @@ export const home = {
         "category": "MOBILE · EVOLUTION",
         "title": "Athlete App",
         "subtitle": "Unified purchases and an evolving experience",
-        "description": "Unified purchases, Webrun content and purchase conversion from 20% to 70% in the app. Ratings of 4.5 in both stores.",
+        "description": "Purchasable catalog expanded from 30% to 100%, launch in 4 months and a 15-percentage-point increase in retention measured over a two-week window.",
         "color": "blue"
       },
       {
         "category": "WEB · EXPERIENCE AND DATA",
         "title": "Improving the legacy website",
         "subtitle": "Experience and a measurable journey",
-        "description": "Over 500,000 accesses in launch week, tracking through PostHog and investigating purchase tracking in Google and Meta.",
+        "description": "Redesigned homepage, categories, filters and location-based discovery, with a 12% relative increase in event-page engagement.",
         "color": "blue"
+      },
+      {
+        "category": "DATA · BUSINESS",
+        "title": "Business intelligence",
+        "subtitle": "Google Data Studio · D-1 freshness",
+        "description": "GMV, tiers and event indicators centralized with Data for Sales, CS, RP and Key Accounts.",
+        "color": "green"
       }
     ],
     "casePreview": "See decisions and results",
@@ -144,7 +158,7 @@ export const home = {
     "portraitAlt": "Yago Jesus smiling, wearing glasses and a black shirt at an event.",
     "aboutTitle": "Technical insight to decide.\nProduct vision to move forward.",
     "aboutText": "I worked as a Full Stack .NET/C# developer before focusing on Product. That experience helps me discuss alternatives with engineering and consider implementation effort, maintenance and technical constraints in product decisions. As a PM, I connect that knowledge with client interviews, UX validation and business goals, leading work from problem to delivery.",
-    "aboutNote": "Product decisions and planning that contributed, alongside the team, to reaching the R$ 500 million annual GMV target in 2026 three months ahead of year-end.",
+    "aboutNote": "A platform with over 1,000 organizers and approximately 1 million athlete registration records. Quarterly prioritization with C-level and operations based on GMV, business relationships and technical feasibility; weekly refinements and stakeholder scope validation.",
     "backgroundLabel": "Experience and education",
     "background": [
       {
@@ -182,7 +196,7 @@ export const home = {
       "Base técnica.",
       "Del problema a la entrega."
     ],
-    "introduction": "Soy Yago Jesus, Product Manager con 3 años en Producto y trayectoria en desarrollo Full Stack .NET/C#. Conecto negocio, tecnología y experiencia de usuario para liderar iniciativas desde el problema hasta el lanzamiento.",
+    "introduction": "Soy Yago Jesus, Product Manager con 3 años en Producto y base técnica Full Stack .NET/C#. Fui responsable de producto de la plataforma heredada de Ticket Sports, conectando deportistas, organizadores, operaciones e ingeniería. Negocio prioridades con C-level y dirijo iniciativas del discovery al lanzamiento.",
     "primaryCta": "Conoce los proyectos",
     "secondaryCta": "Sobre mi trayectoria",
     "casesEyebrow": "01 / PROYECTOS SELECCIONADOS",
@@ -207,15 +221,22 @@ export const home = {
         "category": "MOBILE · EVOLUCIÓN",
         "title": "App del Atleta",
         "subtitle": "Compra unificada y evolución de la experiencia",
-        "description": "Compra unificada, contenido Webrun y conversión del 20% al 70% en la app. Valoraciones de 4,5 en ambas tiendas.",
+        "description": "Catálogo disponible para compra del 30% al 100%, lanzamiento en 4 meses y aumento de 15 puntos porcentuales en retención medida en una ventana de dos semanas.",
         "color": "blue"
       },
       {
         "category": "WEB · EXPERIENCIA Y DATOS",
         "title": "Evolución del sitio legado",
         "subtitle": "Experiencia y recorrido medible",
-        "description": "Más de 500.000 accesos en la semana de lanzamiento, seguimiento con PostHog e investigación del rastreo de compras en Google y Meta.",
+        "description": "Renovación de página de inicio, categorías, filtros y búsqueda por ubicación, con un crecimiento relativo del 12% en interacción con páginas de eventos.",
         "color": "blue"
+      },
+      {
+        "category": "DATOS · NEGOCIO",
+        "title": "Indicadores para áreas de negocio",
+        "subtitle": "Google Data Studio · Actualización D-1",
+        "description": "GMV, niveles e indicadores de eventos centralizados con Datos para Comercial, CS, RP y Key Accounts.",
+        "color": "green"
       }
     ],
     "casePreview": "Ver decisiones y resultados",
@@ -223,7 +244,7 @@ export const home = {
     "portraitAlt": "Yago Jesus sonriendo, con gafas y camiseta negra, en un evento.",
     "aboutTitle": "Criterio técnico para decidir.\nVisión de producto para avanzar.",
     "aboutText": "Trabajé como desarrollador Full Stack .NET/C# antes de centrar mi trayectoria en Producto. Esa experiencia me ayuda a discutir alternativas con ingeniería y considerar el esfuerzo de implementación, el mantenimiento y las restricciones técnicas al tomar decisiones. Como PM, conecto ese conocimiento con la escucha de clientes, la validación con UX y los objetivos del negocio, liderando el trabajo desde el problema hasta la entrega.",
-    "aboutNote": "Decisiones y planificación de Producto que contribuyeron, junto al equipo, a alcanzar la meta anual de R$ 500 millones de GMV en 2026 tres meses antes del cierre del año.",
+    "aboutNote": "Plataforma con más de 1.000 organizadores y cerca de 1 millón de registros de deportistas. Priorización trimestral con C-level y operaciones según GMV, relaciones comerciales y viabilidad técnica; refinamientos semanales y validación del alcance con stakeholders.",
     "backgroundLabel": "Experiencia y formación",
     "background": [
       {
@@ -244,3 +265,4 @@ export const home = {
     "backToTop": "Volver al inicio"
   }
 } as const;
+
