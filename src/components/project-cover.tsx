@@ -10,15 +10,9 @@ const descriptions = {
 export function ProjectCover({ index, lang }: { index: number; lang: Language }) {
   const alt = descriptions[lang];
 
-  if (index === 4) return <div className="project-cover project-cover-web">
-    <svg viewBox="0 0 600 320" role="img" aria-label={{ pt: "Indicadores de negócio com atualização D-1", en: "Business indicators updated through D-1", es: "Indicadores de negocio con actualización D-1" }[lang]} style={{ width: "100%", height: "100%", color: "var(--accent, #b6d477)" }}>
-      <rect x="62" y="52" width="476" height="216" rx="12" fill="none" stroke="currentColor" opacity=".4" />
-      <text x="92" y="105" fill="currentColor" fontSize="18" fontFamily="sans-serif">GOOGLE DATA STUDIO</text>
-      <text x="90" y="199" fill="currentColor" fontSize="82" fontFamily="sans-serif" fontWeight="600">D−1</text>
-      <text x="325" y="154" fill="currentColor" fontSize="22" fontFamily="sans-serif">GMV</text>
-      <text x="325" y="190" fill="currentColor" fontSize="22" fontFamily="sans-serif">TIERS</text>
-      <text x="325" y="226" fill="currentColor" fontSize="22" fontFamily="sans-serif">KITS</text>
-    </svg>
+  if (index === 4) return <div className="project-cover project-cover-data">
+    <Image src="/images/indicadores-negocio.png" alt={{ pt: "Ilustração conceitual de um painel com GMV, tiers, kits e atualização D-1", en: "Conceptual dashboard illustration with GMV, tiers, kits and D-1 updates", es: "Ilustración conceptual de un panel con GMV, niveles, kits y actualización D-1" }[lang]} width={1672} height={941} unoptimized />
+    <span className="data-cover-label">{{ pt: "Ilustração conceitual", en: "Conceptual illustration", es: "Ilustración conceptual" }[lang]}</span>
   </div>;
 
   if (index === 1) return <div className="project-cover project-cover-checkin">
