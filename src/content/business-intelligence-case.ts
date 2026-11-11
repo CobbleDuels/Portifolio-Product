@@ -43,7 +43,7 @@ export const businessIntelligenceCase = {
       {
         "eyebrow": "USO NO NEGÓCIO",
         "title": "Acompanhar a carteira.\nOrientar a atuação com o organizador.",
-        "text": "A consulta passou a apoiar a atualização de tiers, a identificação de variações de GMV e o acompanhamento dos indicadores dos eventos. O resultado foi disponibilizar um ponto central de acesso com dados atualizados, em vez de depender de novas solicitações a cada consulta. Não houve mensuração consolidada de horas economizadas ou impacto financeiro dessa iniciativa."
+        "text": "A consulta passou a apoiar a atualização de tiers, a identificação de variações de GMV e o acompanhamento dos indicadores dos eventos. O resultado foi disponibilizar um ponto central de acesso com dados atualizados, em vez de depender de novas solicitações a cada consulta."
       }
     ],
     "card": {
@@ -96,7 +96,7 @@ export const businessIntelligenceCase = {
       {
         "eyebrow": "BUSINESS USE",
         "title": "Monitor the portfolio.\nGuide organizer support.",
-        "text": "The view supported tier updates, identification of GMV changes and monitoring of event indicators. The outcome was one accessible source of updated information, replacing dependence on new requests for each query. There was no consolidated measurement of hours saved or financial impact."
+        "text": "The view supported tier updates, identification of GMV changes and monitoring of event indicators. The outcome was one accessible source of updated information, replacing dependence on new requests for each query."
       }
     ],
     "card": {
@@ -149,7 +149,7 @@ export const businessIntelligenceCase = {
       {
         "eyebrow": "USO EN EL NEGOCIO",
         "title": "Seguir la cartera.\nOrientar el apoyo al organizador.",
-        "text": "La consulta apoyaba la actualización de niveles, la identificación de cambios de GMV y el seguimiento de indicadores de eventos. El resultado fue un punto central de acceso a información actualizada, sustituyendo la dependencia de nuevas solicitudes para cada consulta. No hubo medición consolidada de horas ahorradas o impacto financiero."
+        "text": "La consulta apoyaba la actualización de niveles, la identificación de cambios de GMV y el seguimiento de indicadores de eventos. El resultado fue un punto central de acceso a información actualizada, sustituyendo la dependencia de nuevas solicitudes para cada consulta."
       }
     ],
     "card": {
