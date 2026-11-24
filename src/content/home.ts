@@ -8,7 +8,7 @@ export function isLanguage(value: string): value is Language {
 export const home = {
   "pt": {
     "metaTitle": "Yago Jesus — Product Manager",
-    "metaDescription": "Yago Jesus, Product Manager com 3 anos em Produto e trajetória Full Stack .NET/C#. Decisões, entregas e resultados em plataformas, operações e aplicativos.",
+    "metaDescription": "Portfólio de Yago Jesus, Product Manager. Cases de marketplace, checkout e apps na Ticket Sports, com decisões de produto e resultados medidos.",
     "skip": "Pular para o conteúdo",
     "navigation": "Navegação principal",
     "language": "Selecionar idioma",
@@ -16,20 +16,20 @@ export const home = {
     "aboutLink": "Sobre mim",
     "contactLink": "Contato",
     "contactEyebrow": "03 / CONTATO",
-    "contactTitle": "Vamos conversar sobre o próximo desafio de Produto?",
-    "contactText": "Vamos conversar sobre desafios de Produto, oportunidades de trabalho ou os projetos deste portfólio.",
+    "contactTitle": "Disponível para oportunidades em Produto",
+    "contactText": "Busco posições de Product Manager ou Product Owner pleno, com interesse em marketplaces, pagamentos e produtos mobile.",
     "eyebrow": "PRODUCT MANAGER · PORTFÓLIO",
     "headline": [
-      "Visão de produto.",
-      "Base técnica.",
-      "Do problema à entrega."
+      "Marketplaces.",
+      "Apps.",
+      "Pagamentos."
     ],
-    "introduction": "Sou Yago Jesus, Product Manager com 3 anos em Produto e base técnica Full Stack .NET/C#. Fui responsável pela plataforma legada da Ticket Sports, conectando atletas, organizadores, operação e engenharia. Negocio prioridades com C-level e conduzo iniciativas do discovery à publicação.",
+    "introduction": "Sou Yago Jesus, Product Manager com experiência em desenvolvimento C#/.NET. Na Ticket Sports, cuidei da compra de inscrições pelos atletas e das ferramentas que os organizadores usam para vender e operar eventos.",
     "primaryCta": "Conheça os projetos",
     "secondaryCta": "Sobre minha trajetória",
     "casesEyebrow": "01 / PROJETOS SELECIONADOS",
-    "casesTitle": "Decisões de produto.\nResultados em equipe.",
-    "casesIntro": "Conheça os problemas, as decisões que conduzi e os resultados das entregas do time — em plataformas, operações e experiências digitais.",
+    "casesTitle": "Projetos na Ticket Sports",
+    "casesIntro": "Da inscrição no celular à retirada de kits sem internet, veja o que decidi com os times e como acompanhamos os resultados.",
     "projects": [
       {
         "category": "PLATAFORMA · ESCALA",
@@ -70,14 +70,14 @@ export const home = {
     "casePreview": "Ver decisões e resultados",
     "aboutEyebrow": "02 / QUEM É O YAGO",
     "portraitAlt": "Yago Jesus sorrindo, usando óculos e camiseta preta, em um evento.",
-    "aboutTitle": "Repertório técnico para decidir.\nVisão de produto para avançar.",
-    "aboutText": "Atuei como desenvolvedor Full Stack .NET/C# antes de concentrar minha atuação em Produto. Essa vivência me ajuda a discutir alternativas com engenharia e considerar esforço de implementação, manutenção e restrições técnicas nas decisões. Como PM, conecto esse repertório à escuta de clientes, à validação com UX e aos objetivos do negócio, conduzindo o trabalho do problema à entrega.",
-    "aboutNote": "Plataforma com mais de 1.000 organizadores e cerca de 1 milhão de cadastros de atletas. Priorização trimestral com C-level e operação, considerando GMV, relacionamento e viabilidade técnica; refinamentos semanais e validação de escopo com stakeholders.",
+    "aboutTitle": "Minha trajetória em Produto",
+    "aboutText": "Comecei no atendimento e passei pelo desenvolvimento antes de assumir produtos na Ticket Sports. Trabalhar com atletas e organizadores me ajudou a entender onde uma decisão de compra no app afeta a operação no dia da prova.",
+    "aboutNote": "Na priorização trimestral, eu discutia com a liderança o impacto para os organizadores, o GMV e o esforço de engenharia.",
     "backgroundLabel": "Experiência e formação",
     "background": [
       {
-        "title": "3 anos em Produto",
-        "detail": "Experiência como Product Manager, com atuação entre negócio, tecnologia e experiência do usuário."
+        "title": "Pagamentos e checkout",
+        "detail": "Trabalhei com integrações de cartão e boleto. Analisei 282 tarefas de suporte a pagamentos e estimei um esforço equivalente a 5,2 meses de trabalho de uma pessoa."
       },
       {
         "title": "Desenvolvimento Full Stack · .NET/C#",
@@ -86,7 +86,7 @@ export const home = {
       {
         "title": "Pós-graduação · PUC-Campinas",
         "detail": "Arquitetura de Software, Ciência de Dados e Cibersegurança",
-        "status": "Em andamento · conclusão prevista para fev/2027"
+        "status": "Em andamento · conclusão prevista em 2027"
       }
     ],
     "footer": "Produto é conectar as partes.",
@@ -94,7 +94,7 @@ export const home = {
   },
   "en": {
     "metaTitle": "Yago Jesus — Product Manager",
-    "metaDescription": "Yago Jesus, a Product Manager with 3 years in Product and a Full Stack .NET/C# background. Decisions, delivery and outcomes across platforms, operations and apps.",
+    "metaDescription": "Yago Jesus’s product portfolio. Marketplace, checkout and mobile app case studies from Ticket Sports, with product decisions and measured outcomes.",
     "skip": "Skip to content",
     "navigation": "Main navigation",
     "language": "Select language",
@@ -102,20 +102,20 @@ export const home = {
     "aboutLink": "About",
     "contactLink": "Contact",
     "contactEyebrow": "03 / CONTACT",
-    "contactTitle": "Let’s talk about the next Product challenge.",
-    "contactText": "Let’s discuss Product challenges, career opportunities or the projects in this portfolio.",
+    "contactTitle": "Open to product roles",
+    "contactText": "I’m looking for mid-level Product Manager or Product Owner roles, particularly in marketplaces, payments and mobile products.",
     "eyebrow": "PRODUCT MANAGER · PORTFOLIO",
     "headline": [
-      "Product vision.",
-      "Technical foundation.",
-      "From problem to delivery."
+      "Marketplaces.",
+      "Mobile apps.",
+      "Payments."
     ],
-    "introduction": "I’m Yago Jesus, a Product Manager with 3 years in Product and a Full Stack .NET/C# background. I owned product management for the Ticket Sports legacy platform, connecting athletes, organizers, operations and engineering. I negotiate priorities with C-level and lead initiatives from discovery to launch.",
+    "introduction": "I’m Yago Jesus, a Product Manager with a C#/.NET development background. At Ticket Sports, I worked on race registration for athletes and the tools organizers use to sell entries and run events.",
     "primaryCta": "Discover the projects",
     "secondaryCta": "About my journey",
     "casesEyebrow": "01 / SELECTED PROJECTS",
-    "casesTitle": "Product decisions.\nTeam outcomes.",
-    "casesIntro": "Explore the problems, the decisions I led and the outcomes the team delivered — across platforms, operations and digital experiences.",
+    "casesTitle": "Projects at Ticket Sports",
+    "casesIntro": "From mobile registration to offline kit pickup, these cases explain the decisions we made and how we measured the results.",
     "projects": [
       {
         "category": "PLATFORM · SCALE",
@@ -156,14 +156,14 @@ export const home = {
     "casePreview": "See decisions and results",
     "aboutEyebrow": "02 / ABOUT YAGO",
     "portraitAlt": "Yago Jesus smiling, wearing glasses and a black shirt at an event.",
-    "aboutTitle": "Technical insight to decide.\nProduct vision to move forward.",
-    "aboutText": "I worked as a Full Stack .NET/C# developer before focusing on Product. That experience helps me discuss alternatives with engineering and consider implementation effort, maintenance and technical constraints in product decisions. As a PM, I connect that knowledge with client interviews, UX validation and business goals, leading work from problem to delivery.",
-    "aboutNote": "A platform with over 1,000 organizers and approximately 1 million athlete registration records. Quarterly prioritization with C-level and operations based on GMV, business relationships and technical feasibility; weekly refinements and stakeholder scope validation.",
+    "aboutTitle": "How I got into product",
+    "aboutText": "I started in customer support, then moved into software development and product management at Ticket Sports. Working with athletes and organizers showed me how a decision in the purchase flow could affect operations on race day.",
+    "aboutNote": "Each quarter, I worked with leadership to weigh the impact on organizers, GMV and engineering effort when setting priorities.",
     "backgroundLabel": "Experience and education",
     "background": [
       {
-        "title": "3 years in Product",
-        "detail": "Experience as a Product Manager, connecting business, technology and user experience."
+        "title": "Payments and checkout",
+        "detail": "I worked on card and boleto payment integrations. I analyzed 282 payment support tasks and estimated the workload at 5.2 person-months."
       },
       {
         "title": "Full Stack development · .NET/C#",
@@ -172,7 +172,7 @@ export const home = {
       {
         "title": "Postgraduate specialization · PUC-Campinas",
         "detail": "Software Architecture, Data Science and Cybersecurity",
-        "status": "In progress · expected completion Feb 2027"
+        "status": "In progress · expected completion in 2027"
       }
     ],
     "footer": "Product is about connecting the dots.",
@@ -180,7 +180,7 @@ export const home = {
   },
   "es": {
     "metaTitle": "Yago Jesus — Product Manager",
-    "metaDescription": "Yago Jesus, Product Manager con 3 años en Producto y trayectoria Full Stack .NET/C#. Decisiones, entregas y resultados en plataformas, operaciones y aplicaciones.",
+    "metaDescription": "Portafolio de Yago Jesus, Product Manager. Casos de marketplace, pagos y aplicaciones móviles en Ticket Sports, con decisiones y resultados medidos.",
     "skip": "Saltar al contenido",
     "navigation": "Navegación principal",
     "language": "Seleccionar idioma",
@@ -188,20 +188,20 @@ export const home = {
     "aboutLink": "Sobre mí",
     "contactLink": "Contacto",
     "contactEyebrow": "03 / CONTACTO",
-    "contactTitle": "¿Hablamos del próximo desafío de Producto?",
-    "contactText": "Hablemos sobre retos de Producto, oportunidades profesionales o los proyectos de este portafolio.",
+    "contactTitle": "Disponible para oportunidades en producto",
+    "contactText": "Busco puestos de Product Manager o Product Owner de nivel intermedio, especialmente en marketplaces, pagos y productos móviles.",
     "eyebrow": "PRODUCT MANAGER · PORTAFOLIO",
     "headline": [
-      "Visión de producto.",
-      "Base técnica.",
-      "Del problema a la entrega."
+      "Marketplaces.",
+      "Apps móviles.",
+      "Pagos."
     ],
-    "introduction": "Soy Yago Jesus, Product Manager con 3 años en Producto y base técnica Full Stack .NET/C#. Fui responsable de producto de la plataforma heredada de Ticket Sports, conectando deportistas, organizadores, operaciones e ingeniería. Negocio prioridades con C-level y dirijo iniciativas del discovery al lanzamiento.",
+    "introduction": "Soy Yago Jesus, Product Manager con experiencia en desarrollo C#/.NET. En Ticket Sports trabajé en las inscripciones de los deportistas y en las herramientas que usan los organizadores para vender inscripciones y gestionar eventos.",
     "primaryCta": "Conoce los proyectos",
     "secondaryCta": "Sobre mi trayectoria",
     "casesEyebrow": "01 / PROYECTOS SELECCIONADOS",
-    "casesTitle": "Decisiones de producto.\nResultados en equipo.",
-    "casesIntro": "Conoce los problemas, las decisiones que lideré y los resultados del equipo — en plataformas, operaciones y experiencias digitales.",
+    "casesTitle": "Proyectos en Ticket Sports",
+    "casesIntro": "Desde la inscripción por móvil hasta la recogida de kits sin conexión, estos casos explican qué decidimos y cómo medimos los resultados.",
     "projects": [
       {
         "category": "PLATAFORMA · ESCALA",
@@ -242,14 +242,14 @@ export const home = {
     "casePreview": "Ver decisiones y resultados",
     "aboutEyebrow": "02 / SOBRE YAGO",
     "portraitAlt": "Yago Jesus sonriendo, con gafas y camiseta negra, en un evento.",
-    "aboutTitle": "Criterio técnico para decidir.\nVisión de producto para avanzar.",
-    "aboutText": "Trabajé como desarrollador Full Stack .NET/C# antes de centrar mi trayectoria en Producto. Esa experiencia me ayuda a discutir alternativas con ingeniería y considerar el esfuerzo de implementación, el mantenimiento y las restricciones técnicas al tomar decisiones. Como PM, conecto ese conocimiento con la escucha de clientes, la validación con UX y los objetivos del negocio, liderando el trabajo desde el problema hasta la entrega.",
-    "aboutNote": "Plataforma con más de 1.000 organizadores y cerca de 1 millón de registros de deportistas. Priorización trimestral con C-level y operaciones según GMV, relaciones comerciales y viabilidad técnica; refinamientos semanales y validación del alcance con stakeholders.",
+    "aboutTitle": "Mi trayectoria en producto",
+    "aboutText": "Empecé en atención al cliente y pasé por el desarrollo de software antes de dedicarme a producto en Ticket Sports. Trabajar con deportistas y organizadores me enseñó cómo una decisión en el proceso de compra afecta a la operación el día de la carrera.",
+    "aboutNote": "Al definir las prioridades de cada trimestre, valoraba con la dirección el impacto en los organizadores, el GMV y el esfuerzo de ingeniería.",
     "backgroundLabel": "Experiencia y formación",
     "background": [
       {
-        "title": "3 años en Producto",
-        "detail": "Experiencia como Product Manager, conectando negocio, tecnología y experiencia de usuario."
+        "title": "Pagos y checkout",
+        "detail": "Trabajé en integraciones de tarjetas y boleto bancario. Analicé 282 tareas de soporte de pagos y estimé una carga equivalente a 5,2 meses de trabajo de una persona."
       },
       {
         "title": "Desarrollo Full Stack · .NET/C#",
@@ -258,7 +258,7 @@ export const home = {
       {
         "title": "Posgrado · PUC-Campinas",
         "detail": "Arquitectura de Software, Ciencia de Datos y Ciberseguridad",
-        "status": "En curso · finalización prevista en febrero de 2027"
+        "status": "En curso · finalización prevista en 2027"
       }
     ],
     "footer": "Producto es conectar las partes.",
