@@ -64,19 +64,19 @@ const comparisonLabels = {
   es: {
     before: "Antes", after: "Después",
     conversion: { title: "Conversión de compra en la app", scale: "Compras completadas / compras iniciadas", before: "20%", after: "70%", note: "Tras la nueva versión, la conversión de compra pasó del 20% al 70% entre los usuarios que iniciaban la compra en la app." },
-    coverage: { title: "Eventos soportados en la app", scale: "Cobertura de eventos (%)", before: "30%", after: "100%", note: "La cobertura de eventos pasó del 30% al 100% tras la evolución de la aplicación." },
+    coverage: { title: "Eventos soportados en la app", scale: "Cobertura de eventos (%)", before: "~70%", after: "100%", note: "Cerca de tres de cada diez eventos quedaban fuera de la app. Tras la evolución, la app pasó a admitir el 100% del catálogo." },
     queue: { title: "Tiempo de espera para recoger kits", scale: "Espera en minutos", before: "50 min", after: "20–30 min", note: "Tras adoptar la app, la espera para recoger kits pasó de 50 a 20–30 minutos, según el seguimiento de la operación." },
   },
   pt: {
     before: "Antes", after: "Depois",
     conversion: { title: "Conversão de compra no app", scale: "Compras concluídas / jornadas iniciadas", before: "20%", after: "70%", note: "Após a nova versão, a conversão de compra no app passou de 20% para 70%, considerando os usuários que iniciavam a jornada de compra." },
-    coverage: { title: "Eventos suportados no app", scale: "Cobertura de eventos (%)", before: "30%", after: "100%", note: "Cobertura de eventos reportada no acompanhamento do produto: de 30% para 100% após a evolução do aplicativo." },
+    coverage: { title: "Eventos suportados no app", scale: "Cobertura de eventos (%)", before: "~70%", after: "100%", note: "Cerca de três em cada dez eventos ficavam fora do app. Após a evolução, o app passou a atender 100% do catálogo." },
     queue: { title: "Tempo de espera na fila de retirada", scale: "Espera em minutos", before: "50 min", after: "20–30 min", note: "Após a adoção do app, a espera na fila de retirada de kits passou de 50 para 20–30 minutos, conforme o acompanhamento da operação." },
   },
   en: {
     before: "Before", after: "After",
     conversion: { title: "In-app purchase conversion", scale: "Completed purchases / journeys started", before: "20%", after: "70%", note: "Following the new version, in-app purchase conversion rose from 20% to 70% among users who started the purchase journey." },
-    coverage: { title: "Events supported in the app", scale: "Event coverage (%)", before: "30%", after: "100%", note: "Event coverage reported during product monitoring: from 30% to 100% following the app’s evolution." },
+    coverage: { title: "Events supported in the app", scale: "Event coverage (%)", before: "~70%", after: "100%", note: "Roughly three in ten events were unavailable in the app. After the update, the app supported 100% of the catalog." },
     queue: { title: "Waiting time in the pickup queue", scale: "Wait in minutes", before: "50 min", after: "20–30 min", note: "After app adoption, waiting time in the kit pickup queue fell from 50 to 20–30 minutes, as observed during operations." },
   },
 } as const;
@@ -85,7 +85,7 @@ export function ComparisonChart({ lang, kind, compact = false }: { lang: Languag
   const labels = comparisonLabels[lang];
   const copy = labels[kind];
   const conversion = kind !== "queue";
-  const before = kind === "coverage" ? 30 : conversion ? 20 : 100;
+  const before = kind === "coverage" ? 70 : conversion ? 20 : 100;
   const after = kind === "coverage" ? 100 : conversion ? 70 : 40;
   const ticks = conversion ? [0, 25, 50, 75, 100] : [0, 10, 20, 30, 40, 50];
   return <figure className={`result-chart comparison-chart${compact ? " result-chart-compact" : ""}`}>
