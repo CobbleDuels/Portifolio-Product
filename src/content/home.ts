@@ -49,7 +49,7 @@ export const home = {
         "category": "MOBILE · EVOLUÇÃO",
         "title": "App do Atleta",
         "subtitle": "Compra unificada e evolução da experiência",
-        "description": "O app antigo vendia, mas a experiência era ruim. Em quatro meses lançamos o novo: todas as corridas à venda no app, nota de 3,1 para 4,5 nas lojas e mais atletas voltando a usá-lo, num canal que passou de R$ 200 milhões em vendas em 2026.",
+        "description": "O app antigo vendia, mas a experiência era ruim. Em quatro meses lançamos o novo: todas as corridas à venda no app, nota de 3,1 para 4,5 nas lojas e mais que o dobro de atletas mantendo o app depois da prova, num canal que passou de R$ 200 milhões em vendas em 2026.",
         "color": "blue"
       },
       {
@@ -135,7 +135,7 @@ export const home = {
         "category": "MOBILE · EVOLUTION",
         "title": "Athlete App",
         "subtitle": "Unified purchases and an evolving experience",
-        "description": "The old app sold, but the experience was poor. In four months we launched the new one: every race on sale in the app, store ratings up from 3.1 to 4.5 and more athletes coming back, in a channel that passed R$200 million in sales in 2026.",
+        "description": "The old app sold, but the experience was poor. In four months we launched the new one: every race on sale in the app, store ratings up from 3.1 to 4.5 and more than twice as many athletes keeping the app after their race, in a channel that passed R$200 million in sales in 2026.",
         "color": "blue"
       },
       {
@@ -221,7 +221,7 @@ export const home = {
         "category": "MOBILE · EVOLUCIÓN",
         "title": "App del Atleta",
         "subtitle": "Compra unificada y evolución de la experiencia",
-        "description": "La app anterior vendía, pero la experiencia era mala. En cuatro meses lanzamos la nueva: todas las carreras a la venta en la app, valoración de 3,1 a 4,5 en las tiendas y más deportistas volviendo a usarla, en un canal que superó los R$ 200 millones en ventas en 2026.",
+        "description": "La app anterior vendía, pero la experiencia era mala. En cuatro meses lanzamos la nueva: todas las carreras a la venta en la app, valoración de 3,1 a 4,5 en las tiendas y más del doble de deportistas conservando la app tras la carrera, en un canal que superó los R$ 200 millones en ventas en 2026.",
         "color": "blue"
       },
       {
