@@ -14,12 +14,12 @@ export const checkInCase = {
     "metaDescription": "Um app para entrega de kits esportivos por QR Code ou CPF, com operação online e offline e sincronização posterior.",
     "eyebrow": "02 / APP DE CHECK-IN · OPERAÇÃO",
     "title": "Entregar kits.\nCom ou sem internet.",
-    "introduction": "Conduzi um app de retirada de kits da validação à publicação, com primeira versão entregue em 12 semanas. A demanda chegou pelo CS a partir de um cliente e se conectava à visão de reunir ferramentas para o organizador. O time entregou operação online e offline; o app foi usado em mais de 100 eventos e na entrega de mais de 50 mil kits.",
+    "introduction": "Identificamos uma oportunidade de ajudar organizadores a entregar kits mesmo quando a conexão falhava. O risco de perder uma conta de grande peso na receita tornou essa oportunidade mais urgente. Conduzi a validação do fluxo com o organizador, e a equipe entregou a primeira versão em 12 semanas. O app foi usado em mais de 100 eventos na entrega de mais de 50 mil kits.",
     "sections": [
       {
-        "eyebrow": "DA DEMANDA À VISÃO DE PRODUTO",
-        "title": "Da demanda de um cliente\na uma ferramenta para a operação.",
-        "text": "A demanda chegou internamente pelo CS, após um cliente perguntar sobre uma facilidade já oferecida por um concorrente. A operação de kits dependia de internet, notebooks e acesso ao SaaS. Apuramos a necessidade e entendemos sua aderência à visão de reunir, em um só ambiente, os produtos que auxiliavam o organizador. Como não havia API pública para esses dados cadastrais e internos, a proposta foi desenvolver a ferramenta dentro do próprio ecossistema."
+        "eyebrow": "DECISÃO DE PRODUTO",
+        "title": "Por que priorizamos a retirada de kits",
+        "text": "Já víamos espaço no mercado para integrar a retirada de kits à plataforma de inscrições. O sinal de urgência veio pelo Atendimento. Um organizador de grande peso na receita avaliava migrar para um concorrente que oferecia check-in. Ele disse que ficaria se conseguíssemos atender à sua operação. Priorizamos a iniciativa porque ela respondia ao risco de perder essa conta e podia resolver um problema de outros organizadores: manter os pontos de retirada funcionando mesmo sem internet."
       },
       {
         "eyebrow": "CRITÉRIO DE PRODUTO",
@@ -47,8 +47,8 @@ export const checkInCase = {
       },
       {
         "eyebrow": "MINHA ATUAÇÃO COMO PM",
-        "title": "Validar com o cliente.\nConduzir da iniciativa à loja.",
-        "text": "Conduzi entrevistas e apresentações com o cliente para entender a rotina de retirada e coletar feedback. Traduzi a demanda em iniciativa e user stories, validei o design com UX e alinhei o trabalho com o time. Acompanhei a execução e a publicação nas lojas. A engenharia implementou a solução, e a equipe acompanhou o atendimento da operação no lançamento.",
+        "title": "Como defini o escopo com o organizador",
+        "text": "Nas entrevistas e apresentações com o organizador, mapeei o que a equipe precisava fazer no balcão: localizar a inscrição, conferir os itens e registrar a entrega. Usei esse fluxo para definir as histórias de usuário, validar o design com UX e alinhar o escopo com Engenharia. Acompanhei a entrega até a publicação nas lojas.",
         "items": [
           {
             "title": "12 semanas",
@@ -119,12 +119,12 @@ export const checkInCase = {
     "metaDescription": "A mobile app for sports kit pickup using QR codes or CPF, supporting online and offline operation and subsequent synchronization.",
     "eyebrow": "02 / CHECK-IN APP · OPERATIONS",
     "title": "Kit pickup.\nWith or without a connection.",
-    "introduction": "I led a kit-pickup app from validation through publication, with the first version delivered in 12 weeks. The request came through CS from a client and aligned with the vision of bringing organizer tools together. The team delivered online and offline operation; the app was used at over 100 events to hand out more than 50,000 kits.",
+    "introduction": "We saw a market opportunity to help organizers hand out race kits even when connectivity failed. The risk of losing a commercially important account made that opportunity more urgent. I validated the pickup workflow with the organizer, and the team delivered the first release in 12 weeks. Staff used the app at over 100 events to hand out more than 50,000 kits.",
     "sections": [
       {
-        "eyebrow": "FROM REQUEST TO PRODUCT VISION",
-        "title": "From a client request\nto a tool for event operations.",
-        "text": "The request came internally through CS after a client asked about a convenience already offered by a competitor. Kit pickup depended on internet, laptops and SaaS access. We investigated the need and its fit with the vision of bringing organizer tools into one environment. With no public API for that registration and internal data, the proposal was to build the tool within the existing ecosystem."
+        "eyebrow": "PRODUCT DECISION",
+        "title": "Why we prioritized kit pickup",
+        "text": "We had already seen an opportunity to integrate kit pickup into our registration platform. Customer Success brought us a signal that changed the timing. An organizer that accounted for a significant share of revenue was considering a competitor with a check-in tool. The organizer said they would stay if we could meet their operational needs. We prioritized the work because it addressed that immediate risk and could help other organizers keep pickup desks running when connectivity failed."
       },
       {
         "eyebrow": "PRODUCT CRITERION",
@@ -152,8 +152,8 @@ export const checkInCase = {
       },
       {
         "eyebrow": "MY CONTRIBUTION AS PM",
-        "title": "Validate with the client.\nLead from initiative to app store.",
-        "text": "I conducted client interviews and presentations to understand the pickup workflow and collect feedback. I translated the request into a product initiative and user stories, validated designs with UX and aligned the team. I followed execution and store publication. Engineering implemented the solution, and the team supported operations at launch.",
+        "title": "How I scoped the workflow with the organizer",
+        "text": "In interviews and walkthroughs with the organizer, I mapped what staff needed to do at the desk: find a registration, check the kit contents and record the handover. I used that workflow to write user stories, validate designs with UX and agree on scope with Engineering. I followed delivery through to publication in the app stores.",
         "items": [
           {
             "title": "12 weeks",
@@ -224,12 +224,12 @@ export const checkInCase = {
     "metaDescription": "Aplicación para la entrega de kits deportivos por QR o CPF, con funcionamiento sin conexión, sincronización automática y uso en más de 100 eventos.",
     "eyebrow": "02 / APP DE CHECK-IN · OPERACIÓN",
     "title": "Entregar kits.\nCon o sin conexión.",
-    "introduction": "Lideré una app de recogida de kits desde la validación hasta la publicación, con una primera versión entregada en 12 semanas. La demanda llegó a través de CS desde un cliente y encajaba con la visión de reunir herramientas para el organizador. El equipo entregó funcionamiento online y offline; la app se utilizó en más de 100 eventos y para entregar más de 50.000 kits.",
+    "introduction": "Vimos una oportunidad de mercado para ayudar a los organizadores a entregar kits incluso cuando fallaba la conexión. El riesgo de perder una cuenta de gran peso en la facturación hizo más urgente esa oportunidad. Validé el flujo de recogida con el organizador y el equipo entregó la primera versión en 12 semanas. La app se utilizó en más de 100 eventos para entregar más de 50.000 kits.",
     "sections": [
       {
-        "eyebrow": "DE LA DEMANDA A LA VISIÓN DE PRODUCTO",
-        "title": "De la necesidad de un cliente\na una herramienta para la operación.",
-        "text": "La demanda llegó internamente a través de CS después de que un cliente preguntara por una facilidad ofrecida por un competidor. La entrega de kits dependía de internet, ordenadores y acceso al SaaS. Investigamos la necesidad y su encaje con la visión de reunir las herramientas del organizador en un solo entorno. Como no había una API pública para esos datos de registro e internos, la propuesta fue desarrollar la herramienta dentro del propio ecosistema."
+        "eyebrow": "DECISIÓN DE PRODUCTO",
+        "title": "Por qué priorizamos la recogida de kits",
+        "text": "Ya habíamos identificado una oportunidad para integrar la recogida de kits en la plataforma de inscripciones. A través de Atención al Cliente supimos que un organizador de gran peso en la facturación valoraba cambiarse a un competidor que ofrecía una herramienta de check-in. Nos dijo que se quedaría si podíamos cubrir sus necesidades operativas. Priorizamos la iniciativa porque respondía al riesgo de perder esa cuenta y podía ayudar a otros organizadores a mantener abiertos los puntos de recogida cuando fallaba la conexión."
       },
       {
         "eyebrow": "CRITERIO DE PRODUCTO",
@@ -257,8 +257,8 @@ export const checkInCase = {
       },
       {
         "eyebrow": "MI CONTRIBUCIÓN COMO PM",
-        "title": "Validar con el cliente.\nLiderar desde la iniciativa hasta la tienda.",
-        "text": "Realicé entrevistas y presentaciones con el cliente para entender la operación y recoger comentarios. Traduje la demanda en una iniciativa y en historias de usuario, validé el diseño con UX y coordiné el trabajo con el equipo. Acompañé la ejecución y la publicación en las tiendas. Ingeniería implementó la solución y el equipo dio soporte a la operación durante el lanzamiento.",
+        "title": "Cómo definí el alcance con el organizador",
+        "text": "En entrevistas y demostraciones con el organizador, identifiqué qué necesitaba hacer el personal en el mostrador: localizar la inscripción, comprobar los artículos y registrar la entrega. Utilicé ese flujo para redactar historias de usuario, validar el diseño con UX y acordar el alcance con Ingeniería. Acompañé la entrega hasta la publicación en las tiendas de aplicaciones.",
         "items": [
           {
             "title": "12 semanas",
