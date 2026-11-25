@@ -49,7 +49,7 @@ export const home = {
         "category": "MOBILE · EVOLUÇÃO",
         "title": "App do Atleta",
         "subtitle": "Compra unificada e evolução da experiência",
-        "description": "Com o checkout web dentro do app, 100% do catálogo ficou disponível em quatro meses. As vendas pelo app passaram de cerca de R$ 100 milhões para mais de R$ 200 milhões por ano.",
+        "description": "O app antigo vendia, mas com experiência ruim. Em quatro meses lançamos o novo, com checkout web dentro dele: 100% do catálogo, nota de 3,1–3,5 para 4,5 e retenção 15 p.p. maior, num canal que passou de R$ 200 milhões em 2026.",
         "color": "blue"
       },
       {
@@ -135,7 +135,7 @@ export const home = {
         "category": "MOBILE · EVOLUTION",
         "title": "Athlete App",
         "subtitle": "Unified purchases and an evolving experience",
-        "description": "With web checkout inside the app, 100% of the catalog was available in four months. App sales grew from about R$100 million to more than R$200 million a year.",
+        "description": "The old app sold, but with a poor experience. In four months we launched the new one with web checkout inside it: 100% of the catalog, ratings up from 3.1–3.5 to 4.5 and retention up 15 points, in a channel that passed R$200 million in 2026.",
         "color": "blue"
       },
       {
@@ -221,7 +221,7 @@ export const home = {
         "category": "MOBILE · EVOLUCIÓN",
         "title": "App del Atleta",
         "subtitle": "Compra unificada y evolución de la experiencia",
-        "description": "Con el checkout web dentro de la app, el 100 % del catálogo estuvo disponible en cuatro meses. Las ventas por la app pasaron de unos R$ 100 millones a más de R$ 200 millones al año.",
+        "description": "La app anterior vendía, pero con una mala experiencia. En cuatro meses lanzamos la nueva, con el checkout web dentro: el 100 % del catálogo, valoración de 3,1–3,5 a 4,5 y retención 15 puntos mayor, en un canal que superó los R$ 200 millones en 2026.",
         "color": "blue"
       },
       {
