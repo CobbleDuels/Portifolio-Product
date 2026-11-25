@@ -29,41 +29,41 @@ export const home = {
     "secondaryCta": "Sobre minha trajetória",
     "casesEyebrow": "01 / PROJETOS SELECIONADOS",
     "casesTitle": "Projetos na Ticket Sports",
-    "casesIntro": "Da inscrição no celular à retirada de kits sem internet, veja o que decidi com os times e como acompanhamos os resultados.",
+    "casesIntro": "Na Ticket Sports, nossa principal métrica era o GMV, o valor bruto das inscrições vendidas. Eu priorizava problemas que impediam o atleta de comprar ou colocavam em risco os eventos que os organizadores vendiam pela plataforma.",
     "projects": [
       {
         "category": "PLATAFORMA · ESCALA",
         "title": "Ticket Sports → Ingresse",
         "subtitle": "Migração e São Silvestre",
-        "description": "Adaptação da plataforma às necessidades do esporte. Na São Silvestre, a operação movimentou cerca de R$ 40 milhões de GMV em um dia.",
+        "description": "Priorizei as regras de inscrição e a venda para grupos na migração. A São Silvestre movimentou cerca de R$ 40 milhões em um dia na nova plataforma.",
         "color": "orange"
       },
       {
         "category": "OPERAÇÃO · EXPERIÊNCIA",
         "title": "App de Check-in",
         "subtitle": "Entrega de kits, mesmo sem internet",
-        "description": "Mais de 50 mil kits em mais de 100 eventos. A espera na fila passou de 50 para 20–30 minutos, com operação online e offline.",
+        "description": "A retirada offline resolveu uma necessidade de um organizador que avaliava sair. Com a entrega, ele renovou e passou a abrir todos os eventos exclusivamente na Ticket Sports.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUÇÃO",
         "title": "App do Atleta",
         "subtitle": "Compra unificada e evolução da experiência",
-        "description": "Catálogo disponível para compra de 30% para 100%, lançamento em 4 meses e ganho de 15 pontos percentuais na retenção em janela de duas semanas.",
+        "description": "Reaproveitamos o checkout web para oferecer no app modalidades antes restritas ao site. Em quatro meses, o atleta passou a poder comprar essas inscrições também pelo aplicativo.",
         "color": "blue"
       },
       {
         "category": "WEB · EXPERIÊNCIA E DADOS",
         "title": "Evolução do site legado",
         "subtitle": "Experiência e jornada mensurável",
-        "description": "Reformulação da homepage, categorias, filtros e descoberta por localização, com crescimento relativo de 12% no engajamento com páginas de eventos.",
+        "description": "Com a nova busca e os filtros, cresceu 12%, em termos relativos, a parcela de visitantes que explorava uma página de evento por mais de três minutos. A confirmação do pagamento era acompanhada à parte.",
         "color": "blue"
       },
       {
         "category": "DADOS · NEGÓCIO",
         "title": "Indicadores para áreas de negócio",
         "subtitle": "Google Data Studio · Atualização D-1",
-        "description": "GMV, tiers e indicadores de eventos centralizados com o time de Dados, para consulta de Comercial, CS, RP e Key Accounts.",
+        "description": "Comercial e Atendimento passaram a consultar o GMV por organizador até o dia anterior para identificar contas em queda, revisar faixas comerciais e decidir onde atuar.",
         "color": "green"
       }
     ],
@@ -115,41 +115,41 @@ export const home = {
     "secondaryCta": "About my journey",
     "casesEyebrow": "01 / SELECTED PROJECTS",
     "casesTitle": "Projects at Ticket Sports",
-    "casesIntro": "From mobile registration to offline kit pickup, these cases explain the decisions we made and how we measured the results.",
+    "casesIntro": "At Ticket Sports, our main business metric was GMV, the gross value of registrations sold. I prioritized obstacles that prevented athletes from buying or put organizers’ event sales on the platform at risk.",
     "projects": [
       {
         "category": "PLATFORM · SCALE",
         "title": "Ticket Sports → Ingresse",
         "subtitle": "Migration and São Silvestre",
-        "description": "Adapting the platform to sports-specific needs. The São Silvestre operation processed about R$ 40 million in GMV in one day.",
+        "description": "I prioritized registration rules and group sales during the migration. The São Silvestre race processed roughly R$40 million in one day on the new platform.",
         "color": "orange"
       },
       {
         "category": "OPERATIONS · EXPERIENCE",
         "title": "Check-in App",
         "subtitle": "Kit pickup, even offline",
-        "description": "Over 50,000 kits across more than 100 events. Queue waiting time moved from 50 to 20–30 minutes, with online and offline operation.",
+        "description": "Offline kit pickup met the needs of an organizer considering a switch. On delivery, the organizer renewed and agreed to open registration for every event exclusively on Ticket Sports.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUTION",
         "title": "Athlete App",
         "subtitle": "Unified purchases and an evolving experience",
-        "description": "Purchasable catalog expanded from 30% to 100%, launch in 4 months and a 15-percentage-point increase in retention measured over a two-week window.",
+        "description": "We reused web checkout to bring previously web-only event categories into the app. After a four-month release cycle, athletes could buy those registrations in the app as well.",
         "color": "blue"
       },
       {
         "category": "WEB · EXPERIENCE AND DATA",
         "title": "Improving the legacy website",
         "subtitle": "Experience and a measurable journey",
-        "description": "Redesigned homepage, categories, filters and location-based discovery, with a 12% relative increase in event-page engagement.",
+        "description": "Following changes to search and filters, the share of visitors spending over three minutes on an event page rose 12% relative to prior years. We tracked payment confirmation separately.",
         "color": "blue"
       },
       {
         "category": "DATA · BUSINESS",
         "title": "Business intelligence",
         "subtitle": "Google Data Studio · D-1 freshness",
-        "description": "GMV, tiers and event indicators centralized with Data for Sales, CS, RP and Key Accounts.",
+        "description": "Sales and Customer Support used prior-day GMV by organizer to spot declining accounts, review commercial tiers and decide where to follow up.",
         "color": "green"
       }
     ],
@@ -201,41 +201,41 @@ export const home = {
     "secondaryCta": "Sobre mi trayectoria",
     "casesEyebrow": "01 / PROYECTOS SELECCIONADOS",
     "casesTitle": "Proyectos en Ticket Sports",
-    "casesIntro": "Desde la inscripción por móvil hasta la recogida de kits sin conexión, estos casos explican qué decidimos y cómo medimos los resultados.",
+    "casesIntro": "En Ticket Sports, nuestra principal métrica era el GMV, el valor bruto de las inscripciones vendidas. Priorizaba los problemas que impedían comprar a los deportistas o ponían en riesgo la venta de eventos de los organizadores en la plataforma.",
     "projects": [
       {
         "category": "PLATAFORMA · ESCALA",
         "title": "Ticket Sports → Ingresse",
         "subtitle": "Migración y São Silvestre",
-        "description": "Adaptación de la plataforma a las necesidades del deporte. La operación de São Silvestre procesó cerca de R$ 40 millones de GMV en un día.",
+        "description": "Prioricé las reglas de inscripción y la venta a grupos durante la migración. La carrera São Silvestre movió unos 40 millones de reales en un día en la nueva plataforma.",
         "color": "orange"
       },
       {
         "category": "OPERACIONES · EXPERIENCIA",
         "title": "App de Check-in",
         "subtitle": "Entrega de kits, incluso sin conexión",
-        "description": "Más de 50.000 kits en más de 100 eventos. La espera en la fila pasó de 50 a 20–30 minutos, con operación online y offline.",
+        "description": "La recogida sin conexión resolvió una necesidad de un organizador que valoraba cambiar de plataforma. Tras la entrega, renovó y acordó abrir las inscripciones de todos sus eventos exclusivamente en Ticket Sports.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUCIÓN",
         "title": "App del Atleta",
         "subtitle": "Compra unificada y evolución de la experiencia",
-        "description": "Catálogo disponible para compra del 30% al 100%, lanzamiento en 4 meses y aumento de 15 puntos porcentuales en retención medida en una ventana de dos semanas.",
+        "description": "Reutilizamos el proceso de compra web para incorporar a la app modalidades antes restringidas al sitio. En cuatro meses, los deportistas pudieron comprar también esas inscripciones desde la app.",
         "color": "blue"
       },
       {
         "category": "WEB · EXPERIENCIA Y DATOS",
         "title": "Evolución del sitio legado",
         "subtitle": "Experiencia y recorrido medible",
-        "description": "Renovación de página de inicio, categorías, filtros y búsqueda por ubicación, con un crecimiento relativo del 12% en interacción con páginas de eventos.",
+        "description": "Tras renovar la búsqueda y los filtros, la proporción de visitantes que pasaban más de tres minutos en una página de evento creció un 12 % relativo frente a años anteriores. Medíamos por separado la confirmación del pago.",
         "color": "blue"
       },
       {
         "category": "DATOS · NEGOCIO",
         "title": "Indicadores para áreas de negocio",
         "subtitle": "Google Data Studio · Actualización D-1",
-        "description": "GMV, niveles e indicadores de eventos centralizados con Datos para Comercial, CS, RP y Key Accounts.",
+        "description": "Comercial y Atención al Cliente consultaban el GMV por organizador hasta el día anterior para detectar cuentas en descenso, revisar tramos comerciales y decidir dónde intervenir.",
         "color": "green"
       }
     ],
