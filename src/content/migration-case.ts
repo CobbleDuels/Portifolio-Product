@@ -42,14 +42,14 @@ export const migrationCase = {
     "priorityText": "O primeiro requisito era viabilizar o cadastro de eventos esportivos em uma plataforma orientada a entretenimento. Sem essa capacidade, a operação não poderia ser transferida. Priorizamos o cadastro e as regras específicas do esporte, conectando questionários de kits, tamanhos e estoque à jornada do atleta. Essa necessidade orientou a adaptação da plataforma.",
     "groupStory": {
       "eyebrow": "UMA MUDANÇA DE ESCOPO",
-      "title": "Preservar o canal de grupos.\nConstruir uma nova experiência.",
-      "context": "O planejamento inicial cobria a jornada padrão do evento, do Comercial ao repasse financeiro. Durante o alinhamento, o cliente trouxe outra necessidade: vender inscrições para grupos e assessorias de corrida. A Ticket Sports já atendia esse público com uma ferramenta consolidada e uma área dedicada, mas essa jornada ainda não estava mapeada na migração.",
+      "title": "O que precisava estar pronto para a abertura das inscrições?",
+      "context": "O escopo inicial cobria as inscrições individuais. A necessidade de vender para grupos e assessorias de corrida apareceu já perto do lançamento. Levei para a conversa com o cliente os benefícios de manter esse canal e o risco de alterar o calendário. Juntos, mapeamos o que os responsáveis pelos grupos precisavam fazer na abertura e combinamos uma entrega que cabia no prazo, com alguma margem.",
       "researchTitle": "Por que não reaproveitar o legado",
       "researchText": "Avaliamos reaproveitar a ferramenta existente. O levantamento do funcionamento e os testes de usabilidade mostraram um projeto complexo, conhecido por poucos desenvolvedores após a separação da equipe. Fizemos entrevistas com o cliente, atletas e responsáveis por grupos e mapeamos a jornada para entender o uso e as necessidades da nova experiência.",
       "decisionTitle": "Uma jornada integrada à Ingresse",
       "decisionText": "Optamos por uma nova experiência no ambiente Ingresse, integrada à criação do evento e aos questionários com estoque. A plataforma fornecia uma planilha-modelo: o responsável preenchia os dados dos atletas e importava o arquivo para gerar um pedido de inscrição para o grupo. A escolha conectava esse canal de venda à operação da nova plataforma.",
-      "resultTitle": "Da decisão à adoção em grupos",
-      "resultText": "A solução foi entregue e comercializada. Cerca de 10 mil grupos utilizaram a nova experiência de inscrição na operação da São Silvestre de 2026. No resultado anual do canal de grupos, a meta de R$ 25 milhões de GMV também foi atingida em 2026. O escopo definido para essa experiência foi concluído, sem funcionalidades deixadas para uma etapa posterior."
+      "resultTitle": "Vendas pelo novo módulo",
+      "resultText": "Entregamos o escopo combinado para a abertura das inscrições. Mais de 10 mil grupos e assessorias de corrida compraram inscrições pelo novo módulo na operação da São Silvestre. No conjunto do ano, o canal de grupos atingiu sua meta de R$ 25 milhões de GMV."
     },
     "deliveryEyebrow": "O QUE CONSTRUÍMOS COMO TIME",
     "deliveryTitle": "Autonomia para o atleta.\nRegras conectadas à operação.",
@@ -158,14 +158,14 @@ export const migrationCase = {
     "priorityText": "The first requirement was to enable sports-event setup on an entertainment-oriented platform. Without that capability, the operation could not move. We prioritized setup and sports-specific rules, connecting kit questionnaires, sizes and inventory to the athlete journey. That need guided the platform adaptation.",
     "groupStory": {
       "eyebrow": "A CHANGE IN SCOPE",
-      "title": "Preserve the group sales channel.\nBuild a new experience.",
-      "context": "Initial planning covered the standard event journey, from Sales through the final financial payout. During alignment, the client raised another need: selling registrations to running groups and coaching teams. Ticket Sports already served that audience through an established tool and a dedicated business team, but that journey had not yet been mapped into the migration.",
+      "title": "What had to be ready when registration opened?",
+      "context": "The initial scope covered individual registrations. The need to sell entries to running groups and coaching teams surfaced close to launch. I discussed the value of keeping that sales channel and the risk to the event schedule with the client. Together we mapped what group leaders needed to do on opening day and agreed on a scope we could deliver by the deadline with some time to spare.",
       "researchTitle": "Why we did not reuse the legacy tool",
       "researchText": "We evaluated reusing the existing tool. Reviewing its operation and running usability tests revealed a complex project that few developers knew after the team had been split. We interviewed the client, athletes and group leaders and mapped the journey to understand current usage and needs for the new experience.",
       "decisionTitle": "A journey integrated with Ingresse",
       "decisionText": "We chose a new experience within Ingresse, integrated with event creation and inventory-linked questionnaires. The platform provided a spreadsheet template: the group leader filled in athlete details and uploaded the file to generate a registration order for the group. The choice connected that sales channel to operations on the new platform.",
-      "resultTitle": "From decision to adoption by groups",
-      "resultText": "The solution was delivered and commercialized. Around 10,000 groups used the new registration experience during the 2026 São Silvestre operation. Across the group sales channel’s annual results, the R$ 25 million GMV target was also reached in 2026. The defined scope was completed, with no features deferred to a later phase."
+      "resultTitle": "Sales through the new module",
+      "resultText": "We delivered the agreed scope in time for registration to open. More than 10,000 running groups and coaching teams bought entries through the new module during the São Silvestre operation. Across the full year, the group sales channel reached its R$25 million GMV target."
     },
     "deliveryEyebrow": "WHAT WE BUILT AS A TEAM",
     "deliveryTitle": "Athlete autonomy.\nRules connected to operations.",
@@ -274,14 +274,14 @@ export const migrationCase = {
     "priorityText": "El primer requisito era permitir la creación de eventos deportivos en una plataforma orientada al entretenimiento. Sin esa capacidad, no se podía trasladar la operación. Priorizamos la creación de eventos y las reglas específicas del deporte, conectando cuestionarios de kits, tallas e inventario con la experiencia del atleta. Esa necesidad guio la adaptación de la plataforma.",
     "groupStory": {
       "eyebrow": "UN CAMBIO DE ALCANCE",
-      "title": "Mantener el canal de grupos.\nCrear una nueva experiencia.",
-      "context": "El plan inicial cubría el recorrido habitual del evento, desde Comercial hasta la liquidación financiera final. Durante la coordinación, el cliente planteó otra necesidad: vender inscripciones a grupos y equipos de entrenamiento. Ticket Sports ya atendía a ese público con una herramienta consolidada y un área dedicada, pero ese recorrido aún no estaba contemplado en la migración.",
+      "title": "¿Qué tenía que estar listo al abrir las inscripciones?",
+      "context": "El alcance inicial cubría las inscripciones individuales. La necesidad de vender a grupos y equipos de entrenamiento surgió poco antes del lanzamiento. Hablé con el cliente sobre el valor de mantener ese canal y el riesgo para el calendario del evento. Juntos detallamos qué necesitaban hacer los responsables de los grupos el día de la apertura y acordamos un alcance que podíamos entregar en plazo con cierto margen.",
       "researchTitle": "Por qué no reutilizar el sistema anterior",
       "researchText": "Evaluamos reutilizar la herramienta existente. El análisis de su funcionamiento y las pruebas de usabilidad mostraron un proyecto complejo que pocos desarrolladores conocían tras la separación del equipo. Entrevistamos al cliente, a atletas y a responsables de grupos y mapeamos el recorrido para entender el uso y las necesidades de la nueva experiencia.",
       "decisionTitle": "Un recorrido integrado en Ingresse",
       "decisionText": "Elegimos una nueva experiencia dentro de Ingresse, integrada con la creación de eventos y los cuestionarios vinculados al inventario. La plataforma ofrecía una plantilla de hoja de cálculo: el responsable completaba los datos de los atletas e importaba el archivo para generar un pedido de inscripción para el grupo. La decisión conectaba ese canal de venta con la operación de la nueva plataforma.",
-      "resultTitle": "De la decisión a la adopción por grupos",
-      "resultText": "La solución se entregó y se comercializó. Cerca de 10.000 grupos utilizaron la nueva experiencia de inscripción en la operación de São Silvestre de 2026. En el resultado anual del canal de grupos, también se alcanzó la meta de R$ 25 millones de GMV en 2026. Se completó el alcance definido, sin funcionalidades aplazadas para una fase posterior."
+      "resultTitle": "Ventas a través del nuevo módulo",
+      "resultText": "Entregamos el alcance acordado a tiempo para la apertura de inscripciones. Más de 10.000 grupos y equipos de entrenamiento compraron inscripciones a través del nuevo módulo durante la operación de São Silvestre. En el conjunto del año, el canal de grupos alcanzó su objetivo de 25 millones de reales de GMV."
     },
     "deliveryEyebrow": "LO QUE CONSTRUIMOS COMO EQUIPO",
     "deliveryTitle": "Autonomía para el atleta.\nReglas conectadas a la operación.",
