@@ -49,7 +49,7 @@ export const businessIntelligenceCase = {
     "card": {
       "category": "DADOS · NEGÓCIO",
       "title": "Indicadores para áreas de negócio",
-      "subtitle": "Looker Studio · Atualização D-1",
+      "subtitle": "Painéis atualizados todos os dias",
       "description": "Os pedidos de relatórios ao time técnico caíram cerca de 90%. Comercial e Atendimento passaram a consultar GMV e vendas por evento para preparar negociações e investigar variações.",
       "color": "green"
     }
@@ -102,7 +102,7 @@ export const businessIntelligenceCase = {
     "card": {
       "category": "DATA · BUSINESS",
       "title": "Business intelligence",
-      "subtitle": "Looker Studio · D-1 freshness",
+      "subtitle": "Dashboards refreshed daily",
       "description": "Report requests to the technical team fell by about 90%. Sales and Customer Success could consult GMV and event sales to prepare negotiations and investigate changes.",
       "color": "green"
     }
@@ -155,7 +155,7 @@ export const businessIntelligenceCase = {
     "card": {
       "category": "DATOS · NEGOCIO",
       "title": "Indicadores para áreas de negocio",
-      "subtitle": "Looker Studio · Actualización D-1",
+      "subtitle": "Paneles actualizados a diario",
       "description": "Las solicitudes de informes al equipo técnico cayeron cerca de un 90 %. Comercial y Atención al Cliente pudieron consultar el GMV y las ventas para preparar negociaciones e investigar variaciones.",
       "color": "green"
     }

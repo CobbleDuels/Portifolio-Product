@@ -42,14 +42,14 @@ export const home = {
         "category": "OPERAÇÃO · EXPERIÊNCIA",
         "title": "App de Check-in",
         "subtitle": "Entrega de kits, mesmo sem internet",
-        "description": "Um organizador com cerca de 50 eventos e R$ 20 milhões por ano avaliava sair. Com a retirada de kits offline, a fila caiu de 50 para 20–30 minutos e ele renovou por três anos, com exclusividade.",
+        "description": "Um cliente com cerca de 50 eventos e R$ 20 milhões por ano avaliava ir para um concorrente. Com a retirada de kits pelo celular, mesmo sem internet, a fila caiu de 50 para 20–30 minutos e ele renovou por três anos, com exclusividade.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUÇÃO",
         "title": "App do Atleta",
         "subtitle": "Compra unificada e evolução da experiência",
-        "description": "O app antigo vendia, mas com experiência ruim. Em quatro meses lançamos o novo, com checkout web dentro dele: 100% do catálogo, nota de 3,1–3,5 para 4,5 e retenção 15 p.p. maior, num canal que passou de R$ 200 milhões em 2026.",
+        "description": "O app antigo vendia, mas a experiência era ruim. Em quatro meses lançamos o novo: todas as corridas à venda no app, nota de 3,1 para 4,5 nas lojas e mais atletas voltando a usá-lo, num canal que passou de R$ 200 milhões em vendas em 2026.",
         "color": "blue"
       },
       {
@@ -62,7 +62,7 @@ export const home = {
       {
         "category": "DADOS · NEGÓCIO",
         "title": "Indicadores para áreas de negócio",
-        "subtitle": "Looker Studio · Atualização D-1",
+        "subtitle": "Painéis atualizados todos os dias",
         "description": "Os pedidos de relatórios ao time técnico caíram cerca de 90%. Comercial e Atendimento passaram a consultar GMV e vendas por evento para preparar negociações e investigar variações.",
         "color": "green"
       }
@@ -128,14 +128,14 @@ export const home = {
         "category": "OPERATIONS · EXPERIENCE",
         "title": "Check-in App",
         "subtitle": "Kit pickup, even offline",
-        "description": "An organizer with about 50 events and R$20 million a year was considering leaving. With offline kit pickup, lines dropped from 50 to 20–30 minutes, and he renewed for three years with exclusivity.",
+        "description": "A client with about 50 events and R$20 million a year was considering a competitor. With mobile kit pickup that works offline, lines dropped from 50 to 20–30 minutes, and he renewed for three years with exclusivity.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUTION",
         "title": "Athlete App",
         "subtitle": "Unified purchases and an evolving experience",
-        "description": "The old app sold, but with a poor experience. In four months we launched the new one with web checkout inside it: 100% of the catalog, ratings up from 3.1–3.5 to 4.5 and retention up 15 points, in a channel that passed R$200 million in 2026.",
+        "description": "The old app sold, but the experience was poor. In four months we launched the new one: every race on sale in the app, store ratings up from 3.1 to 4.5 and more athletes coming back, in a channel that passed R$200 million in sales in 2026.",
         "color": "blue"
       },
       {
@@ -148,7 +148,7 @@ export const home = {
       {
         "category": "DATA · BUSINESS",
         "title": "Business intelligence",
-        "subtitle": "Looker Studio · D-1 freshness",
+        "subtitle": "Dashboards refreshed daily",
         "description": "Report requests to the technical team fell by about 90%. Sales and Customer Success could consult GMV and event sales to prepare negotiations and investigate changes.",
         "color": "green"
       }
@@ -214,14 +214,14 @@ export const home = {
         "category": "OPERACIONES · EXPERIENCIA",
         "title": "App de Check-in",
         "subtitle": "Entrega de kits, incluso sin conexión",
-        "description": "Un organizador con unos 50 eventos y R$ 20 millones al año evaluaba irse. Con la recogida de kits sin conexión, la fila bajó de 50 a 20–30 minutos y renovó por tres años, con exclusividad.",
+        "description": "Un cliente con unos 50 eventos y R$ 20 millones al año evaluaba irse a un competidor. Con la entrega de kits desde el móvil, incluso sin conexión, la fila bajó de 50 a 20–30 minutos y renovó por tres años, con exclusividad.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUCIÓN",
         "title": "App del Atleta",
         "subtitle": "Compra unificada y evolución de la experiencia",
-        "description": "La app anterior vendía, pero con una mala experiencia. En cuatro meses lanzamos la nueva, con el checkout web dentro: el 100 % del catálogo, valoración de 3,1–3,5 a 4,5 y retención 15 puntos mayor, en un canal que superó los R$ 200 millones en 2026.",
+        "description": "La app anterior vendía, pero la experiencia era mala. En cuatro meses lanzamos la nueva: todas las carreras a la venta en la app, valoración de 3,1 a 4,5 en las tiendas y más deportistas volviendo a usarla, en un canal que superó los R$ 200 millones en ventas en 2026.",
         "color": "blue"
       },
       {
@@ -234,7 +234,7 @@ export const home = {
       {
         "category": "DATOS · NEGOCIO",
         "title": "Indicadores para áreas de negocio",
-        "subtitle": "Looker Studio · Actualización D-1",
+        "subtitle": "Paneles actualizados a diario",
         "description": "Las solicitudes de informes al equipo técnico cayeron cerca de un 90 %. Comercial y Atención al Cliente pudieron consultar el GMV y las ventas para preparar negociaciones e investigar variaciones.",
         "color": "green"
       }
