@@ -381,13 +381,20 @@ export const athleteCase = {
       },
       {
         "eyebrow": "COMPORTAMENTO DOS ATLETAS",
-        "title": "Os atletas voltavam para explorar outros eventos?",
-        "text": "No PostHog, cruzei o identificador de cada visitante com as URLs acessadas e as datas das visitas. Assim, conseguíamos distinguir a navegação por várias páginas em uma visita de um retorno em outra data. Na comparação com o ano anterior, observamos que os visitantes voltavam mais vezes. Quando um atleta consultava outro evento, havia uma oportunidade de apresentar a próxima prova. A intenção de compra e o efeito sobre o GMV ficaram em aberto."
+        "title": "Por que o atleta apagava o app depois da prova?",
+        "text": "O app antigo tinha um problema comum em apps de compra pontual: o atleta comprava a inscrição, corria e desinstalava. Menos de 10% mantinham o app depois da prova. Sem o app no celular, perdíamos o canal mais direto para apresentar a próxima corrida."
       },
       {
         "eyebrow": "DECISÃO DE PRODUTO",
         "title": "Por que levar o Webrun para o app?",
-        "text": "A liderança pediu que o Webrun, veículo de jornalismo esportivo do grupo, ganhasse visibilidade dentro do app. Já observávamos um crescimento dos acessos pelo celular, muitos vindos de publicações nas redes sociais. Integramos as matérias ao novo app com dois objetivos: dar ao atleta um motivo para voltar entre provas e levar leitores ao Webrun. A integração também abriu um espaço para divulgar promoções e eventos no próprio aplicativo."
+        "text": "Para dar ao atleta um motivo para manter o app entre uma prova e outra, levei para dentro dele o conteúdo da Webrun, portal de jornalismo de corrida do grupo, que a liderança também queria mais visível: matérias, coberturas de provas internacionais, cupons e divulgação de eventos. Depois do lançamento, a parcela de atletas que mantinha o app depois da prova passou de menos de 10% para cerca de 25%, mais que o dobro.",
+        "metrics": [
+          {
+            "value": "~25%",
+            "label": "atletas que mantêm o app depois da prova",
+            "note": "Antes do app novo com a Webrun, eram menos de 10%."
+          }
+        ]
       },
       {
         "eyebrow": "AUDIÊNCIA DO WEBRUN",
@@ -479,13 +486,20 @@ export const athleteCase = {
       },
       {
         "eyebrow": "ATHLETE BEHAVIOR",
-        "title": "Did athletes come back to explore other events?",
-        "text": "In PostHog, I matched visitor IDs with the URLs they opened and the dates of their visits. That let us distinguish browsing several pages in one visit from returning on another date. Compared with the previous year, visitors came back more often. When an athlete viewed another event, we had an opportunity to introduce their next race. Purchase intent and the effect on GMV remained open questions."
+        "title": "Why did athletes delete the app after their race?",
+        "text": "The old app had a problem common to apps used for one-off purchases: athletes bought an entry, ran the race and uninstalled the app. Fewer than 10% kept it after their race. Without the app on their phone, we lost the most direct channel to show them their next race."
       },
       {
         "eyebrow": "PRODUCT DECISION",
         "title": "Why bring Webrun into the app?",
-        "text": "Leadership wanted Webrun, the group’s sports publication, to be more visible in the app. Mobile traffic was already rising, and many visits came from social posts. We brought articles into the new app to give athletes a reason to return between races and help Webrun reach readers. The integration also gave Webrun a place to promote offers and events inside the app."
+        "text": "To give athletes a reason to keep the app between races, I brought in content from Webrun, the group’s running news site, which leadership also wanted to make more visible: articles, coverage of international races, coupons and event promotions. After launch, the share of athletes who kept the app after their race went from under 10% to about 25%, more than double.",
+        "metrics": [
+          {
+            "value": "~25%",
+            "label": "athletes keeping the app after their race",
+            "note": "Before the new app with Webrun, it was under 10%."
+          }
+        ]
       },
       {
         "eyebrow": "WEBRUN AUDIENCE",
@@ -577,13 +591,20 @@ export const athleteCase = {
       },
       {
         "eyebrow": "COMPORTAMIENTO DE LOS DEPORTISTAS",
-        "title": "¿Volvían los deportistas a explorar otros eventos?",
-        "text": "En PostHog crucé el identificador de cada visitante con las URL que abría y las fechas de visita. Así distinguíamos la navegación por varias páginas en una visita del regreso en otra fecha. Frente al año anterior, observamos que los visitantes volvían más veces. Cuando un deportista consultaba otro evento, surgía una oportunidad para presentarle su próxima carrera. La intención de compra y el efecto en el GMV quedaron abiertos."
+        "title": "¿Por qué el deportista borraba la app tras la carrera?",
+        "text": "La app anterior tenía un problema común en las apps de compra puntual: el deportista compraba la inscripción, corría y la desinstalaba. Menos del 10 % la conservaba tras la carrera. Sin la app en el móvil, perdíamos el canal más directo para presentarle su próxima carrera."
       },
       {
         "eyebrow": "DECISIÓN DE PRODUCTO",
         "title": "¿Por qué integrar Webrun en la app?",
-        "text": "La dirección quería dar visibilidad en la app a Webrun, el medio deportivo del grupo. Ya observábamos un aumento del tráfico móvil y muchas visitas llegaban desde publicaciones en redes sociales. Integramos los artículos en la nueva app para dar a los deportistas un motivo para volver entre carreras y acercar lectores a Webrun. La integración también abrió un espacio para difundir promociones y eventos desde la app."
+        "text": "Para dar al deportista un motivo para conservar la app entre una carrera y otra, integré el contenido de Webrun, el portal de periodismo de running del grupo, que la dirección también quería hacer más visible: artículos, coberturas de carreras internacionales, cupones y promoción de eventos. Tras el lanzamiento, la parte de deportistas que conservaba la app tras la carrera pasó de menos del 10 % a cerca del 25 %, más del doble.",
+        "metrics": [
+          {
+            "value": "~25%",
+            "label": "deportistas que conservan la app tras la carrera",
+            "note": "Antes de la nueva app con Webrun, era menos del 10 %."
+          }
+        ]
       },
       {
         "eyebrow": "AUDIENCIA DE WEBRUN",
