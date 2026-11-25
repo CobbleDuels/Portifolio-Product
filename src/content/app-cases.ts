@@ -329,10 +329,10 @@ export const checkInCase = {
 export const athleteCase = {
   "pt": {
     "metaTitle": "App do Atleta — Yago Jesus",
-    "metaDescription": "Modernização do App do Atleta: catálogo de 30% para 100%, lançamento em 4 meses e retenção com ganho de 15 pontos percentuais.",
+    "metaDescription": "Como ampliamos a oferta de inscrições no app e acompanhamos o retorno dos atletas após o lançamento.",
     "eyebrow": "03 / APP DO ATLETA · MOBILE",
     "title": "Unificar a compra.\nAmpliar a experiência.",
-    "introduction": "Defendi a modernização de um app que restringia a compra de determinadas modalidades. Negociei com o CTO o uso da jornada web dentro do aplicativo para atender todo o catálogo sem reconstruir cada fluxo de inscrição. Publicamos nas lojas em 4 meses; a cobertura do catálogo passou de 30% para 100%.",
+    "introduction": "O atleta encontrava no site eventos que o app não conseguia vender. Negociei com o CTO o reaproveitamento do checkout web para disponibilizar essas inscrições no app. Em quatro meses, ampliamos o catálogo comprável pelo celular. Isso abriu um canal de venda para essas modalidades. O GMV adicional desse canal ainda precisaria ser apurado.",
     "sections": [
       {
         "eyebrow": "O PROBLEMA",
@@ -342,8 +342,7 @@ export const athleteCase = {
       {
         "eyebrow": "DECISÃO DE PRODUTO",
         "title": "Reaproveitar a jornada web.\nAmpliar a cobertura de eventos.",
-        "text": "Discutimos reconstruir toda a inscrição no app, mas o prazo, o trabalho de UX/UI e a falta de mapeamento de todas as modalidades tornavam esse escopo inviável. Em conversa com o CTO, decidimos reaproveitar a experiência web de inscrição dentro do app. A decisão reduziu a necessidade de reconstruir fluxos e permitiu oferecer todas as modalidades.",
-        "chart": "coverage"
+        "text": "Discutimos reconstruir toda a inscrição no app, mas o prazo, o trabalho de UX/UI e a falta de mapeamento de todas as modalidades tornavam esse escopo inviável. Em conversa com o CTO, decidimos reaproveitar a experiência web de inscrição dentro do app. A decisão reduziu a necessidade de reconstruir fluxos e permitiu oferecer todas as modalidades."
       },
       {
         "eyebrow": "A EVOLUÇÃO DA BASE",
@@ -368,7 +367,7 @@ export const athleteCase = {
       {
         "eyebrow": "RETENÇÃO E DISCOVERY",
         "title": "Mais motivos para voltar.\n15 pontos percentuais de ganho.",
-        "text": "As entrevistas e reclamações indicaram que muitos atletas desinstalavam o app após a corrida. Incluímos conteúdo jornalístico da WEBRUN e revisamos navegação, cadastro e acesso às inscrições. Medimos retenção em janela de duas semanas com PostHog e Google Analytics, acompanhando um mês contra o mês anterior. O aumento observado foi de 15 pontos percentuais; o acompanhamento não isola o efeito de cada mudança.",
+        "text": "As entrevistas e reclamações indicaram que muitos atletas desinstalavam o app após a corrida. Incluímos conteúdo jornalístico da WEBRUN e revisamos navegação, cadastro e acesso às inscrições. Medimos retenção em janela de duas semanas com PostHog e Google Analytics, acompanhando um mês contra o mês anterior. O aumento observado foi de 15 pontos percentuais; o acompanhamento não isola o efeito de cada mudança. A hipótese era que voltar ao app entre provas aumentaria as oportunidades de descobrir a próxima inscrição. O vínculo com vendas dependeria de acompanhar quantos atletas que retornaram concluíram uma nova compra.",
         "metrics": [
           {
             "value": "+15 p.p.",
@@ -435,10 +434,10 @@ export const athleteCase = {
   },
   "en": {
     "metaTitle": "Athlete App — Yago Jesus",
-    "metaDescription": "Athlete App modernization: catalog coverage from 30% to 100%, launch in 4 months and a 15-percentage-point retention increase.",
+    "metaDescription": "How we expanded access to event registrations in the app and tracked athlete retention after launch.",
     "eyebrow": "03 / ATHLETE APP · MOBILE",
     "title": "Unify purchasing.\nExpand the experience.",
-    "introduction": "I championed modernization of an app that restricted purchases for certain sports categories. With the CTO, I agreed to reuse the web journey inside the app to support the entire catalog without rebuilding every registration flow. We launched in 4 months; catalog coverage increased from 30% to 100%.",
+    "introduction": "Athletes could find events on the website that the app could not sell. I agreed with the CTO to reuse web checkout so athletes could buy those registrations in the app. In four months, we expanded the range of entries available through the app, opening a sales channel for those categories. Incremental GMV from that channel still required measurement.",
     "sections": [
       {
         "eyebrow": "THE PROBLEM",
@@ -448,8 +447,7 @@ export const athleteCase = {
       {
         "eyebrow": "PRODUCT DECISION",
         "title": "Reuse the web purchase journey.\nExpand event coverage.",
-        "text": "We discussed rebuilding registration entirely inside the app, but timing, UX/UI work and the lack of mapped flows for every sports category made that scope unfeasible. The CTO and I agreed to reuse the web registration experience inside the app. This reduced flow reconstruction and enabled every category to be offered.",
-        "chart": "coverage"
+        "text": "We discussed rebuilding registration entirely inside the app, but timing, UX/UI work and the lack of mapped flows for every sports category made that scope unfeasible. The CTO and I agreed to reuse the web registration experience inside the app. This reduced flow reconstruction and enabled every category to be offered."
       },
       {
         "eyebrow": "EVOLVING THE FOUNDATION",
@@ -474,7 +472,7 @@ export const athleteCase = {
       {
         "eyebrow": "RETENTION AND DISCOVERY",
         "title": "More reasons to return.\nA 15-percentage-point increase.",
-        "text": "Interviews and complaints showed that many athletes uninstalled the app after a race. We added WEBRUN journalism and revised navigation, profiles and registration access. We measured retention over a two-week window in PostHog and Google Analytics, monitoring one month against the previous month. The observed increase was 15 percentage points; this monitoring does not isolate the effect of each change.",
+        "text": "Interviews and complaints showed that many athletes uninstalled the app after a race. We added WEBRUN journalism and revised navigation, profiles and registration access. We measured retention over a two-week window in PostHog and Google Analytics, monitoring one month against the previous month. The observed increase was 15 percentage points; this monitoring does not isolate the effect of each change. Our hypothesis was that returning between races would give athletes more chances to discover their next event. To test the link to sales, we would need to track how many returning athletes completed another purchase.",
         "metrics": [
           {
             "value": "+15 pp",
@@ -541,10 +539,10 @@ export const athleteCase = {
   },
   "es": {
     "metaTitle": "App del Atleta — Yago Jesus",
-    "metaDescription": "Modernización de la App del Atleta: catálogo del 30% al 100%, lanzamiento en 4 meses y aumento de 15 puntos porcentuales en retención.",
+    "metaDescription": "Cómo ampliamos la oferta de inscripciones en la app y medimos el retorno de los deportistas después del lanzamiento.",
     "eyebrow": "03 / APP DEL ATLETA · MOBILE",
     "title": "Unificar la compra.\nAmpliar la experiencia.",
-    "introduction": "Impulsé la modernización de una app que limitaba la compra de determinadas modalidades. Acordé con el CTO reutilizar el proceso web dentro de la aplicación para ofrecer todo el catálogo sin reconstruir cada flujo de inscripción. Publicamos en 4 meses; la cobertura del catálogo pasó del 30% al 100%.",
+    "introduction": "Los deportistas encontraban en la web eventos que la app no podía vender. Acordé con el CTO reutilizar el flujo web de compra para ofrecer esas inscripciones en la app. En cuatro meses ampliamos el catálogo disponible desde el móvil y abrimos un canal de venta para esas modalidades. Quedaba por cuantificar el GMV adicional del canal.",
     "sections": [
       {
         "eyebrow": "EL PROBLEMA",
@@ -554,8 +552,7 @@ export const athleteCase = {
       {
         "eyebrow": "DECISIÓN DE PRODUCTO",
         "title": "Reutilizar la compra web.\nAmpliar la cobertura de eventos.",
-        "text": "Valoramos reconstruir toda la inscripción dentro de la app, pero los plazos, el trabajo de UX/UI y la falta de mapeo de todas las modalidades hacían inviable ese alcance. Acordé con el CTO reutilizar el proceso web de inscripción dentro de la app. La decisión redujo la reconstrucción de flujos y permitió ofrecer todas las modalidades.",
-        "chart": "coverage"
+        "text": "Valoramos reconstruir toda la inscripción dentro de la app, pero los plazos, el trabajo de UX/UI y la falta de mapeo de todas las modalidades hacían inviable ese alcance. Acordé con el CTO reutilizar el proceso web de inscripción dentro de la app. La decisión redujo la reconstrucción de flujos y permitió ofrecer todas las modalidades."
       },
       {
         "eyebrow": "LA BASE DEL PRODUCTO",
@@ -580,7 +577,7 @@ export const athleteCase = {
       {
         "eyebrow": "RETENCIÓN Y DISCOVERY",
         "title": "Más motivos para volver.\n15 puntos porcentuales de aumento.",
-        "text": "Las entrevistas y quejas indicaban que muchos deportistas desinstalaban la app tras una carrera. Incorporamos periodismo de WEBRUN y revisamos navegación, perfil y acceso a inscripciones. Medimos retención en una ventana de dos semanas con PostHog y Google Analytics, comparando un mes con el anterior. El aumento observado fue de 15 puntos porcentuales; este seguimiento no aísla el efecto de cada cambio.",
+        "text": "Las entrevistas y quejas indicaban que muchos deportistas desinstalaban la app tras una carrera. Incorporamos periodismo de WEBRUN y revisamos navegación, perfil y acceso a inscripciones. Medimos retención en una ventana de dos semanas con PostHog y Google Analytics, comparando un mes con el anterior. El aumento observado fue de 15 puntos porcentuales; este seguimiento no aísla el efecto de cada cambio. La hipótesis era que volver a la app entre carreras daría al deportista más oportunidades de descubrir su próxima prueba. Para comprobar el vínculo con las ventas habría que medir cuántos de quienes volvieron completaron otra compra.",
         "metrics": [
           {
             "value": "+15 p.p.",
