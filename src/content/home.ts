@@ -63,7 +63,7 @@ export const home = {
         "category": "DADOS · NEGÓCIO",
         "title": "Indicadores para áreas de negócio",
         "subtitle": "Google Data Studio · Atualização D-1",
-        "description": "Comercial e Atendimento passaram a consultar o GMV por organizador até o dia anterior para identificar contas em queda, revisar faixas comerciais e decidir onde atuar.",
+        "description": "Os pedidos de relatórios ao time técnico caíram cerca de 90%. Comercial e Atendimento passaram a consultar GMV e vendas por evento para preparar negociações e investigar variações.",
         "color": "green"
       }
     ],
@@ -149,7 +149,7 @@ export const home = {
         "category": "DATA · BUSINESS",
         "title": "Business intelligence",
         "subtitle": "Google Data Studio · D-1 freshness",
-        "description": "Sales and Customer Support used prior-day GMV by organizer to spot declining accounts, review commercial tiers and decide where to follow up.",
+        "description": "Report requests to the technical team fell by about 90%. Sales and Customer Success could consult GMV and event sales to prepare negotiations and investigate changes.",
         "color": "green"
       }
     ],
@@ -235,7 +235,7 @@ export const home = {
         "category": "DATOS · NEGOCIO",
         "title": "Indicadores para áreas de negocio",
         "subtitle": "Google Data Studio · Actualización D-1",
-        "description": "Comercial y Atención al Cliente consultaban el GMV por organizador hasta el día anterior para detectar cuentas en descenso, revisar tramos comerciales y decidir dónde intervenir.",
+        "description": "Las solicitudes de informes al equipo técnico cayeron cerca de un 90 %. Comercial y Atención al Cliente pudieron consultar el GMV y las ventas para preparar negociaciones e investigar variaciones.",
         "color": "green"
       }
     ],

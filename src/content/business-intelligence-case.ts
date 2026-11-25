@@ -6,7 +6,7 @@ export const businessIntelligenceCase = {
     "metaDescription": "Iniciativa com o time de Dados para centralizar indicadores de organizadores e eventos em Google Data Studio, com atualização D-1 e acesso das áreas de negócio.",
     "eyebrow": "05 / DADOS · AUTONOMIA",
     "title": "Centralizar indicadores.\nDar autonomia ao negócio.",
-    "introduction": "Puxei com o time de Dados da Ingresse uma iniciativa para substituir solicitações recorrentes de planilhas por uma fonte central de consulta. Comercial, CS, RP e Key Accounts passaram a acessar indicadores de organizadores e eventos no Google Data Studio, atualizados até o dia anterior.",
+    "introduction": "Propus um painel com as consultas SQL que mais interrompiam o time de desenvolvimento. Depois da implantação, os pedidos de relatórios ao time técnico caíram cerca de 90%. O Comercial passou a preparar negociações com dados da conta, e o Atendimento ganhou autonomia para investigar as vendas dos organizadores.",
     "metrics": [
       {
         "value": "D-1",
@@ -43,14 +43,14 @@ export const businessIntelligenceCase = {
       {
         "eyebrow": "USO NO NEGÓCIO",
         "title": "Acompanhar a carteira.\nOrientar a atuação com o organizador.",
-        "text": "A consulta passou a apoiar a atualização de tiers, a identificação de variações de GMV e o acompanhamento dos indicadores dos eventos. O resultado foi disponibilizar um ponto central de acesso com dados atualizados, em vez de depender de novas solicitações a cada consulta."
+        "text": "Quando as vendas de um evento variavam, o Atendimento podia comparar kits, modalidades, taxas e regiões para investigar a mudança. O Comercial chegava à conversa com o histórico de GMV do organizador, sem depender de uma extração de dados feita por Engenharia."
       }
     ],
     "card": {
       "category": "DADOS · NEGÓCIO",
       "title": "Indicadores para áreas de negócio",
       "subtitle": "Google Data Studio · Atualização D-1",
-      "description": "GMV, tiers e indicadores de eventos centralizados com o time de Dados, para consulta de Comercial, CS, RP e Key Accounts.",
+      "description": "Os pedidos de relatórios ao time técnico caíram cerca de 90%. Comercial e Atendimento passaram a consultar GMV e vendas por evento para preparar negociações e investigar variações.",
       "color": "green"
     }
   },
@@ -59,7 +59,7 @@ export const businessIntelligenceCase = {
     "metaDescription": "An initiative with Data to centralize organizer and event indicators in Google Data Studio, refreshed through D-1 for business teams.",
     "eyebrow": "05 / DATA · SELF-SERVICE",
     "title": "Centralize indicators.\nEnable business teams.",
-    "introduction": "I initiated work with Ingresse’s Data team to replace recurring spreadsheet requests with a central source of information. Sales, CS, RP and Key Accounts gained access to organizer and event indicators in Google Data Studio, updated through the previous day.",
+    "introduction": "I proposed a dashboard for recurring SQL requests that interrupted engineering work. After launch, report requests to the technical team fell by about 90%. Sales could prepare for negotiations using account data, and Customer Success could investigate organizer sales independently.",
     "metrics": [
       {
         "value": "D-1",
@@ -96,14 +96,14 @@ export const businessIntelligenceCase = {
       {
         "eyebrow": "BUSINESS USE",
         "title": "Monitor the portfolio.\nGuide organizer support.",
-        "text": "The view supported tier updates, identification of GMV changes and monitoring of event indicators. The outcome was one accessible source of updated information, replacing dependence on new requests for each query."
+        "text": "When event sales changed, Customer Success could compare kits, categories, fees and sales regions to investigate. Sales could bring the organizer’s GMV history to a negotiation without waiting for Engineering to extract it."
       }
     ],
     "card": {
       "category": "DATA · BUSINESS",
       "title": "Business intelligence",
       "subtitle": "Google Data Studio · D-1 freshness",
-      "description": "GMV, tiers and event indicators centralized with Data for Sales, CS, RP and Key Accounts.",
+      "description": "Report requests to the technical team fell by about 90%. Sales and Customer Success could consult GMV and event sales to prepare negotiations and investigate changes.",
       "color": "green"
     }
   },
@@ -112,7 +112,7 @@ export const businessIntelligenceCase = {
     "metaDescription": "Iniciativa con Datos para centralizar indicadores de organizadores y eventos en Google Data Studio, con actualización D-1 y acceso de las áreas de negocio.",
     "eyebrow": "05 / DATOS · AUTONOMÍA",
     "title": "Centralizar indicadores.\nDar autonomía al negocio.",
-    "introduction": "Impulsé con el equipo de Datos de Ingresse una iniciativa para sustituir solicitudes recurrentes de hojas de cálculo por una fuente central de consulta. Comercial, CS, RP y Key Accounts accedieron a indicadores de organizadores y eventos en Google Data Studio, actualizados hasta el día anterior.",
+    "introduction": "Propuse crear un panel para las consultas SQL recurrentes que interrumpían al equipo de desarrollo. Tras la implantación, las solicitudes de informes al equipo técnico cayeron alrededor de un 90 %. Comercial pudo preparar negociaciones con datos de cada cuenta y Atención al Cliente ganó autonomía para investigar las ventas de los organizadores.",
     "metrics": [
       {
         "value": "D-1",
@@ -149,14 +149,14 @@ export const businessIntelligenceCase = {
       {
         "eyebrow": "USO EN EL NEGOCIO",
         "title": "Seguir la cartera.\nOrientar el apoyo al organizador.",
-        "text": "La consulta apoyaba la actualización de niveles, la identificación de cambios de GMV y el seguimiento de indicadores de eventos. El resultado fue un punto central de acceso a información actualizada, sustituyendo la dependencia de nuevas solicitudes para cada consulta."
+        "text": "Cuando variaban las ventas de un evento, Atención al Cliente podía comparar kits, modalidades, comisiones y regiones para investigar el cambio. Comercial acudía a las negociaciones con el historial de GMV del organizador sin esperar a que Ingeniería extrajera los datos."
       }
     ],
     "card": {
       "category": "DATOS · NEGOCIO",
       "title": "Indicadores para áreas de negocio",
       "subtitle": "Google Data Studio · Actualización D-1",
-      "description": "GMV, niveles e indicadores de eventos centralizados con Datos para Comercial, CS, RP y Key Accounts.",
+      "description": "Las solicitudes de informes al equipo técnico cayeron cerca de un 90 %. Comercial y Atención al Cliente pudieron consultar el GMV y las ventas para preparar negociaciones e investigar variaciones.",
       "color": "green"
     }
   }

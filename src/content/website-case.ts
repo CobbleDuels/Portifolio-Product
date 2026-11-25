@@ -48,7 +48,7 @@ export const websiteCase = {
       {
         "eyebrow": "MEDIÇÃO E APRENDIZADO",
         "title": "Engajamento e compra.\nIndicadores com definições distintas.",
-        "text": "Cruzamos relatos dos usuários com dados de navegação e eventos de compra, tendo a confirmação do pagamento como principal evento transacional. O resultado consolidado de 12% se refere ao engajamento com páginas de eventos. Houve percepção de aumento de vendas, mas sem quantificação consolidada para atribuir um percentual ao projeto."
+        "text": "No PostHog, observamos cliques e rolagem para entender o que acontecia nesses três minutos. Os atletas percorriam a página, examinavam o kit e, em parte dessas visitas, clicavam para comprar. Essa sequência orientou o destaque dado aos kits. A instrumentação limitada do site antigo restringia a comparação histórica, e acompanhávamos o pagamento confirmado separadamente."
       },
       {
         "eyebrow": "O PROBLEMA DE MENSURAÇÃO",
@@ -114,7 +114,7 @@ export const websiteCase = {
       {
         "eyebrow": "MEASUREMENT AND LEARNING",
         "title": "Engagement and purchases.\nDistinct metric definitions.",
-        "text": "We compared user feedback with navigation data and purchase events, using payment confirmation as the main transaction event. The consolidated 12% result refers to event-page engagement. Sales were perceived to have increased, but without consolidated measurement to assign a percentage to the project."
+        "text": "In PostHog, we examined clicks and scrolling to understand those three minutes. Athletes moved through the event page, inspected the kit and, on some visits, clicked to buy. That sequence informed how we displayed kits. Limited tracking on the previous site constrained historical comparisons. Confirmed payments were tracked separately."
       },
       {
         "eyebrow": "THE MEASUREMENT PROBLEM",
@@ -180,7 +180,7 @@ export const websiteCase = {
       {
         "eyebrow": "MEDICIÓN Y APRENDIZAJE",
         "title": "Interacción y compra.\nIndicadores con definiciones distintas.",
-        "text": "Cruzamos comentarios de usuarios con datos de navegación y eventos de compra, usando la confirmación del pago como principal evento transaccional. El resultado consolidado del 12% corresponde a interacción con páginas de eventos. Se percibió un aumento de ventas, pero sin una medición consolidada para asignar un porcentaje al proyecto."
+        "text": "En PostHog analizamos los clics y el desplazamiento para entender esos tres minutos. Los deportistas recorrían la página, examinaban el kit y, en algunas visitas, pulsaban el botón de compra. Esa secuencia orientó la presentación de los kits. La instrumentación limitada de la web anterior restringía la comparación histórica. Medíamos por separado el pago confirmado."
       },
       {
         "eyebrow": "EL PROBLEMA DE MEDICIÓN",

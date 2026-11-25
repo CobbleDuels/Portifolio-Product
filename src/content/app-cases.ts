@@ -63,7 +63,7 @@ export const checkInCase = {
       {
         "eyebrow": "TEMPO NA OPERAÇÃO",
         "title": "De 50 para 20–30 minutos\nde espera na fila.",
-        "text": "Antes, o atleta podia esperar cerca de 50 minutos para retirar o kit. Falhas de sincronização e alterações que não apareciam atualizadas contribuíam para a fila. Com o aplicativo, a espera passou para 20–30 minutos: o organizador conseguia separar melhor as entregas e apoiar a equipe de atendimento com menos dependência do acesso à plataforma.",
+        "text": "O organizador acompanhou a retirada presencialmente, com apoio do nosso time de Atendimento na implantação. Segundo sua observação no evento, a espera passou de cerca de 50 para 20–30 minutos. Corredores que já conheciam aquelas filas também comentaram que a retirada estava mais rápida.",
         "chart": "queue"
       },
       {
@@ -168,7 +168,7 @@ export const checkInCase = {
       {
         "eyebrow": "OPERATIONAL TIME",
         "title": "From 50 to 20–30 minutes\nin the pickup queue.",
-        "text": "Previously, athletes could wait about 50 minutes to collect a kit. Synchronization failures and changes that did not appear up to date contributed to the queue. With the app, waiting time moved to 20–30 minutes: organizers could better separate handovers and support the pickup team with less dependency on platform access.",
+        "text": "The organizer observed pickup in person while our Customer Success team helped staff adopt the app. The organizer estimated that waits fell from about 50 minutes to 20–30 minutes at the event. Experienced runners who knew those queues also commented that pickup felt faster.",
         "chart": "queue"
       },
       {
@@ -273,7 +273,7 @@ export const checkInCase = {
       {
         "eyebrow": "TIEMPO EN LA OPERACIÓN",
         "title": "De 50 a 20–30 minutos\nde espera en la fila.",
-        "text": "Antes, el atleta podía esperar unos 50 minutos para recoger el kit. Los fallos de sincronización y los cambios que no aparecían actualizados contribuían a la espera. Con la app, pasó a 20–30 minutos: el organizador podía distribuir mejor las entregas y apoyar al personal con menos dependencia del acceso a la plataforma.",
+        "text": "El organizador observó la recogida en persona, con el apoyo de nuestro equipo de Atención al Cliente durante la implantación. Según su observación en el evento, la espera pasó de unos 50 minutos a 20–30. Corredores que conocían bien aquellas colas también comentaron que la recogida era más rápida.",
         "chart": "queue"
       },
       {
@@ -332,7 +332,7 @@ export const athleteCase = {
     "metaDescription": "Como ampliamos a oferta de inscrições no app e acompanhamos o retorno dos atletas após o lançamento.",
     "eyebrow": "03 / APP DO ATLETA · MOBILE",
     "title": "Unificar a compra.\nAmpliar a experiência.",
-    "introduction": "O atleta encontrava no site eventos que o app não conseguia vender. Negociei com o CTO o reaproveitamento do checkout web para disponibilizar essas inscrições no app. Em quatro meses, ampliamos o catálogo comprável pelo celular. Isso abriu um canal de venda para essas modalidades. O GMV adicional desse canal ainda precisaria ser apurado.",
+    "introduction": "Aproximadamente três em cada dez eventos ficavam fora do app, às vezes mais, conforme o calendário de cada organizador. Uma prova em dupla, por exemplo, podia ser vendida no site, mas o app não comportava essa modalidade. Negociei com o CTO reaproveitar o checkout web e, em quatro meses, passamos a oferecer essas inscrições também no app.",
     "sections": [
       {
         "eyebrow": "O PROBLEMA",
@@ -342,7 +342,7 @@ export const athleteCase = {
       {
         "eyebrow": "DECISÃO DE PRODUTO",
         "title": "Reaproveitar a jornada web.\nAmpliar a cobertura de eventos.",
-        "text": "Discutimos reconstruir toda a inscrição no app, mas o prazo, o trabalho de UX/UI e a falta de mapeamento de todas as modalidades tornavam esse escopo inviável. Em conversa com o CTO, decidimos reaproveitar a experiência web de inscrição dentro do app. A decisão reduziu a necessidade de reconstruir fluxos e permitiu oferecer todas as modalidades."
+        "text": "Discutimos reconstruir toda a inscrição no app, mas o prazo, o trabalho de UX/UI e a falta de mapeamento de todas as modalidades tornavam esse escopo inviável. Em conversa com o CTO, decidimos reaproveitar a experiência web de inscrição dentro do app. A decisão reduziu a necessidade de reconstruir fluxos e permitiu oferecer todas as modalidades. Marcamos a origem nas compras para distinguir app e computador no painel. Isso permitiu acompanhar as compras por canal e comparar com o ano anterior enquanto ampliávamos o catálogo e acompanhávamos os erros que chegavam aos atletas."
       },
       {
         "eyebrow": "A EVOLUÇÃO DA BASE",
@@ -437,7 +437,7 @@ export const athleteCase = {
     "metaDescription": "How we expanded access to event registrations in the app and tracked athlete retention after launch.",
     "eyebrow": "03 / ATHLETE APP · MOBILE",
     "title": "Unify purchasing.\nExpand the experience.",
-    "introduction": "Athletes could find events on the website that the app could not sell. I agreed with the CTO to reuse web checkout so athletes could buy those registrations in the app. In four months, we expanded the range of entries available through the app, opening a sales channel for those categories. Incremental GMV from that channel still required measurement.",
+    "introduction": "Roughly three in ten events were unavailable in the app, sometimes more depending on each organizer’s calendar. For example, athletes could register as a pair on the website, but the app did not support that category. I agreed with the CTO to reuse web checkout. Within four months, athletes could buy those entries in the app too.",
     "sections": [
       {
         "eyebrow": "THE PROBLEM",
@@ -447,7 +447,7 @@ export const athleteCase = {
       {
         "eyebrow": "PRODUCT DECISION",
         "title": "Reuse the web purchase journey.\nExpand event coverage.",
-        "text": "We discussed rebuilding registration entirely inside the app, but timing, UX/UI work and the lack of mapped flows for every sports category made that scope unfeasible. The CTO and I agreed to reuse the web registration experience inside the app. This reduced flow reconstruction and enabled every category to be offered."
+        "text": "We discussed rebuilding registration entirely inside the app, but timing, UX/UI work and the lack of mapped flows for every sports category made that scope unfeasible. The CTO and I agreed to reuse the web registration experience inside the app. This reduced flow reconstruction and enabled every category to be offered. We tagged purchases by source so the dashboard could distinguish app and desktop transactions. We tracked purchases by channel and compared them with the previous year as we expanded the catalog and monitored errors affecting athletes."
       },
       {
         "eyebrow": "EVOLVING THE FOUNDATION",
@@ -542,7 +542,7 @@ export const athleteCase = {
     "metaDescription": "Cómo ampliamos la oferta de inscripciones en la app y medimos el retorno de los deportistas después del lanzamiento.",
     "eyebrow": "03 / APP DEL ATLETA · MOBILE",
     "title": "Unificar la compra.\nAmpliar la experiencia.",
-    "introduction": "Los deportistas encontraban en la web eventos que la app no podía vender. Acordé con el CTO reutilizar el flujo web de compra para ofrecer esas inscripciones en la app. En cuatro meses ampliamos el catálogo disponible desde el móvil y abrimos un canal de venta para esas modalidades. Quedaba por cuantificar el GMV adicional del canal.",
+    "introduction": "Aproximadamente tres de cada diez eventos quedaban fuera de la app, a veces más según el calendario de cada organizador. Por ejemplo, las parejas podían inscribirse en la web, pero la app no admitía esa modalidad. Acordé con el CTO reutilizar el proceso de compra web. En cuatro meses, esas inscripciones también estaban disponibles en la app.",
     "sections": [
       {
         "eyebrow": "EL PROBLEMA",
@@ -552,7 +552,7 @@ export const athleteCase = {
       {
         "eyebrow": "DECISIÓN DE PRODUCTO",
         "title": "Reutilizar la compra web.\nAmpliar la cobertura de eventos.",
-        "text": "Valoramos reconstruir toda la inscripción dentro de la app, pero los plazos, el trabajo de UX/UI y la falta de mapeo de todas las modalidades hacían inviable ese alcance. Acordé con el CTO reutilizar el proceso web de inscripción dentro de la app. La decisión redujo la reconstrucción de flujos y permitió ofrecer todas las modalidades."
+        "text": "Valoramos reconstruir toda la inscripción dentro de la app, pero los plazos, el trabajo de UX/UI y la falta de mapeo de todas las modalidades hacían inviable ese alcance. Acordé con el CTO reutilizar el proceso web de inscripción dentro de la app. La decisión redujo la reconstrucción de flujos y permitió ofrecer todas las modalidades. Etiquetamos las compras según su origen para distinguir las de la app de las realizadas desde un ordenador. El panel permitía seguir las compras por canal y compararlas con el año anterior mientras ampliábamos el catálogo y revisábamos los errores que afectaban a los deportistas."
       },
       {
         "eyebrow": "LA BASE DEL PRODUCTO",
