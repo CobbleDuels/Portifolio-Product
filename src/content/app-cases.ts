@@ -347,7 +347,7 @@ export const athleteCase = {
     "metaDescription": "Como ampliamos a oferta de inscrições no app e acompanhamos o retorno dos atletas após o lançamento.",
     "eyebrow": "03 / APP DO ATLETA · MOBILE",
     "title": "Unificar a compra.\nAmpliar a experiência.",
-    "introduction": "Aproximadamente três em cada dez eventos ficavam fora do app, às vezes mais, conforme o calendário de cada organizador. Uma prova em dupla, por exemplo, podia ser vendida no site, mas o app não comportava essa modalidade. Negociei com o CTO reaproveitar o checkout web e, em quatro meses, passamos a oferecer essas inscrições também no app. As vendas pelo app passaram de cerca de R$ 100 milhões para mais de R$ 200 milhões por ano.",
+    "introduction": "Aproximadamente três em cada dez eventos ficavam fora do app, às vezes mais, conforme o calendário de cada organizador. Uma prova em dupla, por exemplo, podia ser vendida no site, mas o app não comportava essa modalidade. Negociei com o CTO reaproveitar o checkout web e, em quatro meses, passamos a oferecer essas inscrições também no app. O app antigo já vendia; o novo, lançado em maio de 2026, melhorou a experiência de um canal que passou de R$ 200 milhões em vendas no ano.",
     "sections": [
       {
         "eyebrow": "O PROBLEMA",
@@ -407,9 +407,9 @@ export const athleteCase = {
         "text": "Com o app React Native e o blog Webrun em produção, recebemos feedback direto de clientes sobre a melhora da experiência. As avaliações, antes entre 3,1 e 3,5, chegaram a 4,5 nas duas lojas. O Play Console registrou falhas/crashes abaixo de 0,1% no Android. São resultados da evolução entregue pelo time; a referência anterior era uma versão acompanhada em 2024/2025, há mais de um ano sem atualização.",
         "metrics": [
           {
-            "value": "R$ 100 mi → R$ 200 mi+",
-            "label": "vendas anuais pelo app",
-            "note": "Estimativa do GMV vendido pelo app antes e depois da mudança; o GMV total da empresa também cresceu no período."
+            "value": "R$ 200 mi+",
+            "label": "vendas pelo app em 2026",
+            "note": "Inclui o app antigo e o novo, lançado em maio. Antes, o canal vendia cerca de R$ 100 milhões por ano."
           },
           {
             "value": "<0,1%",
@@ -445,7 +445,7 @@ export const athleteCase = {
     "metaDescription": "How we expanded access to event registrations in the app and tracked athlete retention after launch.",
     "eyebrow": "03 / ATHLETE APP · MOBILE",
     "title": "Unify purchasing.\nExpand the experience.",
-    "introduction": "Roughly three in ten events were unavailable in the app, sometimes more depending on each organizer’s calendar. For example, athletes could register as a pair on the website, but the app did not support that category. I agreed with the CTO to reuse web checkout. Within four months, athletes could buy those entries in the app too, and app sales grew from about R$100 million to more than R$200 million a year.",
+    "introduction": "Roughly three in ten events were unavailable in the app, sometimes more depending on each organizer’s calendar. For example, athletes could register as a pair on the website, but the app did not support that category. I agreed with the CTO to reuse web checkout. Within four months, athletes could buy those entries in the app too. The old app already sold; the new one, launched in May 2026, improved the experience of a channel that passed R$200 million in sales that year.",
     "sections": [
       {
         "eyebrow": "THE PROBLEM",
@@ -505,9 +505,9 @@ export const athleteCase = {
         "text": "With the React Native app and Webrun blog in production, clients gave direct feedback about the improved experience. Ratings, previously between 3.1 and 3.5, reached 4.5 in both stores. Play Console reported failures/crashes below 0.1% on Android. These are results of the evolution delivered by the team; the earlier reference was a version monitored during 2024/2025 that had gone over a year without an update.",
         "metrics": [
           {
-            "value": "R$100m → R$200m+",
-            "label": "annual sales through the app",
-            "note": "Estimated GMV sold through the app before and after the change; company GMV also grew in the period."
+            "value": "R$200m+",
+            "label": "app sales in 2026",
+            "note": "Includes the old app and the new one, launched in May. Before, the channel sold about R$100 million a year."
           },
           {
             "value": "<0.1%",
@@ -543,7 +543,7 @@ export const athleteCase = {
     "metaDescription": "Cómo ampliamos la oferta de inscripciones en la app y medimos el retorno de los deportistas después del lanzamiento.",
     "eyebrow": "03 / APP DEL ATLETA · MOBILE",
     "title": "Unificar la compra.\nAmpliar la experiencia.",
-    "introduction": "Aproximadamente tres de cada diez eventos quedaban fuera de la app, a veces más según el calendario de cada organizador. Por ejemplo, las parejas podían inscribirse en la web, pero la app no admitía esa modalidad. Acordé con el CTO reutilizar el proceso de compra web. En cuatro meses, esas inscripciones también estaban disponibles en la app, y las ventas por la app pasaron de unos R$ 100 millones a más de R$ 200 millones al año.",
+    "introduction": "Aproximadamente tres de cada diez eventos quedaban fuera de la app, a veces más según el calendario de cada organizador. Por ejemplo, las parejas podían inscribirse en la web, pero la app no admitía esa modalidad. Acordé con el CTO reutilizar el proceso de compra web. En cuatro meses, esas inscripciones también estaban disponibles en la app. La app anterior ya vendía; la nueva, lanzada en mayo de 2026, mejoró la experiencia de un canal que superó los R$ 200 millones en ventas ese año.",
     "sections": [
       {
         "eyebrow": "EL PROBLEMA",
@@ -604,9 +604,9 @@ export const athleteCase = {
         "chart": "ratings",
         "metrics": [
           {
-            "value": "R$ 100 M → R$ 200 M+",
-            "label": "ventas anuales por la app",
-            "note": "Estimación del GMV vendido por la app antes y después del cambio; el GMV total de la empresa también creció en el periodo."
+            "value": "R$ 200 M+",
+            "label": "ventas por la app en 2026",
+            "note": "Incluye la app anterior y la nueva, lanzada en mayo. Antes, el canal vendía unos R$ 100 millones al año."
           },
           {
             "value": "<0,1%",
