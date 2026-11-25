@@ -49,7 +49,7 @@ export const migrationCase = {
       "decisionTitle": "Uma jornada integrada à Ingresse",
       "decisionText": "Optamos por uma nova experiência no ambiente Ingresse, integrada à criação do evento e aos questionários com estoque. A plataforma fornecia uma planilha-modelo: o responsável preenchia os dados dos atletas e importava o arquivo para gerar um pedido de inscrição para o grupo. A escolha conectava esse canal de venda à operação da nova plataforma.",
       "resultTitle": "Vendas pelo novo módulo",
-      "resultText": "Entregamos o escopo combinado para a abertura das inscrições. Mais de 10 mil grupos e assessorias de corrida compraram inscrições pelo novo módulo na operação da São Silvestre. No conjunto do ano, o canal de grupos atingiu sua meta de R$ 25 milhões de GMV."
+      "resultText": "Entregamos o escopo combinado para a abertura das inscrições. Mais de 10 mil grupos e assessorias de corrida compraram inscrições pelo novo módulo na operação da São Silvestre. Essas compras representaram cerca de R$ 10 milhões em inscrições da prova. No conjunto do ano, o canal de grupos atingiu sua meta de R$ 25 milhões de GMV."
     },
     "deliveryEyebrow": "O QUE CONSTRUÍMOS COMO TIME",
     "deliveryTitle": "Autonomia para o atleta.\nRegras conectadas à operação.",
@@ -165,7 +165,7 @@ export const migrationCase = {
       "decisionTitle": "A journey integrated with Ingresse",
       "decisionText": "We chose a new experience within Ingresse, integrated with event creation and inventory-linked questionnaires. The platform provided a spreadsheet template: the group leader filled in athlete details and uploaded the file to generate a registration order for the group. The choice connected that sales channel to operations on the new platform.",
       "resultTitle": "Sales through the new module",
-      "resultText": "We delivered the agreed scope in time for registration to open. More than 10,000 running groups and coaching teams bought entries through the new module during the São Silvestre operation. Across the full year, the group sales channel reached its R$25 million GMV target."
+      "resultText": "We delivered the agreed scope in time for registration to open. More than 10,000 running groups and coaching teams bought entries through the new module during the São Silvestre operation. Those purchases accounted for approximately R$10 million in race registration sales. Across the full year, the group sales channel reached its R$25 million GMV target."
     },
     "deliveryEyebrow": "WHAT WE BUILT AS A TEAM",
     "deliveryTitle": "Athlete autonomy.\nRules connected to operations.",
@@ -281,7 +281,7 @@ export const migrationCase = {
       "decisionTitle": "Un recorrido integrado en Ingresse",
       "decisionText": "Elegimos una nueva experiencia dentro de Ingresse, integrada con la creación de eventos y los cuestionarios vinculados al inventario. La plataforma ofrecía una plantilla de hoja de cálculo: el responsable completaba los datos de los atletas e importaba el archivo para generar un pedido de inscripción para el grupo. La decisión conectaba ese canal de venta con la operación de la nueva plataforma.",
       "resultTitle": "Ventas a través del nuevo módulo",
-      "resultText": "Entregamos el alcance acordado a tiempo para la apertura de inscripciones. Más de 10.000 grupos y equipos de entrenamiento compraron inscripciones a través del nuevo módulo durante la operación de São Silvestre. En el conjunto del año, el canal de grupos alcanzó su objetivo de 25 millones de reales de GMV."
+      "resultText": "Entregamos el alcance acordado a tiempo para la apertura de inscripciones. Más de 10.000 grupos y equipos de entrenamiento compraron inscripciones a través del nuevo módulo durante la operación de São Silvestre. Esas compras representaron aproximadamente 10 millones de reales en ventas de inscripciones para la carrera. En el conjunto del año, el canal de grupos alcanzó su objetivo de 25 millones de reales de GMV."
     },
     "deliveryEyebrow": "LO QUE CONSTRUIMOS COMO EQUIPO",
     "deliveryTitle": "Autonomía para el atleta.\nReglas conectadas a la operación.",
