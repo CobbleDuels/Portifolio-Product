@@ -365,36 +365,24 @@ export const athleteCase = {
         ]
       },
       {
-        "eyebrow": "RETENÇÃO E DISCOVERY",
-        "title": "Mais motivos para voltar.\n15 pontos percentuais de ganho.",
-        "text": "As entrevistas e reclamações indicaram que muitos atletas desinstalavam o app após a corrida. Incluímos conteúdo jornalístico da WEBRUN e revisamos navegação, cadastro e acesso às inscrições. Medimos retenção em janela de duas semanas com PostHog e Google Analytics, acompanhando um mês contra o mês anterior. O aumento observado foi de 15 pontos percentuais; o acompanhamento não isola o efeito de cada mudança. A hipótese era que voltar ao app entre provas aumentaria as oportunidades de descobrir a próxima inscrição. O vínculo com vendas dependeria de acompanhar quantos atletas que retornaram concluíram uma nova compra.",
-        "metrics": [
-          {
-            "value": "+15 p.p.",
-            "label": "na retenção em janela de duas semanas",
-            "note": "Acompanhamento de um mês versus o mês anterior; PostHog e Google Analytics."
-          }
-        ]
+        "eyebrow": "COMPORTAMENTO DOS ATLETAS",
+        "title": "Os atletas voltavam para explorar outros eventos?",
+        "text": "No PostHog, cruzei o identificador de cada visitante com as URLs acessadas e as datas das visitas. Assim, conseguíamos distinguir a navegação por várias páginas em uma visita de um retorno em outra data. Na comparação com o ano anterior, observamos que os visitantes voltavam mais vezes. Quando um atleta consultava outro evento, havia uma oportunidade de apresentar a próxima prova. A intenção de compra e o efeito sobre o GMV ficaram em aberto."
       },
       {
-        "eyebrow": "O ECOSSISTEMA",
-        "title": "Integrar o Webrun.\nIr além da compra de inscrições.",
-        "text": "Conectamos conteúdo e marketplace ao integrar um blog com o jornalismo esportivo da Webrun, outra marca do grupo. A iniciativa buscava ampliar o contato do atleta com as marcas da empresa e criar mais motivos para usar o app além da compra de inscrições."
+        "eyebrow": "DECISÃO DE PRODUTO",
+        "title": "Por que levar o Webrun para o app?",
+        "text": "A liderança pediu que o Webrun, veículo de jornalismo esportivo do grupo, ganhasse visibilidade dentro do app. Já observávamos um crescimento dos acessos pelo celular, muitos vindos de publicações nas redes sociais. Integramos as matérias ao novo app com dois objetivos: dar ao atleta um motivo para voltar entre provas e levar leitores ao Webrun. A integração também abriu um espaço para divulgar promoções e eventos no próprio aplicativo."
       },
       {
-        "eyebrow": "CONTEÚDO E RETORNO DO INVESTIMENTO",
-        "title": "Mais audiência.\nRetorno no trimestre.",
-        "text": "As visualizações das matérias cresceram 50% em relação ao ano anterior, quando a funcionalidade ainda não existia no app. O consumo dos anúncios acompanhou esse crescimento. No acompanhamento do projeto, o investimento em divulgação por ads e na reformulação do aplicativo se pagou no trimestre.",
+        "eyebrow": "AUDIÊNCIA DO WEBRUN",
+        "title": "Como acompanhamos o alcance do conteúdo",
+        "text": "As matérias do Webrun tiveram 50% mais visualizações do que no ano anterior. Usamos esse dado para acompanhar a audiência do conteúdo. Como as redes sociais também traziam leitores, a comparação anual não isola a contribuição do app.",
         "metrics": [
           {
             "value": "+50%",
             "label": "visualizações das matérias",
             "note": "Comparação com o ano anterior à funcionalidade no app."
-          },
-          {
-            "value": "No trimestre",
-            "label": "retorno do investimento",
-            "note": "Investimento em divulgação por ads e reformulação do aplicativo."
           }
         ]
       },
@@ -470,36 +458,24 @@ export const athleteCase = {
         ]
       },
       {
-        "eyebrow": "RETENTION AND DISCOVERY",
-        "title": "More reasons to return.\nA 15-percentage-point increase.",
-        "text": "Interviews and complaints showed that many athletes uninstalled the app after a race. We added WEBRUN journalism and revised navigation, profiles and registration access. We measured retention over a two-week window in PostHog and Google Analytics, monitoring one month against the previous month. The observed increase was 15 percentage points; this monitoring does not isolate the effect of each change. Our hypothesis was that returning between races would give athletes more chances to discover their next event. To test the link to sales, we would need to track how many returning athletes completed another purchase.",
-        "metrics": [
-          {
-            "value": "+15 pp",
-            "label": "in retention over a two-week window",
-            "note": "One month compared with the previous month; PostHog and Google Analytics."
-          }
-        ]
+        "eyebrow": "ATHLETE BEHAVIOR",
+        "title": "Did athletes come back to explore other events?",
+        "text": "In PostHog, I matched visitor IDs with the URLs they opened and the dates of their visits. That let us distinguish browsing several pages in one visit from returning on another date. Compared with the previous year, visitors came back more often. When an athlete viewed another event, we had an opportunity to introduce their next race. Purchase intent and the effect on GMV remained open questions."
       },
       {
-        "eyebrow": "THE ECOSYSTEM",
-        "title": "Integrate Webrun.\nGo beyond event registration.",
-        "text": "We connected content and marketplace by integrating a blog with sports journalism from Webrun, another brand in the group. The initiative aimed to broaden athletes’ contact with the company’s brands and give them more reasons to use the app beyond buying event registrations."
+        "eyebrow": "PRODUCT DECISION",
+        "title": "Why bring Webrun into the app?",
+        "text": "Leadership wanted Webrun, the group’s sports publication, to be more visible in the app. Mobile traffic was already rising, and many visits came from social posts. We brought articles into the new app to give athletes a reason to return between races and help Webrun reach readers. The integration also gave Webrun a place to promote offers and events inside the app."
       },
       {
-        "eyebrow": "CONTENT AND INVESTMENT PAYBACK",
-        "title": "More readership.\nPayback within the quarter.",
-        "text": "Article views grew by 50% compared with the previous year, before the feature existed in the app. Ad consumption followed that growth. According to project monitoring, the investment in advertising and the app redesign paid for itself within the quarter.",
+        "eyebrow": "WEBRUN AUDIENCE",
+        "title": "How we tracked readership",
+        "text": "Webrun articles received 50% more views than in the previous year. We used that figure to track readership. Social media also brought in readers, so the annual comparison cannot isolate the app’s contribution.",
         "metrics": [
           {
             "value": "+50%",
             "label": "article views",
             "note": "Compared with the year before the in-app feature."
-          },
-          {
-            "value": "Within quarter",
-            "label": "investment payback",
-            "note": "Investment in advertising and the app redesign."
           }
         ]
       },
@@ -575,36 +551,24 @@ export const athleteCase = {
         ]
       },
       {
-        "eyebrow": "RETENCIÓN Y DISCOVERY",
-        "title": "Más motivos para volver.\n15 puntos porcentuales de aumento.",
-        "text": "Las entrevistas y quejas indicaban que muchos deportistas desinstalaban la app tras una carrera. Incorporamos periodismo de WEBRUN y revisamos navegación, perfil y acceso a inscripciones. Medimos retención en una ventana de dos semanas con PostHog y Google Analytics, comparando un mes con el anterior. El aumento observado fue de 15 puntos porcentuales; este seguimiento no aísla el efecto de cada cambio. La hipótesis era que volver a la app entre carreras daría al deportista más oportunidades de descubrir su próxima prueba. Para comprobar el vínculo con las ventas habría que medir cuántos de quienes volvieron completaron otra compra.",
-        "metrics": [
-          {
-            "value": "+15 p.p.",
-            "label": "en retención en una ventana de dos semanas",
-            "note": "Un mes frente al anterior; PostHog y Google Analytics."
-          }
-        ]
+        "eyebrow": "COMPORTAMIENTO DE LOS DEPORTISTAS",
+        "title": "¿Volvían los deportistas a explorar otros eventos?",
+        "text": "En PostHog crucé el identificador de cada visitante con las URL que abría y las fechas de visita. Así distinguíamos la navegación por varias páginas en una visita del regreso en otra fecha. Frente al año anterior, observamos que los visitantes volvían más veces. Cuando un deportista consultaba otro evento, surgía una oportunidad para presentarle su próxima carrera. La intención de compra y el efecto en el GMV quedaron abiertos."
       },
       {
-        "eyebrow": "EL ECOSISTEMA",
-        "title": "Integrar Webrun.\nIr más allá de la inscripción.",
-        "text": "Integramos un blog con periodismo deportivo de Webrun, otra marca del grupo. La iniciativa conectaba contenido y marketplace para ampliar el contacto del atleta con las marcas de la empresa y ofrecer motivos para volver a la app más allá de comprar inscripciones."
+        "eyebrow": "DECISIÓN DE PRODUCTO",
+        "title": "¿Por qué integrar Webrun en la app?",
+        "text": "La dirección quería dar visibilidad en la app a Webrun, el medio deportivo del grupo. Ya observábamos un aumento del tráfico móvil y muchas visitas llegaban desde publicaciones en redes sociales. Integramos los artículos en la nueva app para dar a los deportistas un motivo para volver entre carreras y acercar lectores a Webrun. La integración también abrió un espacio para difundir promociones y eventos desde la app."
       },
       {
-        "eyebrow": "CONTENIDO Y RETORNO DE LA INVERSIÓN",
-        "title": "Más audiencia.\nRetorno en el trimestre.",
-        "text": "Las visualizaciones de artículos crecieron un 50% respecto al año anterior, cuando la funcionalidad aún no existía en la app. El consumo de anuncios acompañó ese crecimiento. Según el seguimiento del proyecto, la inversión en publicidad y en la renovación de la app se recuperó en el trimestre.",
+        "eyebrow": "AUDIENCIA DE WEBRUN",
+        "title": "Cómo seguimos el alcance del contenido",
+        "text": "Los artículos de Webrun recibieron un 50 % más de visualizaciones que el año anterior. Usamos ese dato para seguir la evolución de la audiencia. Las redes sociales también atraían lectores, por lo que la comparación anual no permite aislar el efecto de la app.",
         "metrics": [
           {
             "value": "+50%",
             "label": "visualizaciones de artículos",
             "note": "Comparación con el año anterior a la funcionalidad en la app."
-          },
-          {
-            "value": "En el trimestre",
-            "label": "recuperación de la inversión",
-            "note": "Inversión en publicidad y en la renovación de la app."
           }
         ]
       },
