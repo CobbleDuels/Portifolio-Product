@@ -35,21 +35,21 @@ export const home = {
         "category": "PLATAFORMA · ESCALA",
         "title": "Ticket Sports → Ingresse",
         "subtitle": "Migração e São Silvestre",
-        "description": "Priorizei as regras de inscrição e a venda para grupos na migração. A São Silvestre movimentou cerca de R$ 40 milhões em um dia na nova plataforma.",
+        "description": "Na migração para a Ingresse, alinhei com o cliente a venda para grupos pedida perto da abertura. Mais de 10 mil grupos e assessorias compraram pelo módulo, cerca de R$ 10 milhões, e o contrato da São Silvestre foi preservado.",
         "color": "orange"
       },
       {
         "category": "OPERAÇÃO · EXPERIÊNCIA",
         "title": "App de Check-in",
         "subtitle": "Entrega de kits, mesmo sem internet",
-        "description": "A retirada offline resolveu uma necessidade de um organizador que avaliava sair. Com a entrega, ele renovou e passou a abrir todos os eventos exclusivamente na Ticket Sports.",
+        "description": "Um organizador com cerca de 50 eventos e R$ 20 milhões por ano avaliava sair. Com a retirada de kits offline, a fila caiu de 50 para 20–30 minutos e ele renovou por três anos, com exclusividade.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUÇÃO",
         "title": "App do Atleta",
         "subtitle": "Compra unificada e evolução da experiência",
-        "description": "Reaproveitamos o checkout web para oferecer no app modalidades antes restritas ao site. Em quatro meses, o atleta passou a poder comprar essas inscrições também pelo aplicativo.",
+        "description": "Com o checkout web dentro do app, 100% do catálogo ficou disponível em quatro meses. As vendas pelo app passaram de cerca de R$ 100 milhões para mais de R$ 200 milhões por ano.",
         "color": "blue"
       },
       {
@@ -62,7 +62,7 @@ export const home = {
       {
         "category": "DADOS · NEGÓCIO",
         "title": "Indicadores para áreas de negócio",
-        "subtitle": "Google Data Studio · Atualização D-1",
+        "subtitle": "Looker Studio · Atualização D-1",
         "description": "Os pedidos de relatórios ao time técnico caíram cerca de 90%. Comercial e Atendimento passaram a consultar GMV e vendas por evento para preparar negociações e investigar variações.",
         "color": "green"
       }
@@ -121,21 +121,21 @@ export const home = {
         "category": "PLATFORM · SCALE",
         "title": "Ticket Sports → Ingresse",
         "subtitle": "Migration and São Silvestre",
-        "description": "I prioritized registration rules and group sales during the migration. The São Silvestre race processed roughly R$40 million in one day on the new platform.",
+        "description": "During the migration to Ingresse, I agreed with the client on group sales requested close to launch. More than 10,000 running groups and teams bought through the module, about R$10 million, and the São Silvestre contract was kept.",
         "color": "orange"
       },
       {
         "category": "OPERATIONS · EXPERIENCE",
         "title": "Check-in App",
         "subtitle": "Kit pickup, even offline",
-        "description": "Offline kit pickup met the needs of an organizer considering a switch. On delivery, the organizer renewed and agreed to open registration for every event exclusively on Ticket Sports.",
+        "description": "An organizer with about 50 events and R$20 million a year was considering leaving. With offline kit pickup, lines dropped from 50 to 20–30 minutes, and he renewed for three years with exclusivity.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUTION",
         "title": "Athlete App",
         "subtitle": "Unified purchases and an evolving experience",
-        "description": "We reused web checkout to bring previously web-only event categories into the app. After a four-month release cycle, athletes could buy those registrations in the app as well.",
+        "description": "With web checkout inside the app, 100% of the catalog was available in four months. App sales grew from about R$100 million to more than R$200 million a year.",
         "color": "blue"
       },
       {
@@ -148,7 +148,7 @@ export const home = {
       {
         "category": "DATA · BUSINESS",
         "title": "Business intelligence",
-        "subtitle": "Google Data Studio · D-1 freshness",
+        "subtitle": "Looker Studio · D-1 freshness",
         "description": "Report requests to the technical team fell by about 90%. Sales and Customer Success could consult GMV and event sales to prepare negotiations and investigate changes.",
         "color": "green"
       }
@@ -207,21 +207,21 @@ export const home = {
         "category": "PLATAFORMA · ESCALA",
         "title": "Ticket Sports → Ingresse",
         "subtitle": "Migración y São Silvestre",
-        "description": "Prioricé las reglas de inscripción y la venta a grupos durante la migración. La carrera São Silvestre movió unos 40 millones de reales en un día en la nueva plataforma.",
+        "description": "En la migración a Ingresse, acordé con el cliente la venta para grupos solicitada cerca de la apertura. Más de 10.000 grupos y equipos compraron por el módulo, unos R$ 10 millones, y el contrato de la São Silvestre se mantuvo.",
         "color": "orange"
       },
       {
         "category": "OPERACIONES · EXPERIENCIA",
         "title": "App de Check-in",
         "subtitle": "Entrega de kits, incluso sin conexión",
-        "description": "La recogida sin conexión resolvió una necesidad de un organizador que valoraba cambiar de plataforma. Tras la entrega, renovó y acordó abrir las inscripciones de todos sus eventos exclusivamente en Ticket Sports.",
+        "description": "Un organizador con unos 50 eventos y R$ 20 millones al año evaluaba irse. Con la recogida de kits sin conexión, la fila bajó de 50 a 20–30 minutos y renovó por tres años, con exclusividad.",
         "color": "green"
       },
       {
         "category": "MOBILE · EVOLUCIÓN",
         "title": "App del Atleta",
         "subtitle": "Compra unificada y evolución de la experiencia",
-        "description": "Reutilizamos el proceso de compra web para incorporar a la app modalidades antes restringidas al sitio. En cuatro meses, los deportistas pudieron comprar también esas inscripciones desde la app.",
+        "description": "Con el checkout web dentro de la app, el 100 % del catálogo estuvo disponible en cuatro meses. Las ventas por la app pasaron de unos R$ 100 millones a más de R$ 200 millones al año.",
         "color": "blue"
       },
       {
@@ -234,7 +234,7 @@ export const home = {
       {
         "category": "DATOS · NEGOCIO",
         "title": "Indicadores para áreas de negocio",
-        "subtitle": "Google Data Studio · Actualización D-1",
+        "subtitle": "Looker Studio · Actualización D-1",
         "description": "Las solicitudes de informes al equipo técnico cayeron cerca de un 90 %. Comercial y Atención al Cliente pudieron consultar el GMV y las ventas para preparar negociaciones e investigar variaciones.",
         "color": "green"
       }

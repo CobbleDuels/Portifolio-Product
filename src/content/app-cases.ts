@@ -14,7 +14,7 @@ export const checkInCase = {
     "metaDescription": "Um app para entrega de kits esportivos por QR Code ou CPF, com operação online e offline e sincronização posterior.",
     "eyebrow": "02 / APP DE CHECK-IN · OPERAÇÃO",
     "title": "Entregar kits.\nCom ou sem internet.",
-    "introduction": "Identificamos uma oportunidade de simplificar a retirada de kits e o risco de perder um organizador de alto valor para um concorrente. Validei o fluxo de retirada com o organizador, e a equipe entregou a primeira versão do app em 12 semanas. Com a entrega, ele renovou o contrato e passou a abrir as inscrições de todos os seus eventos exclusivamente na Ticket Sports.",
+    "introduction": "Um organizador com cerca de 50 eventos e R$ 20 milhões por ano avaliava migrar para um concorrente que oferecia check-in. Validei com ele o fluxo de retirada, e a equipe entregou a primeira versão do app em 12 semanas. A fila caiu de 50 para 20–30 minutos, e ele renovou por três anos, abrindo as inscrições de todos os seus eventos exclusivamente na Ticket Sports.",
     "sections": [
       {
         "eyebrow": "DECISÃO DE PRODUTO",
@@ -72,6 +72,11 @@ export const checkInCase = {
         "text": "O aplicativo foi utilizado na entrega de mais de 50 mil kits e em mais de 100 eventos. No lançamento, a equipe atendeu todos os chamados da operação no mesmo dia em que foram recebidos. Esses indicadores mostram o uso do produto em campo e o acompanhamento da operação após a entrega. Menos de 5% das tentativas de sincronização apresentaram falhas, tratadas com correções pontuais.",
         "metrics": [
           {
+            "value": "R$ 20 mi/ano",
+            "label": "conta renovada por três anos",
+            "note": "Organizador com cerca de 50 eventos por ano, renovado com exclusividade."
+          },
+          {
             "value": ">50 mil",
             "label": "kits entregues com o app",
             "note": "Volume de entregas realizadas utilizando o aplicativo."
@@ -119,7 +124,7 @@ export const checkInCase = {
     "metaDescription": "A mobile app for sports kit pickup using QR codes or CPF, supporting online and offline operation and subsequent synchronization.",
     "eyebrow": "02 / CHECK-IN APP · OPERATIONS",
     "title": "Kit pickup.\nWith or without a connection.",
-    "introduction": "We saw an opportunity to simplify race kit pickup and a risk of losing a high-value event organizer to a competitor. I validated the pickup workflow with the organizer, and our team delivered the first version of the app in 12 weeks. That delivery secured a contract renewal and an exclusivity agreement under which the organizer opened registration for every event through Ticket Sports.",
+    "introduction": "An organizer with about 50 events and R$20 million a year was considering a competitor that offered check-in. I validated the pickup workflow with him, and our team delivered the first version of the app in 12 weeks. Pickup lines dropped from 50 to 20–30 minutes, and he renewed for three years, opening registration for every event exclusively on Ticket Sports.",
     "sections": [
       {
         "eyebrow": "PRODUCT DECISION",
@@ -177,6 +182,11 @@ export const checkInCase = {
         "text": "The app was used to hand out more than 50,000 kits and at more than 100 events. At launch, the team responded to every operational support request on the day it was received. These indicators show product usage in the field and operational support following delivery. Fewer than 5% of synchronization attempts failed, with targeted fixes applied.",
         "metrics": [
           {
+            "value": "R$20m/year",
+            "label": "account renewed for three years",
+            "note": "Organizer with about 50 events a year, renewed with exclusivity."
+          },
+          {
             "value": ">50k",
             "label": "kits handed out using the app",
             "note": "Volume of handovers carried out through the app."
@@ -224,7 +234,7 @@ export const checkInCase = {
     "metaDescription": "Aplicación para la entrega de kits deportivos por QR o CPF, con funcionamiento sin conexión, sincronización automática y uso en más de 100 eventos.",
     "eyebrow": "02 / APP DE CHECK-IN · OPERACIÓN",
     "title": "Entregar kits.\nCon o sin conexión.",
-    "introduction": "Vimos una oportunidad para simplificar la recogida de kits y el riesgo de perder a un organizador de alto valor ante un competidor. Validé el flujo de recogida con el organizador y el equipo entregó la primera versión de la app en 12 semanas. Gracias a esa entrega, el organizador renovó el contrato y acordó abrir las inscripciones de todos sus eventos exclusivamente en Ticket Sports.",
+    "introduction": "Un organizador con unos 50 eventos y R$ 20 millones al año evaluaba irse a un competidor que ofrecía check-in. Validé con él el flujo de recogida y el equipo entregó la primera versión de la app en 12 semanas. La fila bajó de 50 a 20–30 minutos y renovó por tres años, abriendo las inscripciones de todos sus eventos exclusivamente en Ticket Sports.",
     "sections": [
       {
         "eyebrow": "DECISIÓN DE PRODUCTO",
@@ -282,6 +292,11 @@ export const checkInCase = {
         "text": "La aplicación se utilizó para entregar más de 50.000 kits en más de 100 eventos. Durante el lanzamiento, el equipo atendió todas las solicitudes de soporte operativo el mismo día. Menos del 5% de los intentos de sincronización presentaron fallos, abordados con correcciones puntuales.",
         "metrics": [
           {
+            "value": "R$ 20 M/año",
+            "label": "cuenta renovada por tres años",
+            "note": "Organizador con unos 50 eventos al año, renovado con exclusividad."
+          },
+          {
             "value": ">50.000",
             "label": "kits entregados con la app",
             "note": "Volumen de entregas realizadas mediante la aplicación."
@@ -332,7 +347,7 @@ export const athleteCase = {
     "metaDescription": "Como ampliamos a oferta de inscrições no app e acompanhamos o retorno dos atletas após o lançamento.",
     "eyebrow": "03 / APP DO ATLETA · MOBILE",
     "title": "Unificar a compra.\nAmpliar a experiência.",
-    "introduction": "Aproximadamente três em cada dez eventos ficavam fora do app, às vezes mais, conforme o calendário de cada organizador. Uma prova em dupla, por exemplo, podia ser vendida no site, mas o app não comportava essa modalidade. Negociei com o CTO reaproveitar o checkout web e, em quatro meses, passamos a oferecer essas inscrições também no app.",
+    "introduction": "Aproximadamente três em cada dez eventos ficavam fora do app, às vezes mais, conforme o calendário de cada organizador. Uma prova em dupla, por exemplo, podia ser vendida no site, mas o app não comportava essa modalidade. Negociei com o CTO reaproveitar o checkout web e, em quatro meses, passamos a oferecer essas inscrições também no app. As vendas pelo app passaram de cerca de R$ 100 milhões para mais de R$ 200 milhões por ano.",
     "sections": [
       {
         "eyebrow": "O PROBLEMA",
@@ -392,6 +407,11 @@ export const athleteCase = {
         "text": "Com o app React Native e o blog Webrun em produção, recebemos feedback direto de clientes sobre a melhora da experiência. As avaliações, antes entre 3,1 e 3,5, chegaram a 4,5 nas duas lojas. O Play Console registrou falhas/crashes abaixo de 0,1% no Android. São resultados da evolução entregue pelo time; a referência anterior era uma versão acompanhada em 2024/2025, há mais de um ano sem atualização.",
         "metrics": [
           {
+            "value": "R$ 100 mi → R$ 200 mi+",
+            "label": "vendas anuais pelo app",
+            "note": "Estimativa do GMV vendido pelo app antes e depois da mudança; o GMV total da empresa também cresceu no período."
+          },
+          {
             "value": "<0,1%",
             "label": "falhas/crashes no Android",
             "note": "Indicador acompanhado no Google Play Console."
@@ -425,7 +445,7 @@ export const athleteCase = {
     "metaDescription": "How we expanded access to event registrations in the app and tracked athlete retention after launch.",
     "eyebrow": "03 / ATHLETE APP · MOBILE",
     "title": "Unify purchasing.\nExpand the experience.",
-    "introduction": "Roughly three in ten events were unavailable in the app, sometimes more depending on each organizer’s calendar. For example, athletes could register as a pair on the website, but the app did not support that category. I agreed with the CTO to reuse web checkout. Within four months, athletes could buy those entries in the app too.",
+    "introduction": "Roughly three in ten events were unavailable in the app, sometimes more depending on each organizer’s calendar. For example, athletes could register as a pair on the website, but the app did not support that category. I agreed with the CTO to reuse web checkout. Within four months, athletes could buy those entries in the app too, and app sales grew from about R$100 million to more than R$200 million a year.",
     "sections": [
       {
         "eyebrow": "THE PROBLEM",
@@ -485,6 +505,11 @@ export const athleteCase = {
         "text": "With the React Native app and Webrun blog in production, clients gave direct feedback about the improved experience. Ratings, previously between 3.1 and 3.5, reached 4.5 in both stores. Play Console reported failures/crashes below 0.1% on Android. These are results of the evolution delivered by the team; the earlier reference was a version monitored during 2024/2025 that had gone over a year without an update.",
         "metrics": [
           {
+            "value": "R$100m → R$200m+",
+            "label": "annual sales through the app",
+            "note": "Estimated GMV sold through the app before and after the change; company GMV also grew in the period."
+          },
+          {
             "value": "<0.1%",
             "label": "failures/crashes on Android",
             "note": "Indicator monitored in Google Play Console."
@@ -518,7 +543,7 @@ export const athleteCase = {
     "metaDescription": "Cómo ampliamos la oferta de inscripciones en la app y medimos el retorno de los deportistas después del lanzamiento.",
     "eyebrow": "03 / APP DEL ATLETA · MOBILE",
     "title": "Unificar la compra.\nAmpliar la experiencia.",
-    "introduction": "Aproximadamente tres de cada diez eventos quedaban fuera de la app, a veces más según el calendario de cada organizador. Por ejemplo, las parejas podían inscribirse en la web, pero la app no admitía esa modalidad. Acordé con el CTO reutilizar el proceso de compra web. En cuatro meses, esas inscripciones también estaban disponibles en la app.",
+    "introduction": "Aproximadamente tres de cada diez eventos quedaban fuera de la app, a veces más según el calendario de cada organizador. Por ejemplo, las parejas podían inscribirse en la web, pero la app no admitía esa modalidad. Acordé con el CTO reutilizar el proceso de compra web. En cuatro meses, esas inscripciones también estaban disponibles en la app, y las ventas por la app pasaron de unos R$ 100 millones a más de R$ 200 millones al año.",
     "sections": [
       {
         "eyebrow": "EL PROBLEMA",
@@ -578,6 +603,11 @@ export const athleteCase = {
         "text": "Con la app en React Native y el blog Webrun en producción, recibimos comentarios directos de clientes sobre la mejora de la experiencia. Las valoraciones, antes entre 3,1 y 3,5, alcanzaron 4,5 en ambas tiendas. Play Console registró fallos/crashes por debajo del 0,1% en Android. Son resultados de la evolución entregada por el equipo; la referencia anterior era una versión observada en 2024/2025 que llevaba más de un año sin actualizarse.",
         "chart": "ratings",
         "metrics": [
+          {
+            "value": "R$ 100 M → R$ 200 M+",
+            "label": "ventas anuales por la app",
+            "note": "Estimación del GMV vendido por la app antes y después del cambio; el GMV total de la empresa también creció en el periodo."
+          },
           {
             "value": "<0,1%",
             "label": "fallos/crashes en Android",
