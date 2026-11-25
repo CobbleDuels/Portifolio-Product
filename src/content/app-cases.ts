@@ -14,7 +14,7 @@ export const checkInCase = {
     "metaDescription": "Um app para entrega de kits esportivos por QR Code ou CPF, com operação online e offline e sincronização posterior.",
     "eyebrow": "02 / APP DE CHECK-IN · OPERAÇÃO",
     "title": "Entregar kits.\nCom ou sem internet.",
-    "introduction": "Identificamos uma oportunidade de ajudar organizadores a entregar kits mesmo quando a conexão falhava. O risco de perder uma conta de grande peso na receita tornou essa oportunidade mais urgente. Conduzi a validação do fluxo com o organizador, e a equipe entregou a primeira versão em 12 semanas. O app foi usado em mais de 100 eventos na entrega de mais de 50 mil kits.",
+    "introduction": "Identificamos uma oportunidade de simplificar a retirada de kits e o risco de perder um organizador de alto valor para um concorrente. Validei o fluxo de retirada com o organizador, e a equipe entregou a primeira versão do app em 12 semanas. Com a entrega, ele renovou o contrato e passou a abrir as inscrições de todos os seus eventos exclusivamente na Ticket Sports.",
     "sections": [
       {
         "eyebrow": "DECISÃO DE PRODUTO",
@@ -119,7 +119,7 @@ export const checkInCase = {
     "metaDescription": "A mobile app for sports kit pickup using QR codes or CPF, supporting online and offline operation and subsequent synchronization.",
     "eyebrow": "02 / CHECK-IN APP · OPERATIONS",
     "title": "Kit pickup.\nWith or without a connection.",
-    "introduction": "We saw a market opportunity to help organizers hand out race kits even when connectivity failed. The risk of losing a commercially important account made that opportunity more urgent. I validated the pickup workflow with the organizer, and the team delivered the first release in 12 weeks. Staff used the app at over 100 events to hand out more than 50,000 kits.",
+    "introduction": "We saw an opportunity to simplify race kit pickup and a risk of losing a high-value event organizer to a competitor. I validated the pickup workflow with the organizer, and our team delivered the first version of the app in 12 weeks. That delivery secured a contract renewal and an exclusivity agreement under which the organizer opened registration for every event through Ticket Sports.",
     "sections": [
       {
         "eyebrow": "PRODUCT DECISION",
@@ -224,7 +224,7 @@ export const checkInCase = {
     "metaDescription": "Aplicación para la entrega de kits deportivos por QR o CPF, con funcionamiento sin conexión, sincronización automática y uso en más de 100 eventos.",
     "eyebrow": "02 / APP DE CHECK-IN · OPERACIÓN",
     "title": "Entregar kits.\nCon o sin conexión.",
-    "introduction": "Vimos una oportunidad de mercado para ayudar a los organizadores a entregar kits incluso cuando fallaba la conexión. El riesgo de perder una cuenta de gran peso en la facturación hizo más urgente esa oportunidad. Validé el flujo de recogida con el organizador y el equipo entregó la primera versión en 12 semanas. La app se utilizó en más de 100 eventos para entregar más de 50.000 kits.",
+    "introduction": "Vimos una oportunidad para simplificar la recogida de kits y el riesgo de perder a un organizador de alto valor ante un competidor. Validé el flujo de recogida con el organizador y el equipo entregó la primera versión de la app en 12 semanas. Gracias a esa entrega, el organizador renovó el contrato y acordó abrir las inscripciones de todos sus eventos exclusivamente en Ticket Sports.",
     "sections": [
       {
         "eyebrow": "DECISIÓN DE PRODUCTO",
