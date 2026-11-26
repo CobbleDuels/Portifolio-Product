@@ -18,7 +18,7 @@ export const home = {
     "contactEyebrow": "03 / CONTATO",
     "contactTitle": "Disponível para oportunidades em Produto",
     "contactText": "Busco posições de Product Manager ou Product Owner pleno, com interesse em marketplaces, produtos mobile e IA aplicada a produto.",
-    "eyebrow": "PRODUCT MANAGER · EX-DEV FULL STACK",
+    "eyebrow": "PRODUCT MANAGER · BACKGROUND EM DESENVOLVIMENTO",
     "headline": [
       "Marketplaces.",
       "Apps.",
@@ -106,7 +106,7 @@ export const home = {
     "contactEyebrow": "03 / CONTACT",
     "contactTitle": "Open to product roles",
     "contactText": "I’m looking for mid-level Product Manager or Product Owner roles, particularly in marketplaces, mobile products and applied AI.",
-    "eyebrow": "PRODUCT MANAGER · FORMER FULL STACK DEV",
+    "eyebrow": "PRODUCT MANAGER · DEVELOPMENT BACKGROUND",
     "headline": [
       "Marketplaces.",
       "Mobile apps.",
@@ -194,7 +194,7 @@ export const home = {
     "contactEyebrow": "03 / CONTACTO",
     "contactTitle": "Disponible para oportunidades en producto",
     "contactText": "Busco puestos de Product Manager o Product Owner de nivel intermedio, especialmente en marketplaces, productos móviles e IA aplicada al producto.",
-    "eyebrow": "PRODUCT MANAGER · EXDESARROLLADOR FULL STACK",
+    "eyebrow": "PRODUCT MANAGER · EXPERIENCIA EN DESARROLLO",
     "headline": [
       "Marketplaces.",
       "Apps móviles.",
