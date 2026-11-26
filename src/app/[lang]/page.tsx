@@ -68,7 +68,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <ul className="contact-links">{contactLinks.map((contact) => <li key={contact.name}><a href={contact.href}><ContactIcon channel={contact.name} /><span className="contact-channel">{contact.name === "E-mail" && lang === "es" ? "Correo electrónico" : contact.name}</span><Arrow diagonal /></a></li>)}</ul>
         </section>
       </main>
-      <footer className="site-footer page-width"><div><p className="footer-name">Yago Jesus<span className="text-accent">.</span></p><p>{copy.footer}</p></div><a href="#top" className="text-link footer-back">{copy.backToTop}<span className="-rotate-90"><Arrow /></span></a></footer>
+      <footer className="site-footer page-width"><div><p className="footer-name">Yago Jesus<span className="text-accent">.</span></p><p>{copy.footer}</p><p className="footer-built">{copy.footerBuilt} <a href="https://github.com/CobbleDuels/Portifolio-Product" className="text-link" target="_blank" rel="noopener noreferrer">{copy.footerCode}</a></p></div><a href="#top" className="text-link footer-back">{copy.backToTop}<span className="-rotate-90"><Arrow /></span></a></footer>
     </>
   );
 }
