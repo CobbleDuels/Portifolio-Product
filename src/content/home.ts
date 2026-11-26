@@ -17,14 +17,14 @@ export const home = {
     "contactLink": "Contato",
     "contactEyebrow": "03 / CONTATO",
     "contactTitle": "Disponível para oportunidades em Produto",
-    "contactText": "Busco posições de Product Manager ou Product Owner pleno, com interesse em marketplaces, pagamentos e produtos mobile.",
-    "eyebrow": "PRODUCT MANAGER · PORTFÓLIO",
+    "contactText": "Busco posições de Product Manager ou Product Owner pleno, com interesse em marketplaces, produtos mobile e IA aplicada a produto.",
+    "eyebrow": "PRODUCT MANAGER · EX-DEV FULL STACK",
     "headline": [
       "Marketplaces.",
       "Apps.",
-      "Pagamentos."
+      "Produto e código."
     ],
-    "introduction": "Sou Yago Jesus, Product Manager com experiência em desenvolvimento C#/.NET. Na Ticket Sports, cuidei da compra de inscrições pelos atletas e das ferramentas que os organizadores usam para vender e operar eventos.",
+    "introduction": "Sou Yago Jesus, Product Manager e ex-desenvolvedor full stack (C#/.NET). Uso essa base para negociar escopo com Engenharia, avaliar riscos técnicos e propor soluções com IA. Na Ticket Sports, cuidei da compra de inscrições pelos atletas e das ferramentas que os organizadores usam para vender e operar eventos.",
     "primaryCta": "Conheça os projetos",
     "secondaryCta": "Sobre minha trajetória",
     "casesEyebrow": "01 / PROJETOS SELECIONADOS",
@@ -90,6 +90,8 @@ export const home = {
       }
     ],
     "footer": "Produto é conectar as partes.",
+    "footerBuilt": "Construí e mantenho este site em Next.js e TypeScript, com desenvolvimento assistido por IA.",
+    "footerCode": "Ver o código",
     "backToTop": "Voltar ao início"
   },
   "en": {
@@ -103,14 +105,14 @@ export const home = {
     "contactLink": "Contact",
     "contactEyebrow": "03 / CONTACT",
     "contactTitle": "Open to product roles",
-    "contactText": "I’m looking for mid-level Product Manager or Product Owner roles, particularly in marketplaces, payments and mobile products.",
-    "eyebrow": "PRODUCT MANAGER · PORTFOLIO",
+    "contactText": "I’m looking for mid-level Product Manager or Product Owner roles, particularly in marketplaces, mobile products and applied AI.",
+    "eyebrow": "PRODUCT MANAGER · FORMER FULL STACK DEV",
     "headline": [
       "Marketplaces.",
       "Mobile apps.",
-      "Payments."
+      "Product and code."
     ],
-    "introduction": "I’m Yago Jesus, a Product Manager with a C#/.NET development background. At Ticket Sports, I worked on race registration for athletes and the tools organizers use to sell entries and run events.",
+    "introduction": "I’m Yago Jesus, a Product Manager and former full stack developer (C#/.NET). I use that background to negotiate scope with Engineering, assess technical risk and propose AI-based solutions. At Ticket Sports, I worked on race registration for athletes and the tools organizers use to sell entries and run events.",
     "primaryCta": "Discover the projects",
     "secondaryCta": "About my journey",
     "casesEyebrow": "01 / SELECTED PROJECTS",
@@ -176,11 +178,13 @@ export const home = {
       }
     ],
     "footer": "Product is about connecting the dots.",
+    "footerBuilt": "I built and maintain this site in Next.js and TypeScript, with AI-assisted development.",
+    "footerCode": "View the code",
     "backToTop": "Back to top"
   },
   "es": {
     "metaTitle": "Yago Jesus — Product Manager",
-    "metaDescription": "Portafolio de Yago Jesus, Product Manager. Casos de marketplace, pagos y aplicaciones móviles en Ticket Sports, con decisiones y resultados medidos.",
+    "metaDescription": "Portafolio de Yago Jesus, Product Manager. Casos de marketplace, checkout y aplicaciones móviles en Ticket Sports, con decisiones y resultados medidos.",
     "skip": "Saltar al contenido",
     "navigation": "Navegación principal",
     "language": "Seleccionar idioma",
@@ -189,14 +193,14 @@ export const home = {
     "contactLink": "Contacto",
     "contactEyebrow": "03 / CONTACTO",
     "contactTitle": "Disponible para oportunidades en producto",
-    "contactText": "Busco puestos de Product Manager o Product Owner de nivel intermedio, especialmente en marketplaces, pagos y productos móviles.",
-    "eyebrow": "PRODUCT MANAGER · PORTAFOLIO",
+    "contactText": "Busco puestos de Product Manager o Product Owner de nivel intermedio, especialmente en marketplaces, productos móviles e IA aplicada al producto.",
+    "eyebrow": "PRODUCT MANAGER · EXDESARROLLADOR FULL STACK",
     "headline": [
       "Marketplaces.",
       "Apps móviles.",
-      "Pagos."
+      "Producto y código."
     ],
-    "introduction": "Soy Yago Jesus, Product Manager con experiencia en desarrollo C#/.NET. En Ticket Sports trabajé en las inscripciones de los deportistas y en las herramientas que usan los organizadores para vender inscripciones y gestionar eventos.",
+    "introduction": "Soy Yago Jesus, Product Manager y exdesarrollador full stack (C#/.NET). Uso esa base para negociar el alcance con Ingeniería, evaluar riesgos técnicos y proponer soluciones con IA. En Ticket Sports trabajé en las inscripciones de los deportistas y en las herramientas que usan los organizadores para vender inscripciones y gestionar eventos.",
     "primaryCta": "Conoce los proyectos",
     "secondaryCta": "Sobre mi trayectoria",
     "casesEyebrow": "01 / PROYECTOS SELECCIONADOS",
@@ -262,6 +266,8 @@ export const home = {
       }
     ],
     "footer": "Producto es conectar las partes.",
+    "footerBuilt": "Construí y mantengo este sitio en Next.js y TypeScript, con desarrollo asistido por IA.",
+    "footerCode": "Ver el código",
     "backToTop": "Volver al inicio"
   }
 } as const;
